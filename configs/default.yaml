@@ -71,8 +71,10 @@ coverage_mask:
   # all of the following hold; otherwise the station-hour is dropped.
   # 1. The station-hour must be bracketed by status observations within this window.
   bracket_window_hours: 24
-  # 2. At least this fraction of the city's active stations must have a status
-  #    update recorded during that hour.
+  # 2. At least this fraction of the city's active stations must be bracketed
+  #    (per rule 1) at that hour -- a proxy for "the city's feed was live
+  #    around this hour", not "logged a change during this hour" (the latter
+  #    would zero out quiet hours where nothing happened to change).
   min_city_coverage_fraction: 0.5
   # 3. The station must not be under maintenance during that hour.
   exclude_maintenance: true
