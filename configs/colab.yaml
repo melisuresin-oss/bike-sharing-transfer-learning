@@ -18,14 +18,24 @@ cities:
   # City IDs verified from stations.parquet by matching its city_id and city
   # columns (cities.csv's "name" field holds the system name, not the city
   # name, so these could not be guessed and had to be looked up in the data).
+  #
+  # trust_maintenance_flag: whether build_panel.py's coverage mask should
+  # exclude station-hours where the station is under maintenance at the end
+  # of the hour (see coverage_mask.exclude_maintenance). Bilbao's raw
+  # maintenance field looks unreliable for a bike-sharing system (63.5% of
+  # its status rows read maintenance=True, vs. 1.9-15.8% for the other
+  # three cities), but it's kept trusted (true) for now -- flip to false
+  # once the end-of-hour fix is re-measured against real eligibility numbers.
   - name: Bilbao
     role: source
     id: 532
     station_count: 44
+    trust_maintenance_flag: true
   - name: Vienna
     role: source
     id: 748
     station_count: 250
+    trust_maintenance_flag: true
   - name: Glasgow
     role: source
     id: 237
@@ -33,10 +43,12 @@ cities:
     # Table 1 reports 105 active stations. The difference comes from the
     # active/total distinction, not a mismatched ID.
     station_count: 108
+    trust_maintenance_flag: true
   - name: Freiburg
     role: target
     id: 619
     station_count: 100
+    trust_maintenance_flag: true
 
 split:
   # Chronological split — hyperparameter selection and early stopping use validation only.

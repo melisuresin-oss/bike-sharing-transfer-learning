@@ -10,6 +10,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from src.data.build_panel import (
     build_station_panel,
     compute_bracket_flags,
+    compute_maintenance_flags,
     load_interim_tables,
     resolve_station_capacity,
     summarize_panel,
@@ -147,6 +148,27 @@ def test_capacity_falls_back_to_observed_bikes_plus_free_racks():
     assert capacity.loc[2] == 20
 
 
+def test_maintenance_flag_looks_at_end_of_hour_not_any_record_within_it():
+    # Station 1 blips into maintenance mid-hour and is back to normal well
+    # before the hour closes -- its departures during that hour are still
+    # valid. Station 2 goes into maintenance mid-hour and is still there
+    # when the hour closes -- that hour should be excluded. Checking "any
+    # record during the hour" would have flagged both.
+    grid = pd.DataFrame({"station_id": [1, 2], "hour": [ts("2023-01-01 05:00"), ts("2023-01-01 05:00")]})
+    status = make_status(
+        [
+            [1, "2023-01-01 04:00", 5, 5, False],
+            [1, "2023-01-01 05:20", 0, 0, True],
+            [1, "2023-01-01 05:40", 5, 5, False],  # back to normal before 06:00
+            [2, "2023-01-01 04:00", 5, 5, False],
+            [2, "2023-01-01 05:10", 0, 0, True],  # still under maintenance at 06:00
+        ]
+    )
+    maintenance = compute_maintenance_flags(grid, status)
+    assert not maintenance[0]  # station 1: blip within the hour, back to normal by hour's end
+    assert maintenance[1]  # station 2: still under maintenance when the hour closes
+
+
 def test_maintenance_hours_are_excluded_when_configured():
     stations = make_stations([1], [10])
     status = make_status(
@@ -158,9 +180,16 @@ def test_maintenance_hours_are_excluded_when_configured():
     )
     trips = make_trips([])
     panel = build_station_panel(CITY, trips, stations, status, START, END, exclude_maintenance=True)
-    under_maintenance = panel[(panel["hour"] >= ts("2023-01-01 05:00")) & (panel["hour"] < ts("2023-01-01 08:00"))]
-    assert under_maintenance["is_maintenance"].all()
-    assert not under_maintenance["eligible"].any()
+    # Maintenance starts at 05:00 and ends exactly at 08:00. Hours 05:00 and
+    # 06:00 are still under maintenance when they close (at 06:00/07:00) --
+    # excluded. Hour 07:00 closes at 08:00, exactly when the station goes
+    # back into service, so its departures are valid again.
+    excluded_hours = panel[panel["hour"].isin([ts("2023-01-01 05:00"), ts("2023-01-01 06:00")])]
+    assert excluded_hours["is_maintenance"].all()
+    assert not excluded_hours["eligible"].any()
+
+    back_in_service_hour = panel[panel["hour"] == ts("2023-01-01 07:00")]
+    assert not back_in_service_hour["is_maintenance"].any()
 
 
 def test_summary_counts_positive_and_zero_hours_among_eligible_only():

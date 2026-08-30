@@ -40,6 +40,14 @@ the feed is healthy. The three helpers below turn that into a coverage mask:
   * resolve_station_capacity -- falls back to the observed max(bikes +
     free_racks) per station when metadata capacity is missing or zero
     (this happens for Freiburg's bike_racks column in the raw export).
+  * compute_maintenance_flags -- checks the maintenance state as of the END
+    of each hour, not its start or "any record during the hour": a station
+    that flips into maintenance and back out within the hour is in service
+    by the time the hour closes, so its departures during that hour are
+    still valid. A city can also turn this filter off entirely via
+    coverage_mask.trust_maintenance_flag in its config entry, for cases
+    like Bilbao where the raw maintenance field looks unreliable (63.5% of
+    its status rows read maintenance=True).
 """
 import argparse
 from pathlib import Path
@@ -128,7 +136,13 @@ def compute_city_coverage_fraction(grid: pd.DataFrame) -> pd.Series:
 
 
 def compute_maintenance_flags(grid: pd.DataFrame, status: pd.DataFrame) -> np.ndarray:
-    maintenance = _asof_lookup(grid, status, ["is_maintenance"], "backward")["is_maintenance"]
+    # Look up the state as of the END of each hour, not its start: a station
+    # that enters and exits maintenance within the hour is back in service
+    # by the time the hour closes, so departures recorded during that hour
+    # are still valid. Only a station still under maintenance when the hour
+    # closes should have the hour excluded.
+    hour_end = grid[["station_id", "hour"]].assign(hour=grid["hour"] + pd.Timedelta(hours=1))
+    maintenance = _asof_lookup(hour_end, status, ["is_maintenance"], "backward")["is_maintenance"]
     return maintenance.fillna(False).to_numpy().astype(bool)
 
 
@@ -239,6 +253,10 @@ def main():
 
     summaries = []
     for city in config["cities"]:
+        # A city can opt out of the maintenance filter entirely (see
+        # coverage_mask.trust_maintenance_flag in the city config) if its
+        # maintenance field turns out to be unreliable.
+        exclude_maintenance = mask_params["exclude_maintenance"] and city.get("trust_maintenance_flag", True)
         panel = build_station_panel(
             city["id"],
             trips,
@@ -248,7 +266,7 @@ def main():
             end,
             bracket_window_hours=mask_params["bracket_window_hours"],
             min_city_coverage_fraction=mask_params["min_city_coverage_fraction"],
-            exclude_maintenance=mask_params["exclude_maintenance"],
+            exclude_maintenance=exclude_maintenance,
         )
         panel.to_parquet(out_dir / f"panel_{city['name'].lower()}.parquet", index=False)
         summaries.append(summarize_panel(panel, city["name"]))
