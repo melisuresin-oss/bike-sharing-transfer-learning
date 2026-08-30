@@ -99,13 +99,28 @@ def _asof_lookup(grid: pd.DataFrame, status: pd.DataFrame, columns, direction) -
 
 
 def compute_bracket_flags(grid: pd.DataFrame, status: pd.DataFrame, window_hours: float) -> np.ndarray:
-    window = pd.Timedelta(hours=window_hours).to_timedelta64()
-    hours = grid["hour"].to_numpy()
-    prev_obs = _asof_lookup(grid, status, [], "backward")["timestamp"].to_numpy()
-    next_obs = _asof_lookup(grid, status, [], "forward")["timestamp"].to_numpy()
+    # A station-hour at the very start or end of the dataset has no status
+    # observation on one side, so the asof lookup below returns NaT there --
+    # that's expected, not an error, and must resolve to "not bracketed".
+    #
+    # Subtracting via .to_numpy() first turns tz-aware timestamps into an
+    # object-dtype array of Timestamp/NaT; comparing that against a
+    # numpy.timedelta64 then falls back to per-element Python comparisons,
+    # which is exactly the path where NaT vs. a scalar can raise instead of
+    # returning False. Keeping the subtraction and comparison as plain
+    # pandas Series operations keeps everything in a proper timedelta64
+    # dtype end to end, where NaT comparisons are always False by
+    # construction -- fillna(False) below is a defensive backstop, not the
+    # only thing standing between this and a crash.
+    window = pd.Timedelta(hours=window_hours)
+    hours = grid["hour"].reset_index(drop=True)
+    prev_obs = _asof_lookup(grid, status, [], "backward")["timestamp"]
+    next_obs = _asof_lookup(grid, status, [], "forward")["timestamp"]
+
     gap_before = hours - prev_obs
     gap_after = next_obs - hours
-    return (gap_before <= window) & (gap_after <= window)
+    bracketed = (gap_before <= window) & (gap_after <= window)
+    return bracketed.fillna(False).to_numpy()
 
 
 def compute_city_coverage_fraction(grid: pd.DataFrame) -> pd.Series:

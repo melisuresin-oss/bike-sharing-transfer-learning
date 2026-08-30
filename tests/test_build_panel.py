@@ -72,6 +72,31 @@ def test_naive_within_hour_rule_would_have_failed_this_case():
     assert not in_08.any()
 
 
+def test_bracket_flags_handle_missing_neighbor_at_dataset_edges():
+    # A station-hour at the very start or end of the observation window has
+    # no status observation before it (start) or after it (end) -- that's
+    # unavoidable at the dataset's edges and must resolve to False, not
+    # raise. This is the exact real-data scenario that crashed with a NaT
+    # comparison in production.
+    grid = pd.DataFrame(
+        {
+            "station_id": [1, 1],
+            "hour": [ts("2023-01-01 00:00"), ts("2023-01-02 23:00")],
+        }
+    )
+    status = make_status(
+        [
+            [1, "2023-01-01 02:00", 5, 5, False],  # first observation is *after* the first grid hour
+            [1, "2023-01-02 20:00", 5, 5, False],  # last observation is *before* the last grid hour
+        ]
+    )
+    bracketed = compute_bracket_flags(grid, status, window_hours=24)
+    assert bracketed.dtype == bool
+    assert not pd.isna(bracketed).any()
+    assert not bracketed[0]  # dataset start: no observation before it
+    assert not bracketed[1]  # dataset end: no observation after it
+
+
 def test_city_coverage_survives_a_quiet_hour_but_catches_an_outage():
     stations = make_stations([1, 2], [10, 10])
     # Both stations report every ~3h until 06:00, then a 60h feed outage
