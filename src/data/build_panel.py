@@ -1,15 +1,28 @@
 """Build the hourly per-station departure panel and its coverage mask.
 
-Expected interim parquet files under `data.interim_dir` (see configs/default.yaml):
-    trips_filtered.parquet    city_id, start_station_id, start_time (UTC)
-    stations_filtered.parquet station_id, city_id, latitude, longitude, bike_racks
-    status_filtered.parquet   station_id, city_id, timestamp (UTC), bikes_available,
-                              free_racks, is_maintenance
+Real interim files under `data.interim_dir` (see configs/default.yaml), already
+filtered to our 4 cities -- the raw dataset has since been deleted, so
+src/filter_cities.py can no longer be run; it stays in the repo only as
+documentation of how these were produced:
 
-`status_filtered.parquet` is not produced by src/filter_cities.py yet -- that
-script only filters cities/trips/stations. It needs the same city-based
-filter applied to the raw station-status export before this script can run
-against real data.
+    stations.parquet       id, city_id, bike_racks, lon, lat, ... (502 rows)
+    station_status.parquet station_id, time, bikes, bikes_available_to_rent,
+                            free_racks, maintenance (5,645,485 rows; no city_id)
+    trips.parquet          city_id, time_start, station_id_start,
+                            station_id_end, city (2,703,248 rows)
+
+`load_interim_tables` renames these to the internal names the rest of this
+module uses (station_id, timestamp, bikes_available, is_maintenance,
+start_time, start_station_id) and handles three real-data gotchas:
+
+  * station_status has no city_id -- it's derived by joining station_id
+    against stations.
+  * trips.station_id_start is stored as float while stations.id is integer;
+    joining on mismatched dtypes silently returns zero matches instead of
+    raising, so both are cast to the same nullable Int64 before any merge.
+  * bikes_available_to_rent excludes bikes marked broken/reserved, so it
+    understates real capacity -- the capacity fallback uses bikes (the raw
+    physical count) instead.
 
 status is change-triggered: a station only gets a new row when something
 about it changes, so most hours have no row for a given station even while
@@ -49,10 +62,13 @@ def resolve_station_capacity(stations: pd.DataFrame, status: pd.DataFrame) -> pd
 
 
 def build_hourly_grid(station_ids, start, end) -> pd.DataFrame:
-    hours = pd.date_range(start, end, freq="h", inclusive="left", tz="UTC")
-    return pd.MultiIndex.from_product(
-        [sorted(station_ids), hours], names=["station_id", "hour"]
-    ).to_frame(index=False)
+    # Cross-merge instead of MultiIndex.from_product: the latter coerces
+    # station_ids through a plain Python list, which silently drops a
+    # nullable Int64 dtype back to int64 and then breaks merge_asof's
+    # dtype-matching against Int64 station/status tables.
+    hours = pd.DataFrame({"hour": pd.date_range(start, end, freq="h", inclusive="left", tz="UTC")})
+    stations = pd.DataFrame({"station_id": pd.Series(station_ids).drop_duplicates().sort_values().reset_index(drop=True)})
+    return stations.merge(hours, how="cross")
 
 
 def compute_departures(trips: pd.DataFrame) -> pd.DataFrame:
@@ -124,6 +140,11 @@ def build_station_panel(
 
     grid = build_hourly_grid(active_station_ids, start, end)
     grid = grid.merge(compute_departures(city_trips), on=["station_id", "hour"], how="left")
+    if len(city_trips) > 0 and grid["departures"].isna().all():
+        raise ValueError(
+            f"Merging {len(city_trips)} trips onto the station-hour grid for city_id={city_id} "
+            "matched 0 rows -- check station_id dtypes/values"
+        )
     grid["departures"] = grid["departures"].fillna(0).astype(int)
 
     grid["bracketed"] = compute_bracket_flags(grid, city_status, bracket_window_hours)
@@ -157,9 +178,30 @@ def summarize_panel(panel: pd.DataFrame, city_name: str) -> dict:
 
 def load_interim_tables(interim_dir: Path):
     interim_dir = Path(interim_dir)
-    trips = pd.read_parquet(interim_dir / "trips_filtered.parquet")
-    stations = pd.read_parquet(interim_dir / "stations_filtered.parquet")
-    status = pd.read_parquet(interim_dir / "status_filtered.parquet")
+    stations = pd.read_parquet(interim_dir / "stations.parquet").rename(columns={"id": "station_id"})
+    status = pd.read_parquet(interim_dir / "station_status.parquet").rename(
+        columns={"time": "timestamp", "bikes": "bikes_available", "maintenance": "is_maintenance"}
+    )
+    trips = pd.read_parquet(interim_dir / "trips.parquet").rename(
+        columns={"time_start": "start_time", "station_id_start": "start_station_id"}
+    )
+
+    # station_id dtypes must match exactly before any join: trips stores
+    # start_station_id as float, stations.station_id as integer, and a
+    # dtype mismatch makes pandas merges return zero matches silently.
+    stations["station_id"] = stations["station_id"].astype("Int64")
+    status["station_id"] = status["station_id"].astype("Int64")
+    trips["start_station_id"] = trips["start_station_id"].astype("Int64")
+
+    # station_status carries no city_id of its own; derive it from stations.
+    station_city = stations.set_index("station_id")["city_id"]
+    status["city_id"] = status["station_id"].map(station_city)
+    if len(status) > 0 and status["city_id"].notna().sum() == 0:
+        raise ValueError(
+            "Deriving city_id for station_status matched 0 of "
+            f"{len(status)} rows against stations.station_id -- check for a dtype or key mismatch"
+        )
+
     trips["start_time"] = pd.to_datetime(trips["start_time"], utc=True)
     status["timestamp"] = pd.to_datetime(status["timestamp"], utc=True)
     return trips, stations, status

@@ -3,12 +3,14 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from src.data.build_panel import (
     build_station_panel,
     compute_bracket_flags,
+    load_interim_tables,
     resolve_station_capacity,
     summarize_panel,
 )
@@ -147,3 +149,88 @@ def test_summary_counts_positive_and_zero_hours_among_eligible_only():
     assert summary["positive_demand_hours"] == 1  # both trips fall in the 07:00 hour
     assert summary["verified_zero_hours"] == summary["station_hours_eligible"] - 1
     assert summary["median_capacity"] == 10
+
+
+def test_build_station_panel_raises_when_trip_join_matches_nothing():
+    # All trips point at a station_id absent from the grid -- e.g. what a
+    # silent dtype mismatch on the join key would look like. Real data
+    # occasionally has a stray trip at an unknown station, which should just
+    # be ignored; the failure mode this guards against is *every* trip
+    # missing, which signals a broken join rather than one bad row.
+    stations = make_stations([1], [10])
+    status = make_status([[1, "2023-01-01 00:00", 5, 5, False]])
+    trips = make_trips([[999, "2023-01-01 01:00"]])
+    with pytest.raises(ValueError):
+        build_station_panel(CITY, trips, stations, status, START, END)
+
+
+def test_load_interim_tables_matches_real_schema_and_dtype_mismatch(tmp_path):
+    # Mirrors the real files: stations.id (int) vs trips.station_id_start
+    # (float), station_status with no city_id, and a bikes_available_to_rent
+    # column that is lower than bikes and must not be used for capacity.
+    stations = pd.DataFrame(
+        {"id": [1, 2], "city_id": [CITY, CITY], "bike_racks": [15, 0], "lon": [1.0, 1.1], "lat": [2.0, 2.1]}
+    )
+    status = pd.DataFrame(
+        {
+            "station_id": [1, 1, 2],
+            "time": pd.to_datetime(["2023-01-01 00:00", "2023-01-01 03:00", "2023-01-01 00:00"], utc=True),
+            "bikes": [5, 6, 3],
+            "bikes_available_to_rent": [4, 5, 2],
+            "free_racks": [10, 9, 12],
+            "maintenance": [False, False, False],
+        }
+    )
+    trips = pd.DataFrame(
+        {
+            "city_id": [CITY, CITY],
+            "time_start": pd.to_datetime(["2023-01-01 01:00", "2023-01-01 01:30"], utc=True),
+            "station_id_start": [1.0, 1.0],
+            "station_id_end": [2.0, 2.0],
+            "city": ["TestSystem", "TestSystem"],
+        }
+    )
+    stations.to_parquet(tmp_path / "stations.parquet")
+    status.to_parquet(tmp_path / "station_status.parquet")
+    trips.to_parquet(tmp_path / "trips.parquet")
+
+    loaded_trips, loaded_stations, loaded_status = load_interim_tables(tmp_path)
+
+    assert loaded_trips["start_station_id"].dtype == loaded_stations["station_id"].dtype
+    assert (loaded_status["city_id"] == CITY).all()
+
+    panel = build_station_panel(CITY, loaded_trips, loaded_stations, loaded_status, "2023-01-01", "2023-01-02")
+    assert panel["departures"].sum() == 2  # float vs int station_id must still join correctly
+
+    # station 2's bike_racks is 0 -> capacity falls back to bikes + free_racks
+    # (15), not bikes_available_to_rent + free_racks (14).
+    assert panel.loc[panel["station_id"] == 2, "capacity"].iloc[0] == 15
+
+
+def test_load_interim_tables_raises_when_status_city_id_cannot_be_derived(tmp_path):
+    stations = pd.DataFrame({"id": [1], "city_id": [CITY], "bike_racks": [10], "lon": [0.0], "lat": [0.0]})
+    status = pd.DataFrame(
+        {
+            "station_id": [999],  # absent from stations -- e.g. a dtype mismatch
+            "time": pd.to_datetime(["2023-01-01 00:00"], utc=True),
+            "bikes": [5],
+            "bikes_available_to_rent": [4],
+            "free_racks": [5],
+            "maintenance": [False],
+        }
+    )
+    trips = pd.DataFrame(
+        {
+            "city_id": [CITY],
+            "time_start": pd.to_datetime(["2023-01-01 00:00"], utc=True),
+            "station_id_start": [1.0],
+            "station_id_end": [1.0],
+            "city": ["TestSystem"],
+        }
+    )
+    stations.to_parquet(tmp_path / "stations.parquet")
+    status.to_parquet(tmp_path / "station_status.parquet")
+    trips.to_parquet(tmp_path / "trips.parquet")
+
+    with pytest.raises(ValueError):
+        load_interim_tables(tmp_path)

@@ -1,3 +1,8 @@
+# The raw cities.csv/trips.csv/stations.csv this script reads have since been
+# deleted -- the filtered output (data/interim/stations.parquet,
+# station_status.parquet, trips.parquet) is already in place. This file is
+# kept only as documentation of how that filtering was originally done; it
+# can no longer be run.
 import argparse
 import os
 import pandas as pd
