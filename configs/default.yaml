@@ -14,22 +14,28 @@ data:
   observation_end: "2023-07-15"
 
 cities:
-  # NOTE: city IDs are intentionally left as null.
-  # In cities.csv the "name" field holds the *system* name, not the city name,
-  # so the numeric IDs cannot be guessed without inspecting the actual data.
-  # Run src/filter_cities.py against the real dataset and fill these in by hand.
+  # City IDs verified from stations.parquet by matching its city_id and city
+  # columns (cities.csv's "name" field holds the system name, not the city
+  # name, so these could not be guessed and had to be looked up in the data).
   - name: Bilbao
     role: source
-    id: null
+    id: 532
+    station_count: 44
   - name: Vienna
     role: source
-    id: null
+    id: 748
+    station_count: 250
   - name: Glasgow
     role: source
-    id: null
+    id: 237
+    # stations.parquet has 108 total stations for this city; the proposal's
+    # Table 1 reports 105 active stations. The difference comes from the
+    # active/total distinction, not a mismatched ID.
+    station_count: 108
   - name: Freiburg
     role: target
-    id: null
+    id: 619
+    station_count: 100
 
 split:
   # Chronological split — hyperparameter selection and early stopping use validation only.
