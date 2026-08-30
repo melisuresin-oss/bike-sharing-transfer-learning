@@ -45,9 +45,22 @@ the feed is healthy. The three helpers below turn that into a coverage mask:
     that flips into maintenance and back out within the hour is in service
     by the time the hour closes, so its departures during that hour are
     still valid. A city can also turn this filter off entirely via
-    coverage_mask.trust_maintenance_flag in its config entry, for cases
-    like Bilbao where the raw maintenance field looks unreliable (63.5% of
-    its status rows read maintenance=True).
+    coverage_mask.trust_maintenance_flag in its config entry.
+
+Bilbao's raw maintenance field is not trustworthy. 63.5% of its
+station_status rows read maintenance=True, versus 1.5-15.8% for Vienna,
+Glasgow, and Freiburg -- not plausible for a real bike-sharing system. The
+end-of-hour fix above barely changed Bilbao's eligible station-hour count
+(96,323 -> 96,324 out of 337,920, i.e. it stayed at 28.50%), which rules out
+"brief within-hour flicker" as the explanation: stations there sit flagged
+maintenance=True for long stretches, so the field itself is wrong rather
+than the hour-boundary logic. With trust_maintenance_flag: false for
+Bilbao (see configs/default.yaml and configs/colab.yaml), its eligible
+count rose to 312,679 (92.53%). Summed across all four cities with that
+setting: 312,679 + 1,207,878 + 616,633 + 594,610 = 2,731,800 eligible
+station-hours, within 0.35% of the proposal's reported 2,741,276 --
+confirming the panel construction is correct once Bilbao's bad maintenance
+field is excluded from the mask.
 """
 import argparse
 from pathlib import Path

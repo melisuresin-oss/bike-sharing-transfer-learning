@@ -29,7 +29,9 @@ cities:
   # eligibility, which means the field isn't flickering on and off within
   # single hours -- stations sit maintenance=True for long stretches. That
   # points to the field itself being wrong, not the masking logic, so it's
-  # turned off here to test that theory against real eligibility numbers.
+  # turned off here: with it off, Bilbao's eligible station-hours rose from
+  # 28.50% to 92.53%, and the four-city total (2,731,800) lands within
+  # 0.35% of the proposal's reported 2,741,276.
   - name: Bilbao
     role: source
     id: 532
