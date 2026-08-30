@@ -24,13 +24,17 @@ cities:
   # of the hour (see coverage_mask.exclude_maintenance). Bilbao's raw
   # maintenance field looks unreliable for a bike-sharing system (63.5% of
   # its status rows read maintenance=True, vs. 1.9-15.8% for the other
-  # three cities), but it's kept trusted (true) for now -- flip to false
-  # once the end-of-hour fix is re-measured against real eligibility numbers.
+  # three cities). The end-of-hour fix (checking the state when the hour
+  # closes instead of "any record within it") barely moved Bilbao's
+  # eligibility, which means the field isn't flickering on and off within
+  # single hours -- stations sit maintenance=True for long stretches. That
+  # points to the field itself being wrong, not the masking logic, so it's
+  # turned off here to test that theory against real eligibility numbers.
   - name: Bilbao
     role: source
     id: 532
     station_count: 44
-    trust_maintenance_flag: true
+    trust_maintenance_flag: false
   - name: Vienna
     role: source
     id: 748
