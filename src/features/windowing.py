@@ -80,6 +80,17 @@ def _mean_std(values) -> tuple[float, float]:
     return mean, std
 
 
+def sequence_column_names(demand_lookback_hours: int) -> list:
+    """Chronological order (oldest first) for feeding a GRU: t-23, ..., t-1, t.
+
+    Exposed separately (rather than inlined in build_supervised_samples) so
+    other code -- src/training/train.py builds tensors from these same
+    columns -- can name them without duplicating or drifting from this
+    convention.
+    """
+    return [f"lag_{k}" for k in range(demand_lookback_hours - 1, -1, -1)]
+
+
 def build_supervised_samples(
     panel: pd.DataFrame, stations: pd.DataFrame, demand_lookback_hours: int = 24
 ):
@@ -92,16 +103,12 @@ def build_supervised_samples(
     samples["target_hour"] = panel["hour"] + pd.Timedelta(hours=1)
 
     # lag_k = departures at t-k. window_eligible requires all of t..t-23.
-    lag_columns = []
     window_eligible = panel["eligible"].astype(bool).copy()
     for k in range(demand_lookback_hours):
-        col = f"lag_{k}"
-        samples[col] = grouped["departures"].shift(k)
-        lag_columns.append(col)
+        samples[f"lag_{k}"] = grouped["departures"].shift(k)
         if k > 0:
             window_eligible &= grouped["eligible"].shift(k).fillna(False).astype(bool)
-    # Chronological order (oldest first) for feeding a GRU: t-23, ..., t-1, t.
-    sequence_columns = list(reversed(lag_columns))
+    sequence_columns = sequence_column_names(demand_lookback_hours)
 
     samples["previous_week_lag"] = grouped["departures"].shift(WEEK_HOURS - 1)
     lag_week_eligible = grouped["eligible"].shift(WEEK_HOURS - 1).fillna(False).astype(bool)
