@@ -1,0 +1,137 @@
+# Default configuration for cross-city transfer learning bike-sharing demand forecasting.
+# All values here are taken directly from the project proposal unless marked otherwise.
+
+data:
+  # Root folder containing the raw European Bike-Sharing Dataset (Waldner et al., 2025).
+  raw_dir: data/raw
+  # Folder for filtered/processed CSV and Parquet outputs (e.g. filter_cities.py output).
+  interim_dir: data/interim
+  # Folder for final windowed, masked, normalized model-ready samples.
+  processed_dir: data/processed
+
+  # Common observation interval shared by all four selected systems.
+  observation_start: "2022-08-29"
+  observation_end: "2023-07-15"
+
+cities:
+  # City IDs verified from stations.parquet by matching its city_id and city
+  # columns (cities.csv's "name" field holds the system name, not the city
+  # name, so these could not be guessed and had to be looked up in the data).
+  #
+  # trust_maintenance_flag: whether build_panel.py's coverage mask should
+  # exclude station-hours where the station is under maintenance at the end
+  # of the hour (see coverage_mask.exclude_maintenance). Bilbao's raw
+  # maintenance field looks unreliable for a bike-sharing system (63.5% of
+  # its status rows read maintenance=True, vs. 1.9-15.8% for the other
+  # three cities). The end-of-hour fix (checking the state when the hour
+  # closes instead of "any record within it") barely moved Bilbao's
+  # eligibility, which means the field isn't flickering on and off within
+  # single hours -- stations sit maintenance=True for long stretches. That
+  # points to the field itself being wrong, not the masking logic, so it's
+  # turned off here: with it off, Bilbao's eligible station-hours rose from
+  # 28.50% to 92.53%, and the four-city total (2,731,800) lands within
+  # 0.35% of the proposal's reported 2,741,276.
+  - name: Bilbao
+    role: source
+    id: 532
+    station_count: 44
+    trust_maintenance_flag: false
+  - name: Vienna
+    role: source
+    id: 748
+    station_count: 250
+    trust_maintenance_flag: true
+  - name: Glasgow
+    role: source
+    id: 237
+    # stations.parquet has 108 total stations for this city; the proposal's
+    # Table 1 reports 105 active stations. The difference comes from the
+    # active/total distinction, not a mismatched ID.
+    station_count: 108
+    trust_maintenance_flag: true
+  - name: Freiburg
+    role: target
+    id: 619
+    station_count: 100
+    trust_maintenance_flag: true
+
+split:
+  # Chronological split — hyperparameter selection and early stopping use validation only.
+  train:
+    start: "2022-08-29"
+    end: "2023-02-15"
+  validation:
+    start: "2023-02-15"
+    end: "2023-04-16"
+  test:
+    start: "2023-04-16"
+    end: "2023-07-15"
+
+sample:
+  # y(s, t-23:t): previous 24 hourly demand values for station s.
+  demand_lookback_hours: 24
+  # 10 scalar covariates, in the order used to build the feature vector.
+  # Total sample size = demand_lookback_hours + len(covariates) = 24 + 10 = 34.
+  covariates:
+    - previous_week_lag        # y(s, t-167): same hour, one week earlier
+    - hour_sin                 # sine encoding of local hour
+    - hour_cos                 # cosine encoding of local hour
+    - weekday_sin               # sine encoding of local weekday
+    - weekday_cos               # cosine encoding of local weekday
+    - is_weekend                # weekend indicator
+    - station_lat_norm           # normalized station latitude
+    - station_lon_norm           # normalized station longitude
+    - rack_capacity              # station rack capacity
+    - citywide_demand_recent     # recent citywide demand
+
+coverage_mask:
+  # A station-hour's zero-demand value is only kept as a verified zero when
+  # all of the following hold; otherwise the station-hour is dropped.
+  # 1. The station-hour must be bracketed by status observations within this window.
+  bracket_window_hours: 24
+  # 2. At least this fraction of the city's active stations must be bracketed
+  #    (per rule 1) at that hour -- a proxy for "the city's feed was live
+  #    around this hour", not "logged a change during this hour" (the latter
+  #    would zero out quiet hours where nothing happened to change).
+  min_city_coverage_fraction: 0.5
+  # 3. The station must not be under maintenance during that hour.
+  exclude_maintenance: true
+
+budgets:
+  # Target-history adaptation budgets, in days of Freiburg data made available
+  # to the target-only / pooled / fine-tuned models. "full" uses the entire
+  # target training interval defined under split.train.
+  target_history_days: [1, 7, 30, "full"]
+
+model:
+  # GRU is chosen because parameters can be shared across systems with
+  # different station counts (Cho et al., 2014). Values below are reasonable
+  # defaults, not tuned — hyperparameter search should use validation data only.
+  type: gru
+  hidden_size: 64
+  num_layers: 1
+  dropout: 0.1
+  bidirectional: false
+  learning_rate: 0.001
+  batch_size: 256
+  max_epochs: 100
+  early_stopping_patience: 10
+  optimizer: adam
+  gradient_clip_norm: 1.0
+  seed: 42
+
+methods:
+  # The 5 methods compared in the proposal.
+  - historical_average
+  - persistence
+  - target_only_gru
+  - pooled_gru
+  - source_pretrained_finetuned_gru
+
+metrics:
+  - mae
+  - rmse
+  - wape
+  # Error breakdown by station-demand level, plus variation across repeated runs.
+  - error_by_station_demand_level
+  - variation_across_runs
