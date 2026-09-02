@@ -33,7 +33,7 @@ def parse_budget(b):
     try:
         return int(b)
     except (ValueError, TypeError):
-        return "full"
+        return str(b).lower()
 
 
 def main():
@@ -44,6 +44,11 @@ def main():
 
     df = pd.read_csv(args.results)
     df["budget"] = df["budget"].apply(parse_budget)
+
+    present_methods = set(df["method"].unique())
+    missing = [m for m in METHOD_ORDER if m not in present_methods]
+    if missing:
+        print(f"Warning: results CSV is missing methods {missing} — they will be skipped.")
 
     fig, axes = plt.subplots(1, 3, figsize=(15, 5), sharey=False)
     metrics = ["mae", "rmse", "wape"]

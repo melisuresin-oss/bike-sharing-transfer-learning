@@ -12,6 +12,7 @@ Output: results/all_metrics.csv with one row per (method, budget).
 Usage:
     python src/run_experiment.py
     python src/run_experiment.py --config configs/colab.yaml
+    python src/run_experiment.py --output results/run2.csv
 """
 import argparse
 import sys
@@ -35,7 +36,13 @@ from src.training.train import (
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", default="configs/default.yaml")
+    parser.add_argument("--output", default="results/all_metrics.csv", help="Path for the output CSV")
+    parser.add_argument("--no-overwrite", action="store_true", help="Abort if the output file already exists")
     args = parser.parse_args()
+
+    out_path = Path(args.output)
+    if args.no_overwrite and out_path.exists():
+        raise FileExistsError(f"{out_path} already exists. Use a different --output path or remove --no-overwrite.")
 
     with open(args.config) as f:
         config = yaml.safe_load(f)
@@ -44,7 +51,7 @@ def main():
     budgets = config["budgets"]["target_history_days"]
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    results_dir = Path("results")
+    results_dir = out_path.parent
     checkpoints_dir = results_dir / "checkpoints"
     checkpoints_dir.mkdir(parents=True, exist_ok=True)
 
@@ -99,7 +106,7 @@ def main():
     print()
 
     results = pd.DataFrame(all_rows)
-    out_path = results_dir / "all_metrics.csv"
+    out_path.parent.mkdir(parents=True, exist_ok=True)
     results.to_csv(out_path, index=False)
     print(f"Saved results to {out_path}")
     print(results[["method", "budget", "mae", "rmse", "wape"]].to_string(index=False))
