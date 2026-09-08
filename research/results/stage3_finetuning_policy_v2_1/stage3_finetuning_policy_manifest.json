@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0",
+  "protocol_version": "2.1",
+  "stage": 3,
+  "seal_type": "append_only_stage3_fine_tuning_policy",
+  "status": "FROZEN_VERIFIED",
+  "created_utc": "2026-09-03T16:13:39.8691202Z",
+  "authorization_scope": "POLICY_SEAL_ONLY_NO_TRAINING_OR_EVALUATION",
+  "append_only": true,
+  "scientific_decisions_changed": false,
+  "selected_backbone": {
+    "config_id": "GGRU_K04_H032_D00",
+    "model_type": "Graph-GRU",
+    "graph_k": 4,
+    "hidden_size": 32,
+    "dropout": 0.0,
+    "scale_loss_formulation": "LOG1P_TARGET_MAE"
+  },
+  "policy": {
+    "full_network_fine_tuning": true,
+    "reset_adamw_optimizer_state_before_adaptation": true,
+    "optimizer": "AdamW",
+    "learning_rate": 0.0002,
+    "weight_decay": 0.0001,
+    "batch_size": 16,
+    "global_gradient_clip": 1.0,
+    "early_stopping": false,
+    "update_budgets": [
+      0,
+      100,
+      300,
+      600,
+      1200
+    ],
+    "zero_budget_is_fine_tuning_fit": false,
+    "adaptation_sampling": "with_replacement_within_elapsed_time_budget",
+    "causal_pre_budget_history_as_input": true,
+    "causal_pre_budget_history_as_extra_adaptation_target": false
+  },
+  "budget_semantics": [
+    {
+      "target_label_budget": "0_days",
+      "updates": 0,
+      "operation": "reuse_unchanged_source_checkpoint_as_parameter_zero_shot_reference",
+      "fine_tuning_fit": false
+    },
+    {
+      "target_label_budget": "1_day",
+      "updates": 100,
+      "operation": "target_only_full_network_fine_tuning",
+      "fine_tuning_fit": true
+    },
+    {
+      "target_label_budget": "7_days",
+      "updates": 300,
+      "operation": "target_only_full_network_fine_tuning",
+      "fine_tuning_fit": true
+    },
+    {
+      "target_label_budget": "30_days",
+      "updates": 600,
+      "operation": "target_only_full_network_fine_tuning",
+      "fine_tuning_fit": true
+    },
+    {
+      "target_label_budget": "full_pre_cutoff_history",
+      "updates": 1200,
+      "operation": "target_only_full_network_fine_tuning",
+      "fine_tuning_fit": true
+    }
+  ],
+  "frozen_upstream": {
+    "stage1": {
+      "decision": "LOG1P_TARGET_MAE",
+      "decision_manifest": "research/results/stage1_scale_loss_v2_1/stage1_decision_manifest.json",
+      "decision_manifest_sha256": "f35a38fe936ca9389d5bf08ee08c5ec61920e588f6ef029044cf5f4fdf040d31",
+      "permanently_frozen": true
+    },
+    "stage2": {
+      "decision": "GGRU_K04_H032_D00",
+      "decision_manifest": "research/results/stage2_graphgru_selection_v2_1_a40/stage2_decision_manifest.json",
+      "decision_manifest_sha256": "593dd284acc5d4e2da0e1d74ace84e85396894c05f3b738c01d64421d232e408",
+      "execution_environment": "UNIVERSITY_A40",
+      "permanently_frozen": true
+    }
+  },
+  "governing_input_sha256": {
+    "RESEARCH_PROTOCOL_V2_1.md": "6bbf5bc39292ef9e1bf8321b90006269217b43fd0df59da25687712fc418c35c",
+    "COMPUTATION_DAG_V2_1.md": "48f38bc97505d622316008b8ac155fb09e2b9a9efce6f36dad7e15b35d9f53cf",
+    "TRAINING_BUDGET_PROTOCOL.md": "479d87f18095611b1d488a7f1b932c160e688d11a8776c1b0c6d85b21af81940",
+    "EVALUATION_PROTOCOL_V2.md": "ebde12ca004508645e876e66d1899eb23f36410751ef0d102029c602874549ee",
+    "DEVELOPMENT_SELECTION_PROTOCOL.md": "14a1778ceb6437c6187837f1e34822164e4f32ae2e4d0f5c8f840c0576d5eb97",
+    "MODEL_SPECIFICATION_V2_1.md": "430fd12c6322a102687c2a546be394bb7ef344656c1a34edf05a86beadca88bf",
+    "TEMPORAL_SPLIT_PROTOCOL_V2.md": "f02d22ac5794b9f892180336e421cbe3cc8dc77e3c4d27177272adf146d11531",
+    "NEURAL_REPRODUCIBILITY_PROTOCOL.md": "35f5ecdca9dea4553455130ea3883e2d5bce07758a26c04958dd67865249bab9"
+  },
+  "consistency": {
+    "stage3_policy_contradictions": [],
+    "stage3_policy_consistent": true,
+    "adjacent_downstream_contradictions": [
+      {
+        "id": "FINAL_SEED_COUNT_V2_VS_V2_1",
+        "evaluation_protocol_v2": [
+          17,
+          29,
+          43
+        ],
+        "research_protocol_v2_1_and_computation_dag_v2_1": [
+          17,
+          29,
+          43,
+          71,
+          101
+        ],
+        "effect_on_policy_seal": "NON_BLOCKING",
+        "effect_on_stage3_execution_plan": "BLOCKING_UNTIL_EXPLICITLY_RECONCILED",
+        "resolution_applied": false
+      }
+    ]
+  },
+  "firewall": {
+    "policy_seal_only": true,
+    "final_target_labels_accessed": false,
+    "training_triggered": false,
+    "evaluation_triggered": false,
+    "performance_decision_created": false,
+    "stage3_execution_authorized": false,
+    "stage4_started": false
+  },
+  "next_gate": {
+    "name": "STAGE3_EXECUTION_PLAN_AND_FIREWALL_SEAL",
+    "status": "NOT_STARTED_NOT_AUTHORIZED",
+    "requires_seed_contradiction_reconciliation": true,
+    "requires_source_checkpoint_provenance": true,
+    "requires_exact_job_ledger": true,
+    "requires_budget_zero_reuse_separation": true,
+    "requires_adaptation_label_window_and_hash_binding": true,
+    "requires_final_evaluation_label_path_exclusion": true,
+    "requires_prediction_key_commitment_before_label_opening": true,
+    "preflight_must_trigger_training": false
+  },
+  "provenance": {
+    "repository_git_head": "2fc27ac430afb113e8bb6ca0315bbab8c9ad03d8",
+    "stage2_execution_environment": "UNIVERSITY_A40",
+    "local_stage2_attempt": "ABORTED_COMPUTE_MIGRATION",
+    "local_stage2_results_included": false,
+    "seal_host_timezone": "Europe/Berlin",
+    "creation_method": "append_only_text_and_json_artifacts_with_standard_library_verifier"
+  },
+  "artifact_integrity": {
+    "research/results/stage3_finetuning_policy_v2_1/STAGE3_FINE_TUNING_POLICY_SEAL.md": "496ffc5d37e251d62a7dd87bb70aa0cf21761e2826670ac0b5ebb85fe8af3ec7",
+    "research/governance/stage3_policy.py": "ce5ca2da72ed84d6553ca16bb1cde644fd2465b65de033d300493142d4241a87",
+    "research/scripts/verify_stage3_policy_seal.py": "68974c7d312f2306bf7d3ee8a5c61456ab2e2056335101140fbe5f2e5d5c5010",
+    "research/tests/test_stage3_policy_seal.py": "c964a8309018ccd969b5d90f34034a70d2a2dc3ee042d96f1cae7c5ff22c9c79"
+  }
+}

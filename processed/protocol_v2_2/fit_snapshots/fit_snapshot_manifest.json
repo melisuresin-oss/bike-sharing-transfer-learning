@@ -1,0 +1,622 @@
+{
+  "protocol_version": "2.2",
+  "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+  "implementation_manifest_sha256": "a1fe0ee486c55b1348e92d91edd42289dd49ce982129cdaa544691eafd605a9d",
+  "cutoff_us": 1676498400000000,
+  "source_city_partitions": [
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/source_city_129_HD.npz",
+      "sha256": "d32649fdc74e1266be5c417696462816e4344ab87839b6caf5ded54f3bed1095",
+      "city_id": 129,
+      "row_count": 259662,
+      "eligible_anchor_hours": 3996,
+      "cutoff_us": 1676498400000000,
+      "origin_range_us": [
+        1661749200000000,
+        1676498400000000
+      ],
+      "role": "SOURCE_CITY_FITTING_ROWS",
+      "identity": {
+        "artifact_role": "fit_snapshot",
+        "cutoff_us": 1676498400000000,
+        "city_ids": [
+          129
+        ],
+        "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+        "graph_binding_sha256": null,
+        "model_family": "none",
+        "protocol_version": "2.2",
+        "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+        "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+        "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+        "feature_function_version": "v2_2.asof_history.1",
+        "schema_version": "1.0"
+      }
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/source_city_194_HD.npz",
+      "sha256": "9074a270bcb163ac74b434c43f0d56d0d569d55c20c092c0070091f9e106127e",
+      "city_id": 194,
+      "row_count": 174959,
+      "eligible_anchor_hours": 3998,
+      "cutoff_us": 1676498400000000,
+      "origin_range_us": [
+        1661749200000000,
+        1676498400000000
+      ],
+      "role": "SOURCE_CITY_FITTING_ROWS",
+      "identity": {
+        "artifact_role": "fit_snapshot",
+        "cutoff_us": 1676498400000000,
+        "city_ids": [
+          194
+        ],
+        "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+        "graph_binding_sha256": null,
+        "model_family": "none",
+        "protocol_version": "2.2",
+        "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+        "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+        "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+        "feature_function_version": "v2_2.asof_history.1",
+        "schema_version": "1.0"
+      }
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/source_city_438_HD.npz",
+      "sha256": "e327cd79fefd91e403f59d9041282de4cbfc1890e5a814e7440378a1722828cf",
+      "city_id": 438,
+      "row_count": 127427,
+      "eligible_anchor_hours": 4016,
+      "cutoff_us": 1676498400000000,
+      "origin_range_us": [
+        1661749200000000,
+        1676498400000000
+      ],
+      "role": "SOURCE_CITY_FITTING_ROWS",
+      "identity": {
+        "artifact_role": "fit_snapshot",
+        "cutoff_us": 1676498400000000,
+        "city_ids": [
+          438
+        ],
+        "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+        "graph_binding_sha256": null,
+        "model_family": "none",
+        "protocol_version": "2.2",
+        "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+        "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+        "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+        "feature_function_version": "v2_2.asof_history.1",
+        "schema_version": "1.0"
+      }
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/source_city_467_HD.npz",
+      "sha256": "6f64d1e29a7011bfa92dd1d9cc92e65ef60e96d6e928335da2a62c0c27977093",
+      "city_id": 467,
+      "row_count": 101550,
+      "eligible_anchor_hours": 4015,
+      "cutoff_us": 1676498400000000,
+      "origin_range_us": [
+        1661749200000000,
+        1676498400000000
+      ],
+      "role": "SOURCE_CITY_FITTING_ROWS",
+      "identity": {
+        "artifact_role": "fit_snapshot",
+        "cutoff_us": 1676498400000000,
+        "city_ids": [
+          467
+        ],
+        "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+        "graph_binding_sha256": null,
+        "model_family": "none",
+        "protocol_version": "2.2",
+        "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+        "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+        "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+        "feature_function_version": "v2_2.asof_history.1",
+        "schema_version": "1.0"
+      }
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/source_city_476_HD.npz",
+      "sha256": "cfaa6c54d92b71dec95ae750a9ba0558e952ce6c4c0b06e9483b0d0227cb9521",
+      "city_id": 476,
+      "row_count": 259371,
+      "eligible_anchor_hours": 4023,
+      "cutoff_us": 1676498400000000,
+      "origin_range_us": [
+        1661749200000000,
+        1676498400000000
+      ],
+      "role": "SOURCE_CITY_FITTING_ROWS",
+      "identity": {
+        "artifact_role": "fit_snapshot",
+        "cutoff_us": 1676498400000000,
+        "city_ids": [
+          476
+        ],
+        "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+        "graph_binding_sha256": null,
+        "model_family": "none",
+        "protocol_version": "2.2",
+        "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+        "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+        "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+        "feature_function_version": "v2_2.asof_history.1",
+        "schema_version": "1.0"
+      }
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/source_city_532_HD.npz",
+      "sha256": "0c5f823c0b3983c9cf0c4eb56a30e27431c92e1899ba950bb180b5da3f7d3ce8",
+      "city_id": 532,
+      "row_count": 172035,
+      "eligible_anchor_hours": 4024,
+      "cutoff_us": 1676498400000000,
+      "origin_range_us": [
+        1661749200000000,
+        1676498400000000
+      ],
+      "role": "SOURCE_CITY_FITTING_ROWS",
+      "identity": {
+        "artifact_role": "fit_snapshot",
+        "cutoff_us": 1676498400000000,
+        "city_ids": [
+          532
+        ],
+        "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+        "graph_binding_sha256": null,
+        "model_family": "none",
+        "protocol_version": "2.2",
+        "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+        "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+        "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+        "feature_function_version": "v2_2.asof_history.1",
+        "schema_version": "1.0"
+      }
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/source_city_619_HD.npz",
+      "sha256": "39ea054d850939f337dcf7e64debcf434b210242287bab331f2bee4ae5d0f1f2",
+      "city_id": 619,
+      "row_count": 320516,
+      "eligible_anchor_hours": 4024,
+      "cutoff_us": 1676498400000000,
+      "origin_range_us": [
+        1661749200000000,
+        1676498400000000
+      ],
+      "role": "SOURCE_CITY_FITTING_ROWS",
+      "identity": {
+        "artifact_role": "fit_snapshot",
+        "cutoff_us": 1676498400000000,
+        "city_ids": [
+          619
+        ],
+        "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+        "graph_binding_sha256": null,
+        "model_family": "none",
+        "protocol_version": "2.2",
+        "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+        "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+        "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+        "feature_function_version": "v2_2.asof_history.1",
+        "schema_version": "1.0"
+      }
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/source_city_658_HD.npz",
+      "sha256": "4fbd89d601bb03e21d3a1e40cd3d9f377c96e9bfb60b3f4dd5ac2f5ecc030ac2",
+      "city_id": 658,
+      "row_count": 415062,
+      "eligible_anchor_hours": 3897,
+      "cutoff_us": 1676498400000000,
+      "origin_range_us": [
+        1661749200000000,
+        1676498400000000
+      ],
+      "role": "SOURCE_CITY_FITTING_ROWS",
+      "identity": {
+        "artifact_role": "fit_snapshot",
+        "cutoff_us": 1676498400000000,
+        "city_ids": [
+          658
+        ],
+        "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+        "graph_binding_sha256": null,
+        "model_family": "none",
+        "protocol_version": "2.2",
+        "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+        "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+        "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+        "feature_function_version": "v2_2.asof_history.1",
+        "schema_version": "1.0"
+      }
+    }
+  ],
+  "source_folds": [
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/source_fold_excluding_476_HD.json",
+      "sha256": "00adec7a75b3551ecabe7cb1e019f529473db80be37da47c35e9717a0ca61356",
+      "target_city": 476,
+      "source_cities": [
+        129,
+        194,
+        438,
+        467,
+        532,
+        619,
+        658
+      ],
+      "row_count": 1571211,
+      "source_distribution": {
+        "129": 259662,
+        "194": 174959,
+        "438": 127427,
+        "467": 101550,
+        "532": 172035,
+        "619": 320516,
+        "658": 415062
+      }
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/source_fold_excluding_532_HD.json",
+      "sha256": "f5614e447625cf03d6136aefd32a00c4f6f5fedfcb4273f127ec2224a158b2e3",
+      "target_city": 532,
+      "source_cities": [
+        129,
+        194,
+        438,
+        467,
+        476,
+        619,
+        658
+      ],
+      "row_count": 1658547,
+      "source_distribution": {
+        "129": 259662,
+        "194": 174959,
+        "438": 127427,
+        "467": 101550,
+        "476": 259371,
+        "619": 320516,
+        "658": 415062
+      }
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/source_fold_excluding_619_HD.json",
+      "sha256": "2e59b547dc5562f591d0362b7d9d9d2a74f7daea1a028cdb8156f8467d0ee883",
+      "target_city": 619,
+      "source_cities": [
+        129,
+        194,
+        438,
+        467,
+        476,
+        532,
+        658
+      ],
+      "row_count": 1510066,
+      "source_distribution": {
+        "129": 259662,
+        "194": 174959,
+        "438": 127427,
+        "467": 101550,
+        "476": 259371,
+        "532": 172035,
+        "658": 415062
+      }
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/source_fold_excluding_658_HD.json",
+      "sha256": "6adedc5889f683476ba9e49f8aa516f0fbfbbc8ea4b29862db182cb269bf123c",
+      "target_city": 658,
+      "source_cities": [
+        129,
+        194,
+        438,
+        467,
+        476,
+        532,
+        619
+      ],
+      "row_count": 1415520,
+      "source_distribution": {
+        "129": 259662,
+        "194": 174959,
+        "438": 127427,
+        "467": 101550,
+        "476": 259371,
+        "532": 172035,
+        "619": 320516
+      }
+    }
+  ],
+  "adaptations": [
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_476_zero_HD.json",
+      "sha256": "7a3a75852de9d9fab42a21968f9c7c82fdfbbc407267158ea05f0114d6ec49e2",
+      "data": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_476_zero_HD.npz",
+        "sha256": "2224e9d815c592b27d98b14cce20b2d0cb1eee79bee312f2f3fa43627c4a42b0"
+      },
+      "city_id": 476,
+      "budget": "zero",
+      "row_count": 0,
+      "eligible_anchor_hours": 0,
+      "start_us": 1676498400000000,
+      "cutoff_us": 1676498400000000
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_476_1_HD.json",
+      "sha256": "1f3a429d8108f4c9c00a36314868baa54c51e6eaeea613b3360ea76b3cbaf8e0",
+      "data": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_476_1_HD.npz",
+        "sha256": "20aa62c1447cd73dcdfd8b1968b2000368a8baaadc703146dc0f17c7c216cacc"
+      },
+      "city_id": 476,
+      "budget": "1",
+      "row_count": 1518,
+      "eligible_anchor_hours": 23,
+      "start_us": 1676412000000000,
+      "cutoff_us": 1676498400000000
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_476_7_HD.json",
+      "sha256": "1046fa3acb1573ebee6a7cee1ba609058e49dc173ca888247eaf3937f6df9458",
+      "data": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_476_7_HD.npz",
+        "sha256": "ea5387c1830fdad32c64d58bfeede84b4b198a01459099892f95b347dd9b5364"
+      },
+      "city_id": 476,
+      "budget": "7",
+      "row_count": 11041,
+      "eligible_anchor_hours": 167,
+      "start_us": 1675893600000000,
+      "cutoff_us": 1676498400000000
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_476_30_HD.json",
+      "sha256": "99ad7bbbb10da34145faf7d9ae256746392b18c8edef651dd8fac4cd60c91b10",
+      "data": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_476_30_HD.npz",
+        "sha256": "814553d851f16b0fc22a37381642c20b2ee75ceffb91e523bd41c68f2079b392"
+      },
+      "city_id": 476,
+      "budget": "30",
+      "row_count": 47393,
+      "eligible_anchor_hours": 719,
+      "start_us": 1673906400000000,
+      "cutoff_us": 1676498400000000
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_476_full_HD.json",
+      "sha256": "d08b8f9e2e8314eb6f084e7f7c470e1d6e2ddf9b95504a821bda29ea78a55122",
+      "data": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_476_full_HD.npz",
+        "sha256": "ba541c4a21a44beb9454134ae0b1df248399690a34e3cb125856a5c985203a7b"
+      },
+      "city_id": 476,
+      "budget": "full",
+      "row_count": 259371,
+      "eligible_anchor_hours": 4023,
+      "start_us": 1661749200000000,
+      "cutoff_us": 1676498400000000
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_532_zero_HD.json",
+      "sha256": "14bb3fa2fb5a7d3da8e8d32a73a1248f0366a0a576770f13998f87f70ae422f5",
+      "data": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_532_zero_HD.npz",
+        "sha256": "2224e9d815c592b27d98b14cce20b2d0cb1eee79bee312f2f3fa43627c4a42b0"
+      },
+      "city_id": 532,
+      "budget": "zero",
+      "row_count": 0,
+      "eligible_anchor_hours": 0,
+      "start_us": 1676498400000000,
+      "cutoff_us": 1676498400000000
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_532_1_HD.json",
+      "sha256": "ed0bffc46a1041b9c28df384bddb95c84d4c48d2d22b765fe2312e3f30e4a8eb",
+      "data": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_532_1_HD.npz",
+        "sha256": "1853d0b75eea5db51d77c3ef3013aa1e9dd472008d06137f8df2911b35479b2b"
+      },
+      "city_id": 532,
+      "budget": "1",
+      "row_count": 963,
+      "eligible_anchor_hours": 23,
+      "start_us": 1676412000000000,
+      "cutoff_us": 1676498400000000
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_532_7_HD.json",
+      "sha256": "2cb83b64f4ca5ef8817248af8f40c60543d7afc816d2b9e18b504642a1f5f000",
+      "data": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_532_7_HD.npz",
+        "sha256": "3c0037d9befb8a9597ab5bb412d9d0fe5d1c955cb190ce19da2319a7ddcb2846"
+      },
+      "city_id": 532,
+      "budget": "7",
+      "row_count": 7011,
+      "eligible_anchor_hours": 167,
+      "start_us": 1675893600000000,
+      "cutoff_us": 1676498400000000
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_532_30_HD.json",
+      "sha256": "43ab4bea8d31566d3e4065e7a7ac018adb4cc21325a989250a367c8845833ff1",
+      "data": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_532_30_HD.npz",
+        "sha256": "498f0e31beb335d2bdcc87d4f193c21fa4773a94d82f779d942d71a5855fa9da"
+      },
+      "city_id": 532,
+      "budget": "30",
+      "row_count": 30316,
+      "eligible_anchor_hours": 719,
+      "start_us": 1673906400000000,
+      "cutoff_us": 1676498400000000
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_532_full_HD.json",
+      "sha256": "dc822449f31f2c6317aa6eeee46cdc5da0d9d16cec02c545d9ab36dd85e6ceeb",
+      "data": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_532_full_HD.npz",
+        "sha256": "7158057eb36b9bd668fbb577705ec2284f2e24ff188c7bf3b3d4e8527cb39510"
+      },
+      "city_id": 532,
+      "budget": "full",
+      "row_count": 172035,
+      "eligible_anchor_hours": 4024,
+      "start_us": 1661749200000000,
+      "cutoff_us": 1676498400000000
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_619_zero_HD.json",
+      "sha256": "9b19b8ff9333404c7b6c9226e37a922470f8cc927b2d3c3ced04931116fd8ea0",
+      "data": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_619_zero_HD.npz",
+        "sha256": "2224e9d815c592b27d98b14cce20b2d0cb1eee79bee312f2f3fa43627c4a42b0"
+      },
+      "city_id": 619,
+      "budget": "zero",
+      "row_count": 0,
+      "eligible_anchor_hours": 0,
+      "start_us": 1676498400000000,
+      "cutoff_us": 1676498400000000
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_619_1_HD.json",
+      "sha256": "a474b0547b7064abcf04537521963af0b6d79ef9e5f56723a25505feb7a6626b",
+      "data": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_619_1_HD.npz",
+        "sha256": "5f599357854926b6fec26356b65ae92c68129cc0d22de473502008872aff2651"
+      },
+      "city_id": 619,
+      "budget": "1",
+      "row_count": 1739,
+      "eligible_anchor_hours": 23,
+      "start_us": 1676412000000000,
+      "cutoff_us": 1676498400000000
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_619_7_HD.json",
+      "sha256": "41726d68eb192a91e0770eccdc44d3f76c12970e6e39d1efd1c149c93d9cd2fc",
+      "data": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_619_7_HD.npz",
+        "sha256": "1d74d7e46700d01bcd01ce1e169dc012d6e9c142494876cc65c02936b4780c24"
+      },
+      "city_id": 619,
+      "budget": "7",
+      "row_count": 13291,
+      "eligible_anchor_hours": 167,
+      "start_us": 1675893600000000,
+      "cutoff_us": 1676498400000000
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_619_30_HD.json",
+      "sha256": "00d226ff2951c00f6551fa74a65b1a980bc2cf896224fbf0cacaa44f56003a4a",
+      "data": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_619_30_HD.npz",
+        "sha256": "a7602330073ea0d74cb451a554725e825ffec0f05b2abf5c5f9fcb6f60541833"
+      },
+      "city_id": 619,
+      "budget": "30",
+      "row_count": 57479,
+      "eligible_anchor_hours": 719,
+      "start_us": 1673906400000000,
+      "cutoff_us": 1676498400000000
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_619_full_HD.json",
+      "sha256": "29994baee727d01e8eb2b7cdaa2badc7340e7169645ec36a5f9019ae4210365f",
+      "data": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_619_full_HD.npz",
+        "sha256": "744a98c18f3d28188f3023e79f27cbf9e163addc5e2bfc4faa36b2d43d47be1b"
+      },
+      "city_id": 619,
+      "budget": "full",
+      "row_count": 320516,
+      "eligible_anchor_hours": 4024,
+      "start_us": 1661749200000000,
+      "cutoff_us": 1676498400000000
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_658_zero_HD.json",
+      "sha256": "5eda952c811eb984bddb8e86fc49de39e13040ce272371f758d892134f9fd2b7",
+      "data": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_658_zero_HD.npz",
+        "sha256": "2224e9d815c592b27d98b14cce20b2d0cb1eee79bee312f2f3fa43627c4a42b0"
+      },
+      "city_id": 658,
+      "budget": "zero",
+      "row_count": 0,
+      "eligible_anchor_hours": 0,
+      "start_us": 1676498400000000,
+      "cutoff_us": 1676498400000000
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_658_1_HD.json",
+      "sha256": "ddb8a38d1e248986a17d12cbdb168abab450ab6668e6e2df6d4da31f41d6dc4d",
+      "data": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_658_1_HD.npz",
+        "sha256": "9e1fbd3609b38e7529130a6a5900269264666c5d1e1babe78dc9a2027a3ed4e0"
+      },
+      "city_id": 658,
+      "budget": "1",
+      "row_count": 2470,
+      "eligible_anchor_hours": 23,
+      "start_us": 1676412000000000,
+      "cutoff_us": 1676498400000000
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_658_7_HD.json",
+      "sha256": "1349ad6597934742361159fd3ad6a3f4009b9c6799d4b6ed99d6cb0a100f0103",
+      "data": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_658_7_HD.npz",
+        "sha256": "b8508f38642ff4a19b3d14eae29b7f5a4d84b1078199946888fa68b72c4dde9e"
+      },
+      "city_id": 658,
+      "budget": "7",
+      "row_count": 17856,
+      "eligible_anchor_hours": 167,
+      "start_us": 1675893600000000,
+      "cutoff_us": 1676498400000000
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_658_30_HD.json",
+      "sha256": "d7d39c0289afb1e808063d0fc1a3065027c21b9c1cef3e5a07051804f064f46a",
+      "data": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_658_30_HD.npz",
+        "sha256": "5922c1bd791bd51f9fdd6b872002df02cbc3bca48903254f5e3b7943cbaa9593"
+      },
+      "city_id": 658,
+      "budget": "30",
+      "row_count": 74495,
+      "eligible_anchor_hours": 705,
+      "start_us": 1673906400000000,
+      "cutoff_us": 1676498400000000
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_658_full_HD.json",
+      "sha256": "edf5cc2edc6ee2953f16a28e3abeedeaef16c0f4abe9a24a195966d42f046170",
+      "data": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_658_full_HD.npz",
+        "sha256": "5051e2bb5e1d063ff80b15e3712994b98151bdb97cf8dccb3fbcc0569cdad740"
+      },
+      "city_id": 658,
+      "budget": "full",
+      "row_count": 415062,
+      "eligible_anchor_hours": 3897,
+      "start_us": 1661749200000000,
+      "cutoff_us": 1676498400000000
+    }
+  ],
+  "training_keys_sealed": true,
+  "predictor_origin_rule": "original origin t, never HD"
+}

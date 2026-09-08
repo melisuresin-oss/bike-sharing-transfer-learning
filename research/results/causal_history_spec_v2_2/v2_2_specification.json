@@ -1,0 +1,624 @@
+{
+  "active_v2_2_winners": {
+    "stage1": null,
+    "stage2": null,
+    "stage2b": null
+  },
+  "artifact_authority": [
+    {
+      "path": "RESEARCH_PROTOCOL_V2_2_AMENDMENT.md",
+      "required_contents": "Highest scientific rule authority; machine contract must agree.",
+      "role": "amendment",
+      "status": "SEALED_WITH_THIS_SPEC"
+    },
+    {
+      "path": "research/results/causal_history_spec_v2_2/fixed_cohort_static_manifest.json",
+      "required_contents": "Exact identities, node order, supplied static metadata and provenance hashes.",
+      "role": "cohort_static",
+      "status": "SEALED_WITH_THIS_SPEC"
+    },
+    {
+      "path": "processed/protocol_v2_2/PROTOCOL_DATASET_MANIFEST.json",
+      "required_contents": "Source hashes, microsecond normalization/runtime, feature schemas/function, separate retrospective adjudication snapshot, versioned partitions and keys.",
+      "role": "panel_data",
+      "status": "REQUIRED_NOT_CREATED"
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/causal_history_audit_manifest.json",
+      "required_contents": "All 18 invariant outcomes, evidence lineage and descriptive availability gates; no performance-driven amendment authority.",
+      "role": "causal_history_audit",
+      "status": "REQUIRED_NOT_CREATED"
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/fit_snapshot_manifest.json",
+      "required_contents": "Per fold/city/budget/cutoff sorted key lists, Y_C/M_C, feature-origin and permitted-source hashes; seal before fitting.",
+      "role": "fit_snapshots",
+      "status": "REQUIRED_NOT_CREATED"
+    },
+    {
+      "path": "research/results/development_baselines_v2_2/validation_manifest.json",
+      "required_contents": "Persistence, seasonal and HA prediction coverage; bound fitting keys/lookups/predictions; no implicit fallback.",
+      "role": "baselines",
+      "status": "REQUIRED_NOT_CREATED"
+    },
+    {
+      "path": "research/results/stage1_scale_loss_v2_2/stage1_decision_manifest.json",
+      "required_contents": "New bounded scale/loss selection and all corrected input/result hashes.",
+      "role": "stage1",
+      "status": "REQUIRED_NOT_CREATED"
+    },
+    {
+      "path": "research/results/stage2_graphgru_selection_v2_2/stage2_decision_manifest.json",
+      "required_contents": "New bounded Graph-GRU selection; requires Stage1 V2.2.",
+      "role": "stage2",
+      "status": "REQUIRED_NOT_CREATED"
+    },
+    {
+      "path": "research/results/stage2b_vanilla_selection_v2_2/stage2b_decision_and_closure_manifest.json",
+      "required_contents": "New independent VanillaGRU selection and closure; requires Stage1 V2.2, not Stage2 winner to train.",
+      "role": "stage2b",
+      "status": "REQUIRED_NOT_CREATED"
+    },
+    {
+      "path": "research/results/upstream_closure_v2_2/joint_upstream_closure_manifest.json",
+      "required_contents": "Joins corrected Stage1, Stage2 and Stage2B decisions and validated scientific provenance.",
+      "role": "joint_closure",
+      "status": "REQUIRED_NOT_CREATED"
+    },
+    {
+      "path": "research/results/stage3_finetuning_policy_v2_2/stage3_finetuning_policy_manifest.json",
+      "required_contents": "Preserve numerical policy; bind corrected upstream backbone/scale and snapshots.",
+      "role": "stage3",
+      "status": "REQUIRED_NOT_CREATED"
+    },
+    {
+      "path": "research/results/stage4_adversarial_method_v2_2/stage4_adversarial_method_manifest.json",
+      "required_contents": "Bind corrected decisions, discriminator input width, panel and Stage3; retain software gates; no final authorization.",
+      "role": "stage4",
+      "status": "REQUIRED_NOT_CREATED"
+    }
+  ],
+  "authority_conflict_behavior": "STOP; prose and machine contract must agree; lower artifacts cannot amend higher authority.",
+  "authorization_scope": "GOVERNANCE_SPECIFICATION_WRITES_ONLY",
+  "carried_forward_design": {
+    "architecture_authority": [
+      "MODEL_SPECIFICATION_V2_1.md",
+      "NEURAL_ARCHITECTURE_SPEC.md"
+    ],
+    "boundaries": {
+      "H0": "2022-08-29T05:00:00Z",
+      "HD": "2023-02-15T22:00:00Z",
+      "HE": "2023-07-15T20:00:00Z",
+      "HF": "2023-04-16T22:00:00Z",
+      "HT": "2023-05-11T15:00:00Z"
+    },
+    "budgets": {
+      "elapsed_windows": [
+        "1 day",
+        "7 days",
+        "30 days",
+        "full from H0"
+      ],
+      "final_target_cutoff": "2023-04-16T22:00:00Z",
+      "no_window_extension_for_missing_labels": true,
+      "parameter_zero": null,
+      "pseudo_target_cutoff": "2023-02-15T22:00:00Z"
+    },
+    "city_roles": [
+      {
+        "city": "Dortmund",
+        "city_id": 129,
+        "country": "DE",
+        "development_source": true,
+        "final_target": false,
+        "pseudo_target": false
+      },
+      {
+        "city": "Heidelberg",
+        "city_id": 194,
+        "country": "DE",
+        "development_source": true,
+        "final_target": false,
+        "pseudo_target": false
+      },
+      {
+        "city": "Mannheim",
+        "city_id": 195,
+        "country": "DE",
+        "development_source": false,
+        "final_target": true,
+        "pseudo_target": false
+      },
+      {
+        "city": "Innsbruck",
+        "city_id": 199,
+        "country": "AT",
+        "development_source": false,
+        "final_target": true,
+        "pseudo_target": false
+      },
+      {
+        "city": "Glasgow",
+        "city_id": 237,
+        "country": "GB",
+        "development_source": false,
+        "final_target": true,
+        "pseudo_target": false
+      },
+      {
+        "city": "Marburg",
+        "city_id": 438,
+        "country": "DE",
+        "development_source": true,
+        "final_target": false,
+        "pseudo_target": false
+      },
+      {
+        "city": "Gießen",
+        "city_id": 467,
+        "country": "DE",
+        "development_source": true,
+        "final_target": false,
+        "pseudo_target": false
+      },
+      {
+        "city": "Cardiff",
+        "city_id": 476,
+        "country": "GB",
+        "development_source": true,
+        "final_target": false,
+        "pseudo_target": true
+      },
+      {
+        "city": "Bilbao",
+        "city_id": 532,
+        "country": "ES",
+        "development_source": true,
+        "final_target": false,
+        "pseudo_target": true
+      },
+      {
+        "city": "Split",
+        "city_id": 617,
+        "country": "HR",
+        "development_source": false,
+        "final_target": true,
+        "pseudo_target": false
+      },
+      {
+        "city": "Freiburg",
+        "city_id": 619,
+        "country": "DE",
+        "development_source": true,
+        "final_target": false,
+        "pseudo_target": true
+      },
+      {
+        "city": "Göteborg",
+        "city_id": 658,
+        "country": "SE",
+        "development_source": true,
+        "final_target": false,
+        "pseudo_target": true
+      }
+    ],
+    "development_seeds": [
+      17,
+      29,
+      43
+    ],
+    "evaluation_metrics": "Registered count MAE primary, RMSE/WAPE secondary; station macro within city, equal-city comparisons and registered paired temporal blocks; unchanged metric definitions.",
+    "graph_algorithm": "symmetric union geographic kNN; Gaussian weights; median positive selected-edge distance sigma; unit self loops; symmetric degree normalization; stable node-order ties",
+    "inherited_design_sources": [
+      "RESEARCH_PROTOCOL_V2_1.md",
+      "FEATURE_PROTOCOL_V2_1.md",
+      "MODEL_SPECIFICATION_V2_1.md",
+      "MODEL_SPECIFICATION_V2.md",
+      "COMPUTATION_DAG_V2_1.md",
+      "TEMPORAL_SPLIT_PROTOCOL_V2.md",
+      "DEVELOPMENT_SELECTION_PROTOCOL.md",
+      "TRAINING_BUDGET_PROTOCOL.md",
+      "EVALUATION_PROTOCOL_V2.md",
+      "NEURAL_ARCHITECTURE_SPEC.md",
+      "NEURAL_REPRODUCIBILITY_PROTOCOL.md"
+    ],
+    "stage1": {
+      "adaptation_fits": 24,
+      "formulations": [
+        "RAW_COUNT_MAE",
+        "LOG1P_TARGET_MAE"
+      ],
+      "reference": {
+        "dropout": 0.1,
+        "hidden_size": 64,
+        "k": 8
+      },
+      "regimes": [
+        "parameter_zero",
+        "7_days_300_updates"
+      ],
+      "selection_source": "DEVELOPMENT_SELECTION_PROTOCOL.md",
+      "source_fits": 24
+    },
+    "stage2_grid": {
+      "dropout": [
+        0,
+        0.1
+      ],
+      "hidden_size": [
+        32,
+        64
+      ],
+      "k": [
+        4,
+        8,
+        16
+      ]
+    },
+    "stage2b_grid": {
+      "dropout": [
+        0,
+        0.1
+      ],
+      "hidden_size": [
+        32,
+        64
+      ]
+    },
+    "stage2b_selection_rule": {
+      "primary": "arithmetic_mean_of_four_pseudo_target_seed_mean_count_space_mae",
+      "primary_quantization": "decimal_ROUND_HALF_UP_to_4_places",
+      "seed_aggregation": "arithmetic_mean_within_pseudo_target",
+      "tie_1": "lower_population_standard_deviation_across_four_pseudo_target_seed_means",
+      "tie_2": "smaller_hidden_size",
+      "tie_3": "lower_dropout"
+    },
+    "stage3_policy": {
+      "adaptation_sampling": "with_replacement_within_elapsed_time_budget",
+      "batch_size": 16,
+      "causal_pre_budget_history_as_extra_adaptation_target": false,
+      "causal_pre_budget_history_as_input": true,
+      "early_stopping": false,
+      "full_network_fine_tuning": true,
+      "global_gradient_clip": 1.0,
+      "learning_rate": 0.0002,
+      "optimizer": "AdamW",
+      "reset_adamw_optimizer_state_before_adaptation": true,
+      "update_budgets": [
+        0,
+        100,
+        300,
+        600,
+        1200
+      ],
+      "weight_decay": 0.0001,
+      "zero_budget_is_fine_tuning_fit": false
+    },
+    "zero_shot": "No target parameter update; as-of target history under idealized feed may affect predictions. Not true new-city cold start."
+  },
+  "count_feed": {
+    "Q": "1[e <= a]",
+    "active_delay_microseconds": 0,
+    "eight_hour_bound_is_active_rule": false,
+    "export_duration_strict_upper_bound_hours": 8,
+    "measured_ingestion": false,
+    "policy": "IDEALIZED_COUNT_FEED_BENCHMARK",
+    "raw_prefix_replay_validated": false
+  },
+  "coverage": {
+    "O": "L*B*G",
+    "bracket_microseconds": 43200000000,
+    "city_gate": "D > 0 AND 2*N >= D",
+    "denominator": "sum(L) over frozen city roster",
+    "elapsed_bounds_inclusive": true,
+    "evidence": "status_event_timestamp <= a",
+    "full_history_extrema_allowed": false,
+    "lifetime": "prefix_nonempty AND min(prefix) <= s <= max(prefix)",
+    "missing_event_observed": false,
+    "next": "min(u >= e AND u <= a)",
+    "numerator": "sum(L*B) over frozen city roster",
+    "previous": "max(u <= s)"
+  },
+  "cross_loading": {
+    "exceptions": "Only explicitly bound immutable raw/infrastructure/design provenance; never old scientific predictors, fits, checkpoints or winners.",
+    "implicit_fallback_allowed": false,
+    "mismatch_behavior": "HARD_STOP",
+    "reject_v2_1_scientific_artifacts": true,
+    "required_fields": [
+      "protocol_version",
+      "spec_seal_sha256",
+      "artifact_role",
+      "schema_version",
+      "producer_code_sha256",
+      "upstream_sha256"
+    ],
+    "sealed_upstream_hashes_required": true
+  },
+  "descriptive_gate": {
+    "before": "stage1",
+    "development_only": true,
+    "inconvenient_values": "Do not alter thresholds, windows, cohort, splits, grids or model design.",
+    "persistence_fallback_allowed": false,
+    "required_reports": [
+      "predictor_availability_by_city_and_lag_1_to_24",
+      "weekly_availability_by_city",
+      "observed_positive_zero_unknown_proportions_with_denominators",
+      "source_fit_rows_by_city_at_HD",
+      "pseudo_target_rows_1d_7d_30d_full",
+      "baseline_prediction_coverage_including_sparse_empty_persistence",
+      "HA_fitting_pool_sizes"
+    ],
+    "selection_authority": false
+  },
+  "execution_authorizations": {
+    "ETL": false,
+    "evaluation": false,
+    "final_execution": false,
+    "final_target_evaluation_label_access": false,
+    "implementation": false,
+    "panel_construction": false,
+    "scientific_predictions": false,
+    "stage1_2_2b_reruns": false,
+    "stage4_execution": false,
+    "stage4_implementation": false,
+    "training": false
+  },
+  "features": {
+    "M_hist": "exact indicator channel of X_hist",
+    "history_start": "H0",
+    "input_log1p_independent_of_stage1_winner": true,
+    "lag_axis": "k ascending in storage; registered chronological recurrent consumption",
+    "lags": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "mask": "O_i(h;t)*Q_i(h;t)",
+    "positive_count_exception": false,
+    "retrospective_Y_reads_allowed": false,
+    "shared_function_required": true,
+    "states": {
+      "positive": [
+        "log1p(d)",
+        1
+      ],
+      "unknown": [
+        0,
+        0
+      ],
+      "zero": [
+        0,
+        1
+      ]
+    },
+    "weekly_lag": 168
+  },
+  "final_execution_blockers": [
+    "final_seed_count_3_vs_5",
+    "seed_x_temporal_bootstrap_aggregation",
+    "prediction_commitment_and_final_execution_machinery"
+  ],
+  "fit_policy": {
+    "certification": "O_i(h;C)*Q_i(h;C) == 1",
+    "empty_positive_budget": "STOP_NON_ESTIMABLE_NO_FALLBACK",
+    "eventual_retrospective_mask_may_filter_fit": false,
+    "historical_predictor_cutoff": "t, not C",
+    "neural_labels_certified_by_C": true,
+    "no_retrospective_backfill": true,
+    "no_window_extension": true,
+    "same_HA_and_adaptation_membership": true,
+    "sealed_training_keys_required": true,
+    "window_membership": "registered half-open label-hour window and e<=C"
+  },
+  "fit_workload": {
+    "completed_stage_reruns_total": 240,
+    "later_stage4_adaptation": 72,
+    "later_stage4_source": 72,
+    "policy_rebinds": 0,
+    "stage1": 48,
+    "stage2": 144,
+    "stage2b": 48
+  },
+  "implementation_blockers": [],
+  "mandatory_invariants": [
+    {
+      "id": "future_append",
+      "requirement": "Hold roster/static/count feed fixed. Append status events strictly after t, including other-station lifetime extensions. All predictor tensors, masks, graph inputs and prediction keys at t remain bitwise identical.",
+      "status": "REQUIRED_NOT_EXECUTED"
+    },
+    {
+      "id": "status_prefix_equivalence",
+      "requirement": "Full raw status plus cutoff t equals an in-memory physically truncated status prefix <=t. This is a STATUS test, not a claim of raw bike-trip replay.",
+      "status": "REQUIRED_NOT_EXECUTED"
+    },
+    {
+      "id": "no_future_status_certificate",
+      "requirement": "Trace every status contributing to station masks and network numerator/denominator; all event timestamps <=t.",
+      "status": "REQUIRED_NOT_EXECUTED"
+    },
+    {
+      "id": "exact_12h_boundary",
+      "requirement": "Both backward and forward elapsed intervals accept exactly 12h and reject 12h+1 microsecond; exercise equality at s,e,t and lag-13 regression.",
+      "status": "REQUIRED_NOT_EXECUTED"
+    },
+    {
+      "id": "train_inference_parity",
+      "requirement": "Same city/station/origin and bound metadata yield bitwise identical features, masks, ordering and dtypes through training and inference entry points.",
+      "status": "REQUIRED_NOT_EXECUTED"
+    },
+    {
+      "id": "fit_cutoff_invariance",
+      "requirement": "Appending status after C cannot change frozen training keys, fit-specific labels/masks, adaptation pools, HA sufficient statistics or lookups. Include denominator changes.",
+      "status": "REQUIRED_NOT_EXECUTED"
+    },
+    {
+      "id": "target_predictor_separation",
+      "requirement": "Later retrospective evaluation adjudication cannot change earlier predictors, prediction keys or fitted artifacts.",
+      "status": "REQUIRED_NOT_EXECUTED"
+    },
+    {
+      "id": "final_label_firewall",
+      "requirement": "Deny final evaluation label paths to development, fitting and predictor APIs; commit predictions before evaluator label access; no test opens final labels.",
+      "status": "REQUIRED_NOT_EXECUTED"
+    },
+    {
+      "id": "zero_denominator",
+      "requirement": "D=0 gives G=0 and unknown, never division by zero or vacuous observability.",
+      "status": "REQUIRED_NOT_EXECUTED"
+    },
+    {
+      "id": "exact_50_percent",
+      "requirement": "Exercise D=1,2,3,4,5: minimum N=1,1,2,2,3 respectively; one fewer fails; use integer 2*N>=D.",
+      "status": "REQUIRED_NOT_EXECUTED"
+    },
+    {
+      "id": "three_value_states",
+      "requirement": "Positive certified d -> (log1p(d),1), certified zero -> (0,1), unavailable -> (0,0). Positive count alone cannot override coverage.",
+      "status": "REQUIRED_NOT_EXECUTED"
+    },
+    {
+      "id": "duplicate_missing_determinism",
+      "requirement": "Set semantics for duplicate station/timestamp evidence, deterministic ordering, null/missing event failure, and irrelevant payload conflicts leave masks unchanged.",
+      "status": "REQUIRED_NOT_EXECUTED"
+    },
+    {
+      "id": "dst_elapsed_utc",
+      "requirement": "Lags 1..24 and 168 are exact elapsed UTC offsets across both DST transitions; calendar uses pinned city timezone rules.",
+      "status": "REQUIRED_NOT_EXECUTED"
+    },
+    {
+      "id": "fixed_cohort",
+      "requirement": "Exactly the bound 799 identities and node order persist under appended status, changed eligibility diagnostics and changing coverage.",
+      "status": "REQUIRED_NOT_EXECUTED"
+    },
+    {
+      "id": "static_hash_binding",
+      "requirement": "Reject mismatched identity/coordinate/capacity/city/timezone hashes, versions or node ordering.",
+      "status": "REQUIRED_NOT_EXECUTED"
+    },
+    {
+      "id": "idealized_count_feed",
+      "requirement": "Q=1 exactly when e<=a; unfinished hour rejected; no duration/time_end/8h delay is introduced into active availability.",
+      "status": "REQUIRED_NOT_EXECUTED"
+    },
+    {
+      "id": "no_retrospective_y_reads",
+      "requirement": "Schema/code/read-projection checks demonstrate active predictor construction reads no retrospective Y or target-mask fields and does not shift them.",
+      "status": "REQUIRED_NOT_EXECUTED"
+    },
+    {
+      "id": "sealed_training_keys",
+      "requirement": "Refuse any neural or HA fit before its sorted training-key manifest and associated value/mask/origin-feature snapshots are sealed and hash-reconciled.",
+      "status": "REQUIRED_NOT_EXECUTED"
+    }
+  ],
+  "protocol_version": "2.2",
+  "rerun_dag": {
+    "edges": [
+      [
+        "implementation",
+        "invariants"
+      ],
+      [
+        "invariants",
+        "panel_and_fit_snapshots"
+      ],
+      [
+        "panel_and_fit_snapshots",
+        "availability_baselines"
+      ],
+      [
+        "availability_baselines",
+        "stage1"
+      ],
+      [
+        "stage1",
+        "stage2"
+      ],
+      [
+        "stage1",
+        "stage2b"
+      ],
+      [
+        "stage2",
+        "joint_closure"
+      ],
+      [
+        "stage2b",
+        "joint_closure"
+      ],
+      [
+        "joint_closure",
+        "stage3_rebind"
+      ],
+      [
+        "stage3_rebind",
+        "stage4_rebind"
+      ],
+      [
+        "stage4_rebind",
+        "stage4_implementation_gates"
+      ],
+      [
+        "stage4_implementation_gates",
+        "stage4_development"
+      ]
+    ],
+    "nodes": [
+      "implementation",
+      "invariants",
+      "panel_and_fit_snapshots",
+      "availability_baselines",
+      "stage1",
+      "stage2",
+      "stage2b",
+      "joint_closure",
+      "stage3_rebind",
+      "stage4_rebind",
+      "stage4_implementation_gates",
+      "stage4_development"
+    ],
+    "parallel_after_stage1": [
+      "stage2",
+      "stage2b"
+    ]
+  },
+  "retrospective_evaluation": {
+    "later_evidence_permitted_by_registered_protocol": true,
+    "may_change_predictors_or_fits": false,
+    "prediction_keys_independent_of_eventual_mask": true,
+    "separate_adjudication_snapshot": true
+  },
+  "schema_version": "1.0",
+  "time_rules": {
+    "12h_plus_1_microsecond_rejected": true,
+    "cutoff_equality_accepted": true,
+    "exact_12h_accepted": true,
+    "hour_interval": "[s,e)",
+    "minute_rounded_differences_allowed": false,
+    "post_cutoff_evidence_prohibited": true,
+    "precision": "microsecond",
+    "timezone": "UTC"
+  }
+}

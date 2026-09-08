@@ -1,0 +1,7219 @@
+{
+  "eligibility_recomputation_changes_membership": false,
+  "policy": "FIXED_RETROSPECTIVELY_SELECTED_RESEARCH_COHORT",
+  "prospective_discovery_claim": false,
+  "protocol_version": "2.2",
+  "schema_version": "1.0",
+  "source_static_sha256": {
+    "feasibility_test/full_audit/data/cities/train-00000-of-00001.parquet": "475c3c2d161e865fef8cec3eb7eed3df87f962987ea5f46e74530f73610c2753",
+    "processed/protocol_v2_1/station_manifests/city_129_dortmund_stations.parquet": "0d1e20edfc438305feacb36a97b094fca6f7a56df314c82d2ac3bb9ac3d6a03e",
+    "processed/protocol_v2_1/station_manifests/city_194_heidelberg_stations.parquet": "10d9ce71e6821d7b54b7992f14ea7f55a8a2f7ae376c58f79259e39b8162ff0d",
+    "processed/protocol_v2_1/station_manifests/city_195_mannheim_stations.parquet": "6f09f3e26a1738ead2474b81c36457a325387665d721de61603b9ab7011b8936",
+    "processed/protocol_v2_1/station_manifests/city_199_innsbruck_stations.parquet": "9f1370b8984475020ea8e3e445b809359fb878b4f798922317b1f6c438e2806f",
+    "processed/protocol_v2_1/station_manifests/city_237_glasgow_stations.parquet": "8dd4a764ac4970163fed3cf59539abfc199618d8d206414c93a52cff3d233b9a",
+    "processed/protocol_v2_1/station_manifests/city_438_marburg_stations.parquet": "926ebb1fd6468e1c71505cfc9747f74b2058760ea1ec82f28b9cb2ab20c3c579",
+    "processed/protocol_v2_1/station_manifests/city_467_gießen_stations.parquet": "3f6eb3fe2d106e9b25a902c8d0eeb013053a9908755e0c888543197085b7ea8b",
+    "processed/protocol_v2_1/station_manifests/city_476_cardiff_stations.parquet": "213cdcd0b0ec8b045d7d735b01d1ea44f1e1e8786b005558dba41266772bc269",
+    "processed/protocol_v2_1/station_manifests/city_532_bilbao_stations.parquet": "d467fc440e015ccefa9b8b5aa795b575e1a93d71d325ad98271adba34ef0294d",
+    "processed/protocol_v2_1/station_manifests/city_617_split_stations.parquet": "ac27d16d5bdb13b0ec4131c119311f025c1e6775ba5c697a9c7cef0d44bff85b",
+    "processed/protocol_v2_1/station_manifests/city_619_freiburg_stations.parquet": "ceefaed977e9686a437294f1eeed574722cf6125b0f0872ea5391f3fd518fbb2",
+    "processed/protocol_v2_1/station_manifests/city_658_göteborg_stations.parquet": "25e7e5cf61179367fd14deae62592f2b491bea4f4f99e3091e31edf77aa32e61"
+  },
+  "source_station_manifest": "processed/protocol_v2_1/station_manifests/station_manifest.json",
+  "static_metadata_assumption": "Historical publication timestamps are unavailable; supplied IDs, coordinates, capacity, city mapping and timezone are assumed available and applicable throughout the benchmark.",
+  "static_rows_sha256": "6227f35aa3edc8a02219ee6617da08aea47619944e56ad7ffee4664642b4b375",
+  "station_count": 799,
+  "stations": [
+    {
+      "bike_racks": 11,
+      "city_id": 129,
+      "latitude": 51.512909,
+      "longitude": 7.423314,
+      "node_index": 0,
+      "station_id": 50366,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 13,
+      "city_id": 129,
+      "latitude": 51.518965,
+      "longitude": 7.459105,
+      "node_index": 1,
+      "station_id": 50367,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 16,
+      "city_id": 129,
+      "latitude": 51.519332,
+      "longitude": 7.460124,
+      "node_index": 2,
+      "station_id": 50368,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 20,
+      "city_id": 129,
+      "latitude": 51.517155,
+      "longitude": 7.459931,
+      "node_index": 3,
+      "station_id": 50370,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 13,
+      "city_id": 129,
+      "latitude": 51.516726,
+      "longitude": 7.461765,
+      "node_index": 4,
+      "station_id": 50371,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 129,
+      "latitude": 51.516831,
+      "longitude": 7.469189,
+      "node_index": 5,
+      "station_id": 50372,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 129,
+      "latitude": 51.515364,
+      "longitude": 7.462082,
+      "node_index": 6,
+      "station_id": 50373,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 129,
+      "latitude": 51.513917,
+      "longitude": 7.472624,
+      "node_index": 7,
+      "station_id": 50375,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 14,
+      "city_id": 129,
+      "latitude": 51.512609,
+      "longitude": 7.463483,
+      "node_index": 8,
+      "station_id": 50376,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 5,
+      "city_id": 129,
+      "latitude": 51.513113,
+      "longitude": 7.455742,
+      "node_index": 9,
+      "station_id": 50377,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 129,
+      "latitude": 51.513116,
+      "longitude": 7.467039,
+      "node_index": 10,
+      "station_id": 50378,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 13,
+      "city_id": 129,
+      "latitude": 51.510311,
+      "longitude": 7.462237,
+      "node_index": 11,
+      "station_id": 50379,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 16,
+      "city_id": 129,
+      "latitude": 51.510976,
+      "longitude": 7.464534,
+      "node_index": 12,
+      "station_id": 50380,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 129,
+      "latitude": 51.513069,
+      "longitude": 7.448886,
+      "node_index": 13,
+      "station_id": 50382,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 13,
+      "city_id": 129,
+      "latitude": 51.5138,
+      "longitude": 7.455865,
+      "node_index": 14,
+      "station_id": 50383,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 7,
+      "city_id": 129,
+      "latitude": 51.515115,
+      "longitude": 7.464033,
+      "node_index": 15,
+      "station_id": 50384,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 13,
+      "city_id": 129,
+      "latitude": 51.507457,
+      "longitude": 7.451364,
+      "node_index": 16,
+      "station_id": 50385,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 13,
+      "city_id": 129,
+      "latitude": 51.508926,
+      "longitude": 7.456504,
+      "node_index": 17,
+      "station_id": 50386,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 14,
+      "city_id": 129,
+      "latitude": 51.510041,
+      "longitude": 7.46756,
+      "node_index": 18,
+      "station_id": 50387,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 13,
+      "city_id": 129,
+      "latitude": 51.508245,
+      "longitude": 7.468783,
+      "node_index": 19,
+      "station_id": 50388,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 14,
+      "city_id": 129,
+      "latitude": 51.505213,
+      "longitude": 7.459899,
+      "node_index": 20,
+      "station_id": 50389,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 129,
+      "latitude": 51.498845,
+      "longitude": 7.489751,
+      "node_index": 21,
+      "station_id": 50392,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 13,
+      "city_id": 129,
+      "latitude": 51.496701,
+      "longitude": 7.459367,
+      "node_index": 22,
+      "station_id": 50395,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 129,
+      "latitude": 51.493375,
+      "longitude": 7.407124,
+      "node_index": 23,
+      "station_id": 50400,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 7,
+      "city_id": 129,
+      "latitude": 51.520013,
+      "longitude": 7.464502,
+      "node_index": 24,
+      "station_id": 113544,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 129,
+      "latitude": 51.522256,
+      "longitude": 7.464609,
+      "node_index": 25,
+      "station_id": 113550,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 129,
+      "latitude": 51.523951,
+      "longitude": 7.481904,
+      "node_index": 26,
+      "station_id": 113551,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 129,
+      "latitude": 51.518297,
+      "longitude": 7.474962,
+      "node_index": 27,
+      "station_id": 113552,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 7,
+      "city_id": 129,
+      "latitude": 51.514104,
+      "longitude": 7.496324,
+      "node_index": 28,
+      "station_id": 113553,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 129,
+      "latitude": 51.515473,
+      "longitude": 7.502863,
+      "node_index": 29,
+      "station_id": 113554,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 129,
+      "latitude": 51.491234,
+      "longitude": 7.503458,
+      "node_index": 30,
+      "station_id": 113555,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 129,
+      "latitude": 51.501944,
+      "longitude": 7.472903,
+      "node_index": 31,
+      "station_id": 113556,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 129,
+      "latitude": 51.516234,
+      "longitude": 7.477398,
+      "node_index": 32,
+      "station_id": 113557,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 129,
+      "latitude": 51.500725,
+      "longitude": 7.459819,
+      "node_index": 33,
+      "station_id": 113559,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 129,
+      "latitude": 51.506312,
+      "longitude": 7.470531,
+      "node_index": 34,
+      "station_id": 113561,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 129,
+      "latitude": 51.488371,
+      "longitude": 7.499097,
+      "node_index": 35,
+      "station_id": 113562,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 129,
+      "latitude": 51.502318,
+      "longitude": 7.450029,
+      "node_index": 36,
+      "station_id": 113563,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 129,
+      "latitude": 51.517569,
+      "longitude": 7.46477,
+      "node_index": 37,
+      "station_id": 113564,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 129,
+      "latitude": 51.498334,
+      "longitude": 7.452995,
+      "node_index": 38,
+      "station_id": 113565,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 129,
+      "latitude": 51.509343,
+      "longitude": 7.446789,
+      "node_index": 39,
+      "station_id": 113567,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 129,
+      "latitude": 51.508769,
+      "longitude": 7.440255,
+      "node_index": 40,
+      "station_id": 113570,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 129,
+      "latitude": 51.503293,
+      "longitude": 7.455822,
+      "node_index": 41,
+      "station_id": 113571,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 7,
+      "city_id": 129,
+      "latitude": 51.492637,
+      "longitude": 7.417472,
+      "node_index": 42,
+      "station_id": 113573,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 129,
+      "latitude": 51.510782,
+      "longitude": 7.474034,
+      "node_index": 43,
+      "station_id": 117829,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 129,
+      "latitude": 51.500675,
+      "longitude": 7.440834,
+      "node_index": 44,
+      "station_id": 118419,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 129,
+      "latitude": 51.499039,
+      "longitude": 7.451472,
+      "node_index": 45,
+      "station_id": 122697,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 129,
+      "latitude": 51.500702,
+      "longitude": 7.483363,
+      "node_index": 46,
+      "station_id": 126107,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 129,
+      "latitude": 51.510726,
+      "longitude": 7.50363,
+      "node_index": 47,
+      "station_id": 147085,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 4,
+      "city_id": 129,
+      "latitude": 51.503343,
+      "longitude": 7.49767,
+      "node_index": 48,
+      "station_id": 193147,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 129,
+      "latitude": 51.504422,
+      "longitude": 7.475982,
+      "node_index": 49,
+      "station_id": 194704,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 129,
+      "latitude": 51.512993,
+      "longitude": 7.483154,
+      "node_index": 50,
+      "station_id": 195049,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 5,
+      "city_id": 129,
+      "latitude": 51.529535,
+      "longitude": 7.453988,
+      "node_index": 51,
+      "station_id": 4478239,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 129,
+      "latitude": 51.493966,
+      "longitude": 7.418008,
+      "node_index": 52,
+      "station_id": 6260019,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 129,
+      "latitude": 51.492296,
+      "longitude": 7.41273,
+      "node_index": 53,
+      "station_id": 6260044,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 129,
+      "latitude": 51.491721,
+      "longitude": 7.409468,
+      "node_index": 54,
+      "station_id": 6260062,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 129,
+      "latitude": 51.476488,
+      "longitude": 7.431135,
+      "node_index": 55,
+      "station_id": 6331190,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 5,
+      "city_id": 129,
+      "latitude": 51.490505,
+      "longitude": 7.438352,
+      "node_index": 56,
+      "station_id": 7161407,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 5,
+      "city_id": 129,
+      "latitude": 51.482359,
+      "longitude": 7.432326,
+      "node_index": 57,
+      "station_id": 7161443,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 5,
+      "city_id": 129,
+      "latitude": 51.476038,
+      "longitude": 7.439691,
+      "node_index": 58,
+      "station_id": 7161454,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 129,
+      "latitude": 51.506613,
+      "longitude": 7.455587,
+      "node_index": 59,
+      "station_id": 7314560,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 129,
+      "latitude": 51.493695,
+      "longitude": 7.420396,
+      "node_index": 60,
+      "station_id": 7314581,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 3,
+      "city_id": 129,
+      "latitude": 51.525941,
+      "longitude": 7.464775,
+      "node_index": 61,
+      "station_id": 14542385,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 3,
+      "city_id": 129,
+      "latitude": 51.532685,
+      "longitude": 7.454631,
+      "node_index": 62,
+      "station_id": 14542821,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 129,
+      "latitude": 51.524135,
+      "longitude": 7.452732,
+      "node_index": 63,
+      "station_id": 14542854,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 129,
+      "latitude": 51.524228,
+      "longitude": 7.444455,
+      "node_index": 64,
+      "station_id": 14542880,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 129,
+      "latitude": 51.508876,
+      "longitude": 7.389598,
+      "node_index": 65,
+      "station_id": 14542918,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 129,
+      "latitude": 51.501927,
+      "longitude": 7.419553,
+      "node_index": 66,
+      "station_id": 14543375,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 129,
+      "latitude": 51.481319,
+      "longitude": 7.41486,
+      "node_index": 67,
+      "station_id": 14543399,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 129,
+      "latitude": 51.488465,
+      "longitude": 7.424811,
+      "node_index": 68,
+      "station_id": 14543429,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 129,
+      "latitude": 51.488709,
+      "longitude": 7.41236,
+      "node_index": 69,
+      "station_id": 14543485,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 129,
+      "latitude": 51.492947,
+      "longitude": 7.430127,
+      "node_index": 70,
+      "station_id": 14543518,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 129,
+      "latitude": 51.522319,
+      "longitude": 7.443575,
+      "node_index": 71,
+      "station_id": 16740272,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 129,
+      "latitude": 51.479054,
+      "longitude": 7.458944,
+      "node_index": 72,
+      "station_id": 39325692,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 129,
+      "latitude": 51.528457,
+      "longitude": 7.50231,
+      "node_index": 73,
+      "station_id": 52405373,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 129,
+      "latitude": 51.510739,
+      "longitude": 7.443023,
+      "node_index": 74,
+      "station_id": 62865660,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 129,
+      "latitude": 51.491519,
+      "longitude": 7.416148,
+      "node_index": 75,
+      "station_id": 81369279,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 194,
+      "latitude": 49.399001,
+      "longitude": 8.689129,
+      "node_index": 0,
+      "station_id": 121354,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 194,
+      "latitude": 49.414965,
+      "longitude": 8.664772,
+      "node_index": 1,
+      "station_id": 121355,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 194,
+      "latitude": 49.412994,
+      "longitude": 8.676321,
+      "node_index": 2,
+      "station_id": 121357,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 194,
+      "latitude": 49.418566,
+      "longitude": 8.690573,
+      "node_index": 3,
+      "station_id": 121359,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 194,
+      "latitude": 49.41106,
+      "longitude": 8.706719,
+      "node_index": 4,
+      "station_id": 121361,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 194,
+      "latitude": 49.411989,
+      "longitude": 8.699137,
+      "node_index": 5,
+      "station_id": 121363,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 14,
+      "city_id": 194,
+      "latitude": 49.413266,
+      "longitude": 8.691881,
+      "node_index": 6,
+      "station_id": 121368,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 16,
+      "city_id": 194,
+      "latitude": 49.404813,
+      "longitude": 8.675428,
+      "node_index": 7,
+      "station_id": 121377,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 194,
+      "latitude": 49.380368,
+      "longitude": 8.687546,
+      "node_index": 8,
+      "station_id": 339517,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 194,
+      "latitude": 49.415281,
+      "longitude": 8.761061,
+      "node_index": 9,
+      "station_id": 339519,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 194,
+      "latitude": 49.377529,
+      "longitude": 8.666115,
+      "node_index": 10,
+      "station_id": 339522,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 194,
+      "latitude": 49.419178,
+      "longitude": 8.756586,
+      "node_index": 11,
+      "station_id": 339523,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 28,
+      "city_id": 194,
+      "latitude": 49.428198,
+      "longitude": 8.683598,
+      "node_index": 12,
+      "station_id": 344831,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 194,
+      "latitude": 49.401751,
+      "longitude": 8.672343,
+      "node_index": 13,
+      "station_id": 495832,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 194,
+      "latitude": 49.42343,
+      "longitude": 8.645995,
+      "node_index": 14,
+      "station_id": 497198,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 194,
+      "latitude": 49.415036,
+      "longitude": 8.720242,
+      "node_index": 15,
+      "station_id": 509947,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 194,
+      "latitude": 49.407127,
+      "longitude": 8.690647,
+      "node_index": 16,
+      "station_id": 661038,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 194,
+      "latitude": 49.40817,
+      "longitude": 8.687991,
+      "node_index": 17,
+      "station_id": 661043,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 194,
+      "latitude": 49.407699,
+      "longitude": 8.674666,
+      "node_index": 18,
+      "station_id": 661047,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 194,
+      "latitude": 49.413734,
+      "longitude": 8.71432,
+      "node_index": 19,
+      "station_id": 681918,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 194,
+      "latitude": 49.409137,
+      "longitude": 8.698125,
+      "node_index": 20,
+      "station_id": 681922,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 194,
+      "latitude": 49.410104,
+      "longitude": 8.703715,
+      "node_index": 21,
+      "station_id": 732725,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 194,
+      "latitude": 49.413203,
+      "longitude": 8.70563,
+      "node_index": 22,
+      "station_id": 732726,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 194,
+      "latitude": 49.415985,
+      "longitude": 8.671636,
+      "node_index": 23,
+      "station_id": 1250591,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 194,
+      "latitude": 49.41979,
+      "longitude": 8.67488,
+      "node_index": 24,
+      "station_id": 1250605,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 194,
+      "latitude": 49.390129,
+      "longitude": 8.666416,
+      "node_index": 25,
+      "station_id": 1814955,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 194,
+      "latitude": 49.405832,
+      "longitude": 8.683877,
+      "node_index": 26,
+      "station_id": 4287542,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 194,
+      "latitude": 49.419857,
+      "longitude": 8.684888,
+      "node_index": 27,
+      "station_id": 7447271,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 194,
+      "latitude": 49.419829,
+      "longitude": 8.669628,
+      "node_index": 28,
+      "station_id": 7447360,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 194,
+      "latitude": 49.401978,
+      "longitude": 8.6405,
+      "node_index": 29,
+      "station_id": 7472124,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 194,
+      "latitude": 49.389809,
+      "longitude": 8.689503,
+      "node_index": 30,
+      "station_id": 7472241,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 194,
+      "latitude": 49.384066,
+      "longitude": 8.684925,
+      "node_index": 31,
+      "station_id": 8828563,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 194,
+      "latitude": 49.420337,
+      "longitude": 8.659163,
+      "node_index": 32,
+      "station_id": 12338899,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 194,
+      "latitude": 49.425246,
+      "longitude": 8.656672,
+      "node_index": 33,
+      "station_id": 13334262,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 194,
+      "latitude": 49.378751,
+      "longitude": 8.67634,
+      "node_index": 34,
+      "station_id": 19153166,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 194,
+      "latitude": 49.412156,
+      "longitude": 8.641546,
+      "node_index": 35,
+      "station_id": 20555131,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 194,
+      "latitude": 49.402449,
+      "longitude": 8.675809,
+      "node_index": 36,
+      "station_id": 27700413,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 194,
+      "latitude": 49.400997,
+      "longitude": 8.668959,
+      "node_index": 37,
+      "station_id": 36673075,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 194,
+      "latitude": 49.403643,
+      "longitude": 8.667312,
+      "node_index": 38,
+      "station_id": 36673159,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 194,
+      "latitude": 49.405626,
+      "longitude": 8.693989,
+      "node_index": 39,
+      "station_id": 37539484,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 194,
+      "latitude": 49.404285,
+      "longitude": 8.676378,
+      "node_index": 40,
+      "station_id": 59654355,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 194,
+      "latitude": 49.402488,
+      "longitude": 8.647174,
+      "node_index": 41,
+      "station_id": 59655887,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 194,
+      "latitude": 49.408694,
+      "longitude": 8.693737,
+      "node_index": 42,
+      "station_id": 59656724,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 194,
+      "latitude": 49.388906,
+      "longitude": 8.683469,
+      "node_index": 43,
+      "station_id": 59657356,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 194,
+      "latitude": 49.393784,
+      "longitude": 8.670809,
+      "node_index": 44,
+      "station_id": 59657530,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 194,
+      "latitude": 49.404373,
+      "longitude": 8.684837,
+      "node_index": 45,
+      "station_id": 78599753,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 194,
+      "latitude": 49.420085,
+      "longitude": 8.683062,
+      "node_index": 46,
+      "station_id": 79153997,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 195,
+      "latitude": 49.477082,
+      "longitude": 8.463662,
+      "node_index": 0,
+      "station_id": 121376,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 9,
+      "city_id": 195,
+      "latitude": 49.49707,
+      "longitude": 8.473044,
+      "node_index": 1,
+      "station_id": 339343,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 195,
+      "latitude": 49.497263,
+      "longitude": 8.483832,
+      "node_index": 2,
+      "station_id": 339346,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 195,
+      "latitude": 49.498946,
+      "longitude": 8.467224,
+      "node_index": 3,
+      "station_id": 339349,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 195,
+      "latitude": 49.506903,
+      "longitude": 8.492206,
+      "node_index": 4,
+      "station_id": 339350,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 195,
+      "latitude": 49.497225,
+      "longitude": 8.457751,
+      "node_index": 5,
+      "station_id": 339352,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 195,
+      "latitude": 49.493002,
+      "longitude": 8.470325,
+      "node_index": 6,
+      "station_id": 339354,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 195,
+      "latitude": 49.490685,
+      "longitude": 8.475705,
+      "node_index": 7,
+      "station_id": 339456,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 195,
+      "latitude": 49.489559,
+      "longitude": 8.480297,
+      "node_index": 8,
+      "station_id": 339457,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 195,
+      "latitude": 49.487939,
+      "longitude": 8.478742,
+      "node_index": 9,
+      "station_id": 339459,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 195,
+      "latitude": 49.485357,
+      "longitude": 8.47665,
+      "node_index": 10,
+      "station_id": 339461,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 11,
+      "city_id": 195,
+      "latitude": 49.489761,
+      "longitude": 8.468437,
+      "node_index": 11,
+      "station_id": 339462,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 11,
+      "city_id": 195,
+      "latitude": 49.487956,
+      "longitude": 8.466007,
+      "node_index": 12,
+      "station_id": 339463,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 195,
+      "latitude": 49.489012,
+      "longitude": 8.462997,
+      "node_index": 13,
+      "station_id": 339464,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 195,
+      "latitude": 49.483245,
+      "longitude": 8.474793,
+      "node_index": 14,
+      "station_id": 339465,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 195,
+      "latitude": 49.491183,
+      "longitude": 8.462391,
+      "node_index": 15,
+      "station_id": 339466,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 195,
+      "latitude": 49.484576,
+      "longitude": 8.459859,
+      "node_index": 16,
+      "station_id": 339468,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 195,
+      "latitude": 49.486935,
+      "longitude": 8.458459,
+      "node_index": 17,
+      "station_id": 339472,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 20,
+      "city_id": 195,
+      "latitude": 49.4846,
+      "longitude": 8.463464,
+      "node_index": 18,
+      "station_id": 339473,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 195,
+      "latitude": 49.479686,
+      "longitude": 8.470931,
+      "node_index": 19,
+      "station_id": 339475,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 195,
+      "latitude": 49.493448,
+      "longitude": 8.458968,
+      "node_index": 20,
+      "station_id": 339476,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 195,
+      "latitude": 49.470261,
+      "longitude": 8.482255,
+      "node_index": 21,
+      "station_id": 339478,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 195,
+      "latitude": 49.479502,
+      "longitude": 8.495221,
+      "node_index": 22,
+      "station_id": 339481,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 195,
+      "latitude": 49.477358,
+      "longitude": 8.496122,
+      "node_index": 23,
+      "station_id": 339482,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 195,
+      "latitude": 49.478512,
+      "longitude": 8.482561,
+      "node_index": 24,
+      "station_id": 339485,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 195,
+      "latitude": 49.485371,
+      "longitude": 8.469493,
+      "node_index": 25,
+      "station_id": 339487,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 195,
+      "latitude": 49.477236,
+      "longitude": 8.467573,
+      "node_index": 26,
+      "station_id": 660937,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 195,
+      "latitude": 49.464913,
+      "longitude": 8.475941,
+      "node_index": 27,
+      "station_id": 660939,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 195,
+      "latitude": 49.474329,
+      "longitude": 8.486944,
+      "node_index": 28,
+      "station_id": 660943,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 195,
+      "latitude": 49.474531,
+      "longitude": 8.489524,
+      "node_index": 29,
+      "station_id": 660945,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 195,
+      "latitude": 49.48275,
+      "longitude": 8.463303,
+      "node_index": 30,
+      "station_id": 660951,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 195,
+      "latitude": 49.456695,
+      "longitude": 8.481027,
+      "node_index": 31,
+      "station_id": 660971,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 195,
+      "latitude": 49.494114,
+      "longitude": 8.4676,
+      "node_index": 32,
+      "station_id": 660974,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 195,
+      "latitude": 49.508376,
+      "longitude": 8.476054,
+      "node_index": 33,
+      "station_id": 660978,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 195,
+      "latitude": 49.502211,
+      "longitude": 8.465255,
+      "node_index": 34,
+      "station_id": 660983,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 195,
+      "latitude": 49.47365,
+      "longitude": 8.46642,
+      "node_index": 35,
+      "station_id": 1557693,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 195,
+      "latitude": 49.473472,
+      "longitude": 8.53399,
+      "node_index": 36,
+      "station_id": 4726808,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 195,
+      "latitude": 49.500855,
+      "longitude": 8.499588,
+      "node_index": 37,
+      "station_id": 4726822,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 4,
+      "city_id": 195,
+      "latitude": 49.485698,
+      "longitude": 8.473613,
+      "node_index": 38,
+      "station_id": 4915747,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 195,
+      "latitude": 49.481997,
+      "longitude": 8.483387,
+      "node_index": 39,
+      "station_id": 5582461,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 195,
+      "latitude": 49.492344,
+      "longitude": 8.482906,
+      "node_index": 40,
+      "station_id": 7853258,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 195,
+      "latitude": 49.508189,
+      "longitude": 8.512414,
+      "node_index": 41,
+      "station_id": 9214247,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 195,
+      "latitude": 49.509912,
+      "longitude": 8.483559,
+      "node_index": 42,
+      "station_id": 24559076,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 195,
+      "latitude": 49.485956,
+      "longitude": 8.466076,
+      "node_index": 43,
+      "station_id": 27230822,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 195,
+      "latitude": 49.503921,
+      "longitude": 8.477009,
+      "node_index": 44,
+      "station_id": 27230871,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 195,
+      "latitude": 49.478118,
+      "longitude": 8.501873,
+      "node_index": 45,
+      "station_id": 27230961,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 195,
+      "latitude": 49.452873,
+      "longitude": 8.495253,
+      "node_index": 46,
+      "station_id": 27231009,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 195,
+      "latitude": 49.473974,
+      "longitude": 8.472009,
+      "node_index": 47,
+      "station_id": 28450242,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 195,
+      "latitude": 49.475967,
+      "longitude": 8.483157,
+      "node_index": 48,
+      "station_id": 28450544,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 195,
+      "latitude": 49.479913,
+      "longitude": 8.475652,
+      "node_index": 49,
+      "station_id": 28450596,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 195,
+      "latitude": 49.481645,
+      "longitude": 8.478822,
+      "node_index": 50,
+      "station_id": 28450647,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 195,
+      "latitude": 49.496424,
+      "longitude": 8.47725,
+      "node_index": 51,
+      "station_id": 28450681,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 195,
+      "latitude": 49.483335,
+      "longitude": 8.480367,
+      "node_index": 52,
+      "station_id": 28455055,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 195,
+      "latitude": 49.459886,
+      "longitude": 8.516775,
+      "node_index": 53,
+      "station_id": 29111804,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 195,
+      "latitude": 49.501925,
+      "longitude": 8.491123,
+      "node_index": 54,
+      "station_id": 29794323,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 195,
+      "latitude": 49.484387,
+      "longitude": 8.473963,
+      "node_index": 55,
+      "station_id": 29964359,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 195,
+      "latitude": 49.468919,
+      "longitude": 8.470824,
+      "node_index": 56,
+      "station_id": 30612064,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 195,
+      "latitude": 49.47764,
+      "longitude": 8.522075,
+      "node_index": 57,
+      "station_id": 30612140,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 195,
+      "latitude": 49.478184,
+      "longitude": 8.506728,
+      "node_index": 58,
+      "station_id": 30612162,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 195,
+      "latitude": 49.454718,
+      "longitude": 8.483044,
+      "node_index": 59,
+      "station_id": 30612186,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 195,
+      "latitude": 49.4945,
+      "longitude": 8.459644,
+      "node_index": 60,
+      "station_id": 30612203,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 195,
+      "latitude": 49.497065,
+      "longitude": 8.492131,
+      "node_index": 61,
+      "station_id": 30612225,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 195,
+      "latitude": 49.500678,
+      "longitude": 8.470904,
+      "node_index": 62,
+      "station_id": 30612231,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 195,
+      "latitude": 49.499357,
+      "longitude": 8.461822,
+      "node_index": 63,
+      "station_id": 30612240,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 195,
+      "latitude": 49.4908,
+      "longitude": 8.471387,
+      "node_index": 64,
+      "station_id": 30612250,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 195,
+      "latitude": 49.485946,
+      "longitude": 8.46215,
+      "node_index": 65,
+      "station_id": 30612264,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 195,
+      "latitude": 49.487604,
+      "longitude": 8.471435,
+      "node_index": 66,
+      "station_id": 31471276,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 195,
+      "latitude": 49.459715,
+      "longitude": 8.487411,
+      "node_index": 67,
+      "station_id": 31471648,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 195,
+      "latitude": 49.489671,
+      "longitude": 8.466929,
+      "node_index": 68,
+      "station_id": 33282192,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 195,
+      "latitude": 49.476138,
+      "longitude": 8.505714,
+      "node_index": 69,
+      "station_id": 33282236,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 4,
+      "city_id": 195,
+      "latitude": 49.46461,
+      "longitude": 8.471902,
+      "node_index": 70,
+      "station_id": 33282690,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 4,
+      "city_id": 195,
+      "latitude": 49.4658,
+      "longitude": 8.508968,
+      "node_index": 71,
+      "station_id": 33776080,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 195,
+      "latitude": 49.512469,
+      "longitude": 8.517848,
+      "node_index": 72,
+      "station_id": 38930122,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 195,
+      "latitude": 49.525501,
+      "longitude": 8.481724,
+      "node_index": 73,
+      "station_id": 57585097,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 195,
+      "latitude": 49.479693,
+      "longitude": 8.471489,
+      "node_index": 74,
+      "station_id": 58196168,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 195,
+      "latitude": 49.476208,
+      "longitude": 8.470888,
+      "node_index": 75,
+      "station_id": 58196617,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 195,
+      "latitude": 49.479724,
+      "longitude": 8.470948,
+      "node_index": 76,
+      "station_id": 142863936,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 195,
+      "latitude": 49.487186,
+      "longitude": 8.491509,
+      "node_index": 77,
+      "station_id": 146888468,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 199,
+      "latitude": 47.26254,
+      "longitude": 11.392157,
+      "node_index": 0,
+      "station_id": 203967,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 15,
+      "city_id": 199,
+      "latitude": 47.264779,
+      "longitude": 11.397192,
+      "node_index": 1,
+      "station_id": 203968,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 15,
+      "city_id": 199,
+      "latitude": 47.268754,
+      "longitude": 11.395462,
+      "node_index": 2,
+      "station_id": 203969,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 199,
+      "latitude": 47.262631,
+      "longitude": 11.412842,
+      "node_index": 3,
+      "station_id": 203970,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 30,
+      "city_id": 199,
+      "latitude": 47.263381,
+      "longitude": 11.399882,
+      "node_index": 4,
+      "station_id": 203971,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 11,
+      "city_id": 199,
+      "latitude": 47.264589,
+      "longitude": 11.374937,
+      "node_index": 5,
+      "station_id": 203973,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 11,
+      "city_id": 199,
+      "latitude": 47.263745,
+      "longitude": 11.388209,
+      "node_index": 6,
+      "station_id": 203974,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 13,
+      "city_id": 199,
+      "latitude": 47.264916,
+      "longitude": 11.394763,
+      "node_index": 7,
+      "station_id": 203976,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 199,
+      "latitude": 47.260749,
+      "longitude": 11.409412,
+      "node_index": 8,
+      "station_id": 203977,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 199,
+      "latitude": 47.278834,
+      "longitude": 11.403916,
+      "node_index": 9,
+      "station_id": 203978,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 199,
+      "latitude": 47.264537,
+      "longitude": 11.406609,
+      "node_index": 10,
+      "station_id": 203979,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 14,
+      "city_id": 199,
+      "latitude": 47.266097,
+      "longitude": 11.403015,
+      "node_index": 11,
+      "station_id": 203981,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 18,
+      "city_id": 199,
+      "latitude": 47.255885,
+      "longitude": 11.39169,
+      "node_index": 12,
+      "station_id": 203982,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 13,
+      "city_id": 199,
+      "latitude": 47.273034,
+      "longitude": 11.429842,
+      "node_index": 13,
+      "station_id": 203983,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 199,
+      "latitude": 47.25945,
+      "longitude": 11.393339,
+      "node_index": 14,
+      "station_id": 203984,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 199,
+      "latitude": 47.261721,
+      "longitude": 11.383606,
+      "node_index": 15,
+      "station_id": 203985,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 199,
+      "latitude": 47.276885,
+      "longitude": 11.414586,
+      "node_index": 16,
+      "station_id": 203986,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 13,
+      "city_id": 199,
+      "latitude": 47.260307,
+      "longitude": 11.387271,
+      "node_index": 17,
+      "station_id": 203987,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 16,
+      "city_id": 199,
+      "latitude": 47.263097,
+      "longitude": 11.37483,
+      "node_index": 18,
+      "station_id": 203988,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 15,
+      "city_id": 199,
+      "latitude": 47.253926,
+      "longitude": 11.39757,
+      "node_index": 19,
+      "station_id": 229278,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 15,
+      "city_id": 199,
+      "latitude": 47.263788,
+      "longitude": 11.386207,
+      "node_index": 20,
+      "station_id": 286191,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 19,
+      "city_id": 199,
+      "latitude": 47.269249,
+      "longitude": 11.399135,
+      "node_index": 21,
+      "station_id": 286192,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 16,
+      "city_id": 199,
+      "latitude": 47.277315,
+      "longitude": 11.416799,
+      "node_index": 22,
+      "station_id": 286193,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 24,
+      "city_id": 199,
+      "latitude": 47.265157,
+      "longitude": 11.344585,
+      "node_index": 23,
+      "station_id": 351546,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 199,
+      "latitude": 47.257789,
+      "longitude": 11.357546,
+      "node_index": 24,
+      "station_id": 355752,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 199,
+      "latitude": 47.266228,
+      "longitude": 11.392082,
+      "node_index": 25,
+      "station_id": 355754,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 199,
+      "latitude": 47.258688,
+      "longitude": 11.425567,
+      "node_index": 26,
+      "station_id": 732701,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 199,
+      "latitude": 47.27449,
+      "longitude": 11.397193,
+      "node_index": 27,
+      "station_id": 883225,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 13,
+      "city_id": 199,
+      "latitude": 47.261349,
+      "longitude": 11.379588,
+      "node_index": 28,
+      "station_id": 1001065,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 199,
+      "latitude": 47.265878,
+      "longitude": 11.382812,
+      "node_index": 29,
+      "station_id": 1001071,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 199,
+      "latitude": 47.267898,
+      "longitude": 11.387577,
+      "node_index": 30,
+      "station_id": 1001074,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 11,
+      "city_id": 199,
+      "latitude": 47.270665,
+      "longitude": 11.391644,
+      "node_index": 31,
+      "station_id": 1001080,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 11,
+      "city_id": 199,
+      "latitude": 47.265132,
+      "longitude": 11.413363,
+      "node_index": 32,
+      "station_id": 1001087,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 14,
+      "city_id": 199,
+      "latitude": 47.265525,
+      "longitude": 11.435286,
+      "node_index": 33,
+      "station_id": 1839703,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 13,
+      "city_id": 199,
+      "latitude": 47.256696,
+      "longitude": 11.373858,
+      "node_index": 34,
+      "station_id": 3385845,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 199,
+      "latitude": 47.275797,
+      "longitude": 11.405576,
+      "node_index": 35,
+      "station_id": 3385868,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 199,
+      "latitude": 47.258067,
+      "longitude": 11.370598,
+      "node_index": 36,
+      "station_id": 3495985,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 11,
+      "city_id": 199,
+      "latitude": 47.267371,
+      "longitude": 11.391144,
+      "node_index": 37,
+      "station_id": 7060467,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 199,
+      "latitude": 47.258677,
+      "longitude": 11.396711,
+      "node_index": 38,
+      "station_id": 7060477,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 199,
+      "latitude": 47.272365,
+      "longitude": 11.443521,
+      "node_index": 39,
+      "station_id": 7060487,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 14,
+      "city_id": 199,
+      "latitude": 47.264109,
+      "longitude": 11.362696,
+      "node_index": 40,
+      "station_id": 7060498,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 15,
+      "city_id": 199,
+      "latitude": 47.262635,
+      "longitude": 11.396309,
+      "node_index": 41,
+      "station_id": 9589888,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 11,
+      "city_id": 199,
+      "latitude": 47.260745,
+      "longitude": 11.381139,
+      "node_index": 42,
+      "station_id": 22879647,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 15,
+      "city_id": 199,
+      "latitude": 47.272503,
+      "longitude": 11.406169,
+      "node_index": 43,
+      "station_id": 143448611,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 15,
+      "city_id": 199,
+      "latitude": 47.265674,
+      "longitude": 11.416259,
+      "node_index": 44,
+      "station_id": 143972148,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 4,
+      "city_id": 237,
+      "latitude": 55.86077,
+      "longitude": -4.264535,
+      "node_index": 0,
+      "station_id": 264283,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 237,
+      "latitude": 55.86155,
+      "longitude": -4.2494,
+      "node_index": 1,
+      "station_id": 264292,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.858167,
+      "longitude": -4.245483,
+      "node_index": 2,
+      "station_id": 264293,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 237,
+      "latitude": 55.871367,
+      "longitude": -4.269117,
+      "node_index": 3,
+      "station_id": 264294,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 237,
+      "latitude": 55.856859,
+      "longitude": -4.255593,
+      "node_index": 4,
+      "station_id": 264295,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 237,
+      "latitude": 55.862883,
+      "longitude": -4.237467,
+      "node_index": 5,
+      "station_id": 264296,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.84945,
+      "longitude": -4.23375,
+      "node_index": 6,
+      "station_id": 264298,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.8566,
+      "longitude": -4.263521,
+      "node_index": 7,
+      "station_id": 264299,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.859081,
+      "longitude": -4.287211,
+      "node_index": 8,
+      "station_id": 264300,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.8849,
+      "longitude": -4.281414,
+      "node_index": 9,
+      "station_id": 264301,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.878278,
+      "longitude": -4.288487,
+      "node_index": 10,
+      "station_id": 264302,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.87501,
+      "longitude": -4.280371,
+      "node_index": 11,
+      "station_id": 264303,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 237,
+      "latitude": 55.868352,
+      "longitude": -4.289405,
+      "node_index": 12,
+      "station_id": 264304,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 237,
+      "latitude": 55.872774,
+      "longitude": -4.292135,
+      "node_index": 13,
+      "station_id": 264306,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 237,
+      "latitude": 55.864788,
+      "longitude": -4.271852,
+      "node_index": 14,
+      "station_id": 264308,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 3,
+      "city_id": 237,
+      "latitude": 55.862983,
+      "longitude": -4.241,
+      "node_index": 15,
+      "station_id": 264309,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 5,
+      "city_id": 237,
+      "latitude": 55.8525,
+      "longitude": -4.25885,
+      "node_index": 16,
+      "station_id": 264316,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 7,
+      "city_id": 237,
+      "latitude": 55.857575,
+      "longitude": -4.249976,
+      "node_index": 17,
+      "station_id": 264392,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 237,
+      "latitude": 55.865817,
+      "longitude": -4.251367,
+      "node_index": 18,
+      "station_id": 266157,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 237,
+      "latitude": 55.846515,
+      "longitude": -4.208477,
+      "node_index": 19,
+      "station_id": 266166,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 237,
+      "latitude": 55.859716,
+      "longitude": -4.251945,
+      "node_index": 20,
+      "station_id": 266168,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 5,
+      "city_id": 237,
+      "latitude": 55.855961,
+      "longitude": -4.244671,
+      "node_index": 21,
+      "station_id": 266169,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 237,
+      "latitude": 55.860633,
+      "longitude": -4.2419,
+      "node_index": 22,
+      "station_id": 266170,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 5,
+      "city_id": 237,
+      "latitude": 55.871763,
+      "longitude": -4.27807,
+      "node_index": 23,
+      "station_id": 266171,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 237,
+      "latitude": 55.869707,
+      "longitude": -4.308459,
+      "node_index": 24,
+      "station_id": 266218,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.863422,
+      "longitude": -4.280677,
+      "node_index": 25,
+      "station_id": 315912,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 237,
+      "latitude": 55.858123,
+      "longitude": -4.224511,
+      "node_index": 26,
+      "station_id": 349450,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 237,
+      "latitude": 55.855152,
+      "longitude": -4.235294,
+      "node_index": 27,
+      "station_id": 349451,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.848939,
+      "longitude": -4.226823,
+      "node_index": 28,
+      "station_id": 349452,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 237,
+      "latitude": 55.850554,
+      "longitude": -4.248127,
+      "node_index": 29,
+      "station_id": 349453,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 237,
+      "latitude": 55.85378,
+      "longitude": -4.279158,
+      "node_index": 30,
+      "station_id": 349454,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 237,
+      "latitude": 55.85196,
+      "longitude": -4.294538,
+      "node_index": 31,
+      "station_id": 349455,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 5,
+      "city_id": 237,
+      "latitude": 55.863,
+      "longitude": -4.311378,
+      "node_index": 32,
+      "station_id": 349456,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 237,
+      "latitude": 55.843308,
+      "longitude": -4.26217,
+      "node_index": 33,
+      "station_id": 349458,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.834976,
+      "longitude": -4.265485,
+      "node_index": 34,
+      "station_id": 349460,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.835042,
+      "longitude": -4.272346,
+      "node_index": 35,
+      "station_id": 349461,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 237,
+      "latitude": 55.864993,
+      "longitude": -4.252567,
+      "node_index": 36,
+      "station_id": 380893,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 237,
+      "latitude": 55.883971,
+      "longitude": -4.31046,
+      "node_index": 37,
+      "station_id": 733236,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.862672,
+      "longitude": -4.341751,
+      "node_index": 38,
+      "station_id": 751103,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.864563,
+      "longitude": -4.270055,
+      "node_index": 39,
+      "station_id": 3456076,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.865222,
+      "longitude": -4.286127,
+      "node_index": 40,
+      "station_id": 3812438,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.829057,
+      "longitude": -4.282675,
+      "node_index": 41,
+      "station_id": 3812605,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.831951,
+      "longitude": -4.277989,
+      "node_index": 42,
+      "station_id": 3812694,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.827371,
+      "longitude": -4.29567,
+      "node_index": 43,
+      "station_id": 3812713,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.842561,
+      "longitude": -4.217704,
+      "node_index": 44,
+      "station_id": 3812770,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.863128,
+      "longitude": -4.210282,
+      "node_index": 45,
+      "station_id": 3812776,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.858222,
+      "longitude": -4.213473,
+      "node_index": 46,
+      "station_id": 3812792,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 7,
+      "city_id": 237,
+      "latitude": 55.870992,
+      "longitude": -4.260426,
+      "node_index": 47,
+      "station_id": 3812875,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.853194,
+      "longitude": -4.246983,
+      "node_index": 48,
+      "station_id": 3812886,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 237,
+      "latitude": 55.855185,
+      "longitude": -4.273478,
+      "node_index": 49,
+      "station_id": 6269590,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 237,
+      "latitude": 55.854391,
+      "longitude": -4.274764,
+      "node_index": 50,
+      "station_id": 6269603,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 7,
+      "city_id": 237,
+      "latitude": 55.865291,
+      "longitude": -4.261756,
+      "node_index": 51,
+      "station_id": 6269618,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.875061,
+      "longitude": -4.270678,
+      "node_index": 52,
+      "station_id": 6269626,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 237,
+      "latitude": 55.827395,
+      "longitude": -4.265319,
+      "node_index": 53,
+      "station_id": 6269629,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 237,
+      "latitude": 55.827282,
+      "longitude": -4.259255,
+      "node_index": 54,
+      "station_id": 6269636,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.864472,
+      "longitude": -4.223208,
+      "node_index": 55,
+      "station_id": 6269637,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 7,
+      "city_id": 237,
+      "latitude": 55.878787,
+      "longitude": -4.26877,
+      "node_index": 56,
+      "station_id": 6270126,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.845807,
+      "longitude": -4.275232,
+      "node_index": 57,
+      "station_id": 7145152,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 237,
+      "latitude": 55.860776,
+      "longitude": -4.258597,
+      "node_index": 58,
+      "station_id": 19164571,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.886934,
+      "longitude": -4.285022,
+      "node_index": 59,
+      "station_id": 19548002,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.881493,
+      "longitude": -4.254465,
+      "node_index": 60,
+      "station_id": 19548440,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.865063,
+      "longitude": -4.260291,
+      "node_index": 61,
+      "station_id": 19548484,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.852705,
+      "longitude": -4.201594,
+      "node_index": 62,
+      "station_id": 19548760,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 237,
+      "latitude": 55.865683,
+      "longitude": -4.305367,
+      "node_index": 63,
+      "station_id": 19738176,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.850987,
+      "longitude": -4.301448,
+      "node_index": 64,
+      "station_id": 21603723,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.858587,
+      "longitude": -4.259847,
+      "node_index": 65,
+      "station_id": 28521334,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.85658,
+      "longitude": -4.26887,
+      "node_index": 66,
+      "station_id": 28521383,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.87422,
+      "longitude": -4.26136,
+      "node_index": 67,
+      "station_id": 28521431,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.85476,
+      "longitude": -4.25164,
+      "node_index": 68,
+      "station_id": 28521474,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.864132,
+      "longitude": -4.259101,
+      "node_index": 69,
+      "station_id": 28521513,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.85586,
+      "longitude": -4.24695,
+      "node_index": 70,
+      "station_id": 28521547,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.876975,
+      "longitude": -4.306222,
+      "node_index": 71,
+      "station_id": 31234332,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.871029,
+      "longitude": -4.321625,
+      "node_index": 72,
+      "station_id": 31234355,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.845518,
+      "longitude": -4.286476,
+      "node_index": 73,
+      "station_id": 31234411,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 237,
+      "latitude": 55.8585,
+      "longitude": -4.292972,
+      "node_index": 74,
+      "station_id": 41822435,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.817338,
+      "longitude": -4.262688,
+      "node_index": 75,
+      "station_id": 42417389,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 237,
+      "latitude": 55.846552,
+      "longitude": -4.332797,
+      "node_index": 76,
+      "station_id": 42487542,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 237,
+      "latitude": 55.841494,
+      "longitude": -4.269701,
+      "node_index": 77,
+      "station_id": 42487653,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.891127,
+      "longitude": -4.290879,
+      "node_index": 78,
+      "station_id": 42613824,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.890398,
+      "longitude": -4.324766,
+      "node_index": 79,
+      "station_id": 42613965,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.848564,
+      "longitude": -4.250996,
+      "node_index": 80,
+      "station_id": 42614033,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 237,
+      "latitude": 55.862102,
+      "longitude": -4.252307,
+      "node_index": 81,
+      "station_id": 45172531,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 237,
+      "latitude": 55.84425,
+      "longitude": -4.176167,
+      "node_index": 82,
+      "station_id": 55599921,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 237,
+      "latitude": 55.849072,
+      "longitude": -4.314376,
+      "node_index": 83,
+      "station_id": 55600054,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 237,
+      "latitude": 55.874555,
+      "longitude": -4.333357,
+      "node_index": 84,
+      "station_id": 55600284,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 237,
+      "latitude": 55.848885,
+      "longitude": -4.20064,
+      "node_index": 85,
+      "station_id": 55600387,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 237,
+      "latitude": 55.86698,
+      "longitude": -4.278874,
+      "node_index": 86,
+      "station_id": 55600478,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 237,
+      "latitude": 55.864135,
+      "longitude": -4.292988,
+      "node_index": 87,
+      "station_id": 66595311,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 237,
+      "latitude": 55.875478,
+      "longitude": -4.34216,
+      "node_index": 88,
+      "station_id": 105741829,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 237,
+      "latitude": 55.859996,
+      "longitude": -4.270163,
+      "node_index": 89,
+      "station_id": 105741985,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 237,
+      "latitude": 55.870857,
+      "longitude": -4.300665,
+      "node_index": 90,
+      "station_id": 105742172,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 237,
+      "latitude": 55.827564,
+      "longitude": -4.247546,
+      "node_index": 91,
+      "station_id": 105742309,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 237,
+      "latitude": 55.846552,
+      "longitude": -4.332797,
+      "node_index": 92,
+      "station_id": 115737132,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.822927,
+      "longitude": 8.774681,
+      "node_index": 0,
+      "station_id": 4774204,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.807894,
+      "longitude": 8.766971,
+      "node_index": 1,
+      "station_id": 4774269,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.805809,
+      "longitude": 8.782821,
+      "node_index": 2,
+      "station_id": 4774277,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.77837,
+      "longitude": 8.767953,
+      "node_index": 3,
+      "station_id": 4774284,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.808867,
+      "longitude": 8.77305,
+      "node_index": 4,
+      "station_id": 4774295,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.813203,
+      "longitude": 8.775948,
+      "node_index": 5,
+      "station_id": 4774305,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.816601,
+      "longitude": 8.751507,
+      "node_index": 6,
+      "station_id": 4774337,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.80807,
+      "longitude": 8.775351,
+      "node_index": 7,
+      "station_id": 4774360,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.804277,
+      "longitude": 8.770072,
+      "node_index": 8,
+      "station_id": 4774368,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.785589,
+      "longitude": 8.779437,
+      "node_index": 9,
+      "station_id": 4774375,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.798841,
+      "longitude": 8.762144,
+      "node_index": 10,
+      "station_id": 4774452,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.798656,
+      "longitude": 8.752965,
+      "node_index": 11,
+      "station_id": 4774459,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.827921,
+      "longitude": 8.775086,
+      "node_index": 12,
+      "station_id": 4774464,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.819957,
+      "longitude": 8.773736,
+      "node_index": 13,
+      "station_id": 4774470,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.810971,
+      "longitude": 8.774241,
+      "node_index": 14,
+      "station_id": 4774475,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.816653,
+      "longitude": 8.781166,
+      "node_index": 15,
+      "station_id": 4774485,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.809813,
+      "longitude": 8.779429,
+      "node_index": 16,
+      "station_id": 4774503,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.801337,
+      "longitude": 8.773266,
+      "node_index": 17,
+      "station_id": 4774527,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.790362,
+      "longitude": 8.766947,
+      "node_index": 18,
+      "station_id": 4774539,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.795224,
+      "longitude": 8.763266,
+      "node_index": 19,
+      "station_id": 4774543,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.79527,
+      "longitude": 8.762049,
+      "node_index": 20,
+      "station_id": 4774549,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.803751,
+      "longitude": 8.774697,
+      "node_index": 21,
+      "station_id": 4774562,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.807063,
+      "longitude": 8.769918,
+      "node_index": 22,
+      "station_id": 4774567,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.836178,
+      "longitude": 8.756796,
+      "node_index": 23,
+      "station_id": 4774572,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.804725,
+      "longitude": 8.759248,
+      "node_index": 24,
+      "station_id": 4774574,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.812779,
+      "longitude": 8.780602,
+      "node_index": 25,
+      "station_id": 5220935,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.813691,
+      "longitude": 8.770734,
+      "node_index": 26,
+      "station_id": 6666288,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.819869,
+      "longitude": 8.771017,
+      "node_index": 27,
+      "station_id": 13391374,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.794611,
+      "longitude": 8.772191,
+      "node_index": 28,
+      "station_id": 13391461,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.80327,
+      "longitude": 8.76406,
+      "node_index": 29,
+      "station_id": 13391482,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.81395,
+      "longitude": 8.76616,
+      "node_index": 30,
+      "station_id": 13391528,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.816058,
+      "longitude": 8.772242,
+      "node_index": 31,
+      "station_id": 14235672,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.81194,
+      "longitude": 8.777366,
+      "node_index": 32,
+      "station_id": 39482783,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.80245,
+      "longitude": 8.753373,
+      "node_index": 33,
+      "station_id": 39482836,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.831596,
+      "longitude": 8.769125,
+      "node_index": 34,
+      "station_id": 62902963,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.818197,
+      "longitude": 8.773286,
+      "node_index": 35,
+      "station_id": 143842773,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.817689,
+      "longitude": 8.772432,
+      "node_index": 36,
+      "station_id": 143842973,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.814906,
+      "longitude": 8.771069,
+      "node_index": 37,
+      "station_id": 143843165,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.814973,
+      "longitude": 8.772625,
+      "node_index": 38,
+      "station_id": 143843254,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.80818,
+      "longitude": 8.772152,
+      "node_index": 39,
+      "station_id": 143843398,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.800646,
+      "longitude": 8.764333,
+      "node_index": 40,
+      "station_id": 143843635,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.843962,
+      "longitude": 8.750576,
+      "node_index": 41,
+      "station_id": 146902992,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 438,
+      "latitude": 50.800813,
+      "longitude": 8.776125,
+      "node_index": 42,
+      "station_id": 148824174,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 467,
+      "latitude": 50.573486,
+      "longitude": 8.700008,
+      "node_index": 0,
+      "station_id": 6494751,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 467,
+      "latitude": 50.57525,
+      "longitude": 8.697667,
+      "node_index": 1,
+      "station_id": 6494917,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 467,
+      "latitude": 50.576216,
+      "longitude": 8.69397,
+      "node_index": 2,
+      "station_id": 6510530,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 467,
+      "latitude": 50.576775,
+      "longitude": 8.694906,
+      "node_index": 3,
+      "station_id": 6510628,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 467,
+      "latitude": 50.576661,
+      "longitude": 8.692147,
+      "node_index": 4,
+      "station_id": 6510643,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 467,
+      "latitude": 50.585239,
+      "longitude": 8.699665,
+      "node_index": 5,
+      "station_id": 6510660,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 467,
+      "latitude": 50.580753,
+      "longitude": 8.695099,
+      "node_index": 6,
+      "station_id": 6510709,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 467,
+      "latitude": 50.571078,
+      "longitude": 8.674602,
+      "node_index": 7,
+      "station_id": 6510738,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 467,
+      "latitude": 50.570978,
+      "longitude": 8.672389,
+      "node_index": 8,
+      "station_id": 6510764,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 467,
+      "latitude": 50.580418,
+      "longitude": 8.664761,
+      "node_index": 9,
+      "station_id": 6510782,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 467,
+      "latitude": 50.587148,
+      "longitude": 8.682158,
+      "node_index": 10,
+      "station_id": 6510910,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 467,
+      "latitude": 50.585584,
+      "longitude": 8.684702,
+      "node_index": 11,
+      "station_id": 6510935,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 467,
+      "latitude": 50.589469,
+      "longitude": 8.681104,
+      "node_index": 12,
+      "station_id": 6510957,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 467,
+      "latitude": 50.582892,
+      "longitude": 8.676482,
+      "node_index": 13,
+      "station_id": 6510981,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 467,
+      "latitude": 50.570486,
+      "longitude": 8.665858,
+      "node_index": 14,
+      "station_id": 9916411,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 467,
+      "latitude": 50.574348,
+      "longitude": 8.660046,
+      "node_index": 15,
+      "station_id": 10095597,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 467,
+      "latitude": 50.579971,
+      "longitude": 8.678369,
+      "node_index": 16,
+      "station_id": 11792717,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 467,
+      "latitude": 50.58453,
+      "longitude": 8.680142,
+      "node_index": 17,
+      "station_id": 18602464,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 467,
+      "latitude": 50.587963,
+      "longitude": 8.668539,
+      "node_index": 18,
+      "station_id": 18605055,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 467,
+      "latitude": 50.582722,
+      "longitude": 8.673988,
+      "node_index": 19,
+      "station_id": 22249045,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 467,
+      "latitude": 50.565264,
+      "longitude": 8.687189,
+      "node_index": 20,
+      "station_id": 31067477,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 467,
+      "latitude": 50.572309,
+      "longitude": 8.682867,
+      "node_index": 21,
+      "station_id": 31068744,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 467,
+      "latitude": 50.581435,
+      "longitude": 8.696279,
+      "node_index": 22,
+      "station_id": 31069103,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 467,
+      "latitude": 50.588102,
+      "longitude": 8.677491,
+      "node_index": 23,
+      "station_id": 37022407,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 467,
+      "latitude": 50.585137,
+      "longitude": 8.671877,
+      "node_index": 24,
+      "station_id": 39051609,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 467,
+      "latitude": 50.564109,
+      "longitude": 8.677573,
+      "node_index": 25,
+      "station_id": 63085276,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 467,
+      "latitude": 50.58266,
+      "longitude": 8.70796,
+      "node_index": 26,
+      "station_id": 63085409,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 467,
+      "latitude": 50.585204,
+      "longitude": 8.71319,
+      "node_index": 27,
+      "station_id": 63085530,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 476,
+      "latitude": 51.487042,
+      "longitude": -3.182473,
+      "node_index": 0,
+      "station_id": 6095651,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 16,
+      "city_id": 476,
+      "latitude": 51.467649,
+      "longitude": -3.165858,
+      "node_index": 1,
+      "station_id": 6095677,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 9,
+      "city_id": 476,
+      "latitude": 51.469419,
+      "longitude": -3.162297,
+      "node_index": 2,
+      "station_id": 6095731,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 15,
+      "city_id": 476,
+      "latitude": 51.47474,
+      "longitude": -3.177563,
+      "node_index": 3,
+      "station_id": 6095749,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 15,
+      "city_id": 476,
+      "latitude": 51.489277,
+      "longitude": -3.202879,
+      "node_index": 4,
+      "station_id": 6269987,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 5,
+      "city_id": 476,
+      "latitude": 51.493655,
+      "longitude": -3.219374,
+      "node_index": 5,
+      "station_id": 6270009,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 476,
+      "latitude": 51.488418,
+      "longitude": -3.2313,
+      "node_index": 6,
+      "station_id": 6270023,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 476,
+      "latitude": 51.483084,
+      "longitude": -3.218992,
+      "node_index": 7,
+      "station_id": 6270033,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 476,
+      "latitude": 51.481398,
+      "longitude": -3.200532,
+      "node_index": 8,
+      "station_id": 6270045,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 476,
+      "latitude": 51.485791,
+      "longitude": -3.176545,
+      "node_index": 9,
+      "station_id": 6270104,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 476,
+      "latitude": 51.480062,
+      "longitude": -3.188636,
+      "node_index": 10,
+      "station_id": 6270375,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 476,
+      "latitude": 51.496795,
+      "longitude": -3.182305,
+      "node_index": 11,
+      "station_id": 6270420,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 476,
+      "latitude": 51.49046,
+      "longitude": -3.17003,
+      "node_index": 12,
+      "station_id": 6270425,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 476,
+      "latitude": 51.48137,
+      "longitude": -3.1789,
+      "node_index": 13,
+      "station_id": 6270531,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 38,
+      "city_id": 476,
+      "latitude": 51.494904,
+      "longitude": -3.212515,
+      "node_index": 14,
+      "station_id": 6270549,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 476,
+      "latitude": 51.477715,
+      "longitude": -3.177409,
+      "node_index": 15,
+      "station_id": 6270557,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 476,
+      "latitude": 51.469936,
+      "longitude": -3.186091,
+      "node_index": 16,
+      "station_id": 6270564,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 476,
+      "latitude": 51.450126,
+      "longitude": -3.182209,
+      "node_index": 17,
+      "station_id": 6270590,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 476,
+      "latitude": 51.476508,
+      "longitude": -3.183395,
+      "node_index": 18,
+      "station_id": 6270629,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 476,
+      "latitude": 51.486521,
+      "longitude": -3.158803,
+      "node_index": 19,
+      "station_id": 6658178,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 11,
+      "city_id": 476,
+      "latitude": 51.49154,
+      "longitude": -3.18656,
+      "node_index": 20,
+      "station_id": 8053989,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 11,
+      "city_id": 476,
+      "latitude": 51.48452,
+      "longitude": -3.16935,
+      "node_index": 21,
+      "station_id": 8054072,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 16,
+      "city_id": 476,
+      "latitude": 51.495379,
+      "longitude": -3.17846,
+      "node_index": 22,
+      "station_id": 8055296,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 13,
+      "city_id": 476,
+      "latitude": 51.494752,
+      "longitude": -3.155781,
+      "node_index": 23,
+      "station_id": 8055378,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 13,
+      "city_id": 476,
+      "latitude": 51.511578,
+      "longitude": -3.199844,
+      "node_index": 24,
+      "station_id": 8055389,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 476,
+      "latitude": 51.502454,
+      "longitude": -3.220842,
+      "node_index": 25,
+      "station_id": 8055401,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 7,
+      "city_id": 476,
+      "latitude": 51.47427,
+      "longitude": -3.182438,
+      "node_index": 26,
+      "station_id": 8055460,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 476,
+      "latitude": 51.489667,
+      "longitude": -3.240924,
+      "node_index": 27,
+      "station_id": 8055483,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 9,
+      "city_id": 476,
+      "latitude": 51.497324,
+      "longitude": -3.175118,
+      "node_index": 28,
+      "station_id": 8055490,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 14,
+      "city_id": 476,
+      "latitude": 51.48483,
+      "longitude": -3.1906,
+      "node_index": 29,
+      "station_id": 8055547,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 9,
+      "city_id": 476,
+      "latitude": 51.48009,
+      "longitude": -3.23901,
+      "node_index": 30,
+      "station_id": 8055570,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 476,
+      "latitude": 51.512248,
+      "longitude": -3.218715,
+      "node_index": 31,
+      "station_id": 8055587,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 9,
+      "city_id": 476,
+      "latitude": 51.494089,
+      "longitude": -3.166277,
+      "node_index": 32,
+      "station_id": 8055606,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 13,
+      "city_id": 476,
+      "latitude": 51.488679,
+      "longitude": -3.179662,
+      "node_index": 33,
+      "station_id": 8055624,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 16,
+      "city_id": 476,
+      "latitude": 51.484117,
+      "longitude": -3.166446,
+      "node_index": 34,
+      "station_id": 8055646,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 21,
+      "city_id": 476,
+      "latitude": 51.50682,
+      "longitude": -3.187962,
+      "node_index": 35,
+      "station_id": 8055690,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 20,
+      "city_id": 476,
+      "latitude": 51.492377,
+      "longitude": -3.183698,
+      "node_index": 36,
+      "station_id": 8055716,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 476,
+      "latitude": 51.486518,
+      "longitude": -3.17317,
+      "node_index": 37,
+      "station_id": 8055727,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 476,
+      "latitude": 51.510458,
+      "longitude": -3.162251,
+      "node_index": 38,
+      "station_id": 9450702,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 9,
+      "city_id": 476,
+      "latitude": 51.464709,
+      "longitude": -3.170871,
+      "node_index": 39,
+      "station_id": 12760828,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 476,
+      "latitude": 51.467934,
+      "longitude": -3.181539,
+      "node_index": 40,
+      "station_id": 12760870,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 476,
+      "latitude": 51.476262,
+      "longitude": -3.20274,
+      "node_index": 41,
+      "station_id": 12761005,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 476,
+      "latitude": 51.501694,
+      "longitude": -3.138794,
+      "node_index": 42,
+      "station_id": 12761084,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 16,
+      "city_id": 476,
+      "latitude": 51.479512,
+      "longitude": -3.156367,
+      "node_index": 43,
+      "station_id": 12761120,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 476,
+      "latitude": 51.50798,
+      "longitude": -3.186427,
+      "node_index": 44,
+      "station_id": 12761316,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 14,
+      "city_id": 476,
+      "latitude": 51.506856,
+      "longitude": -3.199764,
+      "node_index": 45,
+      "station_id": 13721149,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 476,
+      "latitude": 51.485808,
+      "longitude": -3.166025,
+      "node_index": 46,
+      "station_id": 13721214,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 476,
+      "latitude": 51.519889,
+      "longitude": -3.178619,
+      "node_index": 47,
+      "station_id": 13728389,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 476,
+      "latitude": 51.483686,
+      "longitude": -3.152652,
+      "node_index": 48,
+      "station_id": 13728584,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 476,
+      "latitude": 51.463867,
+      "longitude": -3.166436,
+      "node_index": 49,
+      "station_id": 13760676,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 15,
+      "city_id": 476,
+      "latitude": 51.496805,
+      "longitude": -3.224608,
+      "node_index": 50,
+      "station_id": 13790040,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 9,
+      "city_id": 476,
+      "latitude": 51.484669,
+      "longitude": -3.178706,
+      "node_index": 51,
+      "station_id": 13810505,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 7,
+      "city_id": 476,
+      "latitude": 51.501801,
+      "longitude": -3.189247,
+      "node_index": 52,
+      "station_id": 13968264,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 476,
+      "latitude": 51.465445,
+      "longitude": -3.160238,
+      "node_index": 53,
+      "station_id": 16921265,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 18,
+      "city_id": 476,
+      "latitude": 51.476382,
+      "longitude": -3.178681,
+      "node_index": 54,
+      "station_id": 19502312,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 476,
+      "latitude": 51.477172,
+      "longitude": -3.169267,
+      "node_index": 55,
+      "station_id": 20812804,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 476,
+      "latitude": 51.484496,
+      "longitude": -3.200265,
+      "node_index": 56,
+      "station_id": 20813066,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 476,
+      "latitude": 51.448141,
+      "longitude": -3.185623,
+      "node_index": 57,
+      "station_id": 20814741,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 476,
+      "latitude": 51.463806,
+      "longitude": -3.179417,
+      "node_index": 58,
+      "station_id": 20814928,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 16,
+      "city_id": 476,
+      "latitude": 51.497283,
+      "longitude": -3.196499,
+      "node_index": 59,
+      "station_id": 29747201,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 476,
+      "latitude": 51.46141,
+      "longitude": -3.161451,
+      "node_index": 60,
+      "station_id": 35984429,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 476,
+      "latitude": 51.502437,
+      "longitude": -3.175749,
+      "node_index": 61,
+      "station_id": 35984577,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 476,
+      "latitude": 51.494058,
+      "longitude": -3.162985,
+      "node_index": 62,
+      "station_id": 35984948,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 476,
+      "latitude": 51.482746,
+      "longitude": -3.203198,
+      "node_index": 63,
+      "station_id": 35985040,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 476,
+      "latitude": 51.475299,
+      "longitude": -3.187189,
+      "node_index": 64,
+      "station_id": 35985236,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 476,
+      "latitude": 51.484449,
+      "longitude": -3.179534,
+      "node_index": 65,
+      "station_id": 52962132,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 476,
+      "latitude": 51.448645,
+      "longitude": -3.181851,
+      "node_index": 66,
+      "station_id": 53040980,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 476,
+      "latitude": 51.496476,
+      "longitude": -3.164734,
+      "node_index": 67,
+      "station_id": 53135355,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 11,
+      "city_id": 476,
+      "latitude": 51.481223,
+      "longitude": -3.181497,
+      "node_index": 68,
+      "station_id": 58569310,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 15,
+      "city_id": 476,
+      "latitude": 51.48782,
+      "longitude": -3.1786,
+      "node_index": 69,
+      "station_id": 60693993,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 15,
+      "city_id": 476,
+      "latitude": 51.47728,
+      "longitude": -3.179619,
+      "node_index": 70,
+      "station_id": 60694214,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 476,
+      "latitude": 51.493194,
+      "longitude": -3.185874,
+      "node_index": 71,
+      "station_id": 84287921,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 15,
+      "city_id": 476,
+      "latitude": 51.465538,
+      "longitude": -3.163247,
+      "node_index": 72,
+      "station_id": 88102363,
+      "timezone": "Europe/London"
+    },
+    {
+      "bike_racks": 35,
+      "city_id": 532,
+      "latitude": 43.281357,
+      "longitude": -2.962698,
+      "node_index": 0,
+      "station_id": 8922834,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 40,
+      "city_id": 532,
+      "latitude": 43.2699,
+      "longitude": -2.94915,
+      "node_index": 1,
+      "station_id": 8922841,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 22,
+      "city_id": 532,
+      "latitude": 43.264445,
+      "longitude": -2.922792,
+      "node_index": 2,
+      "station_id": 8922848,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 42,
+      "city_id": 532,
+      "latitude": 43.25944,
+      "longitude": -2.92435,
+      "node_index": 3,
+      "station_id": 9018334,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 33,
+      "city_id": 532,
+      "latitude": 43.250904,
+      "longitude": -2.932132,
+      "node_index": 4,
+      "station_id": 9018352,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 30,
+      "city_id": 532,
+      "latitude": 43.2521,
+      "longitude": -2.94636,
+      "node_index": 5,
+      "station_id": 9018359,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 30,
+      "city_id": 532,
+      "latitude": 43.25848,
+      "longitude": -2.94357,
+      "node_index": 6,
+      "station_id": 9018429,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 25,
+      "city_id": 532,
+      "latitude": 43.261718,
+      "longitude": -2.949185,
+      "node_index": 7,
+      "station_id": 9018448,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 20,
+      "city_id": 532,
+      "latitude": 43.27532,
+      "longitude": -2.974,
+      "node_index": 8,
+      "station_id": 9018452,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 30,
+      "city_id": 532,
+      "latitude": 43.26119,
+      "longitude": -2.93387,
+      "node_index": 9,
+      "station_id": 9018462,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 32,
+      "city_id": 532,
+      "latitude": 43.26559,
+      "longitude": -2.94462,
+      "node_index": 10,
+      "station_id": 9018473,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 25,
+      "city_id": 532,
+      "latitude": 43.26073,
+      "longitude": -2.9395,
+      "node_index": 11,
+      "station_id": 9018484,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 42,
+      "city_id": 532,
+      "latitude": 43.267249,
+      "longitude": -2.93954,
+      "node_index": 12,
+      "station_id": 9018502,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 20,
+      "city_id": 532,
+      "latitude": 43.243741,
+      "longitude": -2.926006,
+      "node_index": 13,
+      "station_id": 9018507,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 17,
+      "city_id": 532,
+      "latitude": 43.25382,
+      "longitude": -2.92095,
+      "node_index": 14,
+      "station_id": 9018512,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 20,
+      "city_id": 532,
+      "latitude": 43.27168,
+      "longitude": -2.94573,
+      "node_index": 15,
+      "station_id": 9018528,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 20,
+      "city_id": 532,
+      "latitude": 43.24823,
+      "longitude": -2.90768,
+      "node_index": 16,
+      "station_id": 9018541,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 20,
+      "city_id": 532,
+      "latitude": 43.2585,
+      "longitude": -2.89927,
+      "node_index": 17,
+      "station_id": 9018601,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 31,
+      "city_id": 532,
+      "latitude": 43.265816,
+      "longitude": -2.960451,
+      "node_index": 18,
+      "station_id": 9018633,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 40,
+      "city_id": 532,
+      "latitude": 43.273971,
+      "longitude": -2.9583,
+      "node_index": 19,
+      "station_id": 9018722,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 20,
+      "city_id": 532,
+      "latitude": 43.26462,
+      "longitude": -2.93264,
+      "node_index": 20,
+      "station_id": 9018747,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 20,
+      "city_id": 532,
+      "latitude": 43.257931,
+      "longitude": -2.935669,
+      "node_index": 21,
+      "station_id": 9018755,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 20,
+      "city_id": 532,
+      "latitude": 43.261067,
+      "longitude": -2.916894,
+      "node_index": 22,
+      "station_id": 9018764,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 30,
+      "city_id": 532,
+      "latitude": 43.25677,
+      "longitude": -2.90769,
+      "node_index": 23,
+      "station_id": 9018779,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 20,
+      "city_id": 532,
+      "latitude": 43.26074,
+      "longitude": -2.92696,
+      "node_index": 24,
+      "station_id": 9018789,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 20,
+      "city_id": 532,
+      "latitude": 43.24927,
+      "longitude": -2.94705,
+      "node_index": 25,
+      "station_id": 9018799,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 26,
+      "city_id": 532,
+      "latitude": 43.26689,
+      "longitude": -2.92706,
+      "node_index": 26,
+      "station_id": 9018817,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 30,
+      "city_id": 532,
+      "latitude": 43.25394,
+      "longitude": -2.93844,
+      "node_index": 27,
+      "station_id": 9018823,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 30,
+      "city_id": 532,
+      "latitude": 43.25644,
+      "longitude": -2.94853,
+      "node_index": 28,
+      "station_id": 9018831,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 20,
+      "city_id": 532,
+      "latitude": 43.25599,
+      "longitude": -2.92771,
+      "node_index": 29,
+      "station_id": 9018841,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 20,
+      "city_id": 532,
+      "latitude": 43.25403,
+      "longitude": -2.9127,
+      "node_index": 30,
+      "station_id": 9187493,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 30,
+      "city_id": 532,
+      "latitude": 43.252244,
+      "longitude": -2.939433,
+      "node_index": 31,
+      "station_id": 11753550,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 20,
+      "city_id": 532,
+      "latitude": 43.274938,
+      "longitude": -2.949649,
+      "node_index": 32,
+      "station_id": 11753734,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 30,
+      "city_id": 532,
+      "latitude": 43.256178,
+      "longitude": -2.925367,
+      "node_index": 33,
+      "station_id": 11753885,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 20,
+      "city_id": 532,
+      "latitude": 43.277717,
+      "longitude": -2.973577,
+      "node_index": 34,
+      "station_id": 11754034,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 26,
+      "city_id": 532,
+      "latitude": 43.259948,
+      "longitude": -2.922467,
+      "node_index": 35,
+      "station_id": 12625986,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 25,
+      "city_id": 532,
+      "latitude": 43.250915,
+      "longitude": -2.910722,
+      "node_index": 36,
+      "station_id": 12647521,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 34,
+      "city_id": 532,
+      "latitude": 43.268515,
+      "longitude": -2.937357,
+      "node_index": 37,
+      "station_id": 12647672,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 30,
+      "city_id": 532,
+      "latitude": 43.263335,
+      "longitude": -2.934272,
+      "node_index": 38,
+      "station_id": 12647779,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 19,
+      "city_id": 532,
+      "latitude": 43.268152,
+      "longitude": -2.961599,
+      "node_index": 39,
+      "station_id": 12647936,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 30,
+      "city_id": 532,
+      "latitude": 43.260761,
+      "longitude": -2.94988,
+      "node_index": 40,
+      "station_id": 25396809,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 28,
+      "city_id": 532,
+      "latitude": 43.26912,
+      "longitude": -2.92548,
+      "node_index": 41,
+      "station_id": 42307534,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 17,
+      "city_id": 532,
+      "latitude": 43.243339,
+      "longitude": -2.931928,
+      "node_index": 42,
+      "station_id": 47080044,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 617,
+      "latitude": 43.508453,
+      "longitude": 16.435799,
+      "node_index": 0,
+      "station_id": 13749755,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 5,
+      "city_id": 617,
+      "latitude": 43.515132,
+      "longitude": 16.423531,
+      "node_index": 1,
+      "station_id": 13749769,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 5,
+      "city_id": 617,
+      "latitude": 43.511106,
+      "longitude": 16.466864,
+      "node_index": 2,
+      "station_id": 13769728,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 617,
+      "latitude": 43.506857,
+      "longitude": 16.46474,
+      "node_index": 3,
+      "station_id": 13769749,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 617,
+      "latitude": 43.51183,
+      "longitude": 16.436191,
+      "node_index": 4,
+      "station_id": 13769760,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 5,
+      "city_id": 617,
+      "latitude": 43.519816,
+      "longitude": 16.445482,
+      "node_index": 5,
+      "station_id": 13769782,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 617,
+      "latitude": 43.503258,
+      "longitude": 16.476102,
+      "node_index": 6,
+      "station_id": 13769795,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 5,
+      "city_id": 617,
+      "latitude": 43.514911,
+      "longitude": 16.443175,
+      "node_index": 7,
+      "station_id": 13769805,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 617,
+      "latitude": 43.503122,
+      "longitude": 16.426347,
+      "node_index": 8,
+      "station_id": 23775287,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 5,
+      "city_id": 617,
+      "latitude": 43.505531,
+      "longitude": 16.447665,
+      "node_index": 9,
+      "station_id": 23775382,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 617,
+      "latitude": 43.511153,
+      "longitude": 16.451356,
+      "node_index": 10,
+      "station_id": 23775406,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 617,
+      "latitude": 43.506885,
+      "longitude": 16.442091,
+      "node_index": 11,
+      "station_id": 23775453,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 617,
+      "latitude": 43.513602,
+      "longitude": 16.459553,
+      "node_index": 12,
+      "station_id": 37556746,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 617,
+      "latitude": 43.502885,
+      "longitude": 16.4434,
+      "node_index": 13,
+      "station_id": 37556849,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 617,
+      "latitude": 43.500371,
+      "longitude": 16.522837,
+      "node_index": 14,
+      "station_id": 37556968,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 617,
+      "latitude": 43.519781,
+      "longitude": 16.466918,
+      "node_index": 15,
+      "station_id": 37557061,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 617,
+      "latitude": 43.509004,
+      "longitude": 16.481853,
+      "node_index": 16,
+      "station_id": 37804995,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 617,
+      "latitude": 43.521987,
+      "longitude": 16.469343,
+      "node_index": 17,
+      "station_id": 37805070,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 5,
+      "city_id": 617,
+      "latitude": 43.522854,
+      "longitude": 16.450032,
+      "node_index": 18,
+      "station_id": 37805110,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 7,
+      "city_id": 617,
+      "latitude": 43.514479,
+      "longitude": 16.432983,
+      "node_index": 19,
+      "station_id": 37805145,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 617,
+      "latitude": 43.517137,
+      "longitude": 16.42999,
+      "node_index": 20,
+      "station_id": 37805172,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 617,
+      "latitude": 43.513461,
+      "longitude": 16.450713,
+      "node_index": 21,
+      "station_id": 37805199,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 7,
+      "city_id": 617,
+      "latitude": 43.519925,
+      "longitude": 16.455459,
+      "node_index": 22,
+      "station_id": 37805229,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 617,
+      "latitude": 43.519529,
+      "longitude": 16.448868,
+      "node_index": 23,
+      "station_id": 37805256,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 617,
+      "latitude": 43.516749,
+      "longitude": 16.45559,
+      "node_index": 24,
+      "station_id": 37805292,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 617,
+      "latitude": 43.508267,
+      "longitude": 16.45018,
+      "node_index": 25,
+      "station_id": 37805311,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 617,
+      "latitude": 43.513183,
+      "longitude": 16.442625,
+      "node_index": 26,
+      "station_id": 37805329,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 617,
+      "latitude": 43.512887,
+      "longitude": 16.503451,
+      "node_index": 27,
+      "station_id": 37805346,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 617,
+      "latitude": 43.507588,
+      "longitude": 16.471407,
+      "node_index": 28,
+      "station_id": 37805366,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 617,
+      "latitude": 43.513938,
+      "longitude": 16.470528,
+      "node_index": 29,
+      "station_id": 37805418,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 617,
+      "latitude": 43.510958,
+      "longitude": 16.438546,
+      "node_index": 30,
+      "station_id": 37805441,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 617,
+      "latitude": 43.516829,
+      "longitude": 16.472743,
+      "node_index": 31,
+      "station_id": 37805468,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 617,
+      "latitude": 43.516542,
+      "longitude": 16.467811,
+      "node_index": 32,
+      "station_id": 37806775,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 617,
+      "latitude": 43.50516,
+      "longitude": 16.456914,
+      "node_index": 33,
+      "station_id": 37806812,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 617,
+      "latitude": 43.519003,
+      "longitude": 16.463392,
+      "node_index": 34,
+      "station_id": 37806876,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 9,
+      "city_id": 617,
+      "latitude": 43.509724,
+      "longitude": 16.440291,
+      "node_index": 35,
+      "station_id": 37806902,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 5,
+      "city_id": 617,
+      "latitude": 43.507546,
+      "longitude": 16.493757,
+      "node_index": 36,
+      "station_id": 37806947,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 5,
+      "city_id": 617,
+      "latitude": 43.50589,
+      "longitude": 16.478507,
+      "node_index": 37,
+      "station_id": 37806975,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 617,
+      "latitude": 43.502884,
+      "longitude": 16.448494,
+      "node_index": 38,
+      "station_id": 37807013,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 617,
+      "latitude": 43.507898,
+      "longitude": 16.483596,
+      "node_index": 39,
+      "station_id": 37807044,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 5,
+      "city_id": 617,
+      "latitude": 43.504489,
+      "longitude": 16.49513,
+      "node_index": 40,
+      "station_id": 37807073,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 617,
+      "latitude": 43.510889,
+      "longitude": 16.480636,
+      "node_index": 41,
+      "station_id": 37807106,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 617,
+      "latitude": 43.512426,
+      "longitude": 16.469476,
+      "node_index": 42,
+      "station_id": 37807124,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 7,
+      "city_id": 617,
+      "latitude": 43.501676,
+      "longitude": 16.463452,
+      "node_index": 43,
+      "station_id": 37807173,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 5,
+      "city_id": 617,
+      "latitude": 43.506832,
+      "longitude": 16.460762,
+      "node_index": 44,
+      "station_id": 39842564,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 617,
+      "latitude": 43.509532,
+      "longitude": 16.456919,
+      "node_index": 45,
+      "station_id": 39850654,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 7,
+      "city_id": 617,
+      "latitude": 43.509277,
+      "longitude": 16.477273,
+      "node_index": 46,
+      "station_id": 41212630,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 617,
+      "latitude": 43.520218,
+      "longitude": 16.47342,
+      "node_index": 47,
+      "station_id": 41340066,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 617,
+      "latitude": 43.521565,
+      "longitude": 16.432917,
+      "node_index": 48,
+      "station_id": 118029985,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 617,
+      "latitude": 43.501415,
+      "longitude": 16.455055,
+      "node_index": 49,
+      "station_id": 118030334,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 617,
+      "latitude": 43.516112,
+      "longitude": 16.43769,
+      "node_index": 50,
+      "station_id": 118030617,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 617,
+      "latitude": 43.513864,
+      "longitude": 16.456522,
+      "node_index": 51,
+      "station_id": 118031194,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 617,
+      "latitude": 43.513634,
+      "longitude": 16.420601,
+      "node_index": 52,
+      "station_id": 118031526,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 617,
+      "latitude": 43.515856,
+      "longitude": 16.4891,
+      "node_index": 53,
+      "station_id": 118032011,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 617,
+      "latitude": 43.507378,
+      "longitude": 16.475547,
+      "node_index": 54,
+      "station_id": 118032177,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 617,
+      "latitude": 43.514906,
+      "longitude": 16.448813,
+      "node_index": 55,
+      "station_id": 118032671,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 617,
+      "latitude": 43.521459,
+      "longitude": 16.452226,
+      "node_index": 56,
+      "station_id": 118032927,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 617,
+      "latitude": 43.516401,
+      "longitude": 16.497609,
+      "node_index": 57,
+      "station_id": 118033179,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 617,
+      "latitude": 43.52571,
+      "longitude": 16.48371,
+      "node_index": 58,
+      "station_id": 118033447,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 617,
+      "latitude": 43.513856,
+      "longitude": 16.403366,
+      "node_index": 59,
+      "station_id": 118033639,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 5,
+      "city_id": 619,
+      "latitude": 48.01164,
+      "longitude": 7.82282,
+      "node_index": 0,
+      "station_id": 15430389,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 619,
+      "latitude": 48.012852,
+      "longitude": 7.8324,
+      "node_index": 1,
+      "station_id": 15430457,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 619,
+      "latitude": 48.00751,
+      "longitude": 7.8284,
+      "node_index": 2,
+      "station_id": 15430610,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 619,
+      "latitude": 48.006753,
+      "longitude": 7.821305,
+      "node_index": 3,
+      "station_id": 15430653,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 619,
+      "latitude": 48.02815,
+      "longitude": 7.80912,
+      "node_index": 4,
+      "station_id": 15430691,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 619,
+      "latitude": 48.013762,
+      "longitude": 7.80746,
+      "node_index": 5,
+      "station_id": 15430728,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 619,
+      "latitude": 47.98988,
+      "longitude": 7.82326,
+      "node_index": 6,
+      "station_id": 15430898,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 5,
+      "city_id": 619,
+      "latitude": 47.991031,
+      "longitude": 7.815472,
+      "node_index": 7,
+      "station_id": 15430921,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 5,
+      "city_id": 619,
+      "latitude": 47.982453,
+      "longitude": 7.802845,
+      "node_index": 8,
+      "station_id": 15430958,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 619,
+      "latitude": 47.980291,
+      "longitude": 7.821829,
+      "node_index": 9,
+      "station_id": 15430974,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 11,
+      "city_id": 619,
+      "latitude": 47.98821,
+      "longitude": 7.79626,
+      "node_index": 10,
+      "station_id": 15430995,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 619,
+      "latitude": 47.99784,
+      "longitude": 7.80339,
+      "node_index": 11,
+      "station_id": 15431037,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 5,
+      "city_id": 619,
+      "latitude": 47.999744,
+      "longitude": 7.790629,
+      "node_index": 12,
+      "station_id": 15431062,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 619,
+      "latitude": 47.97616,
+      "longitude": 7.818747,
+      "node_index": 13,
+      "station_id": 15431106,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 619,
+      "latitude": 47.997669,
+      "longitude": 7.852481,
+      "node_index": 14,
+      "station_id": 15431167,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 619,
+      "latitude": 47.99743,
+      "longitude": 7.8425,
+      "node_index": 15,
+      "station_id": 15431188,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 619,
+      "latitude": 48.012112,
+      "longitude": 7.835758,
+      "node_index": 16,
+      "station_id": 15431210,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 9,
+      "city_id": 619,
+      "latitude": 47.981851,
+      "longitude": 7.894058,
+      "node_index": 17,
+      "station_id": 15432600,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 619,
+      "latitude": 48.000858,
+      "longitude": 7.849587,
+      "node_index": 18,
+      "station_id": 15433691,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 619,
+      "latitude": 47.998016,
+      "longitude": 7.848012,
+      "node_index": 19,
+      "station_id": 15433714,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 619,
+      "latitude": 48.002664,
+      "longitude": 7.851253,
+      "node_index": 20,
+      "station_id": 15433732,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 619,
+      "latitude": 47.999184,
+      "longitude": 7.85678,
+      "node_index": 21,
+      "station_id": 15433752,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 4,
+      "city_id": 619,
+      "latitude": 48.00749,
+      "longitude": 7.85742,
+      "node_index": 22,
+      "station_id": 15433765,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 619,
+      "latitude": 48.00811,
+      "longitude": 7.85047,
+      "node_index": 23,
+      "station_id": 15433788,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 619,
+      "latitude": 48.01205,
+      "longitude": 7.854987,
+      "node_index": 24,
+      "station_id": 15434215,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 7,
+      "city_id": 619,
+      "latitude": 48.034708,
+      "longitude": 7.863684,
+      "node_index": 25,
+      "station_id": 15434492,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 619,
+      "latitude": 48.01557,
+      "longitude": 7.85486,
+      "node_index": 26,
+      "station_id": 15434536,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 619,
+      "latitude": 48.02793,
+      "longitude": 7.84559,
+      "node_index": 27,
+      "station_id": 15434553,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 7,
+      "city_id": 619,
+      "latitude": 47.991531,
+      "longitude": 7.879938,
+      "node_index": 28,
+      "station_id": 15434576,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 619,
+      "latitude": 47.987651,
+      "longitude": 7.894461,
+      "node_index": 29,
+      "station_id": 15434595,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 5,
+      "city_id": 619,
+      "latitude": 47.98464,
+      "longitude": 7.89354,
+      "node_index": 30,
+      "station_id": 15434619,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 619,
+      "latitude": 47.988284,
+      "longitude": 7.864905,
+      "node_index": 31,
+      "station_id": 15434644,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 619,
+      "latitude": 47.989604,
+      "longitude": 7.87187,
+      "node_index": 32,
+      "station_id": 15434659,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 619,
+      "latitude": 47.984584,
+      "longitude": 7.840984,
+      "node_index": 33,
+      "station_id": 15434682,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 619,
+      "latitude": 47.984648,
+      "longitude": 7.847861,
+      "node_index": 34,
+      "station_id": 15434698,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 5,
+      "city_id": 619,
+      "latitude": 47.989491,
+      "longitude": 7.836953,
+      "node_index": 35,
+      "station_id": 15434720,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 7,
+      "city_id": 619,
+      "latitude": 47.98912,
+      "longitude": 7.84772,
+      "node_index": 36,
+      "station_id": 15434748,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 619,
+      "latitude": 47.97998,
+      "longitude": 7.83215,
+      "node_index": 37,
+      "station_id": 15434763,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 619,
+      "latitude": 47.973806,
+      "longitude": 7.827925,
+      "node_index": 38,
+      "station_id": 15434783,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 619,
+      "latitude": 48.004001,
+      "longitude": 7.841218,
+      "node_index": 39,
+      "station_id": 15434805,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 619,
+      "latitude": 48.00326,
+      "longitude": 7.83207,
+      "node_index": 40,
+      "station_id": 15434823,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 16,
+      "city_id": 619,
+      "latitude": 47.99987,
+      "longitude": 7.83207,
+      "node_index": 41,
+      "station_id": 15434837,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 7,
+      "city_id": 619,
+      "latitude": 47.992394,
+      "longitude": 7.854083,
+      "node_index": 42,
+      "station_id": 15434922,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 619,
+      "latitude": 47.99291,
+      "longitude": 7.84702,
+      "node_index": 43,
+      "station_id": 15435301,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 619,
+      "latitude": 47.995016,
+      "longitude": 7.843514,
+      "node_index": 44,
+      "station_id": 15435973,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 11,
+      "city_id": 619,
+      "latitude": 47.9961,
+      "longitude": 7.84616,
+      "node_index": 45,
+      "station_id": 15857436,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 7,
+      "city_id": 619,
+      "latitude": 48.01267,
+      "longitude": 7.84964,
+      "node_index": 46,
+      "station_id": 15857462,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 619,
+      "latitude": 47.9761,
+      "longitude": 7.8284,
+      "node_index": 47,
+      "station_id": 15857499,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 619,
+      "latitude": 47.98272,
+      "longitude": 7.85402,
+      "node_index": 48,
+      "station_id": 15858277,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 619,
+      "latitude": 47.991982,
+      "longitude": 7.850421,
+      "node_index": 49,
+      "station_id": 15858337,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 619,
+      "latitude": 48.024154,
+      "longitude": 7.862944,
+      "node_index": 50,
+      "station_id": 16044954,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 619,
+      "latitude": 48.005842,
+      "longitude": 7.834094,
+      "node_index": 51,
+      "station_id": 16045234,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 619,
+      "latitude": 47.99764,
+      "longitude": 7.839893,
+      "node_index": 52,
+      "station_id": 16045295,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 619,
+      "latitude": 47.997058,
+      "longitude": 7.834818,
+      "node_index": 53,
+      "station_id": 16045395,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 619,
+      "latitude": 47.999714,
+      "longitude": 7.842265,
+      "node_index": 54,
+      "station_id": 16045533,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 619,
+      "latitude": 47.988072,
+      "longitude": 7.873674,
+      "node_index": 55,
+      "station_id": 19100030,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 619,
+      "latitude": 48.021908,
+      "longitude": 7.850236,
+      "node_index": 56,
+      "station_id": 19100043,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 619,
+      "latitude": 48.043359,
+      "longitude": 7.873807,
+      "node_index": 57,
+      "station_id": 19100052,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 619,
+      "latitude": 48.042793,
+      "longitude": 7.866093,
+      "node_index": 58,
+      "station_id": 19100064,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 5,
+      "city_id": 619,
+      "latitude": 47.992361,
+      "longitude": 7.797626,
+      "node_index": 59,
+      "station_id": 21733873,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 619,
+      "latitude": 48.033345,
+      "longitude": 7.875808,
+      "node_index": 60,
+      "station_id": 29796996,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 619,
+      "latitude": 48.049563,
+      "longitude": 7.801704,
+      "node_index": 61,
+      "station_id": 29796999,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 619,
+      "latitude": 47.9657,
+      "longitude": 7.827759,
+      "node_index": 62,
+      "station_id": 29797015,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 619,
+      "latitude": 48.028638,
+      "longitude": 7.833831,
+      "node_index": 63,
+      "station_id": 29797019,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 619,
+      "latitude": 48.010611,
+      "longitude": 7.811966,
+      "node_index": 64,
+      "station_id": 33269648,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 9,
+      "city_id": 619,
+      "latitude": 48.004991,
+      "longitude": 7.855278,
+      "node_index": 65,
+      "station_id": 33269678,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 619,
+      "latitude": 47.995206,
+      "longitude": 7.84081,
+      "node_index": 66,
+      "station_id": 33269707,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 9,
+      "city_id": 619,
+      "latitude": 47.991351,
+      "longitude": 7.844388,
+      "node_index": 67,
+      "station_id": 33269738,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 619,
+      "latitude": 47.997234,
+      "longitude": 7.795159,
+      "node_index": 68,
+      "station_id": 33269766,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 7,
+      "city_id": 619,
+      "latitude": 47.986769,
+      "longitude": 7.829116,
+      "node_index": 69,
+      "station_id": 33269811,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 619,
+      "latitude": 47.986277,
+      "longitude": 7.837581,
+      "node_index": 70,
+      "station_id": 33269843,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 7,
+      "city_id": 619,
+      "latitude": 47.990274,
+      "longitude": 7.853658,
+      "node_index": 71,
+      "station_id": 33269872,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 619,
+      "latitude": 47.985014,
+      "longitude": 7.854023,
+      "node_index": 72,
+      "station_id": 33269901,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 7,
+      "city_id": 619,
+      "latitude": 48.002113,
+      "longitude": 7.820174,
+      "node_index": 73,
+      "station_id": 36749076,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 619,
+      "latitude": 48.01903,
+      "longitude": 7.857215,
+      "node_index": 74,
+      "station_id": 36749105,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 619,
+      "latitude": 47.996969,
+      "longitude": 7.854302,
+      "node_index": 75,
+      "station_id": 36749115,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 619,
+      "latitude": 47.99811,
+      "longitude": 7.817996,
+      "node_index": 76,
+      "station_id": 36749123,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 8,
+      "city_id": 619,
+      "latitude": 47.992481,
+      "longitude": 7.832758,
+      "node_index": 77,
+      "station_id": 36749134,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 619,
+      "latitude": 47.985236,
+      "longitude": 7.903789,
+      "node_index": 78,
+      "station_id": 36749158,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 10,
+      "city_id": 619,
+      "latitude": 48.018829,
+      "longitude": 7.840199,
+      "node_index": 79,
+      "station_id": 36749168,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 619,
+      "latitude": 47.99311,
+      "longitude": 7.809681,
+      "node_index": 80,
+      "station_id": 48364151,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 619,
+      "latitude": 47.984838,
+      "longitude": 7.820495,
+      "node_index": 81,
+      "station_id": 48364166,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 12,
+      "city_id": 619,
+      "latitude": 48.007116,
+      "longitude": 7.819219,
+      "node_index": 82,
+      "station_id": 48364174,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 619,
+      "latitude": 47.994524,
+      "longitude": 7.803576,
+      "node_index": 83,
+      "station_id": 48364230,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 619,
+      "latitude": 47.9859,
+      "longitude": 7.78244,
+      "node_index": 84,
+      "station_id": 57136499,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 619,
+      "latitude": 48.025097,
+      "longitude": 7.814916,
+      "node_index": 85,
+      "station_id": 57136525,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 6,
+      "city_id": 619,
+      "latitude": 48.008738,
+      "longitude": 7.834169,
+      "node_index": 86,
+      "station_id": 148616581,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.673431,
+      "longitude": 11.97932,
+      "node_index": 0,
+      "station_id": 28031717,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.671152,
+      "longitude": 12.009609,
+      "node_index": 1,
+      "station_id": 28031764,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.666205,
+      "longitude": 12.011865,
+      "node_index": 2,
+      "station_id": 28031786,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.667172,
+      "longitude": 12.017187,
+      "node_index": 3,
+      "station_id": 28031883,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.656097,
+      "longitude": 12.016837,
+      "node_index": 4,
+      "station_id": 28031924,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.655967,
+      "longitude": 12.019499,
+      "node_index": 5,
+      "station_id": 28031992,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.649279,
+      "longitude": 12.002687,
+      "node_index": 6,
+      "station_id": 28032044,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.644106,
+      "longitude": 12.01707,
+      "node_index": 7,
+      "station_id": 28032081,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.700292,
+      "longitude": 11.973483,
+      "node_index": 8,
+      "station_id": 28045383,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.702442,
+      "longitude": 11.965321,
+      "node_index": 9,
+      "station_id": 28045452,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.707152,
+      "longitude": 11.96749,
+      "node_index": 10,
+      "station_id": 28045472,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.709382,
+      "longitude": 11.971916,
+      "node_index": 11,
+      "station_id": 28045500,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.704582,
+      "longitude": 11.992474,
+      "node_index": 12,
+      "station_id": 28045513,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.697933,
+      "longitude": 11.995064,
+      "node_index": 13,
+      "station_id": 28045529,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.696931,
+      "longitude": 11.985616,
+      "node_index": 14,
+      "station_id": 28045547,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.697638,
+      "longitude": 11.961622,
+      "node_index": 15,
+      "station_id": 28045576,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.690247,
+      "longitude": 11.951773,
+      "node_index": 16,
+      "station_id": 28045585,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.708077,
+      "longitude": 11.972684,
+      "node_index": 17,
+      "station_id": 28045600,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.697907,
+      "longitude": 11.980875,
+      "node_index": 18,
+      "station_id": 28045623,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.696762,
+      "longitude": 11.950997,
+      "node_index": 19,
+      "station_id": 28045686,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.689784,
+      "longitude": 11.973249,
+      "node_index": 20,
+      "station_id": 28045704,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.69842,
+      "longitude": 11.9423,
+      "node_index": 21,
+      "station_id": 28045732,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.704689,
+      "longitude": 11.990669,
+      "node_index": 22,
+      "station_id": 28045771,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.704551,
+      "longitude": 11.969009,
+      "node_index": 23,
+      "station_id": 28045802,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.712957,
+      "longitude": 11.991341,
+      "node_index": 24,
+      "station_id": 28045814,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.705692,
+      "longitude": 11.956843,
+      "node_index": 25,
+      "station_id": 28045845,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.714869,
+      "longitude": 11.998419,
+      "node_index": 26,
+      "station_id": 28045863,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.7084,
+      "longitude": 11.966954,
+      "node_index": 27,
+      "station_id": 28045875,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.70726,
+      "longitude": 11.938266,
+      "node_index": 28,
+      "station_id": 28045887,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.704222,
+      "longitude": 11.963993,
+      "node_index": 29,
+      "station_id": 28045897,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.689168,
+      "longitude": 11.968226,
+      "node_index": 30,
+      "station_id": 28045914,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.697736,
+      "longitude": 11.929998,
+      "node_index": 31,
+      "station_id": 28045924,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.715501,
+      "longitude": 12.003561,
+      "node_index": 32,
+      "station_id": 28045931,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.727428,
+      "longitude": 12.004718,
+      "node_index": 33,
+      "station_id": 28045942,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.720375,
+      "longitude": 11.952825,
+      "node_index": 34,
+      "station_id": 28045948,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.720823,
+      "longitude": 11.944587,
+      "node_index": 35,
+      "station_id": 28045956,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.721332,
+      "longitude": 11.934752,
+      "node_index": 36,
+      "station_id": 28045983,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.705722,
+      "longitude": 11.940167,
+      "node_index": 37,
+      "station_id": 28046042,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.708534,
+      "longitude": 11.946484,
+      "node_index": 38,
+      "station_id": 28046053,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.715885,
+      "longitude": 11.910317,
+      "node_index": 39,
+      "station_id": 28046066,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.660986,
+      "longitude": 12.013367,
+      "node_index": 40,
+      "station_id": 30525208,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.661494,
+      "longitude": 11.998535,
+      "node_index": 41,
+      "station_id": 30786120,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.649064,
+      "longitude": 12.013684,
+      "node_index": 42,
+      "station_id": 30795085,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.656825,
+      "longitude": 12.027245,
+      "node_index": 43,
+      "station_id": 30915282,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.71153,
+      "longitude": 11.96659,
+      "node_index": 44,
+      "station_id": 30915335,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.707479,
+      "longitude": 11.963891,
+      "node_index": 45,
+      "station_id": 30915370,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.70149,
+      "longitude": 11.976648,
+      "node_index": 46,
+      "station_id": 30921179,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.702499,
+      "longitude": 11.955555,
+      "node_index": 47,
+      "station_id": 30921467,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.702417,
+      "longitude": 11.971593,
+      "node_index": 48,
+      "station_id": 30921540,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.704542,
+      "longitude": 11.98433,
+      "node_index": 49,
+      "station_id": 30921648,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.701011,
+      "longitude": 11.958456,
+      "node_index": 50,
+      "station_id": 30921680,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.706985,
+      "longitude": 11.983874,
+      "node_index": 51,
+      "station_id": 30921739,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.701224,
+      "longitude": 11.992199,
+      "node_index": 52,
+      "station_id": 30921846,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.695921,
+      "longitude": 11.958664,
+      "node_index": 53,
+      "station_id": 30921902,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.698429,
+      "longitude": 11.976702,
+      "node_index": 54,
+      "station_id": 30921953,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.693601,
+      "longitude": 11.97193,
+      "node_index": 55,
+      "station_id": 30922009,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.692996,
+      "longitude": 11.986717,
+      "node_index": 56,
+      "station_id": 30922067,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.698655,
+      "longitude": 11.956424,
+      "node_index": 57,
+      "station_id": 30922094,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.685286,
+      "longitude": 11.984083,
+      "node_index": 58,
+      "station_id": 30922176,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.690344,
+      "longitude": 11.988573,
+      "node_index": 59,
+      "station_id": 30922768,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.711988,
+      "longitude": 11.980608,
+      "node_index": 60,
+      "station_id": 30922847,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.708979,
+      "longitude": 11.984741,
+      "node_index": 61,
+      "station_id": 31052803,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.698241,
+      "longitude": 11.946471,
+      "node_index": 62,
+      "station_id": 31054422,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.713464,
+      "longitude": 11.967534,
+      "node_index": 63,
+      "station_id": 31054478,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.710633,
+      "longitude": 11.943271,
+      "node_index": 64,
+      "station_id": 31054525,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.687107,
+      "longitude": 11.997463,
+      "node_index": 65,
+      "station_id": 31054557,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.681076,
+      "longitude": 12.000622,
+      "node_index": 66,
+      "station_id": 31054622,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.693985,
+      "longitude": 11.919292,
+      "node_index": 67,
+      "station_id": 31054774,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.725779,
+      "longitude": 12.004683,
+      "node_index": 68,
+      "station_id": 31054817,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.718189,
+      "longitude": 11.959959,
+      "node_index": 69,
+      "station_id": 31054870,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.716525,
+      "longitude": 11.953919,
+      "node_index": 70,
+      "station_id": 31054913,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.719031,
+      "longitude": 11.948186,
+      "node_index": 71,
+      "station_id": 31055388,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.716023,
+      "longitude": 11.945039,
+      "node_index": 72,
+      "station_id": 31068979,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.686949,
+      "longitude": 11.92082,
+      "node_index": 73,
+      "station_id": 31069018,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.695263,
+      "longitude": 11.985067,
+      "node_index": 74,
+      "station_id": 31069065,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.711948,
+      "longitude": 11.972943,
+      "node_index": 75,
+      "station_id": 31069590,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.674765,
+      "longitude": 11.935815,
+      "node_index": 76,
+      "station_id": 31069642,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.728825,
+      "longitude": 12.01216,
+      "node_index": 77,
+      "station_id": 31100719,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.689861,
+      "longitude": 11.979974,
+      "node_index": 78,
+      "station_id": 31100774,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.708489,
+      "longitude": 11.975666,
+      "node_index": 79,
+      "station_id": 31100844,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.699934,
+      "longitude": 11.976213,
+      "node_index": 80,
+      "station_id": 31102371,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.702505,
+      "longitude": 11.979137,
+      "node_index": 81,
+      "station_id": 31102508,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.700482,
+      "longitude": 11.952959,
+      "node_index": 82,
+      "station_id": 31102588,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.706957,
+      "longitude": 11.989121,
+      "node_index": 83,
+      "station_id": 31102700,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.700117,
+      "longitude": 11.987962,
+      "node_index": 84,
+      "station_id": 31105279,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.702117,
+      "longitude": 11.98506,
+      "node_index": 85,
+      "station_id": 31105336,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.693582,
+      "longitude": 11.958531,
+      "node_index": 86,
+      "station_id": 31105440,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.69447,
+      "longitude": 11.961815,
+      "node_index": 87,
+      "station_id": 31105454,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.692827,
+      "longitude": 11.955807,
+      "node_index": 88,
+      "station_id": 31105565,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.698342,
+      "longitude": 11.967771,
+      "node_index": 89,
+      "station_id": 31105611,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.703296,
+      "longitude": 11.960029,
+      "node_index": 90,
+      "station_id": 31106088,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.715599,
+      "longitude": 11.972684,
+      "node_index": 91,
+      "station_id": 31106118,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.702241,
+      "longitude": 11.97505,
+      "node_index": 92,
+      "station_id": 31107200,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.711346,
+      "longitude": 11.995617,
+      "node_index": 93,
+      "station_id": 31107232,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.7169,
+      "longitude": 11.921064,
+      "node_index": 94,
+      "station_id": 31107621,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.681802,
+      "longitude": 11.983083,
+      "node_index": 95,
+      "station_id": 31107695,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.684374,
+      "longitude": 11.972228,
+      "node_index": 96,
+      "station_id": 31107747,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.683052,
+      "longitude": 11.960343,
+      "node_index": 97,
+      "station_id": 31107854,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.68339,
+      "longitude": 11.950427,
+      "node_index": 98,
+      "station_id": 31107957,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.722008,
+      "longitude": 11.96969,
+      "node_index": 99,
+      "station_id": 31108018,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.714507,
+      "longitude": 11.92759,
+      "node_index": 100,
+      "station_id": 31108044,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.712851,
+      "longitude": 11.945626,
+      "node_index": 101,
+      "station_id": 31108096,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.722839,
+      "longitude": 11.993148,
+      "node_index": 102,
+      "station_id": 31108125,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.692583,
+      "longitude": 11.973987,
+      "node_index": 103,
+      "station_id": 31108214,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.70154,
+      "longitude": 11.949612,
+      "node_index": 104,
+      "station_id": 31834078,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.69669,
+      "longitude": 11.972278,
+      "node_index": 105,
+      "station_id": 31834167,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.698718,
+      "longitude": 11.934371,
+      "node_index": 106,
+      "station_id": 32945034,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.675107,
+      "longitude": 12.007756,
+      "node_index": 107,
+      "station_id": 35032184,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.655461,
+      "longitude": 12.011447,
+      "node_index": 108,
+      "station_id": 44174457,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.654282,
+      "longitude": 12.015519,
+      "node_index": 109,
+      "station_id": 44174521,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.692474,
+      "longitude": 11.911932,
+      "node_index": 110,
+      "station_id": 44798666,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.691316,
+      "longitude": 12.034123,
+      "node_index": 111,
+      "station_id": 45335280,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.660559,
+      "longitude": 11.845418,
+      "node_index": 112,
+      "station_id": 45335351,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.642316,
+      "longitude": 11.900555,
+      "node_index": 113,
+      "station_id": 45335448,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.710685,
+      "longitude": 12.054683,
+      "node_index": 114,
+      "station_id": 45335792,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.718416,
+      "longitude": 12.025861,
+      "node_index": 115,
+      "station_id": 45335966,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.700963,
+      "longitude": 11.914973,
+      "node_index": 116,
+      "station_id": 45336417,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.708839,
+      "longitude": 11.927097,
+      "node_index": 117,
+      "station_id": 45336515,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.680877,
+      "longitude": 12.008588,
+      "node_index": 118,
+      "station_id": 48539111,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.719251,
+      "longitude": 11.927182,
+      "node_index": 119,
+      "station_id": 49211002,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.685435,
+      "longitude": 11.977801,
+      "node_index": 120,
+      "station_id": 58297967,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.68319,
+      "longitude": 12.008756,
+      "node_index": 121,
+      "station_id": 65657515,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.681715,
+      "longitude": 11.935658,
+      "node_index": 122,
+      "station_id": 71768205,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.686915,
+      "longitude": 11.958232,
+      "node_index": 123,
+      "station_id": 77661136,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.675526,
+      "longitude": 11.994699,
+      "node_index": 124,
+      "station_id": 110422761,
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "bike_racks": 0,
+      "city_id": 658,
+      "latitude": 57.700615,
+      "longitude": 11.950091,
+      "node_index": 125,
+      "station_id": 114842858,
+      "timezone": "Europe/Berlin"
+    }
+  ]
+}

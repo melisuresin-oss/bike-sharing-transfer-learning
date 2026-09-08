@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "synthetic_tests": 8,
+  "checks": [
+    {
+      "test": "clearly_different_primary",
+      "status": "PASS"
+    },
+    {
+      "test": "unrounded_difference_tied_at_4dp",
+      "status": "PASS"
+    },
+    {
+      "test": "primary_tie_lower_population_sd",
+      "status": "PASS"
+    },
+    {
+      "test": "primary_and_sd_tie_lower_lambda",
+      "status": "PASS"
+    },
+    {
+      "test": "final_constant_tie_break",
+      "status": "PASS"
+    },
+    {
+      "test": "ROUND_HALF_UP_boundaries",
+      "status": "PASS"
+    },
+    {
+      "test": "population_not_sample_sd",
+      "status": "PASS"
+    },
+    {
+      "test": "input_order_independent_72_row_aggregation",
+      "status": "PASS"
+    }
+  ],
+  "clarification_sha256": "852d8c32dd9004a8dfaa17633e285877828672d79414cf5fb67b8550c8ea7d4d",
+  "real_scientific_optimizer_updates": 0,
+  "real_scientific_evaluations": 0,
+  "stage4_scientific_results_inspected": false,
+  "final_target_labels_accessed": false
+}

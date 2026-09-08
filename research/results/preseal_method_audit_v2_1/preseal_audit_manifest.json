@@ -1,0 +1,59 @@
+{
+  "all_dropout_prediction_pairs_differ": true,
+  "created_utc": "2026-09-04T19:16:51.569947+00:00",
+  "dropout_implementation_status": "PASS",
+  "dropout_prediction_pairs": 72,
+  "final_target_labels_accessed": false,
+  "frozen_bootstrap_requirements": {
+    "block": "paired_contiguous_nonoverlapping_7_day_utc_with_short_terminal_retained",
+    "iid_cross_city_inference": false,
+    "replicates": 2000,
+    "scope": "within_city"
+  },
+  "implementation_sha256": {
+    "research/scripts/run_preseal_method_audit.py": "cb3d33d2be5d5b4c37212c2c2d4e1380bba8f2868acef959ff25eba198dffbe3",
+    "research/scripts/verify_preseal_method_audit.py": "b9fefd3bce815bd02cd8235791a5b7041b401c1f64539eef92a691c7d4390a3f",
+    "research/tests/test_preseal_method_audit.py": "7d61910569a2e9a66998f6a031d6b28a33f711544d614e510d138b9b0424fa08"
+  },
+  "input_sha256": {
+    "ABLATION_MATRIX_V2.csv": "601563021c6caf7b339a262ca06088a2522d46b7df58f6aeb3556f4125bbc336",
+    "COMPUTATION_DAG_V2_1.md": "48f38bc97505d622316008b8ac155fb09e2b9a9efce6f36dad7e15b35d9f53cf",
+    "DEVELOPMENT_SELECTION_PROTOCOL.md": "14a1778ceb6437c6187837f1e34822164e4f32ae2e4d0f5c8f840c0576d5eb97",
+    "EVALUATION_PROTOCOL_V2.md": "ebde12ca004508645e876e66d1899eb23f36410751ef0d102029c602874549ee",
+    "FEATURE_PROTOCOL_V2_1.md": "bf14a35b8a582e2cf02b2203e18769d0a078306401e1afaf6ef93b9dfc5ba6fa",
+    "MODEL_SPECIFICATION_V2.md": "cd81675bbb83386b006c28f4fc279c1e9367dc1645e68a581963d72cd840db88",
+    "MODEL_SPECIFICATION_V2_1.md": "430fd12c6322a102687c2a546be394bb7ef344656c1a34edf05a86beadca88bf",
+    "NEURAL_ARCHITECTURE_SPEC.md": "ddc6875307518940f8cf98d5480b90984d984d996bf6aefa0cdffd0179542f33",
+    "RESEARCH_PROTOCOL_V2_1.md": "6bbf5bc39292ef9e1bf8321b90006269217b43fd0df59da25687712fc418c35c",
+    "TRAINING_BUDGET_PROTOCOL.md": "479d87f18095611b1d488a7f1b932c160e688d11a8776c1b0c6d85b21af81940",
+    "research/data/graph_dataset.py": "2a80c0d3b7e2907a9eb85cae2e05d2d62aa5a57b1b11f0ea3b03b8a72e51d74f",
+    "research/data/protocol_dataset.py": "06b1c068e317aabbb9fae29504c5be19f3ebd455f70e1fedced94badcd7b877a",
+    "research/data/window_dataset.py": "7b4960a41261f46e614d3b98f1b71c5ed2400fb6fee88b0d7658fad2f29d4d1b",
+    "research/evaluation/metrics.py": "6f3282f40051ad38380b8074a7a36a212918dc4a4df44c32d5d7452d5169ab87",
+    "research/models/common.py": "989bb7afac452b682bd041fee70c0c29f2341e66c52ed79abac0c3d10a902739",
+    "research/models/graph_gru.py": "91b0131e71f0b7e0e375e46d01d931b808e3c6822b58ed87d6310b7041b7835d",
+    "research/models/heads.py": "2cfb0572e35989d1100eb9133d2fcd882a472d21db02e5c29170e97176af9b94",
+    "research/models/model_factory.py": "0bd3bac92a0e8872b0d6c5abd2a6a678fe2a77c6ca4c25b40fa62bd73179339d",
+    "research/models/vanilla_gru.py": "fd9a5b1df0c6dcfd648b0d79ce2f15d1aacd266ad6ee20d53790b0cb9164bcb2",
+    "research/results/stage2_graphgru_selection_v2_1_a40/stage2_decision_manifest.json": "593dd284acc5d4e2da0e1d74ace84e85396894c05f3b738c01d64421d232e408",
+    "research/results/stage2_graphgru_selection_v2_1_a40/stage2_prediction_manifest.csv": "8881f04d80ade6a8f9f7e7cb08ce0af2a81a839e7b2cfb34955e4a25d0c5ce41",
+    "research/training/trainer.py": "01057936c5556303c87f1f100311d91c598702bf01e0d5c7c2080d68b5408929"
+  },
+  "output_sha256": {
+    "PRE_SEAL_AUDIT.md": "3a2ebe71eff4e898e0ccff9d79fcf09be647f34144cdf81da56625457283e125",
+    "dropout_functional_checks.csv": "e7f9291aba97c3cdce3c7475f6b30e771d837c243b4a1afa65a6c53db7de91bb",
+    "dropout_prediction_differences.csv": "a1cd1827e9fcec4b98d9f6b996097376d528c7530ab0de66434a350bf2698101",
+    "dropout_prediction_input_hashes.csv": "9c81bc32421cce9698eecf48f7c43175166bec4667a10abc299ac84cdae07021",
+    "historical_dropout_warning_hits.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+  },
+  "prediction_evaluation_triggered": false,
+  "random_encoder_diagnostic": "OMIT_NOT_EXECUTED_NOT_REGISTERED",
+  "record_type": "READ_ONLY_PRE_SEAL_AUDIT_NOT_A_SCIENTIFIC_SEAL",
+  "scientific_training_triggered": false,
+  "seed_bootstrap_status": "UNRESOLVED_FINAL_EXECUTION_BLOCKER",
+  "stage2b_executed": false,
+  "stage2b_safe_for_owner_review_and_sealing": true,
+  "stage2c_status": "OPTIONAL_NOT_CREATED_NOT_AUTHORIZED",
+  "stage4_implemented": false,
+  "status": "PASS_WITH_FINAL_EXECUTION_BLOCKER"
+}

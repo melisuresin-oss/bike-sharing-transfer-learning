@@ -1,0 +1,511 @@
+{
+  "schema_version": "1.0",
+  "protocol_version": "2.2",
+  "status": "BUILT_PENDING_READ_ONLY_VERIFICATION",
+  "scope": "DEVELOPMENT_ONLY",
+  "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+  "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+  "implementation_manifest_sha256": "a1fe0ee486c55b1348e92d91edd42289dd49ce982129cdaa544691eafd605a9d",
+  "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+  "feature_function_version": "v2_2.asof_history.1",
+  "builder_sha256": "ac0044f64b6b2435ea06eeaef82f7274093790f1c72c9428f9936d8990421226",
+  "development_cities": [
+    129,
+    194,
+    438,
+    467,
+    476,
+    532,
+    619,
+    658
+  ],
+  "pseudo_targets": [
+    476,
+    532,
+    619,
+    658
+  ],
+  "station_counts": {
+    "129": 76,
+    "194": 47,
+    "438": 43,
+    "467": 28,
+    "476": 73,
+    "532": 43,
+    "619": 87,
+    "658": 126
+  },
+  "total_development_stations": 523,
+  "fixed_global_cohort_size": 799,
+  "boundaries_us": {
+    "H0": 1661749200000000,
+    "HD": 1676498400000000,
+    "HF": 1681682400000000
+  },
+  "active_count_feed": {
+    "policy": "IDEALIZED_COUNT_FEED_BENCHMARK",
+    "Q": "1[e <= a]"
+  },
+  "status_semantics": "integer UTC microseconds; prefix <= origin; exact inclusive 12h brackets; prefix lifetime; D>0 and 2N>=D",
+  "panel_schema": "NPZ non-object arrays; origin-major, full frozen node order; x_hist[H,24,N,2] float32; m_hist[H,24,N] bool; x_week[H,N,2]; static[N,2]; calendar[H,6]; per-origin feature SHA256",
+  "runtime": {
+    "numpy": "2.5.2",
+    "duckdb": "1.5.5",
+    "tzdata": "2026.3"
+  },
+  "panels": [
+    {
+      "path": "processed/protocol_v2_2/development/city_129_predictors.npz",
+      "sha256": "ee60c48205f29f5d1c2ab8fba106e673a9dcecd6a765612191d1edee3046a17b",
+      "city_id": 129,
+      "station_count": 76,
+      "origin_count": 5537,
+      "identity": {
+        "artifact_role": "predictor_cache",
+        "cutoff_us": 1681682400000000,
+        "city_ids": [
+          129
+        ],
+        "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+        "graph_binding_sha256": null,
+        "model_family": "none",
+        "protocol_version": "2.2",
+        "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+        "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+        "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+        "feature_function_version": "v2_2.asof_history.1",
+        "schema_version": "1.0"
+      },
+      "cutoff_semantics": "file partition end; each row uses its own origin_us",
+      "schema": {
+        "x_hist": [
+          5537,
+          24,
+          76,
+          2
+        ],
+        "m_hist": [
+          5537,
+          24,
+          76
+        ],
+        "x_week": [
+          5537,
+          76,
+          2
+        ],
+        "x_static": [
+          76,
+          2
+        ],
+        "x_calendar": [
+          5537,
+          6
+        ]
+      }
+    },
+    {
+      "path": "processed/protocol_v2_2/development/city_194_predictors.npz",
+      "sha256": "823f3c5d07a816b125e82bbd74a922bd28d0281b0869e2ef15e9f3db24734e3c",
+      "city_id": 194,
+      "station_count": 47,
+      "origin_count": 5537,
+      "identity": {
+        "artifact_role": "predictor_cache",
+        "cutoff_us": 1681682400000000,
+        "city_ids": [
+          194
+        ],
+        "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+        "graph_binding_sha256": null,
+        "model_family": "none",
+        "protocol_version": "2.2",
+        "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+        "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+        "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+        "feature_function_version": "v2_2.asof_history.1",
+        "schema_version": "1.0"
+      },
+      "cutoff_semantics": "file partition end; each row uses its own origin_us",
+      "schema": {
+        "x_hist": [
+          5537,
+          24,
+          47,
+          2
+        ],
+        "m_hist": [
+          5537,
+          24,
+          47
+        ],
+        "x_week": [
+          5537,
+          47,
+          2
+        ],
+        "x_static": [
+          47,
+          2
+        ],
+        "x_calendar": [
+          5537,
+          6
+        ]
+      }
+    },
+    {
+      "path": "processed/protocol_v2_2/development/city_438_predictors.npz",
+      "sha256": "be7279a5e72d06b75b842d79b426a285bff5334da0b4520d482546034c1abdc3",
+      "city_id": 438,
+      "station_count": 43,
+      "origin_count": 5537,
+      "identity": {
+        "artifact_role": "predictor_cache",
+        "cutoff_us": 1681682400000000,
+        "city_ids": [
+          438
+        ],
+        "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+        "graph_binding_sha256": null,
+        "model_family": "none",
+        "protocol_version": "2.2",
+        "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+        "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+        "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+        "feature_function_version": "v2_2.asof_history.1",
+        "schema_version": "1.0"
+      },
+      "cutoff_semantics": "file partition end; each row uses its own origin_us",
+      "schema": {
+        "x_hist": [
+          5537,
+          24,
+          43,
+          2
+        ],
+        "m_hist": [
+          5537,
+          24,
+          43
+        ],
+        "x_week": [
+          5537,
+          43,
+          2
+        ],
+        "x_static": [
+          43,
+          2
+        ],
+        "x_calendar": [
+          5537,
+          6
+        ]
+      }
+    },
+    {
+      "path": "processed/protocol_v2_2/development/city_467_predictors.npz",
+      "sha256": "c6e02eeba63d9fc3eb2fd841f5554c77ebb95ae918d4ac73f9a39e62715a7363",
+      "city_id": 467,
+      "station_count": 28,
+      "origin_count": 5537,
+      "identity": {
+        "artifact_role": "predictor_cache",
+        "cutoff_us": 1681682400000000,
+        "city_ids": [
+          467
+        ],
+        "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+        "graph_binding_sha256": null,
+        "model_family": "none",
+        "protocol_version": "2.2",
+        "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+        "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+        "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+        "feature_function_version": "v2_2.asof_history.1",
+        "schema_version": "1.0"
+      },
+      "cutoff_semantics": "file partition end; each row uses its own origin_us",
+      "schema": {
+        "x_hist": [
+          5537,
+          24,
+          28,
+          2
+        ],
+        "m_hist": [
+          5537,
+          24,
+          28
+        ],
+        "x_week": [
+          5537,
+          28,
+          2
+        ],
+        "x_static": [
+          28,
+          2
+        ],
+        "x_calendar": [
+          5537,
+          6
+        ]
+      }
+    },
+    {
+      "path": "processed/protocol_v2_2/development/city_476_predictors.npz",
+      "sha256": "8bc84d1357d8eb99e287ebedcc21edb45749091f6cc4fe056e76f4c527babf31",
+      "city_id": 476,
+      "station_count": 73,
+      "origin_count": 5537,
+      "identity": {
+        "artifact_role": "predictor_cache",
+        "cutoff_us": 1681682400000000,
+        "city_ids": [
+          476
+        ],
+        "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+        "graph_binding_sha256": null,
+        "model_family": "none",
+        "protocol_version": "2.2",
+        "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+        "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+        "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+        "feature_function_version": "v2_2.asof_history.1",
+        "schema_version": "1.0"
+      },
+      "cutoff_semantics": "file partition end; each row uses its own origin_us",
+      "schema": {
+        "x_hist": [
+          5537,
+          24,
+          73,
+          2
+        ],
+        "m_hist": [
+          5537,
+          24,
+          73
+        ],
+        "x_week": [
+          5537,
+          73,
+          2
+        ],
+        "x_static": [
+          73,
+          2
+        ],
+        "x_calendar": [
+          5537,
+          6
+        ]
+      }
+    },
+    {
+      "path": "processed/protocol_v2_2/development/city_532_predictors.npz",
+      "sha256": "87ded7633788ab9c217980abcd4a3b3810e8a1739109dd892a3ad84c93f0e625",
+      "city_id": 532,
+      "station_count": 43,
+      "origin_count": 5537,
+      "identity": {
+        "artifact_role": "predictor_cache",
+        "cutoff_us": 1681682400000000,
+        "city_ids": [
+          532
+        ],
+        "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+        "graph_binding_sha256": null,
+        "model_family": "none",
+        "protocol_version": "2.2",
+        "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+        "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+        "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+        "feature_function_version": "v2_2.asof_history.1",
+        "schema_version": "1.0"
+      },
+      "cutoff_semantics": "file partition end; each row uses its own origin_us",
+      "schema": {
+        "x_hist": [
+          5537,
+          24,
+          43,
+          2
+        ],
+        "m_hist": [
+          5537,
+          24,
+          43
+        ],
+        "x_week": [
+          5537,
+          43,
+          2
+        ],
+        "x_static": [
+          43,
+          2
+        ],
+        "x_calendar": [
+          5537,
+          6
+        ]
+      }
+    },
+    {
+      "path": "processed/protocol_v2_2/development/city_619_predictors.npz",
+      "sha256": "635a39151e857bdf586b967d86ccf304bfee4bd2dfcf822ba6b70d3460d732a5",
+      "city_id": 619,
+      "station_count": 87,
+      "origin_count": 5537,
+      "identity": {
+        "artifact_role": "predictor_cache",
+        "cutoff_us": 1681682400000000,
+        "city_ids": [
+          619
+        ],
+        "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+        "graph_binding_sha256": null,
+        "model_family": "none",
+        "protocol_version": "2.2",
+        "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+        "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+        "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+        "feature_function_version": "v2_2.asof_history.1",
+        "schema_version": "1.0"
+      },
+      "cutoff_semantics": "file partition end; each row uses its own origin_us",
+      "schema": {
+        "x_hist": [
+          5537,
+          24,
+          87,
+          2
+        ],
+        "m_hist": [
+          5537,
+          24,
+          87
+        ],
+        "x_week": [
+          5537,
+          87,
+          2
+        ],
+        "x_static": [
+          87,
+          2
+        ],
+        "x_calendar": [
+          5537,
+          6
+        ]
+      }
+    },
+    {
+      "path": "processed/protocol_v2_2/development/city_658_predictors.npz",
+      "sha256": "4c4cfee8d688fee0c4d220f5cb5fba64968fbced558a2fa43cf0a14a223ccbc3",
+      "city_id": 658,
+      "station_count": 126,
+      "origin_count": 5537,
+      "identity": {
+        "artifact_role": "predictor_cache",
+        "cutoff_us": 1681682400000000,
+        "city_ids": [
+          658
+        ],
+        "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+        "graph_binding_sha256": null,
+        "model_family": "none",
+        "protocol_version": "2.2",
+        "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+        "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+        "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+        "feature_function_version": "v2_2.asof_history.1",
+        "schema_version": "1.0"
+      },
+      "cutoff_semantics": "file partition end; each row uses its own origin_us",
+      "schema": {
+        "x_hist": [
+          5537,
+          24,
+          126,
+          2
+        ],
+        "m_hist": [
+          5537,
+          24,
+          126
+        ],
+        "x_week": [
+          5537,
+          126,
+          2
+        ],
+        "x_static": [
+          126,
+          2
+        ],
+        "x_calendar": [
+          5537,
+          6
+        ]
+      }
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "research/results/causal_history_audit_v2_2/source_bindings.json",
+      "sha256": "19ea2bad24060f6185abb58ca130956994e222f3432b1d53efbcdd65af6fd737"
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/graph_static_reconciliation.json",
+      "sha256": "e425ce873da946a4973fb03a57ffd6ecf92027da82a4220f56b6231343ff9758"
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/fit_snapshot_manifest.json",
+      "sha256": "467aefd170c789c6533a7f2f1ebc0f3c343944f8e2781c9e2e5e0927d200077d"
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/ha_fitting_pools.json",
+      "sha256": "2533e9dbba7cb0b39961972739cee3a259ebbbba96e21ab52ad33e1bf1192926"
+    },
+    {
+      "path": "processed/protocol_v2_2/development_labels/retrospective_label_manifest.json",
+      "sha256": "1868d6a95641e43ef3ad779f8a4f779aaf94fc3cb938b3db13b77e2eb0dd3469"
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/lag_availability.json",
+      "sha256": "1eba60d802981083385b061d5507a444c9fa15c3777005458a65a9b740b163df"
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/fit_pool_comparison.json",
+      "sha256": "9c6ac84ed7089c6d0bf7510a3323c43d28bcf0878d052b6045ed2b6999f4b801"
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/baseline_availability.json",
+      "sha256": "bfb87b4ab693a228ef47c02f294bcb2a7a286ef8a0a410a583af971e25f12fc2"
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/effective_pass_preview.json",
+      "sha256": "ccea6018850b77146704f2d88e8b29eb6b0b981f3aad0ea0c023360b11f75038"
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/causal_history_audit_manifest.json",
+      "sha256": "90ce85d1bcb89ffd9b304bcc534146263805b733aa5fb04004cc8e2587d5b629"
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/preservation_report.json",
+      "sha256": "96b7705b978d0aaf264e348b97b6098808bfec1d58a0298e404562b1d9e52b89"
+    }
+  ],
+  "final_label_firewall": "PASS",
+  "NO_MODEL_SELECTION_OCCURRED": true,
+  "NO_MODEL_TRAINING_OCCURRED": true,
+  "NO_FORECASTING_METRICS_COMPUTED": true,
+  "NO_SCIENTIFIC_PREDICTIONS_GENERATED": true,
+  "stage1_authorized": false,
+  "final_target_data_constructed": false
+}

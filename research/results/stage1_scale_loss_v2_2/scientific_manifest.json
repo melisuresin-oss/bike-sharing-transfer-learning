@@ -1,0 +1,149 @@
+{
+  "protocol_version": "2.2",
+  "stage": 1,
+  "candidates": [
+    "RAW",
+    "LOG1P"
+  ],
+  "folds": [
+    532,
+    476,
+    619,
+    658
+  ],
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "regimes": [
+    "zero_shot",
+    "7d_fine_tune"
+  ],
+  "model": {
+    "model_type": "graph_gru",
+    "input_size": 2,
+    "hidden_size": 64,
+    "context_size": 10,
+    "dropout": 0.1,
+    "output_mode": "raw_count",
+    "recurrent_layers": 1
+  },
+  "candidate_output_modes": {
+    "RAW": "raw_count",
+    "LOG1P": "log1p_target"
+  },
+  "graph_k": 8,
+  "source_updates": 12000,
+  "adaptation_updates": 300,
+  "batch_size": 16,
+  "source_optimizer": {
+    "name": "AdamW",
+    "learning_rate": 0.001,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "epsilon": 1e-08,
+    "weight_decay": 0.0001
+  },
+  "adaptation_optimizer": {
+    "name": "AdamW",
+    "learning_rate": 0.0002,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "epsilon": 1e-08,
+    "weight_decay": 0.0001
+  },
+  "optimizer_reset_before_adaptation": true,
+  "gradient_clip_global_norm": 1.0,
+  "checkpoint_rule": "final_step_only_for_evaluation_and_selection; intermediate checkpoints solely for exact recovery",
+  "early_stopping": false,
+  "source_sampling": "balanced_shuffled_12000_city_tokens; exposure difference <=1; uniform eligible anchors with replacement",
+  "initialization_seed": "registered seed",
+  "data_seed_derivation": "SHA256(stage1-v2.1|label|target|registered_seed), first 4 bytes big endian, inherited unchanged",
+  "sampling_labels": [
+    "source-city-schedule",
+    "source-anchor-sampling",
+    "fine-tune"
+  ],
+  "selection": {
+    "primary": "count_space_MAE_over_all_observed_station_hour_evaluation_keys_within_cell",
+    "seed_aggregation": "arithmetic_mean_of_17_29_43_within_each_fold_regime_cell",
+    "cell_aggregation": "arithmetic_mean_of_8_equally_weighted_cells_4_folds_x_2_regimes",
+    "primary_tie": "Decimal(str(mean)).quantize(Decimal('0.0001'), ROUND_HALF_UP)",
+    "tie_1": "lower_unrounded_population_SD_of_8_seed_averaged_cell_MAEs",
+    "tie_2": "RAW",
+    "secondary_metrics": [
+      "RMSE",
+      "WAPE_ratio",
+      "station_macro_MAE_minimum_24_valid_hours"
+    ],
+    "secondary_metrics_affect_selection": false
+  },
+  "precision": "float32 CPU; no AMP, no compilation or architecture rewrite",
+  "runtime": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "torch": "2.13.0+cpu",
+    "numpy": "2.5.2",
+    "device": "cpu",
+    "cuda_available_to_runtime": false,
+    "threads": 2,
+    "interop_threads": 1,
+    "deterministic_algorithms": true,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "tf32": false,
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8"
+  },
+  "source_cutoff": "HD",
+  "adaptation_window": "[HD-7d,HD)",
+  "evaluation_window": "[HD,HF)",
+  "history": "sealed V2.2 unchanged, including all-zero lag 1",
+  "expected_source_fits": 24,
+  "expected_adaptation_fits": 24,
+  "expected_evaluation_records": 48,
+  "design_source_sha256": {
+    "DEVELOPMENT_SELECTION_PROTOCOL.md": "14a1778ceb6437c6187837f1e34822164e4f32ae2e4d0f5c8f840c0576d5eb97",
+    "SCALE_AND_LOSS_PROTOCOL.md": "7efeb6764cf74abaa3c97a11f3256ce13e9a3bb23ace1d1158b16f679fa5ee1d",
+    "MODEL_SPECIFICATION_V2_1.md": "430fd12c6322a102687c2a546be394bb7ef344656c1a34edf05a86beadca88bf",
+    "TRAINING_BUDGET_PROTOCOL.md": "479d87f18095611b1d488a7f1b932c160e688d11a8776c1b0c6d85b21af81940",
+    "NEURAL_ARCHITECTURE_SPEC.md": "ddc6875307518940f8cf98d5480b90984d984d996bf6aefa0cdffd0179542f33",
+    "NEURAL_REPRODUCIBILITY_PROTOCOL.md": "35f5ecdca9dea4553455130ea3883e2d5bce07758a26c04958dd67865249bab9",
+    "EVALUATION_PROTOCOL_V2.md": "ebde12ca004508645e876e66d1899eb23f36410751ef0d102029c602874549ee",
+    "research/development/stage1_scale_loss.py": "9732f22d36f16662882d0aeebb7c0ac8eacc3e0f2ec1bb0dfee25becafcc6166",
+    "research/scripts/run_stage1_scale_loss.py": "abd810a1f1d8f065f73eb3cf7aa6f6873220451ea0a4d8aa06b57dd37e548896",
+    "research/data/budget_sampler.py": "07c2b5060c29ea9e0e629c065c3ec5ed5dbaa1700f560e5043e7aa59bcdb2edd",
+    "research/models/common.py": "989bb7afac452b682bd041fee70c0c29f2341e66c52ed79abac0c3d10a902739",
+    "research/models/graph_gru.py": "91b0131e71f0b7e0e375e46d01d931b808e3c6822b58ed87d6310b7041b7835d",
+    "research/models/heads.py": "2cfb0572e35989d1100eb9133d2fcd882a472d21db02e5c29170e97176af9b94",
+    "research/training/losses.py": "2a14a673ed82af6f568ac2299edb6f444bf8966408c14a53e22c2f44d8e6d310",
+    "research/training/trainer.py": "01057936c5556303c87f1f100311d91c598702bf01e0d5c7c2080d68b5408929",
+    "research/training/reproducibility.py": "4a5e1f881b15189d049060e79c2f7db55ae4adafee47218a962bc2d1a8a085c9",
+    "research/evaluation/metrics.py": "6f3282f40051ad38380b8074a7a36a212918dc4a4df44c32d5d7452d5169ab87"
+  },
+  "code_sha256": {
+    "research/stage1_v2_2/__init__.py": "4114200fb1313ea400bbd3ba60a9cbf59bdcab1f471aff53520d8221d753fd06",
+    "research/stage1_v2_2/core.py": "91a841e4f1798abd7c7fdfedf2008776350ea61b8b17d3351ab59306bb1be1c5",
+    "research/scripts/run_stage1_v2_2.py": "33b89de9b5bcd61bc0e7328e1d6fb8428ddf6bf6261484f7e93f79389324cfec"
+  },
+  "data_manifest_sha256": "140dd8c53cf51f48be5cf66b70d162c9f2cc6a9fa0b1b7039496633e385a6ab6",
+  "implementation_manifest_sha256": "a1fe0ee486c55b1348e92d91edd42289dd49ce982129cdaa544691eafd605a9d",
+  "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+  "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+  "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+  "cache_manifest_sha256": "836e7d483a76a2253b5ec63180e23683d22ba1160d170e290d83e68d5d79756d",
+  "historical_result_values_used": false,
+  "ambiguities_resolved_from_authorities": {
+    "cell_count": "4 folds x 2 regimes = 8; SCALE_AND_LOSS_PROTOCOL plus historical executable selection",
+    "MAE": "observed station-hour MAE per cell; station-macro MAE remains secondary",
+    "tie_rounding": "historical executable Decimal ROUND_HALF_UP; unrounded population SD tie-break",
+    "device": "same validated CPU runtime; CUDA determinism configured but no CUDA kernel used"
+  },
+  "contradictions": [],
+  "stage2_authorized": false,
+  "stage2b_authorized": false,
+  "final_labels_accessed": false
+}

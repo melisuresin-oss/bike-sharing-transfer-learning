@@ -1,0 +1,1819 @@
+{
+  "protocol_version": "2.2",
+  "scientific_manifest": {
+    "path": "research/results/stage1_scale_loss_v2_2/scientific_manifest.json",
+    "sha256": "25f1959ccaacf49f3aa50641427739d9c291843270b7d8961c5843cb5465024b"
+  },
+  "selection_rule": {
+    "path": "research/results/stage1_scale_loss_v2_2/selection_rule.json",
+    "sha256": "72db58ca2ad0bc16b75313a76a7996eb357fd2edd6c218d57460305636874152"
+  },
+  "jobs": [
+    {
+      "id": "raw_target-532_seed-17_source",
+      "phase": "source",
+      "updates": 12000,
+      "task_id": "raw_target-532_seed-17",
+      "depends_on": null
+    },
+    {
+      "id": "raw_target-532_seed-17_7d",
+      "phase": "adaptation",
+      "updates": 300,
+      "task_id": "raw_target-532_seed-17",
+      "depends_on": "raw_target-532_seed-17_source"
+    },
+    {
+      "id": "raw_target-532_seed-29_source",
+      "phase": "source",
+      "updates": 12000,
+      "task_id": "raw_target-532_seed-29",
+      "depends_on": null
+    },
+    {
+      "id": "raw_target-532_seed-29_7d",
+      "phase": "adaptation",
+      "updates": 300,
+      "task_id": "raw_target-532_seed-29",
+      "depends_on": "raw_target-532_seed-29_source"
+    },
+    {
+      "id": "raw_target-532_seed-43_source",
+      "phase": "source",
+      "updates": 12000,
+      "task_id": "raw_target-532_seed-43",
+      "depends_on": null
+    },
+    {
+      "id": "raw_target-532_seed-43_7d",
+      "phase": "adaptation",
+      "updates": 300,
+      "task_id": "raw_target-532_seed-43",
+      "depends_on": "raw_target-532_seed-43_source"
+    },
+    {
+      "id": "raw_target-476_seed-17_source",
+      "phase": "source",
+      "updates": 12000,
+      "task_id": "raw_target-476_seed-17",
+      "depends_on": null
+    },
+    {
+      "id": "raw_target-476_seed-17_7d",
+      "phase": "adaptation",
+      "updates": 300,
+      "task_id": "raw_target-476_seed-17",
+      "depends_on": "raw_target-476_seed-17_source"
+    },
+    {
+      "id": "raw_target-476_seed-29_source",
+      "phase": "source",
+      "updates": 12000,
+      "task_id": "raw_target-476_seed-29",
+      "depends_on": null
+    },
+    {
+      "id": "raw_target-476_seed-29_7d",
+      "phase": "adaptation",
+      "updates": 300,
+      "task_id": "raw_target-476_seed-29",
+      "depends_on": "raw_target-476_seed-29_source"
+    },
+    {
+      "id": "raw_target-476_seed-43_source",
+      "phase": "source",
+      "updates": 12000,
+      "task_id": "raw_target-476_seed-43",
+      "depends_on": null
+    },
+    {
+      "id": "raw_target-476_seed-43_7d",
+      "phase": "adaptation",
+      "updates": 300,
+      "task_id": "raw_target-476_seed-43",
+      "depends_on": "raw_target-476_seed-43_source"
+    },
+    {
+      "id": "raw_target-619_seed-17_source",
+      "phase": "source",
+      "updates": 12000,
+      "task_id": "raw_target-619_seed-17",
+      "depends_on": null
+    },
+    {
+      "id": "raw_target-619_seed-17_7d",
+      "phase": "adaptation",
+      "updates": 300,
+      "task_id": "raw_target-619_seed-17",
+      "depends_on": "raw_target-619_seed-17_source"
+    },
+    {
+      "id": "raw_target-619_seed-29_source",
+      "phase": "source",
+      "updates": 12000,
+      "task_id": "raw_target-619_seed-29",
+      "depends_on": null
+    },
+    {
+      "id": "raw_target-619_seed-29_7d",
+      "phase": "adaptation",
+      "updates": 300,
+      "task_id": "raw_target-619_seed-29",
+      "depends_on": "raw_target-619_seed-29_source"
+    },
+    {
+      "id": "raw_target-619_seed-43_source",
+      "phase": "source",
+      "updates": 12000,
+      "task_id": "raw_target-619_seed-43",
+      "depends_on": null
+    },
+    {
+      "id": "raw_target-619_seed-43_7d",
+      "phase": "adaptation",
+      "updates": 300,
+      "task_id": "raw_target-619_seed-43",
+      "depends_on": "raw_target-619_seed-43_source"
+    },
+    {
+      "id": "raw_target-658_seed-17_source",
+      "phase": "source",
+      "updates": 12000,
+      "task_id": "raw_target-658_seed-17",
+      "depends_on": null
+    },
+    {
+      "id": "raw_target-658_seed-17_7d",
+      "phase": "adaptation",
+      "updates": 300,
+      "task_id": "raw_target-658_seed-17",
+      "depends_on": "raw_target-658_seed-17_source"
+    },
+    {
+      "id": "raw_target-658_seed-29_source",
+      "phase": "source",
+      "updates": 12000,
+      "task_id": "raw_target-658_seed-29",
+      "depends_on": null
+    },
+    {
+      "id": "raw_target-658_seed-29_7d",
+      "phase": "adaptation",
+      "updates": 300,
+      "task_id": "raw_target-658_seed-29",
+      "depends_on": "raw_target-658_seed-29_source"
+    },
+    {
+      "id": "raw_target-658_seed-43_source",
+      "phase": "source",
+      "updates": 12000,
+      "task_id": "raw_target-658_seed-43",
+      "depends_on": null
+    },
+    {
+      "id": "raw_target-658_seed-43_7d",
+      "phase": "adaptation",
+      "updates": 300,
+      "task_id": "raw_target-658_seed-43",
+      "depends_on": "raw_target-658_seed-43_source"
+    },
+    {
+      "id": "log1p_target-532_seed-17_source",
+      "phase": "source",
+      "updates": 12000,
+      "task_id": "log1p_target-532_seed-17",
+      "depends_on": null
+    },
+    {
+      "id": "log1p_target-532_seed-17_7d",
+      "phase": "adaptation",
+      "updates": 300,
+      "task_id": "log1p_target-532_seed-17",
+      "depends_on": "log1p_target-532_seed-17_source"
+    },
+    {
+      "id": "log1p_target-532_seed-29_source",
+      "phase": "source",
+      "updates": 12000,
+      "task_id": "log1p_target-532_seed-29",
+      "depends_on": null
+    },
+    {
+      "id": "log1p_target-532_seed-29_7d",
+      "phase": "adaptation",
+      "updates": 300,
+      "task_id": "log1p_target-532_seed-29",
+      "depends_on": "log1p_target-532_seed-29_source"
+    },
+    {
+      "id": "log1p_target-532_seed-43_source",
+      "phase": "source",
+      "updates": 12000,
+      "task_id": "log1p_target-532_seed-43",
+      "depends_on": null
+    },
+    {
+      "id": "log1p_target-532_seed-43_7d",
+      "phase": "adaptation",
+      "updates": 300,
+      "task_id": "log1p_target-532_seed-43",
+      "depends_on": "log1p_target-532_seed-43_source"
+    },
+    {
+      "id": "log1p_target-476_seed-17_source",
+      "phase": "source",
+      "updates": 12000,
+      "task_id": "log1p_target-476_seed-17",
+      "depends_on": null
+    },
+    {
+      "id": "log1p_target-476_seed-17_7d",
+      "phase": "adaptation",
+      "updates": 300,
+      "task_id": "log1p_target-476_seed-17",
+      "depends_on": "log1p_target-476_seed-17_source"
+    },
+    {
+      "id": "log1p_target-476_seed-29_source",
+      "phase": "source",
+      "updates": 12000,
+      "task_id": "log1p_target-476_seed-29",
+      "depends_on": null
+    },
+    {
+      "id": "log1p_target-476_seed-29_7d",
+      "phase": "adaptation",
+      "updates": 300,
+      "task_id": "log1p_target-476_seed-29",
+      "depends_on": "log1p_target-476_seed-29_source"
+    },
+    {
+      "id": "log1p_target-476_seed-43_source",
+      "phase": "source",
+      "updates": 12000,
+      "task_id": "log1p_target-476_seed-43",
+      "depends_on": null
+    },
+    {
+      "id": "log1p_target-476_seed-43_7d",
+      "phase": "adaptation",
+      "updates": 300,
+      "task_id": "log1p_target-476_seed-43",
+      "depends_on": "log1p_target-476_seed-43_source"
+    },
+    {
+      "id": "log1p_target-619_seed-17_source",
+      "phase": "source",
+      "updates": 12000,
+      "task_id": "log1p_target-619_seed-17",
+      "depends_on": null
+    },
+    {
+      "id": "log1p_target-619_seed-17_7d",
+      "phase": "adaptation",
+      "updates": 300,
+      "task_id": "log1p_target-619_seed-17",
+      "depends_on": "log1p_target-619_seed-17_source"
+    },
+    {
+      "id": "log1p_target-619_seed-29_source",
+      "phase": "source",
+      "updates": 12000,
+      "task_id": "log1p_target-619_seed-29",
+      "depends_on": null
+    },
+    {
+      "id": "log1p_target-619_seed-29_7d",
+      "phase": "adaptation",
+      "updates": 300,
+      "task_id": "log1p_target-619_seed-29",
+      "depends_on": "log1p_target-619_seed-29_source"
+    },
+    {
+      "id": "log1p_target-619_seed-43_source",
+      "phase": "source",
+      "updates": 12000,
+      "task_id": "log1p_target-619_seed-43",
+      "depends_on": null
+    },
+    {
+      "id": "log1p_target-619_seed-43_7d",
+      "phase": "adaptation",
+      "updates": 300,
+      "task_id": "log1p_target-619_seed-43",
+      "depends_on": "log1p_target-619_seed-43_source"
+    },
+    {
+      "id": "log1p_target-658_seed-17_source",
+      "phase": "source",
+      "updates": 12000,
+      "task_id": "log1p_target-658_seed-17",
+      "depends_on": null
+    },
+    {
+      "id": "log1p_target-658_seed-17_7d",
+      "phase": "adaptation",
+      "updates": 300,
+      "task_id": "log1p_target-658_seed-17",
+      "depends_on": "log1p_target-658_seed-17_source"
+    },
+    {
+      "id": "log1p_target-658_seed-29_source",
+      "phase": "source",
+      "updates": 12000,
+      "task_id": "log1p_target-658_seed-29",
+      "depends_on": null
+    },
+    {
+      "id": "log1p_target-658_seed-29_7d",
+      "phase": "adaptation",
+      "updates": 300,
+      "task_id": "log1p_target-658_seed-29",
+      "depends_on": "log1p_target-658_seed-29_source"
+    },
+    {
+      "id": "log1p_target-658_seed-43_source",
+      "phase": "source",
+      "updates": 12000,
+      "task_id": "log1p_target-658_seed-43",
+      "depends_on": null
+    },
+    {
+      "id": "log1p_target-658_seed-43_7d",
+      "phase": "adaptation",
+      "updates": 300,
+      "task_id": "log1p_target-658_seed-43",
+      "depends_on": "log1p_target-658_seed-43_source"
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "raw_target-532_seed-17",
+      "candidate": "RAW",
+      "target": 532,
+      "seed": 17,
+      "source_cities": [
+        129,
+        194,
+        438,
+        467,
+        476,
+        619,
+        658
+      ],
+      "source_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/source_fold_excluding_532_HD.json",
+        "sha256": "f5614e447625cf03d6136aefd32a00c4f6f5fedfcb4273f127ec2224a158b2e3",
+        "target_city": 532,
+        "source_cities": [
+          129,
+          194,
+          438,
+          467,
+          476,
+          619,
+          658
+        ],
+        "row_count": 1658547,
+        "source_distribution": {
+          "129": 259662,
+          "194": 174959,
+          "438": 127427,
+          "467": 101550,
+          "476": 259371,
+          "619": 320516,
+          "658": 415062
+        }
+      },
+      "adaptation_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_532_7_HD.json",
+        "sha256": "2cb83b64f4ca5ef8817248af8f40c60543d7afc816d2b9e18b504642a1f5f000",
+        "data": {
+          "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_532_7_HD.npz",
+          "sha256": "3c0037d9befb8a9597ab5bb412d9d0fe5d1c955cb190ce19da2319a7ddcb2846"
+        },
+        "city_id": 532,
+        "budget": "7",
+        "row_count": 7011,
+        "eligible_anchor_hours": 167,
+        "start_us": 1675893600000000,
+        "cutoff_us": 1676498400000000
+      },
+      "source_id": "raw_target-532_seed-17_source",
+      "adaptation_id": "raw_target-532_seed-17_7d",
+      "seeds": {
+        "initialization": 17,
+        "source-city-schedule": 3498541626,
+        "source-anchor-sampling": 1294019332,
+        "fine-tune": 2583252673
+      }
+    },
+    {
+      "task_id": "raw_target-532_seed-29",
+      "candidate": "RAW",
+      "target": 532,
+      "seed": 29,
+      "source_cities": [
+        129,
+        194,
+        438,
+        467,
+        476,
+        619,
+        658
+      ],
+      "source_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/source_fold_excluding_532_HD.json",
+        "sha256": "f5614e447625cf03d6136aefd32a00c4f6f5fedfcb4273f127ec2224a158b2e3",
+        "target_city": 532,
+        "source_cities": [
+          129,
+          194,
+          438,
+          467,
+          476,
+          619,
+          658
+        ],
+        "row_count": 1658547,
+        "source_distribution": {
+          "129": 259662,
+          "194": 174959,
+          "438": 127427,
+          "467": 101550,
+          "476": 259371,
+          "619": 320516,
+          "658": 415062
+        }
+      },
+      "adaptation_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_532_7_HD.json",
+        "sha256": "2cb83b64f4ca5ef8817248af8f40c60543d7afc816d2b9e18b504642a1f5f000",
+        "data": {
+          "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_532_7_HD.npz",
+          "sha256": "3c0037d9befb8a9597ab5bb412d9d0fe5d1c955cb190ce19da2319a7ddcb2846"
+        },
+        "city_id": 532,
+        "budget": "7",
+        "row_count": 7011,
+        "eligible_anchor_hours": 167,
+        "start_us": 1675893600000000,
+        "cutoff_us": 1676498400000000
+      },
+      "source_id": "raw_target-532_seed-29_source",
+      "adaptation_id": "raw_target-532_seed-29_7d",
+      "seeds": {
+        "initialization": 29,
+        "source-city-schedule": 3746942096,
+        "source-anchor-sampling": 4132913305,
+        "fine-tune": 2967724353
+      }
+    },
+    {
+      "task_id": "raw_target-532_seed-43",
+      "candidate": "RAW",
+      "target": 532,
+      "seed": 43,
+      "source_cities": [
+        129,
+        194,
+        438,
+        467,
+        476,
+        619,
+        658
+      ],
+      "source_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/source_fold_excluding_532_HD.json",
+        "sha256": "f5614e447625cf03d6136aefd32a00c4f6f5fedfcb4273f127ec2224a158b2e3",
+        "target_city": 532,
+        "source_cities": [
+          129,
+          194,
+          438,
+          467,
+          476,
+          619,
+          658
+        ],
+        "row_count": 1658547,
+        "source_distribution": {
+          "129": 259662,
+          "194": 174959,
+          "438": 127427,
+          "467": 101550,
+          "476": 259371,
+          "619": 320516,
+          "658": 415062
+        }
+      },
+      "adaptation_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_532_7_HD.json",
+        "sha256": "2cb83b64f4ca5ef8817248af8f40c60543d7afc816d2b9e18b504642a1f5f000",
+        "data": {
+          "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_532_7_HD.npz",
+          "sha256": "3c0037d9befb8a9597ab5bb412d9d0fe5d1c955cb190ce19da2319a7ddcb2846"
+        },
+        "city_id": 532,
+        "budget": "7",
+        "row_count": 7011,
+        "eligible_anchor_hours": 167,
+        "start_us": 1675893600000000,
+        "cutoff_us": 1676498400000000
+      },
+      "source_id": "raw_target-532_seed-43_source",
+      "adaptation_id": "raw_target-532_seed-43_7d",
+      "seeds": {
+        "initialization": 43,
+        "source-city-schedule": 2254275098,
+        "source-anchor-sampling": 3496031449,
+        "fine-tune": 415131606
+      }
+    },
+    {
+      "task_id": "raw_target-476_seed-17",
+      "candidate": "RAW",
+      "target": 476,
+      "seed": 17,
+      "source_cities": [
+        129,
+        194,
+        438,
+        467,
+        532,
+        619,
+        658
+      ],
+      "source_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/source_fold_excluding_476_HD.json",
+        "sha256": "00adec7a75b3551ecabe7cb1e019f529473db80be37da47c35e9717a0ca61356",
+        "target_city": 476,
+        "source_cities": [
+          129,
+          194,
+          438,
+          467,
+          532,
+          619,
+          658
+        ],
+        "row_count": 1571211,
+        "source_distribution": {
+          "129": 259662,
+          "194": 174959,
+          "438": 127427,
+          "467": 101550,
+          "532": 172035,
+          "619": 320516,
+          "658": 415062
+        }
+      },
+      "adaptation_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_476_7_HD.json",
+        "sha256": "1046fa3acb1573ebee6a7cee1ba609058e49dc173ca888247eaf3937f6df9458",
+        "data": {
+          "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_476_7_HD.npz",
+          "sha256": "ea5387c1830fdad32c64d58bfeede84b4b198a01459099892f95b347dd9b5364"
+        },
+        "city_id": 476,
+        "budget": "7",
+        "row_count": 11041,
+        "eligible_anchor_hours": 167,
+        "start_us": 1675893600000000,
+        "cutoff_us": 1676498400000000
+      },
+      "source_id": "raw_target-476_seed-17_source",
+      "adaptation_id": "raw_target-476_seed-17_7d",
+      "seeds": {
+        "initialization": 17,
+        "source-city-schedule": 1697528988,
+        "source-anchor-sampling": 2243522232,
+        "fine-tune": 3207663039
+      }
+    },
+    {
+      "task_id": "raw_target-476_seed-29",
+      "candidate": "RAW",
+      "target": 476,
+      "seed": 29,
+      "source_cities": [
+        129,
+        194,
+        438,
+        467,
+        532,
+        619,
+        658
+      ],
+      "source_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/source_fold_excluding_476_HD.json",
+        "sha256": "00adec7a75b3551ecabe7cb1e019f529473db80be37da47c35e9717a0ca61356",
+        "target_city": 476,
+        "source_cities": [
+          129,
+          194,
+          438,
+          467,
+          532,
+          619,
+          658
+        ],
+        "row_count": 1571211,
+        "source_distribution": {
+          "129": 259662,
+          "194": 174959,
+          "438": 127427,
+          "467": 101550,
+          "532": 172035,
+          "619": 320516,
+          "658": 415062
+        }
+      },
+      "adaptation_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_476_7_HD.json",
+        "sha256": "1046fa3acb1573ebee6a7cee1ba609058e49dc173ca888247eaf3937f6df9458",
+        "data": {
+          "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_476_7_HD.npz",
+          "sha256": "ea5387c1830fdad32c64d58bfeede84b4b198a01459099892f95b347dd9b5364"
+        },
+        "city_id": 476,
+        "budget": "7",
+        "row_count": 11041,
+        "eligible_anchor_hours": 167,
+        "start_us": 1675893600000000,
+        "cutoff_us": 1676498400000000
+      },
+      "source_id": "raw_target-476_seed-29_source",
+      "adaptation_id": "raw_target-476_seed-29_7d",
+      "seeds": {
+        "initialization": 29,
+        "source-city-schedule": 3946815366,
+        "source-anchor-sampling": 552415698,
+        "fine-tune": 2969602121
+      }
+    },
+    {
+      "task_id": "raw_target-476_seed-43",
+      "candidate": "RAW",
+      "target": 476,
+      "seed": 43,
+      "source_cities": [
+        129,
+        194,
+        438,
+        467,
+        532,
+        619,
+        658
+      ],
+      "source_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/source_fold_excluding_476_HD.json",
+        "sha256": "00adec7a75b3551ecabe7cb1e019f529473db80be37da47c35e9717a0ca61356",
+        "target_city": 476,
+        "source_cities": [
+          129,
+          194,
+          438,
+          467,
+          532,
+          619,
+          658
+        ],
+        "row_count": 1571211,
+        "source_distribution": {
+          "129": 259662,
+          "194": 174959,
+          "438": 127427,
+          "467": 101550,
+          "532": 172035,
+          "619": 320516,
+          "658": 415062
+        }
+      },
+      "adaptation_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_476_7_HD.json",
+        "sha256": "1046fa3acb1573ebee6a7cee1ba609058e49dc173ca888247eaf3937f6df9458",
+        "data": {
+          "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_476_7_HD.npz",
+          "sha256": "ea5387c1830fdad32c64d58bfeede84b4b198a01459099892f95b347dd9b5364"
+        },
+        "city_id": 476,
+        "budget": "7",
+        "row_count": 11041,
+        "eligible_anchor_hours": 167,
+        "start_us": 1675893600000000,
+        "cutoff_us": 1676498400000000
+      },
+      "source_id": "raw_target-476_seed-43_source",
+      "adaptation_id": "raw_target-476_seed-43_7d",
+      "seeds": {
+        "initialization": 43,
+        "source-city-schedule": 3535854263,
+        "source-anchor-sampling": 3426201434,
+        "fine-tune": 598520676
+      }
+    },
+    {
+      "task_id": "raw_target-619_seed-17",
+      "candidate": "RAW",
+      "target": 619,
+      "seed": 17,
+      "source_cities": [
+        129,
+        194,
+        438,
+        467,
+        476,
+        532,
+        658
+      ],
+      "source_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/source_fold_excluding_619_HD.json",
+        "sha256": "2e59b547dc5562f591d0362b7d9d9d2a74f7daea1a028cdb8156f8467d0ee883",
+        "target_city": 619,
+        "source_cities": [
+          129,
+          194,
+          438,
+          467,
+          476,
+          532,
+          658
+        ],
+        "row_count": 1510066,
+        "source_distribution": {
+          "129": 259662,
+          "194": 174959,
+          "438": 127427,
+          "467": 101550,
+          "476": 259371,
+          "532": 172035,
+          "658": 415062
+        }
+      },
+      "adaptation_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_619_7_HD.json",
+        "sha256": "41726d68eb192a91e0770eccdc44d3f76c12970e6e39d1efd1c149c93d9cd2fc",
+        "data": {
+          "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_619_7_HD.npz",
+          "sha256": "1d74d7e46700d01bcd01ce1e169dc012d6e9c142494876cc65c02936b4780c24"
+        },
+        "city_id": 619,
+        "budget": "7",
+        "row_count": 13291,
+        "eligible_anchor_hours": 167,
+        "start_us": 1675893600000000,
+        "cutoff_us": 1676498400000000
+      },
+      "source_id": "raw_target-619_seed-17_source",
+      "adaptation_id": "raw_target-619_seed-17_7d",
+      "seeds": {
+        "initialization": 17,
+        "source-city-schedule": 2870068115,
+        "source-anchor-sampling": 3889610726,
+        "fine-tune": 2444759712
+      }
+    },
+    {
+      "task_id": "raw_target-619_seed-29",
+      "candidate": "RAW",
+      "target": 619,
+      "seed": 29,
+      "source_cities": [
+        129,
+        194,
+        438,
+        467,
+        476,
+        532,
+        658
+      ],
+      "source_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/source_fold_excluding_619_HD.json",
+        "sha256": "2e59b547dc5562f591d0362b7d9d9d2a74f7daea1a028cdb8156f8467d0ee883",
+        "target_city": 619,
+        "source_cities": [
+          129,
+          194,
+          438,
+          467,
+          476,
+          532,
+          658
+        ],
+        "row_count": 1510066,
+        "source_distribution": {
+          "129": 259662,
+          "194": 174959,
+          "438": 127427,
+          "467": 101550,
+          "476": 259371,
+          "532": 172035,
+          "658": 415062
+        }
+      },
+      "adaptation_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_619_7_HD.json",
+        "sha256": "41726d68eb192a91e0770eccdc44d3f76c12970e6e39d1efd1c149c93d9cd2fc",
+        "data": {
+          "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_619_7_HD.npz",
+          "sha256": "1d74d7e46700d01bcd01ce1e169dc012d6e9c142494876cc65c02936b4780c24"
+        },
+        "city_id": 619,
+        "budget": "7",
+        "row_count": 13291,
+        "eligible_anchor_hours": 167,
+        "start_us": 1675893600000000,
+        "cutoff_us": 1676498400000000
+      },
+      "source_id": "raw_target-619_seed-29_source",
+      "adaptation_id": "raw_target-619_seed-29_7d",
+      "seeds": {
+        "initialization": 29,
+        "source-city-schedule": 4140200533,
+        "source-anchor-sampling": 1569236802,
+        "fine-tune": 4126417453
+      }
+    },
+    {
+      "task_id": "raw_target-619_seed-43",
+      "candidate": "RAW",
+      "target": 619,
+      "seed": 43,
+      "source_cities": [
+        129,
+        194,
+        438,
+        467,
+        476,
+        532,
+        658
+      ],
+      "source_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/source_fold_excluding_619_HD.json",
+        "sha256": "2e59b547dc5562f591d0362b7d9d9d2a74f7daea1a028cdb8156f8467d0ee883",
+        "target_city": 619,
+        "source_cities": [
+          129,
+          194,
+          438,
+          467,
+          476,
+          532,
+          658
+        ],
+        "row_count": 1510066,
+        "source_distribution": {
+          "129": 259662,
+          "194": 174959,
+          "438": 127427,
+          "467": 101550,
+          "476": 259371,
+          "532": 172035,
+          "658": 415062
+        }
+      },
+      "adaptation_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_619_7_HD.json",
+        "sha256": "41726d68eb192a91e0770eccdc44d3f76c12970e6e39d1efd1c149c93d9cd2fc",
+        "data": {
+          "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_619_7_HD.npz",
+          "sha256": "1d74d7e46700d01bcd01ce1e169dc012d6e9c142494876cc65c02936b4780c24"
+        },
+        "city_id": 619,
+        "budget": "7",
+        "row_count": 13291,
+        "eligible_anchor_hours": 167,
+        "start_us": 1675893600000000,
+        "cutoff_us": 1676498400000000
+      },
+      "source_id": "raw_target-619_seed-43_source",
+      "adaptation_id": "raw_target-619_seed-43_7d",
+      "seeds": {
+        "initialization": 43,
+        "source-city-schedule": 1017583526,
+        "source-anchor-sampling": 2904745005,
+        "fine-tune": 4128157623
+      }
+    },
+    {
+      "task_id": "raw_target-658_seed-17",
+      "candidate": "RAW",
+      "target": 658,
+      "seed": 17,
+      "source_cities": [
+        129,
+        194,
+        438,
+        467,
+        476,
+        532,
+        619
+      ],
+      "source_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/source_fold_excluding_658_HD.json",
+        "sha256": "6adedc5889f683476ba9e49f8aa516f0fbfbbc8ea4b29862db182cb269bf123c",
+        "target_city": 658,
+        "source_cities": [
+          129,
+          194,
+          438,
+          467,
+          476,
+          532,
+          619
+        ],
+        "row_count": 1415520,
+        "source_distribution": {
+          "129": 259662,
+          "194": 174959,
+          "438": 127427,
+          "467": 101550,
+          "476": 259371,
+          "532": 172035,
+          "619": 320516
+        }
+      },
+      "adaptation_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_658_7_HD.json",
+        "sha256": "1349ad6597934742361159fd3ad6a3f4009b9c6799d4b6ed99d6cb0a100f0103",
+        "data": {
+          "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_658_7_HD.npz",
+          "sha256": "b8508f38642ff4a19b3d14eae29b7f5a4d84b1078199946888fa68b72c4dde9e"
+        },
+        "city_id": 658,
+        "budget": "7",
+        "row_count": 17856,
+        "eligible_anchor_hours": 167,
+        "start_us": 1675893600000000,
+        "cutoff_us": 1676498400000000
+      },
+      "source_id": "raw_target-658_seed-17_source",
+      "adaptation_id": "raw_target-658_seed-17_7d",
+      "seeds": {
+        "initialization": 17,
+        "source-city-schedule": 134265922,
+        "source-anchor-sampling": 2282578203,
+        "fine-tune": 3356930948
+      }
+    },
+    {
+      "task_id": "raw_target-658_seed-29",
+      "candidate": "RAW",
+      "target": 658,
+      "seed": 29,
+      "source_cities": [
+        129,
+        194,
+        438,
+        467,
+        476,
+        532,
+        619
+      ],
+      "source_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/source_fold_excluding_658_HD.json",
+        "sha256": "6adedc5889f683476ba9e49f8aa516f0fbfbbc8ea4b29862db182cb269bf123c",
+        "target_city": 658,
+        "source_cities": [
+          129,
+          194,
+          438,
+          467,
+          476,
+          532,
+          619
+        ],
+        "row_count": 1415520,
+        "source_distribution": {
+          "129": 259662,
+          "194": 174959,
+          "438": 127427,
+          "467": 101550,
+          "476": 259371,
+          "532": 172035,
+          "619": 320516
+        }
+      },
+      "adaptation_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_658_7_HD.json",
+        "sha256": "1349ad6597934742361159fd3ad6a3f4009b9c6799d4b6ed99d6cb0a100f0103",
+        "data": {
+          "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_658_7_HD.npz",
+          "sha256": "b8508f38642ff4a19b3d14eae29b7f5a4d84b1078199946888fa68b72c4dde9e"
+        },
+        "city_id": 658,
+        "budget": "7",
+        "row_count": 17856,
+        "eligible_anchor_hours": 167,
+        "start_us": 1675893600000000,
+        "cutoff_us": 1676498400000000
+      },
+      "source_id": "raw_target-658_seed-29_source",
+      "adaptation_id": "raw_target-658_seed-29_7d",
+      "seeds": {
+        "initialization": 29,
+        "source-city-schedule": 2076803588,
+        "source-anchor-sampling": 1512047298,
+        "fine-tune": 2067145624
+      }
+    },
+    {
+      "task_id": "raw_target-658_seed-43",
+      "candidate": "RAW",
+      "target": 658,
+      "seed": 43,
+      "source_cities": [
+        129,
+        194,
+        438,
+        467,
+        476,
+        532,
+        619
+      ],
+      "source_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/source_fold_excluding_658_HD.json",
+        "sha256": "6adedc5889f683476ba9e49f8aa516f0fbfbbc8ea4b29862db182cb269bf123c",
+        "target_city": 658,
+        "source_cities": [
+          129,
+          194,
+          438,
+          467,
+          476,
+          532,
+          619
+        ],
+        "row_count": 1415520,
+        "source_distribution": {
+          "129": 259662,
+          "194": 174959,
+          "438": 127427,
+          "467": 101550,
+          "476": 259371,
+          "532": 172035,
+          "619": 320516
+        }
+      },
+      "adaptation_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_658_7_HD.json",
+        "sha256": "1349ad6597934742361159fd3ad6a3f4009b9c6799d4b6ed99d6cb0a100f0103",
+        "data": {
+          "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_658_7_HD.npz",
+          "sha256": "b8508f38642ff4a19b3d14eae29b7f5a4d84b1078199946888fa68b72c4dde9e"
+        },
+        "city_id": 658,
+        "budget": "7",
+        "row_count": 17856,
+        "eligible_anchor_hours": 167,
+        "start_us": 1675893600000000,
+        "cutoff_us": 1676498400000000
+      },
+      "source_id": "raw_target-658_seed-43_source",
+      "adaptation_id": "raw_target-658_seed-43_7d",
+      "seeds": {
+        "initialization": 43,
+        "source-city-schedule": 2065918413,
+        "source-anchor-sampling": 735010156,
+        "fine-tune": 4039874578
+      }
+    },
+    {
+      "task_id": "log1p_target-532_seed-17",
+      "candidate": "LOG1P",
+      "target": 532,
+      "seed": 17,
+      "source_cities": [
+        129,
+        194,
+        438,
+        467,
+        476,
+        619,
+        658
+      ],
+      "source_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/source_fold_excluding_532_HD.json",
+        "sha256": "f5614e447625cf03d6136aefd32a00c4f6f5fedfcb4273f127ec2224a158b2e3",
+        "target_city": 532,
+        "source_cities": [
+          129,
+          194,
+          438,
+          467,
+          476,
+          619,
+          658
+        ],
+        "row_count": 1658547,
+        "source_distribution": {
+          "129": 259662,
+          "194": 174959,
+          "438": 127427,
+          "467": 101550,
+          "476": 259371,
+          "619": 320516,
+          "658": 415062
+        }
+      },
+      "adaptation_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_532_7_HD.json",
+        "sha256": "2cb83b64f4ca5ef8817248af8f40c60543d7afc816d2b9e18b504642a1f5f000",
+        "data": {
+          "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_532_7_HD.npz",
+          "sha256": "3c0037d9befb8a9597ab5bb412d9d0fe5d1c955cb190ce19da2319a7ddcb2846"
+        },
+        "city_id": 532,
+        "budget": "7",
+        "row_count": 7011,
+        "eligible_anchor_hours": 167,
+        "start_us": 1675893600000000,
+        "cutoff_us": 1676498400000000
+      },
+      "source_id": "log1p_target-532_seed-17_source",
+      "adaptation_id": "log1p_target-532_seed-17_7d",
+      "seeds": {
+        "initialization": 17,
+        "source-city-schedule": 3498541626,
+        "source-anchor-sampling": 1294019332,
+        "fine-tune": 2583252673
+      }
+    },
+    {
+      "task_id": "log1p_target-532_seed-29",
+      "candidate": "LOG1P",
+      "target": 532,
+      "seed": 29,
+      "source_cities": [
+        129,
+        194,
+        438,
+        467,
+        476,
+        619,
+        658
+      ],
+      "source_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/source_fold_excluding_532_HD.json",
+        "sha256": "f5614e447625cf03d6136aefd32a00c4f6f5fedfcb4273f127ec2224a158b2e3",
+        "target_city": 532,
+        "source_cities": [
+          129,
+          194,
+          438,
+          467,
+          476,
+          619,
+          658
+        ],
+        "row_count": 1658547,
+        "source_distribution": {
+          "129": 259662,
+          "194": 174959,
+          "438": 127427,
+          "467": 101550,
+          "476": 259371,
+          "619": 320516,
+          "658": 415062
+        }
+      },
+      "adaptation_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_532_7_HD.json",
+        "sha256": "2cb83b64f4ca5ef8817248af8f40c60543d7afc816d2b9e18b504642a1f5f000",
+        "data": {
+          "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_532_7_HD.npz",
+          "sha256": "3c0037d9befb8a9597ab5bb412d9d0fe5d1c955cb190ce19da2319a7ddcb2846"
+        },
+        "city_id": 532,
+        "budget": "7",
+        "row_count": 7011,
+        "eligible_anchor_hours": 167,
+        "start_us": 1675893600000000,
+        "cutoff_us": 1676498400000000
+      },
+      "source_id": "log1p_target-532_seed-29_source",
+      "adaptation_id": "log1p_target-532_seed-29_7d",
+      "seeds": {
+        "initialization": 29,
+        "source-city-schedule": 3746942096,
+        "source-anchor-sampling": 4132913305,
+        "fine-tune": 2967724353
+      }
+    },
+    {
+      "task_id": "log1p_target-532_seed-43",
+      "candidate": "LOG1P",
+      "target": 532,
+      "seed": 43,
+      "source_cities": [
+        129,
+        194,
+        438,
+        467,
+        476,
+        619,
+        658
+      ],
+      "source_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/source_fold_excluding_532_HD.json",
+        "sha256": "f5614e447625cf03d6136aefd32a00c4f6f5fedfcb4273f127ec2224a158b2e3",
+        "target_city": 532,
+        "source_cities": [
+          129,
+          194,
+          438,
+          467,
+          476,
+          619,
+          658
+        ],
+        "row_count": 1658547,
+        "source_distribution": {
+          "129": 259662,
+          "194": 174959,
+          "438": 127427,
+          "467": 101550,
+          "476": 259371,
+          "619": 320516,
+          "658": 415062
+        }
+      },
+      "adaptation_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_532_7_HD.json",
+        "sha256": "2cb83b64f4ca5ef8817248af8f40c60543d7afc816d2b9e18b504642a1f5f000",
+        "data": {
+          "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_532_7_HD.npz",
+          "sha256": "3c0037d9befb8a9597ab5bb412d9d0fe5d1c955cb190ce19da2319a7ddcb2846"
+        },
+        "city_id": 532,
+        "budget": "7",
+        "row_count": 7011,
+        "eligible_anchor_hours": 167,
+        "start_us": 1675893600000000,
+        "cutoff_us": 1676498400000000
+      },
+      "source_id": "log1p_target-532_seed-43_source",
+      "adaptation_id": "log1p_target-532_seed-43_7d",
+      "seeds": {
+        "initialization": 43,
+        "source-city-schedule": 2254275098,
+        "source-anchor-sampling": 3496031449,
+        "fine-tune": 415131606
+      }
+    },
+    {
+      "task_id": "log1p_target-476_seed-17",
+      "candidate": "LOG1P",
+      "target": 476,
+      "seed": 17,
+      "source_cities": [
+        129,
+        194,
+        438,
+        467,
+        532,
+        619,
+        658
+      ],
+      "source_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/source_fold_excluding_476_HD.json",
+        "sha256": "00adec7a75b3551ecabe7cb1e019f529473db80be37da47c35e9717a0ca61356",
+        "target_city": 476,
+        "source_cities": [
+          129,
+          194,
+          438,
+          467,
+          532,
+          619,
+          658
+        ],
+        "row_count": 1571211,
+        "source_distribution": {
+          "129": 259662,
+          "194": 174959,
+          "438": 127427,
+          "467": 101550,
+          "532": 172035,
+          "619": 320516,
+          "658": 415062
+        }
+      },
+      "adaptation_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_476_7_HD.json",
+        "sha256": "1046fa3acb1573ebee6a7cee1ba609058e49dc173ca888247eaf3937f6df9458",
+        "data": {
+          "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_476_7_HD.npz",
+          "sha256": "ea5387c1830fdad32c64d58bfeede84b4b198a01459099892f95b347dd9b5364"
+        },
+        "city_id": 476,
+        "budget": "7",
+        "row_count": 11041,
+        "eligible_anchor_hours": 167,
+        "start_us": 1675893600000000,
+        "cutoff_us": 1676498400000000
+      },
+      "source_id": "log1p_target-476_seed-17_source",
+      "adaptation_id": "log1p_target-476_seed-17_7d",
+      "seeds": {
+        "initialization": 17,
+        "source-city-schedule": 1697528988,
+        "source-anchor-sampling": 2243522232,
+        "fine-tune": 3207663039
+      }
+    },
+    {
+      "task_id": "log1p_target-476_seed-29",
+      "candidate": "LOG1P",
+      "target": 476,
+      "seed": 29,
+      "source_cities": [
+        129,
+        194,
+        438,
+        467,
+        532,
+        619,
+        658
+      ],
+      "source_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/source_fold_excluding_476_HD.json",
+        "sha256": "00adec7a75b3551ecabe7cb1e019f529473db80be37da47c35e9717a0ca61356",
+        "target_city": 476,
+        "source_cities": [
+          129,
+          194,
+          438,
+          467,
+          532,
+          619,
+          658
+        ],
+        "row_count": 1571211,
+        "source_distribution": {
+          "129": 259662,
+          "194": 174959,
+          "438": 127427,
+          "467": 101550,
+          "532": 172035,
+          "619": 320516,
+          "658": 415062
+        }
+      },
+      "adaptation_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_476_7_HD.json",
+        "sha256": "1046fa3acb1573ebee6a7cee1ba609058e49dc173ca888247eaf3937f6df9458",
+        "data": {
+          "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_476_7_HD.npz",
+          "sha256": "ea5387c1830fdad32c64d58bfeede84b4b198a01459099892f95b347dd9b5364"
+        },
+        "city_id": 476,
+        "budget": "7",
+        "row_count": 11041,
+        "eligible_anchor_hours": 167,
+        "start_us": 1675893600000000,
+        "cutoff_us": 1676498400000000
+      },
+      "source_id": "log1p_target-476_seed-29_source",
+      "adaptation_id": "log1p_target-476_seed-29_7d",
+      "seeds": {
+        "initialization": 29,
+        "source-city-schedule": 3946815366,
+        "source-anchor-sampling": 552415698,
+        "fine-tune": 2969602121
+      }
+    },
+    {
+      "task_id": "log1p_target-476_seed-43",
+      "candidate": "LOG1P",
+      "target": 476,
+      "seed": 43,
+      "source_cities": [
+        129,
+        194,
+        438,
+        467,
+        532,
+        619,
+        658
+      ],
+      "source_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/source_fold_excluding_476_HD.json",
+        "sha256": "00adec7a75b3551ecabe7cb1e019f529473db80be37da47c35e9717a0ca61356",
+        "target_city": 476,
+        "source_cities": [
+          129,
+          194,
+          438,
+          467,
+          532,
+          619,
+          658
+        ],
+        "row_count": 1571211,
+        "source_distribution": {
+          "129": 259662,
+          "194": 174959,
+          "438": 127427,
+          "467": 101550,
+          "532": 172035,
+          "619": 320516,
+          "658": 415062
+        }
+      },
+      "adaptation_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_476_7_HD.json",
+        "sha256": "1046fa3acb1573ebee6a7cee1ba609058e49dc173ca888247eaf3937f6df9458",
+        "data": {
+          "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_476_7_HD.npz",
+          "sha256": "ea5387c1830fdad32c64d58bfeede84b4b198a01459099892f95b347dd9b5364"
+        },
+        "city_id": 476,
+        "budget": "7",
+        "row_count": 11041,
+        "eligible_anchor_hours": 167,
+        "start_us": 1675893600000000,
+        "cutoff_us": 1676498400000000
+      },
+      "source_id": "log1p_target-476_seed-43_source",
+      "adaptation_id": "log1p_target-476_seed-43_7d",
+      "seeds": {
+        "initialization": 43,
+        "source-city-schedule": 3535854263,
+        "source-anchor-sampling": 3426201434,
+        "fine-tune": 598520676
+      }
+    },
+    {
+      "task_id": "log1p_target-619_seed-17",
+      "candidate": "LOG1P",
+      "target": 619,
+      "seed": 17,
+      "source_cities": [
+        129,
+        194,
+        438,
+        467,
+        476,
+        532,
+        658
+      ],
+      "source_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/source_fold_excluding_619_HD.json",
+        "sha256": "2e59b547dc5562f591d0362b7d9d9d2a74f7daea1a028cdb8156f8467d0ee883",
+        "target_city": 619,
+        "source_cities": [
+          129,
+          194,
+          438,
+          467,
+          476,
+          532,
+          658
+        ],
+        "row_count": 1510066,
+        "source_distribution": {
+          "129": 259662,
+          "194": 174959,
+          "438": 127427,
+          "467": 101550,
+          "476": 259371,
+          "532": 172035,
+          "658": 415062
+        }
+      },
+      "adaptation_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_619_7_HD.json",
+        "sha256": "41726d68eb192a91e0770eccdc44d3f76c12970e6e39d1efd1c149c93d9cd2fc",
+        "data": {
+          "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_619_7_HD.npz",
+          "sha256": "1d74d7e46700d01bcd01ce1e169dc012d6e9c142494876cc65c02936b4780c24"
+        },
+        "city_id": 619,
+        "budget": "7",
+        "row_count": 13291,
+        "eligible_anchor_hours": 167,
+        "start_us": 1675893600000000,
+        "cutoff_us": 1676498400000000
+      },
+      "source_id": "log1p_target-619_seed-17_source",
+      "adaptation_id": "log1p_target-619_seed-17_7d",
+      "seeds": {
+        "initialization": 17,
+        "source-city-schedule": 2870068115,
+        "source-anchor-sampling": 3889610726,
+        "fine-tune": 2444759712
+      }
+    },
+    {
+      "task_id": "log1p_target-619_seed-29",
+      "candidate": "LOG1P",
+      "target": 619,
+      "seed": 29,
+      "source_cities": [
+        129,
+        194,
+        438,
+        467,
+        476,
+        532,
+        658
+      ],
+      "source_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/source_fold_excluding_619_HD.json",
+        "sha256": "2e59b547dc5562f591d0362b7d9d9d2a74f7daea1a028cdb8156f8467d0ee883",
+        "target_city": 619,
+        "source_cities": [
+          129,
+          194,
+          438,
+          467,
+          476,
+          532,
+          658
+        ],
+        "row_count": 1510066,
+        "source_distribution": {
+          "129": 259662,
+          "194": 174959,
+          "438": 127427,
+          "467": 101550,
+          "476": 259371,
+          "532": 172035,
+          "658": 415062
+        }
+      },
+      "adaptation_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_619_7_HD.json",
+        "sha256": "41726d68eb192a91e0770eccdc44d3f76c12970e6e39d1efd1c149c93d9cd2fc",
+        "data": {
+          "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_619_7_HD.npz",
+          "sha256": "1d74d7e46700d01bcd01ce1e169dc012d6e9c142494876cc65c02936b4780c24"
+        },
+        "city_id": 619,
+        "budget": "7",
+        "row_count": 13291,
+        "eligible_anchor_hours": 167,
+        "start_us": 1675893600000000,
+        "cutoff_us": 1676498400000000
+      },
+      "source_id": "log1p_target-619_seed-29_source",
+      "adaptation_id": "log1p_target-619_seed-29_7d",
+      "seeds": {
+        "initialization": 29,
+        "source-city-schedule": 4140200533,
+        "source-anchor-sampling": 1569236802,
+        "fine-tune": 4126417453
+      }
+    },
+    {
+      "task_id": "log1p_target-619_seed-43",
+      "candidate": "LOG1P",
+      "target": 619,
+      "seed": 43,
+      "source_cities": [
+        129,
+        194,
+        438,
+        467,
+        476,
+        532,
+        658
+      ],
+      "source_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/source_fold_excluding_619_HD.json",
+        "sha256": "2e59b547dc5562f591d0362b7d9d9d2a74f7daea1a028cdb8156f8467d0ee883",
+        "target_city": 619,
+        "source_cities": [
+          129,
+          194,
+          438,
+          467,
+          476,
+          532,
+          658
+        ],
+        "row_count": 1510066,
+        "source_distribution": {
+          "129": 259662,
+          "194": 174959,
+          "438": 127427,
+          "467": 101550,
+          "476": 259371,
+          "532": 172035,
+          "658": 415062
+        }
+      },
+      "adaptation_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_619_7_HD.json",
+        "sha256": "41726d68eb192a91e0770eccdc44d3f76c12970e6e39d1efd1c149c93d9cd2fc",
+        "data": {
+          "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_619_7_HD.npz",
+          "sha256": "1d74d7e46700d01bcd01ce1e169dc012d6e9c142494876cc65c02936b4780c24"
+        },
+        "city_id": 619,
+        "budget": "7",
+        "row_count": 13291,
+        "eligible_anchor_hours": 167,
+        "start_us": 1675893600000000,
+        "cutoff_us": 1676498400000000
+      },
+      "source_id": "log1p_target-619_seed-43_source",
+      "adaptation_id": "log1p_target-619_seed-43_7d",
+      "seeds": {
+        "initialization": 43,
+        "source-city-schedule": 1017583526,
+        "source-anchor-sampling": 2904745005,
+        "fine-tune": 4128157623
+      }
+    },
+    {
+      "task_id": "log1p_target-658_seed-17",
+      "candidate": "LOG1P",
+      "target": 658,
+      "seed": 17,
+      "source_cities": [
+        129,
+        194,
+        438,
+        467,
+        476,
+        532,
+        619
+      ],
+      "source_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/source_fold_excluding_658_HD.json",
+        "sha256": "6adedc5889f683476ba9e49f8aa516f0fbfbbc8ea4b29862db182cb269bf123c",
+        "target_city": 658,
+        "source_cities": [
+          129,
+          194,
+          438,
+          467,
+          476,
+          532,
+          619
+        ],
+        "row_count": 1415520,
+        "source_distribution": {
+          "129": 259662,
+          "194": 174959,
+          "438": 127427,
+          "467": 101550,
+          "476": 259371,
+          "532": 172035,
+          "619": 320516
+        }
+      },
+      "adaptation_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_658_7_HD.json",
+        "sha256": "1349ad6597934742361159fd3ad6a3f4009b9c6799d4b6ed99d6cb0a100f0103",
+        "data": {
+          "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_658_7_HD.npz",
+          "sha256": "b8508f38642ff4a19b3d14eae29b7f5a4d84b1078199946888fa68b72c4dde9e"
+        },
+        "city_id": 658,
+        "budget": "7",
+        "row_count": 17856,
+        "eligible_anchor_hours": 167,
+        "start_us": 1675893600000000,
+        "cutoff_us": 1676498400000000
+      },
+      "source_id": "log1p_target-658_seed-17_source",
+      "adaptation_id": "log1p_target-658_seed-17_7d",
+      "seeds": {
+        "initialization": 17,
+        "source-city-schedule": 134265922,
+        "source-anchor-sampling": 2282578203,
+        "fine-tune": 3356930948
+      }
+    },
+    {
+      "task_id": "log1p_target-658_seed-29",
+      "candidate": "LOG1P",
+      "target": 658,
+      "seed": 29,
+      "source_cities": [
+        129,
+        194,
+        438,
+        467,
+        476,
+        532,
+        619
+      ],
+      "source_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/source_fold_excluding_658_HD.json",
+        "sha256": "6adedc5889f683476ba9e49f8aa516f0fbfbbc8ea4b29862db182cb269bf123c",
+        "target_city": 658,
+        "source_cities": [
+          129,
+          194,
+          438,
+          467,
+          476,
+          532,
+          619
+        ],
+        "row_count": 1415520,
+        "source_distribution": {
+          "129": 259662,
+          "194": 174959,
+          "438": 127427,
+          "467": 101550,
+          "476": 259371,
+          "532": 172035,
+          "619": 320516
+        }
+      },
+      "adaptation_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_658_7_HD.json",
+        "sha256": "1349ad6597934742361159fd3ad6a3f4009b9c6799d4b6ed99d6cb0a100f0103",
+        "data": {
+          "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_658_7_HD.npz",
+          "sha256": "b8508f38642ff4a19b3d14eae29b7f5a4d84b1078199946888fa68b72c4dde9e"
+        },
+        "city_id": 658,
+        "budget": "7",
+        "row_count": 17856,
+        "eligible_anchor_hours": 167,
+        "start_us": 1675893600000000,
+        "cutoff_us": 1676498400000000
+      },
+      "source_id": "log1p_target-658_seed-29_source",
+      "adaptation_id": "log1p_target-658_seed-29_7d",
+      "seeds": {
+        "initialization": 29,
+        "source-city-schedule": 2076803588,
+        "source-anchor-sampling": 1512047298,
+        "fine-tune": 2067145624
+      }
+    },
+    {
+      "task_id": "log1p_target-658_seed-43",
+      "candidate": "LOG1P",
+      "target": 658,
+      "seed": 43,
+      "source_cities": [
+        129,
+        194,
+        438,
+        467,
+        476,
+        532,
+        619
+      ],
+      "source_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/source_fold_excluding_658_HD.json",
+        "sha256": "6adedc5889f683476ba9e49f8aa516f0fbfbbc8ea4b29862db182cb269bf123c",
+        "target_city": 658,
+        "source_cities": [
+          129,
+          194,
+          438,
+          467,
+          476,
+          532,
+          619
+        ],
+        "row_count": 1415520,
+        "source_distribution": {
+          "129": 259662,
+          "194": 174959,
+          "438": 127427,
+          "467": 101550,
+          "476": 259371,
+          "532": 172035,
+          "619": 320516
+        }
+      },
+      "adaptation_snapshot": {
+        "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_658_7_HD.json",
+        "sha256": "1349ad6597934742361159fd3ad6a3f4009b9c6799d4b6ed99d6cb0a100f0103",
+        "data": {
+          "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_658_7_HD.npz",
+          "sha256": "b8508f38642ff4a19b3d14eae29b7f5a4d84b1078199946888fa68b72c4dde9e"
+        },
+        "city_id": 658,
+        "budget": "7",
+        "row_count": 17856,
+        "eligible_anchor_hours": 167,
+        "start_us": 1675893600000000,
+        "cutoff_us": 1676498400000000
+      },
+      "source_id": "log1p_target-658_seed-43_source",
+      "adaptation_id": "log1p_target-658_seed-43_7d",
+      "seeds": {
+        "initialization": 43,
+        "source-city-schedule": 2065918413,
+        "source-anchor-sampling": 735010156,
+        "fine-tune": 4039874578
+      }
+    }
+  ],
+  "source_fits": 24,
+  "adaptation_fits": 24,
+  "evaluation_records": 48,
+  "immutable": true
+}

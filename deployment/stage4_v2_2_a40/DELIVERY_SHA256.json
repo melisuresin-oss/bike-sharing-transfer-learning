@@ -1,0 +1,27 @@
+{
+  "zip": {
+    "path": "deployment/stage4_v2_2_a40/stage4_v2_2_a40_e30caa42b3e9.zip",
+    "sha256": "c4f4e75bc8f5d6c90fa273efb35667ce8f86022e8a3c597b1b62b5d28165efd5",
+    "bytes": 24831577
+  },
+  "manifest": {
+    "path": "deployment/stage4_v2_2_a40/BUNDLE_MANIFEST.json",
+    "sha256": "e30caa42b3e92f1a80220083493b8278da31d25f1aeb8eb8744e16ed6f27b87b",
+    "bytes": 27825
+  },
+  "scientific_contract": {
+    "path": "research/results/stage4_source_invariance_v2_2/scientific_contract.json",
+    "sha256": "94e586624d18ac9047c6b0a71922139ad00795da54e20ca05d8ef04008470e15",
+    "bytes": 15929
+  },
+  "job_map": {
+    "path": "research/results/stage4_source_invariance_v2_2/job_map.json",
+    "sha256": "ce84b658100d49a313fa102ea6b07d0319d197f1e23d610af53b420a8492458c",
+    "bytes": 198027
+  },
+  "clarification": {
+    "path": "research/results/stage4_selection_clarification_v2_2/selection_clarification.json",
+    "sha256": "852d8c32dd9004a8dfaa17633e285877828672d79414cf5fb67b8550c8ea7d4d",
+    "bytes": 4811
+  }
+}

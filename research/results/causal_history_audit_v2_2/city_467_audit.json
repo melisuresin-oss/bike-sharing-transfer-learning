@@ -1,0 +1,16 @@
+{
+  "city_id": 467,
+  "status": "PASS",
+  "all_origins_checked": 5537,
+  "all_history_cells_checked": 3875900,
+  "status_events": 361314,
+  "status_logical_sha256": "ca654d680b216366f92279b02c75940b0baf85981e61b2e8f276259bf8d4b17b",
+  "count_feed_rows": 51161,
+  "count_feed_total_departures": 122698,
+  "count_feed_logical_sha256": "0ca62b418ad875126fb450b484ec8dd40de54a054c7be460d9b6603da0b9cc06",
+  "status_query": "SELECT DISTINCT station_id::BIGINT, epoch_us(to_timestamp(time)) FROM read_parquet('feasibility_test/full_audit/coverage/data/station_status/*.parquet') WHERE station_id IN (6494751,6494917,6510530,6510628,6510643,6510660,6510709,6510738,6510764,6510782,6510910,6510935,6510957,6510981,9916411,10095597,11792717,18602464,18605055,22249045,31067477,31068744,31069103,37022407,39051609,63085276,63085409,63085530) AND time IS NOT NULL AND isfinite(time) ORDER BY 1,2",
+  "count_query": "SELECT station_id_start::BIGINT,epoch_us(date_trunc('hour',to_timestamp(time_start))),count(*) FROM read_parquet('feasibility_test/full_audit/data/trips/*.parquet') WHERE city_id=467 AND station_id_start IN (6494751,6494917,6510530,6510628,6510643,6510660,6510709,6510738,6510764,6510782,6510910,6510935,6510957,6510981,9916411,10095597,11792717,18602464,18605055,22249045,31067477,31068744,31069103,37022407,39051609,63085276,63085409,63085530) AND isfinite(station_id_start) AND station_id_start=trunc(station_id_start) AND time_start IS NOT NULL AND isfinite(time_start) AND time_start>=1661749200000000/1000000.0 AND time_start<1681682400000000/1000000.0 GROUP BY 1,2 ORDER BY 1,2",
+  "fit_prefix_comparisons": 4097,
+  "physical_origin_prefix_comparisons": 5,
+  "baseline_availability": []
+}

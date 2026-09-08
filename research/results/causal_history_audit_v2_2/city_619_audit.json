@@ -1,0 +1,69 @@
+{
+  "city_id": 619,
+  "status": "PASS",
+  "all_origins_checked": 5537,
+  "all_history_cells_checked": 12042975,
+  "status_events": 946484,
+  "status_logical_sha256": "b67edbbed273387ae4fa139faa6162bc2feed0b9b7c523ab818208ed9c56dfba",
+  "count_feed_rows": 153840,
+  "count_feed_total_departures": 325561,
+  "count_feed_logical_sha256": "b6583c48d8c09166861804eefb969c5398d5c41ded5847b43109220367d8b984",
+  "status_query": "SELECT DISTINCT station_id::BIGINT, epoch_us(to_timestamp(time)) FROM read_parquet('feasibility_test/full_audit/coverage/data/station_status/*.parquet') WHERE station_id IN (15430389,15430457,15430610,15430653,15430691,15430728,15430898,15430921,15430958,15430974,15430995,15431037,15431062,15431106,15431167,15431188,15431210,15432600,15433691,15433714,15433732,15433752,15433765,15433788,15434215,15434492,15434536,15434553,15434576,15434595,15434619,15434644,15434659,15434682,15434698,15434720,15434748,15434763,15434783,15434805,15434823,15434837,15434922,15435301,15435973,15857436,15857462,15857499,15858277,15858337,16044954,16045234,16045295,16045395,16045533,19100030,19100043,19100052,19100064,21733873,29796996,29796999,29797015,29797019,33269648,33269678,33269707,33269738,33269766,33269811,33269843,33269872,33269901,36749076,36749105,36749115,36749123,36749134,36749158,36749168,48364151,48364166,48364174,48364230,57136499,57136525,148616581) AND time IS NOT NULL AND isfinite(time) ORDER BY 1,2",
+  "count_query": "SELECT station_id_start::BIGINT,epoch_us(date_trunc('hour',to_timestamp(time_start))),count(*) FROM read_parquet('feasibility_test/full_audit/data/trips/*.parquet') WHERE city_id=619 AND station_id_start IN (15430389,15430457,15430610,15430653,15430691,15430728,15430898,15430921,15430958,15430974,15430995,15431037,15431062,15431106,15431167,15431188,15431210,15432600,15433691,15433714,15433732,15433752,15433765,15433788,15434215,15434492,15434536,15434553,15434576,15434595,15434619,15434644,15434659,15434682,15434698,15434720,15434748,15434763,15434783,15434805,15434823,15434837,15434922,15435301,15435973,15857436,15857462,15857499,15858277,15858337,16044954,16045234,16045295,16045395,16045533,19100030,19100043,19100052,19100064,21733873,29796996,29796999,29797015,29797019,33269648,33269678,33269707,33269738,33269766,33269811,33269843,33269872,33269901,36749076,36749105,36749115,36749123,36749134,36749158,36749168,48364151,48364166,48364174,48364230,57136499,57136525,148616581) AND isfinite(station_id_start) AND station_id_start=trunc(station_id_start) AND time_start IS NOT NULL AND isfinite(time_start) AND time_start>=1661749200000000/1000000.0 AND time_start<1681682400000000/1000000.0 GROUP BY 1,2 ORDER BY 1,2",
+  "fit_prefix_comparisons": 4097,
+  "physical_origin_prefix_comparisons": 5,
+  "baseline_availability": [
+    {
+      "city_id": 619,
+      "baseline": "PERSISTENCE_T_MINUS_1",
+      "period_us": [
+        1676498400000000,
+        1681682400000000
+      ],
+      "key_scope": "all_prediction_keys",
+      "total": 125280,
+      "available": 0,
+      "unavailable": 125280,
+      "coverage_pct": 0.0
+    },
+    {
+      "city_id": 619,
+      "baseline": "PERSISTENCE_T_MINUS_1",
+      "period_us": [
+        1676498400000000,
+        1681682400000000
+      ],
+      "key_scope": "retrospectively_observed_evaluation_keys",
+      "total": 115830,
+      "available": 0,
+      "unavailable": 115830,
+      "coverage_pct": 0.0
+    },
+    {
+      "city_id": 619,
+      "baseline": "SEASONAL_NAIVE_T_MINUS_168",
+      "period_us": [
+        1676498400000000,
+        1681682400000000
+      ],
+      "key_scope": "all_prediction_keys",
+      "total": 125280,
+      "available": 115603,
+      "unavailable": 9677,
+      "coverage_pct": 92.2757024265645
+    },
+    {
+      "city_id": 619,
+      "baseline": "SEASONAL_NAIVE_T_MINUS_168",
+      "period_us": [
+        1676498400000000,
+        1681682400000000
+      ],
+      "key_scope": "retrospectively_observed_evaluation_keys",
+      "total": 115830,
+      "available": 110020,
+      "unavailable": 5810,
+      "coverage_pct": 94.98402831736165
+    }
+  ]
+}

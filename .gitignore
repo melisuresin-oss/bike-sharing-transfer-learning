@@ -216,3 +216,32 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Scientific data and generated execution artifacts (V2.2 collaboration guardrail)
+raw/
+full_external/
+processed/**
+!processed/protocol_v2_2/
+processed/protocol_v2_2/**
+!processed/protocol_v2_2/PROTOCOL_DATASET_MANIFEST.json
+!processed/protocol_v2_2/fit_snapshots/
+!processed/protocol_v2_2/fit_snapshots/fit_snapshot_manifest.json
+!processed/protocol_v2_2/development_labels/
+!processed/protocol_v2_2/development_labels/retrospective_label_manifest.json
+tmp/
+cache/
+caches/
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+*.zip
+*.log
+.env*
+!*.json
+research/results/**/attempts/
+research/results/**/completed/
+research/results/**/*predictions*/
+research/results/**/*checkpoint*/
+research/results/stage4_source_invariance_v2_2_a40/

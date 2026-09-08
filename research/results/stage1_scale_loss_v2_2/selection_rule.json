@@ -1,0 +1,14 @@
+{
+  "primary": "count_space_MAE_over_all_observed_station_hour_evaluation_keys_within_cell",
+  "seed_aggregation": "arithmetic_mean_of_17_29_43_within_each_fold_regime_cell",
+  "cell_aggregation": "arithmetic_mean_of_8_equally_weighted_cells_4_folds_x_2_regimes",
+  "primary_tie": "Decimal(str(mean)).quantize(Decimal('0.0001'), ROUND_HALF_UP)",
+  "tie_1": "lower_unrounded_population_SD_of_8_seed_averaged_cell_MAEs",
+  "tie_2": "RAW",
+  "secondary_metrics": [
+    "RMSE",
+    "WAPE_ratio",
+    "station_macro_MAE_minimum_24_valid_hours"
+  ],
+  "secondary_metrics_affect_selection": false
+}

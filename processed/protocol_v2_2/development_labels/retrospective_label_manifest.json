@@ -1,0 +1,146 @@
+{
+  "protocol_version": "2.2",
+  "role": "DEVELOPMENT_RETROSPECTIVE_LABELS_ONLY",
+  "labels": [
+    {
+      "path": "processed/protocol_v2_2/development_labels/city_129_retrospective.npz",
+      "sha256": "bc866c46488dfcddd1c7b4259bc65295e228f2c302092c6975d04d5d17ec09dc",
+      "city_id": 129,
+      "adjudication_cutoff_us": 1689458341000000,
+      "unknown_sentinel": -1,
+      "role": "DEVELOPMENT_RETROSPECTIVE_LABELS"
+    },
+    {
+      "path": "processed/protocol_v2_2/development_labels/city_194_retrospective.npz",
+      "sha256": "a6c81c9b2dc07d2e334d78274f89f2aa2ed3070b06480ca7b0edec1cbebc99b9",
+      "city_id": 194,
+      "adjudication_cutoff_us": 1689458341000000,
+      "unknown_sentinel": -1,
+      "role": "DEVELOPMENT_RETROSPECTIVE_LABELS"
+    },
+    {
+      "path": "processed/protocol_v2_2/development_labels/city_438_retrospective.npz",
+      "sha256": "db96a0a15219fbd6eea2bb39d46a2436dcb217e15d2eabd3fe004d5326436f44",
+      "city_id": 438,
+      "adjudication_cutoff_us": 1689458341000000,
+      "unknown_sentinel": -1,
+      "role": "DEVELOPMENT_RETROSPECTIVE_LABELS"
+    },
+    {
+      "path": "processed/protocol_v2_2/development_labels/city_467_retrospective.npz",
+      "sha256": "8d7dd7072995ceb579d70d22c9a55d8c9a2507e9706eb06a17acf6d2a16a34a9",
+      "city_id": 467,
+      "adjudication_cutoff_us": 1689458281000000,
+      "unknown_sentinel": -1,
+      "role": "DEVELOPMENT_RETROSPECTIVE_LABELS"
+    },
+    {
+      "path": "processed/protocol_v2_2/development_labels/city_476_retrospective.npz",
+      "sha256": "215a495769a9fb5269560c9ef385492d04b4019f0ad292c13e312b8d3f142d4f",
+      "city_id": 476,
+      "adjudication_cutoff_us": 1689458341000000,
+      "unknown_sentinel": -1,
+      "role": "DEVELOPMENT_RETROSPECTIVE_LABELS"
+    },
+    {
+      "path": "processed/protocol_v2_2/development_labels/city_532_retrospective.npz",
+      "sha256": "44a4ff791341157e694f14b903cd628c6790ae4c32f8436bea31e4621a8afe5e",
+      "city_id": 532,
+      "adjudication_cutoff_us": 1689457801000000,
+      "unknown_sentinel": -1,
+      "role": "DEVELOPMENT_RETROSPECTIVE_LABELS"
+    },
+    {
+      "path": "processed/protocol_v2_2/development_labels/city_619_retrospective.npz",
+      "sha256": "d1978729ea2ed3a2b53f6cb59b91eea1f08863176e5f65a66aea89f43ff853ff",
+      "city_id": 619,
+      "adjudication_cutoff_us": 1689458341000000,
+      "unknown_sentinel": -1,
+      "role": "DEVELOPMENT_RETROSPECTIVE_LABELS"
+    },
+    {
+      "path": "processed/protocol_v2_2/development_labels/city_658_retrospective.npz",
+      "sha256": "8a6561bcd1622357e5f7548321391b3b6eee3d78774621a07fa3a73e6d15a27d",
+      "city_id": 658,
+      "adjudication_cutoff_us": 1689458341000000,
+      "unknown_sentinel": -1,
+      "role": "DEVELOPMENT_RETROSPECTIVE_LABELS"
+    }
+  ],
+  "evaluation_keys": [
+    {
+      "path": "processed/protocol_v2_2/development_labels/evaluation_keys_city_476_HD_HF.npz",
+      "sha256": "de19639d0962231cb019de45a23fcc23c2b24ca0dc235eb28b6a3fee461fece9",
+      "city_id": 476,
+      "key_count": 94138,
+      "period_us": [
+        1676498400000000,
+        1681682400000000
+      ],
+      "label_source": {
+        "path": "processed/protocol_v2_2/development_labels/city_476_retrospective.npz",
+        "sha256": "215a495769a9fb5269560c9ef385492d04b4019f0ad292c13e312b8d3f142d4f",
+        "city_id": 476,
+        "adjudication_cutoff_us": 1689458341000000,
+        "unknown_sentinel": -1,
+        "role": "DEVELOPMENT_RETROSPECTIVE_LABELS"
+      }
+    },
+    {
+      "path": "processed/protocol_v2_2/development_labels/evaluation_keys_city_532_HD_HF.npz",
+      "sha256": "3fe94ec991d114d955611baa808f03be625220ff8a0299957223124764bb8340",
+      "city_id": 532,
+      "key_count": 60960,
+      "period_us": [
+        1676498400000000,
+        1681682400000000
+      ],
+      "label_source": {
+        "path": "processed/protocol_v2_2/development_labels/city_532_retrospective.npz",
+        "sha256": "44a4ff791341157e694f14b903cd628c6790ae4c32f8436bea31e4621a8afe5e",
+        "city_id": 532,
+        "adjudication_cutoff_us": 1689457801000000,
+        "unknown_sentinel": -1,
+        "role": "DEVELOPMENT_RETROSPECTIVE_LABELS"
+      }
+    },
+    {
+      "path": "processed/protocol_v2_2/development_labels/evaluation_keys_city_619_HD_HF.npz",
+      "sha256": "1fb78dcc825fa1c77580df20f3676d08e4878615fe32c101149b6fb30b29be2b",
+      "city_id": 619,
+      "key_count": 115830,
+      "period_us": [
+        1676498400000000,
+        1681682400000000
+      ],
+      "label_source": {
+        "path": "processed/protocol_v2_2/development_labels/city_619_retrospective.npz",
+        "sha256": "d1978729ea2ed3a2b53f6cb59b91eea1f08863176e5f65a66aea89f43ff853ff",
+        "city_id": 619,
+        "adjudication_cutoff_us": 1689458341000000,
+        "unknown_sentinel": -1,
+        "role": "DEVELOPMENT_RETROSPECTIVE_LABELS"
+      }
+    },
+    {
+      "path": "processed/protocol_v2_2/development_labels/evaluation_keys_city_658_HD_HF.npz",
+      "sha256": "8a54b8b6501965fa89e2f55791bf8e4292c07eb580016ed50c8db81a7e388db7",
+      "city_id": 658,
+      "key_count": 149327,
+      "period_us": [
+        1676498400000000,
+        1681682400000000
+      ],
+      "label_source": {
+        "path": "processed/protocol_v2_2/development_labels/city_658_retrospective.npz",
+        "sha256": "8a6561bcd1622357e5f7548321391b3b6eee3d78774621a07fa3a73e6d15a27d",
+        "city_id": 658,
+        "adjudication_cutoff_us": 1689458341000000,
+        "unknown_sentinel": -1,
+        "role": "DEVELOPMENT_RETROSPECTIVE_LABELS"
+      }
+    }
+  ],
+  "predictor_reads": false,
+  "later_evidence_policy": "All exported status for each development city; explicit maximum cutoff recorded per partition"
+}

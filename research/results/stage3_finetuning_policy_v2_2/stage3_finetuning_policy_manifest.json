@@ -1,0 +1,223 @@
+{
+  "schema_version": "1.0",
+  "protocol_version": "2.2",
+  "stage": 3,
+  "artifact_role": "adaptation_policy_rebind",
+  "status": "FROZEN_REBOUND_POLICY_ONLY",
+  "authorization_scope": "PROTOCOL_REBIND_NO_TRAINING_OR_EVALUATION",
+  "producer": {
+    "path": "research/scripts/rebind_stage3_audit_stage4_v2_2.py",
+    "sha256": "9cc5380e8ae51de929f7c472ca68774ce6fedff3a9918c6876c085d374ec6516"
+  },
+  "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+  "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+  "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+  "joint_upstream_closure": {
+    "path": "research/results/upstream_closure_v2_2/joint_upstream_closure_manifest.json",
+    "sha256": "d7a211de6627098bc1642d3eeb7efd0d7386a61513b1bd696a7407c809eef834"
+  },
+  "upstream_sha256": {
+    "research/results/stage1_scale_loss_v2_2_a40/stage1_decision_manifest.json": "8db24acabd373fa57aa6f35708566da400646fa2ea8474fd0e656a4955828aed",
+    "research/results/stage2_graphgru_selection_v2_2_a40/stage2_decision_manifest.json": "9cca604ec3496a28f4440d89a9d6d1184311fc507c35f27b428a3ca768a6eeca",
+    "research/results/stage2b_vanilla_fairness_v2_2_a40/stage2b_decision_manifest.json": "9d85d6df6a509013f1b5411002246aee81c254fbde078f639293976674b4f36d",
+    "processed/protocol_v2_2/PROTOCOL_DATASET_MANIFEST.json": "140dd8c53cf51f48be5cf66b70d162c9f2cc6a9fa0b1b7039496633e385a6ab6",
+    "research/results/stage2_graphgru_selection_v2_2/scientific_contract.json": "55ebfa06ca49d77e5ae0b7b2e531d6bb14c26a2b93f478da7754c75fb1aae52f",
+    "research/results/stage2_graphgru_selection_v2_2/job_map.json": "fd34f71b46eb6f9cfc9adb5ebfd44001a2e26df049b9bb197aff1d272e7a074a",
+    "research/results/stage2b_vanilla_fairness_v2_2/scientific_contract.json": "2eb1a2a14dd1412f1286248c547814a2c7e04fad94edaace2084c7d78be0cad3",
+    "research/results/stage2b_vanilla_fairness_v2_2/job_map.json": "0cf72a4f66797bcc5625bd438046562c5fd444677676971e2697e1f9a3d0f23d"
+  },
+  "historical_policy_provenance": {
+    "path": "research/results/stage3_finetuning_policy_v2_1/stage3_finetuning_policy_manifest.json",
+    "sha256": "c63528bfe73881eafe02167f5cfddf37e51bca769fab6289850a66836642a6c1"
+  },
+  "selected_scale": "LOG1P",
+  "selected_graph_gru": {
+    "config_id": "GGRU_K04_H032_D00",
+    "graph_k": 4,
+    "hidden_size": 32,
+    "dropout": 0.0
+  },
+  "selected_vanilla_gru": {
+    "config_id": "VGRU_H032_D00",
+    "hidden_size": 32,
+    "dropout": 0.0
+  },
+  "policy": {
+    "full_network_fine_tuning": true,
+    "reset_adamw_optimizer_state_before_adaptation": true,
+    "optimizer": "AdamW",
+    "learning_rate": 0.0002,
+    "weight_decay": 0.0001,
+    "batch_size": 16,
+    "global_gradient_clip": 1.0,
+    "early_stopping": false,
+    "update_budgets": [
+      0,
+      100,
+      300,
+      600,
+      1200
+    ],
+    "zero_budget_is_fine_tuning_fit": false,
+    "adaptation_sampling": "with_replacement_within_elapsed_time_budget",
+    "causal_pre_budget_history_as_input": true,
+    "causal_pre_budget_history_as_extra_adaptation_target": false
+  },
+  "optimizer_betas": [
+    0.9,
+    0.999
+  ],
+  "optimizer_epsilon": 1e-08,
+  "checkpoint_rule": "final_fixed_step_only",
+  "budget_schedule": [
+    {
+      "budget": "zero",
+      "updates": 0,
+      "is_fit": false,
+      "development_window_us": [
+        1676498400000000,
+        1676498400000000
+      ],
+      "final_window_us": [
+        1681682400000000,
+        1681682400000000
+      ],
+      "interval": "left_closed_right_open",
+      "final_window_role": "policy_only_not_materialized_or_accessed"
+    },
+    {
+      "budget": "1",
+      "updates": 100,
+      "is_fit": true,
+      "development_window_us": [
+        1676412000000000,
+        1676498400000000
+      ],
+      "final_window_us": [
+        1681596000000000,
+        1681682400000000
+      ],
+      "interval": "left_closed_right_open",
+      "final_window_role": "policy_only_not_materialized_or_accessed"
+    },
+    {
+      "budget": "7",
+      "updates": 300,
+      "is_fit": true,
+      "development_window_us": [
+        1675893600000000,
+        1676498400000000
+      ],
+      "final_window_us": [
+        1681077600000000,
+        1681682400000000
+      ],
+      "interval": "left_closed_right_open",
+      "final_window_role": "policy_only_not_materialized_or_accessed"
+    },
+    {
+      "budget": "30",
+      "updates": 600,
+      "is_fit": true,
+      "development_window_us": [
+        1673906400000000,
+        1676498400000000
+      ],
+      "final_window_us": [
+        1679090400000000,
+        1681682400000000
+      ],
+      "interval": "left_closed_right_open",
+      "final_window_role": "policy_only_not_materialized_or_accessed"
+    },
+    {
+      "budget": "full",
+      "updates": 1200,
+      "is_fit": true,
+      "development_window_us": [
+        1661749200000000,
+        1676498400000000
+      ],
+      "final_window_us": [
+        1661749200000000,
+        1681682400000000
+      ],
+      "interval": "left_closed_right_open",
+      "final_window_role": "policy_only_not_materialized_or_accessed"
+    }
+  ],
+  "zero_budget": "unchanged_source_checkpoint_reuse_not_a_fine_tuning_fit",
+  "source_checkpoint_authority": "matching validated V2.2 source checkpoint only; no V2.1 checkpoint cross-loading",
+  "development_cities": [
+    129,
+    194,
+    438,
+    467,
+    476,
+    532,
+    619,
+    658
+  ],
+  "pseudo_targets": [
+    532,
+    476,
+    619,
+    658
+  ],
+  "development_seeds": [
+    17,
+    29,
+    43
+  ],
+  "final_execution_seeds": null,
+  "causal_history": {
+    "policy": "IDEALIZED_COUNT_FEED_BENCHMARK",
+    "predictor_asof": "original forecast origin t",
+    "fit_row_eligibility": "registered window at fit cutoff C, hour_end <= C, O_i(h;C)*Q_i(h;C)=1",
+    "fitting_cutoff_changes_predictors": false,
+    "retrospective_Y_shifted_into_predictors": false,
+    "later_backfill_allowed": false,
+    "window_extension_allowed": false,
+    "empty_required_positive_budget_pool": "STOP_NON_ESTIMABLE_NO_FALLBACK",
+    "training_key_gate": "existing require_training_keys with sealed keys, values, masks and origin-feature bindings",
+    "prebudget_history": "allowed as causal predictors only; never additional adaptation targets",
+    "status_evidence": "timestamp <= original predictor origin for predictors; timestamp <= C for fit eligibility",
+    "timestamp_precision": "integer UTC microseconds; exact elapsed UTC hourly and weekly lags",
+    "cohort": "fixed 799-station retrospectively selected research cohort; supplied static metadata frozen"
+  },
+  "data_api_sha256": {
+    "RESEARCH_PROTOCOL_V2_2_AMENDMENT.md": "02a44e3aa8bf1d656d2f9de833b45072d564052e2ab3c1426bda2a6456c558d0",
+    "research/v2_2/contract.py": "6ba0af4072c2c1240d36d86070a1edc1f6315e0a69a7c58f70a4f9885cf8298a",
+    "research/v2_2/history.py": "64994a2fbb2a28738557ab008e4ed7ff2e2596f47f709e61d47beb33e6178709",
+    "research/v2_2/snapshots.py": "784182662b698f321b3e969780122efd72a95a1ee71218f8a9d52bbea573d426",
+    "research/v2_2/artifacts.py": "acd02ba6168665ff043771942652d5edc2da2e3103af18f6641ed2b38ffd8f8a",
+    "research/development_data_v2_2/registry.py": "b5a142bbe1052cbc98b6fad8e927138b6cdbddf25ea6558b26e794d983b21051",
+    "processed/protocol_v2_2/fit_snapshots/fit_snapshot_manifest.json": "467aefd170c789c6533a7f2f1ebc0f3c343944f8e2781c9e2e5e0927d200077d"
+  },
+  "boundaries_us": {
+    "H0": 1661749200000000,
+    "HD": 1676498400000000,
+    "HE": 1689451200000000,
+    "HF": 1681682400000000,
+    "HT": 1683817200000000
+  },
+  "final_embargo": {
+    "interval": "[HF,HT)",
+    "hours": 593,
+    "fitting_allowed": false
+  },
+  "final_no_updates_interval": "[HF,HE)",
+  "final_evaluation_interval": "[HT,HE)",
+  "final_prediction_commitment_before_label_opening": true,
+  "label_firewall": "DevelopmentRegistry rejects all final-target data and V2.1 predictive inputs. Final windows above are documentary only.",
+  "final_target_labels_accessed": false,
+  "final_experiment_started": false,
+  "scientific_stage3_training_authorized": false,
+  "new_development_hyperparameter_search": false,
+  "new_stage3_development_execution_required": false,
+  "stage3_policy_contradictions": [],
+  "downstream_blockers": [
+    "FINAL_SEED_COUNT_UNRESOLVED_3_VS_5",
+    "SEED_X_TEMPORAL_BOOTSTRAP_AGGREGATION_UNRESOLVED"
+  ]
+}

@@ -1,0 +1,489 @@
+{
+  "status": "PASS",
+  "graph_count": 24,
+  "graph_algorithm_source_sha256": "6d8675439db2d51276138a19585063398b911db461abfd0374fb9c8d0dc875bd",
+  "graphs": [
+    {
+      "city_id": 129,
+      "k": 4,
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_04/city_129/adjacency.npy",
+      "sha256": "d4dd6709e3a7e771b0a7d6b62dad176581537d3050167b8d85ef4acf706ffb89",
+      "old_metadata_sha256": "97384fe0de9ef557cf5f1a07fd6644e93d03f3b33b4adfdf660305fc1da67aa6",
+      "graph_config": {
+        "method": "symmetric_union_geographic_knn_gaussian_gcn_normalization",
+        "k": 4,
+        "k_effective": 4,
+        "sigma_km": 0.5492541267980339,
+        "node_count": 76,
+        "roster_hash_sha256": "02bb81833298dd464735213c32834c9890cebcfa7c15cf2c19e7cca768b0bf56",
+        "coordinate_hash_sha256": "8a1df0749072b17ccda7f271ba3f0f1e5e7fdb0fe7cb01696dabb67956aa8f87",
+        "adjacency_hash_sha256": "0d21c95418a7c8e457261d33d0f094dc0cfa3fd8818f432974cd67402f55e476"
+      },
+      "reused_unchanged": true,
+      "v2_2_roster_sha256": "cc5496a9fe3c5a631b5d61b0292736d29f261711d042a6ccfb675d0de7ad85f2",
+      "static_sha256": "73acc254fdaa5117792cf323a85113989b58cb356b1a2836c13dd6d3abbde170"
+    },
+    {
+      "city_id": 129,
+      "k": 8,
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_08/city_129/adjacency.npy",
+      "sha256": "f13dc798678026b5fc772c24d40ac0179f7c140ea608d20e73132ff892f507ff",
+      "old_metadata_sha256": "95f0d70fb9f152835bbf57b631121efe70489fe214477a9b91bf2369a3a8f826",
+      "graph_config": {
+        "method": "symmetric_union_geographic_knn_gaussian_gcn_normalization",
+        "k": 8,
+        "k_effective": 8,
+        "sigma_km": 0.7420363077870383,
+        "node_count": 76,
+        "roster_hash_sha256": "02bb81833298dd464735213c32834c9890cebcfa7c15cf2c19e7cca768b0bf56",
+        "coordinate_hash_sha256": "8a1df0749072b17ccda7f271ba3f0f1e5e7fdb0fe7cb01696dabb67956aa8f87",
+        "adjacency_hash_sha256": "69a293b523ef6442e0704b7d149ddcd16acf975cbb1f7412abaff4be937ef1b8"
+      },
+      "reused_unchanged": true,
+      "v2_2_roster_sha256": "cc5496a9fe3c5a631b5d61b0292736d29f261711d042a6ccfb675d0de7ad85f2",
+      "static_sha256": "73acc254fdaa5117792cf323a85113989b58cb356b1a2836c13dd6d3abbde170"
+    },
+    {
+      "city_id": 129,
+      "k": 16,
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_16/city_129/adjacency.npy",
+      "sha256": "38a8954c182a3df8c7b20289713d2ea83e8d0ef1e002793fb35af27ad6f9afdd",
+      "old_metadata_sha256": "94a035f93621a553e4da890f52dd0946c0b1a4cbbc62d5ba94129c181f473298",
+      "graph_config": {
+        "method": "symmetric_union_geographic_knn_gaussian_gcn_normalization",
+        "k": 16,
+        "k_effective": 16,
+        "sigma_km": 1.0719772347939593,
+        "node_count": 76,
+        "roster_hash_sha256": "02bb81833298dd464735213c32834c9890cebcfa7c15cf2c19e7cca768b0bf56",
+        "coordinate_hash_sha256": "8a1df0749072b17ccda7f271ba3f0f1e5e7fdb0fe7cb01696dabb67956aa8f87",
+        "adjacency_hash_sha256": "20554f003adb62840852125fedb3cccdc465a9eb3a129dd9bd8c86053bdcf728"
+      },
+      "reused_unchanged": true,
+      "v2_2_roster_sha256": "cc5496a9fe3c5a631b5d61b0292736d29f261711d042a6ccfb675d0de7ad85f2",
+      "static_sha256": "73acc254fdaa5117792cf323a85113989b58cb356b1a2836c13dd6d3abbde170"
+    },
+    {
+      "city_id": 194,
+      "k": 4,
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_04/city_194/adjacency.npy",
+      "sha256": "be83e28e178ff91b9a08e35b66444b03413c1ea8e06393d568f2aa03e258903d",
+      "old_metadata_sha256": "115dab2fcced38e67a2cf6dc7e06c92c8ae601336302766ee395eef4e3ee1510",
+      "graph_config": {
+        "method": "symmetric_union_geographic_knn_gaussian_gcn_normalization",
+        "k": 4,
+        "k_effective": 4,
+        "sigma_km": 0.6290009413336863,
+        "node_count": 47,
+        "roster_hash_sha256": "db6ceeed4b6afb7f10da483636275053b68dec651db2a7d7f6a3d98d59583fcc",
+        "coordinate_hash_sha256": "c5ae13f469cb15582ba52c6891b114b2a4a7d11e8422b04bcc811867162bbdb5",
+        "adjacency_hash_sha256": "a39572d96c445d99e7d0409312d2dff5b1dee5d651a11499b69ba2f9a5af74ff"
+      },
+      "reused_unchanged": true,
+      "v2_2_roster_sha256": "7c78e88c0cf79fa925b0b8ab16a35642ad5cc6c1fd4e73091f11198c1320f417",
+      "static_sha256": "a418f88d6bf61b4aad74c868f533ac3f30926dc87ffeed4599c5d7ae1a88df22"
+    },
+    {
+      "city_id": 194,
+      "k": 8,
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_08/city_194/adjacency.npy",
+      "sha256": "dad624182366cb8e1c035d1bee7b5814acdf8585e2807e00ab335ad7b0e73d61",
+      "old_metadata_sha256": "3251f7a43bfede2c43e7f06fca755892e0503444422e1cced6779cdd81dec11d",
+      "graph_config": {
+        "method": "symmetric_union_geographic_knn_gaussian_gcn_normalization",
+        "k": 8,
+        "k_effective": 8,
+        "sigma_km": 0.965953922389342,
+        "node_count": 47,
+        "roster_hash_sha256": "db6ceeed4b6afb7f10da483636275053b68dec651db2a7d7f6a3d98d59583fcc",
+        "coordinate_hash_sha256": "c5ae13f469cb15582ba52c6891b114b2a4a7d11e8422b04bcc811867162bbdb5",
+        "adjacency_hash_sha256": "2bf5017bd25ce39d39a1edfd379c5dc2a0bb7106b6a7f296fead20e52c072857"
+      },
+      "reused_unchanged": true,
+      "v2_2_roster_sha256": "7c78e88c0cf79fa925b0b8ab16a35642ad5cc6c1fd4e73091f11198c1320f417",
+      "static_sha256": "a418f88d6bf61b4aad74c868f533ac3f30926dc87ffeed4599c5d7ae1a88df22"
+    },
+    {
+      "city_id": 194,
+      "k": 16,
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_16/city_194/adjacency.npy",
+      "sha256": "a844a42d3c65f4fa73afae062005f3793c20d58429a8e28de786e1be51967394",
+      "old_metadata_sha256": "e8f11fd0bea519cbf5a15076f01fbbaf70791141a120a73b32d62d499aee73ff",
+      "graph_config": {
+        "method": "symmetric_union_geographic_knn_gaussian_gcn_normalization",
+        "k": 16,
+        "k_effective": 16,
+        "sigma_km": 1.465416300851377,
+        "node_count": 47,
+        "roster_hash_sha256": "db6ceeed4b6afb7f10da483636275053b68dec651db2a7d7f6a3d98d59583fcc",
+        "coordinate_hash_sha256": "c5ae13f469cb15582ba52c6891b114b2a4a7d11e8422b04bcc811867162bbdb5",
+        "adjacency_hash_sha256": "9cd6877c25c68033f3d59c5ef4d52251c9932ed88b63e1cc8886acb60a1c3dfc"
+      },
+      "reused_unchanged": true,
+      "v2_2_roster_sha256": "7c78e88c0cf79fa925b0b8ab16a35642ad5cc6c1fd4e73091f11198c1320f417",
+      "static_sha256": "a418f88d6bf61b4aad74c868f533ac3f30926dc87ffeed4599c5d7ae1a88df22"
+    },
+    {
+      "city_id": 438,
+      "k": 4,
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_04/city_438/adjacency.npy",
+      "sha256": "673375adbbe59e9563bbcb1fbd9caf75e4488054f63fdbb27ca4e27dd9553d7f",
+      "old_metadata_sha256": "7c3b20d2c033c3663003ec25788f686e720c79182ff7c0bd629fc73d30966078",
+      "graph_config": {
+        "method": "symmetric_union_geographic_knn_gaussian_gcn_normalization",
+        "k": 4,
+        "k_effective": 4,
+        "sigma_km": 0.45742939791556614,
+        "node_count": 43,
+        "roster_hash_sha256": "c60f2ca24ef03eb936ae8a0bbb79439598b508a27fa8098e13205fcd0d3de823",
+        "coordinate_hash_sha256": "5c7a365db0adeef9889bd96e2a76e1051e6e6616b63b4f8e8bf65daff0707210",
+        "adjacency_hash_sha256": "4f2db8cddf66552dfc279ec1177a4c212b5f28262f5ec2dd52bfad45b2329aff"
+      },
+      "reused_unchanged": true,
+      "v2_2_roster_sha256": "33633034e7169765ddfcf86f0fa902fedec0906472c687a1f5859e486bec6f2d",
+      "static_sha256": "4ad389174d070dbd457a92d579835e6539ae9a8f2f9ac828f8472120eb89e6cd"
+    },
+    {
+      "city_id": 438,
+      "k": 8,
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_08/city_438/adjacency.npy",
+      "sha256": "837a1ac13929ede2f004abf0dd8acb7177d90f45ef658b62c46308a12029a07d",
+      "old_metadata_sha256": "9ea01ce23d3f99ef98dd70ea8bf840ae64df4a48b87f0b04042df94f29881dd6",
+      "graph_config": {
+        "method": "symmetric_union_geographic_knn_gaussian_gcn_normalization",
+        "k": 8,
+        "k_effective": 8,
+        "sigma_km": 0.6066823332017588,
+        "node_count": 43,
+        "roster_hash_sha256": "c60f2ca24ef03eb936ae8a0bbb79439598b508a27fa8098e13205fcd0d3de823",
+        "coordinate_hash_sha256": "5c7a365db0adeef9889bd96e2a76e1051e6e6616b63b4f8e8bf65daff0707210",
+        "adjacency_hash_sha256": "0f7299cc0a0c9a21a329726ad5a54d0bd87a9b58e997f82fc98c89ec343e1bb9"
+      },
+      "reused_unchanged": true,
+      "v2_2_roster_sha256": "33633034e7169765ddfcf86f0fa902fedec0906472c687a1f5859e486bec6f2d",
+      "static_sha256": "4ad389174d070dbd457a92d579835e6539ae9a8f2f9ac828f8472120eb89e6cd"
+    },
+    {
+      "city_id": 438,
+      "k": 16,
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_16/city_438/adjacency.npy",
+      "sha256": "da5d976697b0c39444b4fbca40ca84dfb9b8ebff06a9faf3ee8ff9b79e3d9096",
+      "old_metadata_sha256": "3b039ac9ff4d4771b89aba0e0e10aaabad326038b03027c42a1c277958c97fc9",
+      "graph_config": {
+        "method": "symmetric_union_geographic_knn_gaussian_gcn_normalization",
+        "k": 16,
+        "k_effective": 16,
+        "sigma_km": 0.8332086471967314,
+        "node_count": 43,
+        "roster_hash_sha256": "c60f2ca24ef03eb936ae8a0bbb79439598b508a27fa8098e13205fcd0d3de823",
+        "coordinate_hash_sha256": "5c7a365db0adeef9889bd96e2a76e1051e6e6616b63b4f8e8bf65daff0707210",
+        "adjacency_hash_sha256": "5a45579adc5d1810fd077f4772df1f911349167f4fc9529a41c936db1dcd99df"
+      },
+      "reused_unchanged": true,
+      "v2_2_roster_sha256": "33633034e7169765ddfcf86f0fa902fedec0906472c687a1f5859e486bec6f2d",
+      "static_sha256": "4ad389174d070dbd457a92d579835e6539ae9a8f2f9ac828f8472120eb89e6cd"
+    },
+    {
+      "city_id": 467,
+      "k": 4,
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_04/city_467/adjacency.npy",
+      "sha256": "aba5279796ceaa4a66170b15189aef9c9506f979cf0d1546623c5a580c2ad5bc",
+      "old_metadata_sha256": "6efeac8c5cfe74b7a64f3c097a01dbcf9bd6f94d726ad2e5fa212f1648fd4827",
+      "graph_config": {
+        "method": "symmetric_union_geographic_knn_gaussian_gcn_normalization",
+        "k": 4,
+        "k_effective": 4,
+        "sigma_km": 0.5252827060807063,
+        "node_count": 28,
+        "roster_hash_sha256": "29a5b64b65bdac01795237e2d8c189fb60b54efafc9768d33b0fc6293b21329f",
+        "coordinate_hash_sha256": "6933920e8a6006d87e5a250d78cb443f99922097209e59bfe4dd01ca08cbf185",
+        "adjacency_hash_sha256": "9581b64a3a625158a046d6adf71a988783a21789c7837b689a0f7f65a6e3119f"
+      },
+      "reused_unchanged": true,
+      "v2_2_roster_sha256": "9917e39e3f2d6815991a0237d82ebd22799c9de110e4b305a4e77c5bb03b0339",
+      "static_sha256": "9773db91976b4641ec1758d749922d917ceb1dadea745e74b081135e1381acec"
+    },
+    {
+      "city_id": 467,
+      "k": 8,
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_08/city_467/adjacency.npy",
+      "sha256": "3ba11b666450954ed0cdffe6130a3c7839c88c5b782a36afcb4c288ff7a2110a",
+      "old_metadata_sha256": "d01a1ecd5cd1a6c91e9063668ba1e8b4e31fdb2e0620a2f0ebddf6a0dfd18171",
+      "graph_config": {
+        "method": "symmetric_union_geographic_knn_gaussian_gcn_normalization",
+        "k": 8,
+        "k_effective": 8,
+        "sigma_km": 0.8064941878725884,
+        "node_count": 28,
+        "roster_hash_sha256": "29a5b64b65bdac01795237e2d8c189fb60b54efafc9768d33b0fc6293b21329f",
+        "coordinate_hash_sha256": "6933920e8a6006d87e5a250d78cb443f99922097209e59bfe4dd01ca08cbf185",
+        "adjacency_hash_sha256": "973faa7f1b83e379a4998b94775e9368fbe462514edf8927af8f782dcd8f08e2"
+      },
+      "reused_unchanged": true,
+      "v2_2_roster_sha256": "9917e39e3f2d6815991a0237d82ebd22799c9de110e4b305a4e77c5bb03b0339",
+      "static_sha256": "9773db91976b4641ec1758d749922d917ceb1dadea745e74b081135e1381acec"
+    },
+    {
+      "city_id": 467,
+      "k": 16,
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_16/city_467/adjacency.npy",
+      "sha256": "f60863fcb505d1c5025f2cdb2656198307b2382835d9c14f441cd3d91256b210",
+      "old_metadata_sha256": "5e74c4080fafb2322c5a61ddb28f83334204e7a54d0b89783dc924689101324a",
+      "graph_config": {
+        "method": "symmetric_union_geographic_knn_gaussian_gcn_normalization",
+        "k": 16,
+        "k_effective": 16,
+        "sigma_km": 1.2540829605790083,
+        "node_count": 28,
+        "roster_hash_sha256": "29a5b64b65bdac01795237e2d8c189fb60b54efafc9768d33b0fc6293b21329f",
+        "coordinate_hash_sha256": "6933920e8a6006d87e5a250d78cb443f99922097209e59bfe4dd01ca08cbf185",
+        "adjacency_hash_sha256": "f217b896442c4d4379c9a4415f890c79b98b75d6604a7464054be9c1ba372033"
+      },
+      "reused_unchanged": true,
+      "v2_2_roster_sha256": "9917e39e3f2d6815991a0237d82ebd22799c9de110e4b305a4e77c5bb03b0339",
+      "static_sha256": "9773db91976b4641ec1758d749922d917ceb1dadea745e74b081135e1381acec"
+    },
+    {
+      "city_id": 476,
+      "k": 4,
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_04/city_476/adjacency.npy",
+      "sha256": "7a36fb74f2af5c327665c943cbe3c72241d2068c9c705b5067c38db18cc9b0f5",
+      "old_metadata_sha256": "d2799d0ad37117265ccf435940bc0e12a876e95f1bc77a915aa03c459ac36f58",
+      "graph_config": {
+        "method": "symmetric_union_geographic_knn_gaussian_gcn_normalization",
+        "k": 4,
+        "k_effective": 4,
+        "sigma_km": 0.567481069690382,
+        "node_count": 73,
+        "roster_hash_sha256": "c5da1a5482539fbc6cc84de9f7ad0eb0549ee1dbc8134840d32cfc1ea7e627f5",
+        "coordinate_hash_sha256": "850595fe040d64a7c1f0b96bf65bd4415efddb4a308be0689113dc9c180cac4a",
+        "adjacency_hash_sha256": "9c06c1bd84e9f24d52231c95bf2bc27e81db95d5619753e4f56457f56f0a3d4f"
+      },
+      "reused_unchanged": true,
+      "v2_2_roster_sha256": "d288fe3f6d025ff27913d6f9572d7b2e9d52de89030738c9d5490fd3f93b3c9b",
+      "static_sha256": "0e063b4fdcc765be0cfcc15188a70c27bbf7e49da56732aba1383729dd16003e"
+    },
+    {
+      "city_id": 476,
+      "k": 8,
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_08/city_476/adjacency.npy",
+      "sha256": "76c3ed7fac2bdb211fe78538fe3e4cc0a509635c9e5b64796de07f711880cd5c",
+      "old_metadata_sha256": "d5cdaba9305a50ab96085b0dce4e91ec7398e3b8c6abd044fac0222b74c9aa28",
+      "graph_config": {
+        "method": "symmetric_union_geographic_knn_gaussian_gcn_normalization",
+        "k": 8,
+        "k_effective": 8,
+        "sigma_km": 0.8155162414863777,
+        "node_count": 73,
+        "roster_hash_sha256": "c5da1a5482539fbc6cc84de9f7ad0eb0549ee1dbc8134840d32cfc1ea7e627f5",
+        "coordinate_hash_sha256": "850595fe040d64a7c1f0b96bf65bd4415efddb4a308be0689113dc9c180cac4a",
+        "adjacency_hash_sha256": "d20a57bd14429883b476a56b500c12c52e84eb2fdcf78a852bf3cda6b6934444"
+      },
+      "reused_unchanged": true,
+      "v2_2_roster_sha256": "d288fe3f6d025ff27913d6f9572d7b2e9d52de89030738c9d5490fd3f93b3c9b",
+      "static_sha256": "0e063b4fdcc765be0cfcc15188a70c27bbf7e49da56732aba1383729dd16003e"
+    },
+    {
+      "city_id": 476,
+      "k": 16,
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_16/city_476/adjacency.npy",
+      "sha256": "1c433f872fe4ad1f12c5c7f880940a07ff78862217a56c98246b2cee5bf0a948",
+      "old_metadata_sha256": "ad72e76369947757b11121504c17bd873e2fae54ea4c5c2780e092d4e21ee807",
+      "graph_config": {
+        "method": "symmetric_union_geographic_knn_gaussian_gcn_normalization",
+        "k": 16,
+        "k_effective": 16,
+        "sigma_km": 1.1822124822533442,
+        "node_count": 73,
+        "roster_hash_sha256": "c5da1a5482539fbc6cc84de9f7ad0eb0549ee1dbc8134840d32cfc1ea7e627f5",
+        "coordinate_hash_sha256": "850595fe040d64a7c1f0b96bf65bd4415efddb4a308be0689113dc9c180cac4a",
+        "adjacency_hash_sha256": "86d8214871189b3aeb4f59e6f33c2ea634743059b342d52dd00c9577820ec94e"
+      },
+      "reused_unchanged": true,
+      "v2_2_roster_sha256": "d288fe3f6d025ff27913d6f9572d7b2e9d52de89030738c9d5490fd3f93b3c9b",
+      "static_sha256": "0e063b4fdcc765be0cfcc15188a70c27bbf7e49da56732aba1383729dd16003e"
+    },
+    {
+      "city_id": 532,
+      "k": 4,
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_04/city_532/adjacency.npy",
+      "sha256": "431bead888e5414d6251bae75feef97f83f551f5394e47e2e95283dc48f0706a",
+      "old_metadata_sha256": "8d9d2952096fa611f3446b59746089ad8d9dcf121e5496e01bfbda836ef9c08e",
+      "graph_config": {
+        "method": "symmetric_union_geographic_knn_gaussian_gcn_normalization",
+        "k": 4,
+        "k_effective": 4,
+        "sigma_km": 0.6118954990002705,
+        "node_count": 43,
+        "roster_hash_sha256": "406f5d420bc18ca541f77509dd157243abcc54a830465b031c1e6a13396519b5",
+        "coordinate_hash_sha256": "2adb8a8e11ae5e8d3b1e8913ff8b812c73cd6bf58ef8267f71a7e39cc9519c9c",
+        "adjacency_hash_sha256": "c45e45c672734a6fe8d866416977e39a806bcdf1ac2ca4179ecb050f7a435d69"
+      },
+      "reused_unchanged": true,
+      "v2_2_roster_sha256": "9b0e59eec378ff71f0ba1adac7b85fe7081afbacee53afa66aa749a39acf1b09",
+      "static_sha256": "5065f1459758a6f88c1a1130787f619ca067254f46db6ee7191348af2fd077c9"
+    },
+    {
+      "city_id": 532,
+      "k": 8,
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_08/city_532/adjacency.npy",
+      "sha256": "60780dcb05abbec7188bbc5ce55893c1650ff9898654ec986723d2c077d49aae",
+      "old_metadata_sha256": "93df85576db7283f609fdae634822fe266be6fff6ea209f49d9f24baeed1457e",
+      "graph_config": {
+        "method": "symmetric_union_geographic_knn_gaussian_gcn_normalization",
+        "k": 8,
+        "k_effective": 8,
+        "sigma_km": 0.8413530419389972,
+        "node_count": 43,
+        "roster_hash_sha256": "406f5d420bc18ca541f77509dd157243abcc54a830465b031c1e6a13396519b5",
+        "coordinate_hash_sha256": "2adb8a8e11ae5e8d3b1e8913ff8b812c73cd6bf58ef8267f71a7e39cc9519c9c",
+        "adjacency_hash_sha256": "2c1feadbafa7ad8c0b94cb9d4c8f8fd8a8f00ed47df9185690af35897e95ea91"
+      },
+      "reused_unchanged": true,
+      "v2_2_roster_sha256": "9b0e59eec378ff71f0ba1adac7b85fe7081afbacee53afa66aa749a39acf1b09",
+      "static_sha256": "5065f1459758a6f88c1a1130787f619ca067254f46db6ee7191348af2fd077c9"
+    },
+    {
+      "city_id": 532,
+      "k": 16,
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_16/city_532/adjacency.npy",
+      "sha256": "0c876958449e13aff58eb3d73b499d3d69fe61ef01173b9a310fd1726aef838f",
+      "old_metadata_sha256": "972c4f7182bc9b4b20f71ddf871db5b7d885094a02f9c4ee7604991b53a37265",
+      "graph_config": {
+        "method": "symmetric_union_geographic_knn_gaussian_gcn_normalization",
+        "k": 16,
+        "k_effective": 16,
+        "sigma_km": 1.2145261048471396,
+        "node_count": 43,
+        "roster_hash_sha256": "406f5d420bc18ca541f77509dd157243abcc54a830465b031c1e6a13396519b5",
+        "coordinate_hash_sha256": "2adb8a8e11ae5e8d3b1e8913ff8b812c73cd6bf58ef8267f71a7e39cc9519c9c",
+        "adjacency_hash_sha256": "7d16780ffc875bbbd3701fb1381c5ed6f408a9b6fc4813cc54d5b403f37e5271"
+      },
+      "reused_unchanged": true,
+      "v2_2_roster_sha256": "9b0e59eec378ff71f0ba1adac7b85fe7081afbacee53afa66aa749a39acf1b09",
+      "static_sha256": "5065f1459758a6f88c1a1130787f619ca067254f46db6ee7191348af2fd077c9"
+    },
+    {
+      "city_id": 619,
+      "k": 4,
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_04/city_619/adjacency.npy",
+      "sha256": "ebd9a5cf1a60e7cd3a9ac05d867fb6021c021b64bc0bc37eff4a4196ca15c9e1",
+      "old_metadata_sha256": "7c3021f9611135b28f462e3b4abb4ff147c1dfdc5d24354526d61a0f97bab58d",
+      "graph_config": {
+        "method": "symmetric_union_geographic_knn_gaussian_gcn_normalization",
+        "k": 4,
+        "k_effective": 4,
+        "sigma_km": 0.6248834920297074,
+        "node_count": 87,
+        "roster_hash_sha256": "daef5f3b3fd255f791a9702062aa0097b8ba44e523b1b485df8b6cb4fef3f39d",
+        "coordinate_hash_sha256": "838c89c2d0da9dd637416bed9e844df429f3d06be349caed19cc93f3959111b9",
+        "adjacency_hash_sha256": "5d5f5256d442f02d443c260dc329b1b0e2a25a648170c70e961ef30139e619b5"
+      },
+      "reused_unchanged": true,
+      "v2_2_roster_sha256": "f18670c98e6ceae7c598934573a0f8ac0e4f3d4fe5f1daab8c924efd60a0f41f",
+      "static_sha256": "ddd9a296739cd6b9427118d6d83b7ef3a0f608294f1c82cae4ddafd2e65bb06f"
+    },
+    {
+      "city_id": 619,
+      "k": 8,
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_08/city_619/adjacency.npy",
+      "sha256": "63c25716a3ace8e58698483d49d44551ca4137b6955f507c23317d8ac9e4a3e5",
+      "old_metadata_sha256": "8b0b56e168ef8e47d6a66d15a49a3de83be62a63d759e952c0433b93c2c3dcce",
+      "graph_config": {
+        "method": "symmetric_union_geographic_knn_gaussian_gcn_normalization",
+        "k": 8,
+        "k_effective": 8,
+        "sigma_km": 0.8232138010428289,
+        "node_count": 87,
+        "roster_hash_sha256": "daef5f3b3fd255f791a9702062aa0097b8ba44e523b1b485df8b6cb4fef3f39d",
+        "coordinate_hash_sha256": "838c89c2d0da9dd637416bed9e844df429f3d06be349caed19cc93f3959111b9",
+        "adjacency_hash_sha256": "ad591e0ababd8b7acb9a0d0bbd76c6e4811a5602fe457008a67a16dd1db0e959"
+      },
+      "reused_unchanged": true,
+      "v2_2_roster_sha256": "f18670c98e6ceae7c598934573a0f8ac0e4f3d4fe5f1daab8c924efd60a0f41f",
+      "static_sha256": "ddd9a296739cd6b9427118d6d83b7ef3a0f608294f1c82cae4ddafd2e65bb06f"
+    },
+    {
+      "city_id": 619,
+      "k": 16,
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_16/city_619/adjacency.npy",
+      "sha256": "912e6a20377cc450f305a33f3c1dfcb508e2128f504518b7c68dca6534cafa85",
+      "old_metadata_sha256": "323141f3fac96a55b0c80125c26dc49350c14144a3a1e9634231f62ef7c76287",
+      "graph_config": {
+        "method": "symmetric_union_geographic_knn_gaussian_gcn_normalization",
+        "k": 16,
+        "k_effective": 16,
+        "sigma_km": 1.2503255584590183,
+        "node_count": 87,
+        "roster_hash_sha256": "daef5f3b3fd255f791a9702062aa0097b8ba44e523b1b485df8b6cb4fef3f39d",
+        "coordinate_hash_sha256": "838c89c2d0da9dd637416bed9e844df429f3d06be349caed19cc93f3959111b9",
+        "adjacency_hash_sha256": "85f069adee6b7aa4f06142441cafad0f12beb1e645bee3d3f44315dd5ae516e2"
+      },
+      "reused_unchanged": true,
+      "v2_2_roster_sha256": "f18670c98e6ceae7c598934573a0f8ac0e4f3d4fe5f1daab8c924efd60a0f41f",
+      "static_sha256": "ddd9a296739cd6b9427118d6d83b7ef3a0f608294f1c82cae4ddafd2e65bb06f"
+    },
+    {
+      "city_id": 658,
+      "k": 4,
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_04/city_658/adjacency.npy",
+      "sha256": "d31dc9fa7e3fa1d39b098c5431ac7fd751492732a0e4bcc0d0b42d6b25ad30f7",
+      "old_metadata_sha256": "c6aeb9af1db0dbe08f08aa293578ef6e983b6dbfe653e7baaf93dd56dda60899",
+      "graph_config": {
+        "method": "symmetric_union_geographic_knn_gaussian_gcn_normalization",
+        "k": 4,
+        "k_effective": 4,
+        "sigma_km": 0.48536845957650365,
+        "node_count": 126,
+        "roster_hash_sha256": "9996354d9dbcdb459c4d6a24dace9a306edd0076d2af9b4c9613111374906654",
+        "coordinate_hash_sha256": "8439ab3c14068defcbb77c5348fcd6f468299a7c62735a39fce302c42b87adaa",
+        "adjacency_hash_sha256": "1728b7c0acbcfb1344c2b1bdefc5e311d36046ed32d96f3171052c17594f0c44"
+      },
+      "reused_unchanged": true,
+      "v2_2_roster_sha256": "e71dbe4242a476b983288f1ebdc9cb3aab5e534df8c044e047d6ba0f36a30cfb",
+      "static_sha256": "34e8381f748b053e1e56f3ef93a0772a4bb393dda220473bfdff052911db034d"
+    },
+    {
+      "city_id": 658,
+      "k": 8,
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_08/city_658/adjacency.npy",
+      "sha256": "69eb5e7f66e46cecf732ad3027c0b91199e97e8ac23edb8c9c5fb0bd9fce1bc6",
+      "old_metadata_sha256": "c497b0660a8626a9cc14ddddb19db9014111d007306fa1a249c669bed8a64515",
+      "graph_config": {
+        "method": "symmetric_union_geographic_knn_gaussian_gcn_normalization",
+        "k": 8,
+        "k_effective": 8,
+        "sigma_km": 0.6490813022910702,
+        "node_count": 126,
+        "roster_hash_sha256": "9996354d9dbcdb459c4d6a24dace9a306edd0076d2af9b4c9613111374906654",
+        "coordinate_hash_sha256": "8439ab3c14068defcbb77c5348fcd6f468299a7c62735a39fce302c42b87adaa",
+        "adjacency_hash_sha256": "b12af446921219720b02d4c095bb37f4d830a3d89227a15f8bf4a7041db61981"
+      },
+      "reused_unchanged": true,
+      "v2_2_roster_sha256": "e71dbe4242a476b983288f1ebdc9cb3aab5e534df8c044e047d6ba0f36a30cfb",
+      "static_sha256": "34e8381f748b053e1e56f3ef93a0772a4bb393dda220473bfdff052911db034d"
+    },
+    {
+      "city_id": 658,
+      "k": 16,
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_16/city_658/adjacency.npy",
+      "sha256": "a0fcb1e75369714774ccbf5db3d37f09d8296788736e279485ec5c123ea5d7fd",
+      "old_metadata_sha256": "363daa492e90dcaf15705a7589c4a7ec7f47291c79d8e80a7df2e6c2d2fad896",
+      "graph_config": {
+        "method": "symmetric_union_geographic_knn_gaussian_gcn_normalization",
+        "k": 16,
+        "k_effective": 16,
+        "sigma_km": 0.9577198139615283,
+        "node_count": 126,
+        "roster_hash_sha256": "9996354d9dbcdb459c4d6a24dace9a306edd0076d2af9b4c9613111374906654",
+        "coordinate_hash_sha256": "8439ab3c14068defcbb77c5348fcd6f468299a7c62735a39fce302c42b87adaa",
+        "adjacency_hash_sha256": "ab9e456391a1b373c12d88ad39a6e05177ed28f227a2f4590118537734c8c533"
+      },
+      "reused_unchanged": true,
+      "v2_2_roster_sha256": "e71dbe4242a476b983288f1ebdc9cb3aab5e534df8c044e047d6ba0f36a30cfb",
+      "static_sha256": "34e8381f748b053e1e56f3ef93a0772a4bb393dda220473bfdff052911db034d"
+    }
+  ],
+  "new_adjacency_copies_created": 0,
+  "selection_occurred": false
+}

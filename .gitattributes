@@ -1,0 +1,18 @@
+# Preserve byte-identical authoritative artifacts with known upstream Markdown hard-breaks
+# or terminal blank lines. These exact paths are hash-bound in the export manifest.
+deployment/stage1_v2_2_a40/THROUGHPUT_AUDIT_R1.md whitespace=-trailing-space,-blank-at-eof
+research/governance/stage2b_execution_package.py whitespace=-trailing-space,-blank-at-eof
+research/governance/stage2b_fairness_seal.py whitespace=-trailing-space,-blank-at-eof
+research/governance/stage4_adversarial_method_seal.py whitespace=-trailing-space,-blank-at-eof
+research/results/stage2_graphgru_selection_v2_2_a40/SELECTION_REPORT.md whitespace=-trailing-space,-blank-at-eof
+research/results/stage2b_vanilla_fairness_v2_2_a40/SELECTION_REPORT.md whitespace=-trailing-space,-blank-at-eof
+research/results/stage3_finetuning_policy_v2_1/STAGE3_FINE_TUNING_POLICY_SEAL.md whitespace=-trailing-space,-blank-at-eof
+research/results/stage4_adversarial_method_v2_1/STAGE4_ADVERSARIAL_METHOD_SEAL.md whitespace=-trailing-space,-blank-at-eof
+research/scripts/build_development_data_v2_2.py whitespace=-trailing-space,-blank-at-eof
+research/scripts/run_stage1_v2_2.py whitespace=-trailing-space,-blank-at-eof
+research/scripts/verify_stage1_v2_2.py whitespace=-trailing-space,-blank-at-eof
+research/stage2_v2_2/__init__.py whitespace=-trailing-space,-blank-at-eof
+research/stage2_v2_2/a40.py whitespace=-trailing-space,-blank-at-eof
+research/stage2_v2_2/controller.py whitespace=-trailing-space,-blank-at-eof
+research/tests/test_final_label_seal.py whitespace=-trailing-space,-blank-at-eof
+research/tests/test_window_causality.py whitespace=-trailing-space,-blank-at-eof

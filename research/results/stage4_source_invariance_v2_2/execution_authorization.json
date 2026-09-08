@@ -1,0 +1,11 @@
+{
+  "status": "AUTHORIZED_AFTER_STRICT_A40_PREFLIGHT_PASS",
+  "scope": "144 Stage-4 development fits from initialization; postrun validation; frozen prospective selection; freeze decision; STOP",
+  "scientific_contract_sha256": "94e586624d18ac9047c6b0a71922139ad00795da54e20ca05d8ef04008470e15",
+  "job_map_sha256": "ce84b658100d49a313fa102ea6b07d0319d197f1e23d610af53b420a8492458c",
+  "clarification_sha256": "852d8c32dd9004a8dfaa17633e285877828672d79414cf5fb67b8550c8ea7d4d",
+  "local_real_training_or_evaluation_authorized": false,
+  "final_experiment_authorized": false,
+  "workers": 4,
+  "timestamp_utc": "2026-09-08T11:20:17.477771+00:00"
+}

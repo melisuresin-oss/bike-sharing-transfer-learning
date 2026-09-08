@@ -1,0 +1,97 @@
+{
+  "categories": {
+    "baselines_and_HA": {
+      "anchor_manifest": "research/results/development_baselines_v2_1/validation_manifest.json",
+      "anchor_sha256": "86c206ea8bc3920ca4d805fb8da01773252c0ee0cb126d5eb97310f5d389d5ce",
+      "disposition": "Regenerate 28 prediction artifacts and permitted HA tables/validation under V2.2.",
+      "replacement_status": "REQUIRED_NOT_YET_EXECUTED",
+      "scope": [
+        "research/results/development_baselines_v2_1/"
+      ],
+      "status": "EXECUTION_PROVENANCE_RETAINED_SUPERSEDED_FOR_CAUSAL_INFERENCE"
+    },
+    "predictor_panel_and_caches": {
+      "anchor_manifest": "processed/protocol_v2_1/PROTOCOL_DATASET_MANIFEST.json",
+      "anchor_sha256": "299603e92c097ab9fec4697d6efc04180338a1115843c15241f172b21069b989",
+      "disposition": "New V2.2 panel/fit snapshots required; raw/static provenance is retained, not discredited.",
+      "replacement_status": "REQUIRED_NOT_YET_EXECUTED",
+      "scope": [
+        "processed/protocol_v2_1/development/development_panel.parquet",
+        "processed/protocol_v2_1/final_adaptation/final_adaptation_panel.parquet",
+        "processed/protocol_v2_1/final_features/",
+        "processed/protocol_v2_1/manifests/feature_manifest.json",
+        "processed/protocol_v2_1/manifests/budget_manifest.json",
+        "all caches derived from V2.1 historical feature semantics"
+      ],
+      "status": "EXECUTION_PROVENANCE_RETAINED_SUPERSEDED_FOR_CAUSAL_INFERENCE"
+    },
+    "stage1": {
+      "anchor_manifest": "research/results/stage1_scale_loss_v2_1/stage1_decision_manifest.json",
+      "anchor_sha256": "f35a38fe936ca9389d5bf08ee08c5ec61920e588f6ef029044cf5f4fdf040d31",
+      "disposition": "Rerun 24 source fits and 24 adaptations and reselect.",
+      "replacement_status": "REQUIRED_NOT_YET_EXECUTED",
+      "scope": [
+        "research/results/stage1_scale_loss_v2_1/"
+      ],
+      "status": "EXECUTION_PROVENANCE_RETAINED_SUPERSEDED_FOR_CAUSAL_INFERENCE"
+    },
+    "stage2": {
+      "anchor_manifest": "research/results/stage2_graphgru_selection_v2_1_a40/stage2_decision_manifest.json",
+      "anchor_sha256": "593dd284acc5d4e2da0e1d74ace84e85396894c05f3b738c01d64421d232e408",
+      "disposition": "Rerun 144 source fits and reselect. Aborted local attempts retain aborted status.",
+      "replacement_status": "REQUIRED_NOT_YET_EXECUTED",
+      "scope": [
+        "research/results/stage2_graphgru_selection_v2_1_a40/"
+      ],
+      "status": "EXECUTION_PROVENANCE_RETAINED_SUPERSEDED_FOR_CAUSAL_INFERENCE"
+    },
+    "stage2b": {
+      "anchor_manifest": "research/results/stage2b_vanilla_fairness_v2_1_a40_closure/stage2b_completion_provenance.json",
+      "anchor_sha256": "3ac05fa3cb74bb5623a04c53c804f128fc71c2abd2d6216faa7cd5f912f4b278",
+      "disposition": "Preserve closure and archive; rerun 48 source fits and reselect. Incident records remain immutable.",
+      "replacement_status": "REQUIRED_NOT_YET_EXECUTED",
+      "scope": [
+        "research/results/stage2b_vanilla_fairness_v2_1_a40_closure/",
+        "research/results/stage2b_vanilla_fairness_v2_1_a40_complete.zip"
+      ],
+      "status": "EXECUTION_PROVENANCE_RETAINED_SUPERSEDED_FOR_CAUSAL_INFERENCE"
+    },
+    "stage3_executable_binding": {
+      "anchor_manifest": "research/results/stage3_finetuning_policy_v2_1/stage3_finetuning_policy_manifest.json",
+      "anchor_sha256": "c63528bfe73881eafe02167f5cfddf37e51bca769fab6289850a66836642a6c1",
+      "disposition": "Numerical policy reusable; upstream decision/hash binding must be superseded.",
+      "replacement_status": "REQUIRED_NOT_YET_EXECUTED",
+      "scope": [
+        "research/results/stage3_finetuning_policy_v2_1/"
+      ],
+      "status": "EXECUTION_PROVENANCE_RETAINED_SUPERSEDED_FOR_CAUSAL_INFERENCE"
+    },
+    "stage4_executable_binding": {
+      "anchor_manifest": "research/results/stage4_adversarial_method_v2_1/stage4_adversarial_method_manifest.json",
+      "anchor_sha256": "a830e155f0f4052a4b8f3a7d9492bc27877513b11cee885dc93ab6fa1cee7d92",
+      "disposition": "Conceptual method retained; executable backbone/loss/panel bindings require rebind. No execution authorized.",
+      "replacement_status": "REQUIRED_NOT_YET_EXECUTED",
+      "scope": [
+        "research/results/stage4_adversarial_method_v2_1/"
+      ],
+      "status": "EXECUTION_PROVENANCE_RETAINED_SUPERSEDED_FOR_CAUSAL_INFERENCE"
+    }
+  },
+  "future_executable_consumers": "Reject affected V2.1 scientific artifacts as V2.2 inputs; historical provenance inspection remains permitted.",
+  "historical_hash_record": {
+    "final_label_hashes_are_recorded_provenance_only": "No final label file is opened or rehashed.",
+    "path": "processed/protocol_v2_1/artifact_hashes.json",
+    "sha256": "a3aac601b4944b6026df78494b00922af0972311020a579db5b285e43fb67f66"
+  },
+  "neutral_interpretation": "Experiments faithfully executed their then-registered specification. Causal-input validity was discovered afterward; no claim of fabrication, corruption or invalid execution.",
+  "preserve_all_v2_1_bytes": true,
+  "preserved_incident_records": {
+    "research/results/stage2b_execution_package_v2_1_r1/REMOTE_STAGE2B_ABORTED_PRETRAIN_CACHE_BUILD.json": "508ba7eee08b2a961a56cc3859884bc6c6ca574079a030c81cb0bb19831547d3",
+    "research/results/stage2b_execution_package_v2_1_r1/STAGE2B_CACHE_FILL_INCIDENT_REPORT.md": "18467eba79c34dd003aa40b9c5cbe7ea3b9b8ae4c363e5fd2f2ea27240d1f1d1",
+    "research/results/stage2b_execution_package_v2_1_r2/REMOTE_STAGE2B_R1_ABORTED_FIRST_FORWARD.json": "f87b84651d65b328467eb49ae7e4c7fda38ac2cba9501335db0695c9b4507f7f",
+    "research/results/stage2b_execution_package_v2_1_r2/STAGE2B_CUBLAS_DETERMINISM_INCIDENT_REPORT.md": "f4d6e174ba255d06851ac5e01173498a0ac3824ed7d743367543ef1e0577960f"
+  },
+  "protocol_version": "2.2",
+  "rewrite_originals": false,
+  "schema_version": "1.0"
+}

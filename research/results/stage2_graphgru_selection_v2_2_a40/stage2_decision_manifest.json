@@ -1,0 +1,181 @@
+{
+  "schema_version": "1.0",
+  "protocol_version": "2.2",
+  "status": "FROZEN_VALIDATED",
+  "stage": 2,
+  "execution_environment": "UNIVERSITY_A40",
+  "selected_configuration": {
+    "config_id": "GGRU_K04_H032_D00",
+    "model_family": "ordinary_graph_gru",
+    "graph_k": 4,
+    "hidden_size": 32,
+    "dropout": 0.0,
+    "equal_fold_count_space_mae": 1.5529057885454507,
+    "primary_rounded_4dp": "1.5529",
+    "fold_mae_population_sd": 1.7794711690544862,
+    "fold_mae_min": 0.4745917160529051,
+    "fold_mae_max": 4.633398589316461,
+    "fold_mae_range": 4.158806873263556,
+    "rank": 1
+  },
+  "aggregate_count_space_mae": 1.5529057885454507,
+  "runner_up": {
+    "config_id": "GGRU_K04_H032_D10",
+    "model_family": "ordinary_graph_gru",
+    "graph_k": 4,
+    "hidden_size": 32,
+    "dropout": 0.1,
+    "equal_fold_count_space_mae": 1.5539311594356262,
+    "primary_rounded_4dp": "1.5539",
+    "fold_mae_population_sd": 1.7788975203309385,
+    "fold_mae_min": 0.4732951032825096,
+    "fold_mae_max": 4.6333986785416394,
+    "fold_mae_range": 4.1601035752591295,
+    "rank": 2
+  },
+  "margin_to_runner_up": 0.0010253708901755143,
+  "tie_break_invoked": false,
+  "selection_rule": {
+    "stage": 2,
+    "candidate_family": "ordinary Graph-GRU",
+    "metric": "MAE in original count space",
+    "seed_aggregation": "arithmetic mean over seeds 17, 29, and 43 within each pseudo-target fold",
+    "pseudo_target_aggregation": "unweighted arithmetic mean over the four seed-mean fold MAEs",
+    "regime_aggregation": "none; Stage 2 contains only parameter zero-shot",
+    "primary_order": "lower equal-fold count-space MAE",
+    "tie_definition": "primary statistics equal after ROUND_HALF_UP quantization to four decimal places",
+    "tie_break_hierarchy": [
+      "lower population standard deviation across the four seed-mean fold MAEs",
+      "smaller hidden size",
+      "smaller graph k",
+      "lower dropout"
+    ],
+    "selection_exclusions": [
+      "RMSE",
+      "WAPE",
+      "station-macro MAE",
+      "pooled station-hours"
+    ]
+  },
+  "per_pseudo_target_seed_averaged_mae": [
+    {
+      "config_id": "GGRU_K04_H032_D00",
+      "model_family": "ordinary_graph_gru",
+      "graph_k": 4,
+      "hidden_size": 32,
+      "dropout": 0.0,
+      "pseudo_target_city_id": 532,
+      "seeds": [
+        17,
+        29,
+        43
+      ],
+      "mae_seed_mean": 4.633398589316461,
+      "mae_seed_population_sd": 1.4318559884187583e-07,
+      "observed_station_hours": 60960
+    },
+    {
+      "config_id": "GGRU_K04_H032_D00",
+      "model_family": "ordinary_graph_gru",
+      "graph_k": 4,
+      "hidden_size": 32,
+      "dropout": 0.0,
+      "pseudo_target_city_id": 476,
+      "seeds": [
+        17,
+        29,
+        43
+      ],
+      "mae_seed_mean": 0.4745917160529051,
+      "mae_seed_population_sd": 0.0248389629863918,
+      "observed_station_hours": 94138
+    },
+    {
+      "config_id": "GGRU_K04_H032_D00",
+      "model_family": "ordinary_graph_gru",
+      "graph_k": 4,
+      "hidden_size": 32,
+      "dropout": 0.0,
+      "pseudo_target_city_id": 619,
+      "seeds": [
+        17,
+        29,
+        43
+      ],
+      "mae_seed_mean": 0.6207859882068224,
+      "mae_seed_population_sd": 0.0004810777046776839,
+      "observed_station_hours": 115830
+    },
+    {
+      "config_id": "GGRU_K04_H032_D00",
+      "model_family": "ordinary_graph_gru",
+      "graph_k": 4,
+      "hidden_size": 32,
+      "dropout": 0.0,
+      "pseudo_target_city_id": 658,
+      "seeds": [
+        17,
+        29,
+        43
+      ],
+      "mae_seed_mean": 0.48284686060561394,
+      "mae_seed_population_sd": 0.0018318834551525553,
+      "observed_station_hours": 149327
+    }
+  ],
+  "fold_heterogeneity": {
+    "population_sd": 1.7794711690544862,
+    "minimum": 0.4745917160529051,
+    "maximum": 4.633398589316461,
+    "range": 4.158806873263556
+  },
+  "historical_v2_1_winner": "GGRU_K04_H032_D00",
+  "winner_matches_historical_v2_1": true,
+  "historical_v2_1_results_used_in_selection": false,
+  "source_fits": 144,
+  "zero_shot_evaluations": 144,
+  "adaptation_fits": 0,
+  "stage1_decision_sha256": "8db24acabd373fa57aa6f35708566da400646fa2ea8474fd0e656a4955828aed",
+  "bundle_manifest_sha256": "ce9f6c32ce0bcf0d07db3cf2e890df66fa96f6595f4220a7bf2819d64d936342",
+  "scientific_contract": {
+    "path": "research/results/stage2_graphgru_selection_v2_2/scientific_contract.json",
+    "sha256": "55ebfa06ca49d77e5ae0b7b2e531d6bb14c26a2b93f478da7754c75fb1aae52f",
+    "bytes": 8862
+  },
+  "job_map": {
+    "path": "research/results/stage2_graphgru_selection_v2_2/job_map.json",
+    "sha256": "fd34f71b46eb6f9cfc9adb5ebfd44001a2e26df049b9bb197aff1d272e7a074a",
+    "bytes": 3025721
+  },
+  "postrun_validation": {
+    "path": "research/results/stage2_graphgru_selection_v2_2_a40/POSTRUN_VALIDATION.json",
+    "sha256": "0173fd90c0aa33cbe0cb0cb3758e439fee9005de9c8c0c0fb4012442d9b33ef1",
+    "bytes": 36058
+  },
+  "individual_runs": {
+    "path": "research/results/stage2_graphgru_selection_v2_2_a40/individual_runs.csv",
+    "sha256": "2e31063d68234218098a7a6af3c146b2323376bdb46e76b493a2b06414873bb7",
+    "bytes": 77432
+  },
+  "fold_summary": {
+    "path": "research/results/stage2_graphgru_selection_v2_2_a40/fold_summary.csv",
+    "sha256": "a4655c56a351a3cf28055704212df363f14877beba352e1e684b9919d7d33c83",
+    "bytes": 5425
+  },
+  "configuration_summary": {
+    "path": "research/results/stage2_graphgru_selection_v2_2_a40/configuration_summary.csv",
+    "sha256": "dba94f428b553dbb90ac27099f1a71128df1aa6ea85bb25a5385f85ef17c4a9f",
+    "bytes": 1951
+  },
+  "selection_report": {
+    "path": "research/results/stage2_graphgru_selection_v2_2_a40/SELECTION_REPORT.md",
+    "sha256": "01beb9cf7d3229c131ba60250b6159945e24248728590ce6870b5d107fec6cea",
+    "bytes": 904
+  },
+  "local_cpu_results_used": false,
+  "v2_1_fitted_checkpoints_reused": false,
+  "final_target_labels_accessed": false,
+  "stage3_started": false,
+  "stage4_started": false,
+  "frozen_utc": "2026-09-08T02:19:42.696289+00:00"
+}

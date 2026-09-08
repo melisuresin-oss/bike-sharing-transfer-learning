@@ -1,0 +1,69 @@
+{
+  "city_id": 476,
+  "status": "PASS",
+  "all_origins_checked": 5537,
+  "all_history_cells_checked": 10105025,
+  "status_events": 586631,
+  "status_logical_sha256": "3bbe7488eb1a44ab5ba98edcdb3381c6d330ece630136f7c7cc85f8fbbcf2340",
+  "count_feed_rows": 106272,
+  "count_feed_total_departures": 189074,
+  "count_feed_logical_sha256": "6746d57bdf2558adc57423f6af4e0cb230bb6bcecc35aa564559f9881d18d0e1",
+  "status_query": "SELECT DISTINCT station_id::BIGINT, epoch_us(to_timestamp(time)) FROM read_parquet('feasibility_test/full_audit/coverage/data/station_status/*.parquet') WHERE station_id IN (6095651,6095677,6095731,6095749,6269987,6270009,6270023,6270033,6270045,6270104,6270375,6270420,6270425,6270531,6270549,6270557,6270564,6270590,6270629,6658178,8053989,8054072,8055296,8055378,8055389,8055401,8055460,8055483,8055490,8055547,8055570,8055587,8055606,8055624,8055646,8055690,8055716,8055727,9450702,12760828,12760870,12761005,12761084,12761120,12761316,13721149,13721214,13728389,13728584,13760676,13790040,13810505,13968264,16921265,19502312,20812804,20813066,20814741,20814928,29747201,35984429,35984577,35984948,35985040,35985236,52962132,53040980,53135355,58569310,60693993,60694214,84287921,88102363) AND time IS NOT NULL AND isfinite(time) ORDER BY 1,2",
+  "count_query": "SELECT station_id_start::BIGINT,epoch_us(date_trunc('hour',to_timestamp(time_start))),count(*) FROM read_parquet('feasibility_test/full_audit/data/trips/*.parquet') WHERE city_id=476 AND station_id_start IN (6095651,6095677,6095731,6095749,6269987,6270009,6270023,6270033,6270045,6270104,6270375,6270420,6270425,6270531,6270549,6270557,6270564,6270590,6270629,6658178,8053989,8054072,8055296,8055378,8055389,8055401,8055460,8055483,8055490,8055547,8055570,8055587,8055606,8055624,8055646,8055690,8055716,8055727,9450702,12760828,12760870,12761005,12761084,12761120,12761316,13721149,13721214,13728389,13728584,13760676,13790040,13810505,13968264,16921265,19502312,20812804,20813066,20814741,20814928,29747201,35984429,35984577,35984948,35985040,35985236,52962132,53040980,53135355,58569310,60693993,60694214,84287921,88102363) AND isfinite(station_id_start) AND station_id_start=trunc(station_id_start) AND time_start IS NOT NULL AND isfinite(time_start) AND time_start>=1661749200000000/1000000.0 AND time_start<1681682400000000/1000000.0 GROUP BY 1,2 ORDER BY 1,2",
+  "fit_prefix_comparisons": 4097,
+  "physical_origin_prefix_comparisons": 5,
+  "baseline_availability": [
+    {
+      "city_id": 476,
+      "baseline": "PERSISTENCE_T_MINUS_1",
+      "period_us": [
+        1676498400000000,
+        1681682400000000
+      ],
+      "key_scope": "all_prediction_keys",
+      "total": 105120,
+      "available": 0,
+      "unavailable": 105120,
+      "coverage_pct": 0.0
+    },
+    {
+      "city_id": 476,
+      "baseline": "PERSISTENCE_T_MINUS_1",
+      "period_us": [
+        1676498400000000,
+        1681682400000000
+      ],
+      "key_scope": "retrospectively_observed_evaluation_keys",
+      "total": 94138,
+      "available": 0,
+      "unavailable": 94138,
+      "coverage_pct": 0.0
+    },
+    {
+      "city_id": 476,
+      "baseline": "SEASONAL_NAIVE_T_MINUS_168",
+      "period_us": [
+        1676498400000000,
+        1681682400000000
+      ],
+      "key_scope": "all_prediction_keys",
+      "total": 105120,
+      "available": 94702,
+      "unavailable": 10418,
+      "coverage_pct": 90.08942161339422
+    },
+    {
+      "city_id": 476,
+      "baseline": "SEASONAL_NAIVE_T_MINUS_168",
+      "period_us": [
+        1676498400000000,
+        1681682400000000
+      ],
+      "key_scope": "retrospectively_observed_evaluation_keys",
+      "total": 94138,
+      "available": 87453,
+      "unavailable": 6685,
+      "coverage_pct": 92.89872315111857
+    }
+  ]
+}

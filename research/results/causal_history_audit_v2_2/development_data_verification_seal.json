@@ -1,0 +1,18 @@
+{
+  "status": "VERIFIED_DEVELOPMENT_DATA_ONLY",
+  "verdict": "A. V2_2_DEVELOPMENT_DATA_VERIFIED_READY_FOR_STAGE1_AUTHORIZATION",
+  "data_manifest": {
+    "path": "processed/protocol_v2_2/PROTOCOL_DATASET_MANIFEST.json",
+    "sha256": "140dd8c53cf51f48be5cf66b70d162c9f2cc6a9fa0b1b7039496633e385a6ab6"
+  },
+  "verification_report": {
+    "path": "research/results/causal_history_audit_v2_2/development_verification_report.json",
+    "sha256": "040e46bdfde99ad70bcb70b9b8132aac6ef64e88545d239b38a9c259de7324f2"
+  },
+  "verifier_sha256": "68becfa546413e1354f872b2e698053765c0680dc5fd5b13c89e59d993575f54",
+  "registry_sha256": "b5a142bbe1052cbc98b6fad8e927138b6cdbddf25ea6558b26e794d983b21051",
+  "artifact_index_sha256": "a0c3d179e1c9136612f304e08687215b7e87a5504780275aab62c5e315ec640b",
+  "delivery_report_sha256": "a754c44e343688d7115f515a73cc0ad281ea95e16665eb5139b7c12813e13dbe",
+  "stage1_authorized": false,
+  "scientific_model_execution_occurred": false
+}

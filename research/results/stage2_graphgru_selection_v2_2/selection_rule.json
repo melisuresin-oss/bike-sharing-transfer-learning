@@ -1,0 +1,22 @@
+{
+  "stage": 2,
+  "candidate_family": "ordinary Graph-GRU",
+  "metric": "MAE in original count space",
+  "seed_aggregation": "arithmetic mean over seeds 17, 29, and 43 within each pseudo-target fold",
+  "pseudo_target_aggregation": "unweighted arithmetic mean over the four seed-mean fold MAEs",
+  "regime_aggregation": "none; Stage 2 contains only parameter zero-shot",
+  "primary_order": "lower equal-fold count-space MAE",
+  "tie_definition": "primary statistics equal after ROUND_HALF_UP quantization to four decimal places",
+  "tie_break_hierarchy": [
+    "lower population standard deviation across the four seed-mean fold MAEs",
+    "smaller hidden size",
+    "smaller graph k",
+    "lower dropout"
+  ],
+  "selection_exclusions": [
+    "RMSE",
+    "WAPE",
+    "station-macro MAE",
+    "pooled station-hours"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "protocol_version": "2.2",
+  "status": "PASS",
+  "scope": "SCIENTIFIC_DEFINITION_AND_IMMUTABLE_JOB_MAP_ONLY",
+  "authority_verification": {
+    "status": "PASS",
+    "contradictions": [],
+    "stage1_decision_sha256": "8db24acabd373fa57aa6f35708566da400646fa2ea8474fd0e656a4955828aed",
+    "development_data_manifest_sha256": "140dd8c53cf51f48be5cf66b70d162c9f2cc6a9fa0b1b7039496633e385a6ab6",
+    "implementation_manifest_sha256": "a1fe0ee486c55b1348e92d91edd42289dd49ce982129cdaa544691eafd605a9d",
+    "stage2_v2_1_selection_rule_sha256": "658f7a9a89ccbb6c7184fae39684301a04569e4632dbb7fa56268f252546ccc5",
+    "stage2b_v2_1_fairness_manifest_sha256": "6b3f7e4936e201c91023145a73e36b4a122e8a97305ef408bc14a6c727c6259f",
+    "final_target_labels_accessed": false
+  },
+  "stage2_scientific_contract": {
+    "path": "research/results/stage2_graphgru_selection_v2_2/scientific_contract.json",
+    "sha256": "55ebfa06ca49d77e5ae0b7b2e531d6bb14c26a2b93f478da7754c75fb1aae52f",
+    "bytes": 8862
+  },
+  "stage2b_scientific_contract": {
+    "path": "research/results/stage2b_vanilla_fairness_v2_2/scientific_contract.json",
+    "sha256": "2eb1a2a14dd1412f1286248c547814a2c7e04fad94edaace2084c7d78be0cad3",
+    "bytes": 7476
+  },
+  "stage2_job_map": {
+    "path": "research/results/stage2_graphgru_selection_v2_2/job_map.json",
+    "sha256": "fd34f71b46eb6f9cfc9adb5ebfd44001a2e26df049b9bb197aff1d272e7a074a",
+    "bytes": 3025721
+  },
+  "stage2b_job_map": {
+    "path": "research/results/stage2b_vanilla_fairness_v2_2/job_map.json",
+    "sha256": "0cf72a4f66797bcc5625bd438046562c5fd444677676971e2697e1f9a3d0f23d",
+    "bytes": 567392
+  },
+  "expected_counts": {
+    "stage2": 144,
+    "stage2b": 48,
+    "total": 192
+  },
+  "scientific_training_steps": 0,
+  "scientific_evaluations": 0,
+  "final_target_labels_accessed": false,
+  "stage3_started": false,
+  "stage4_started_or_implemented": false,
+  "contradictions": []
+}

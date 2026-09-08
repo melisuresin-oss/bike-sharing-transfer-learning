@@ -1,0 +1,17 @@
+city_id,budget,stage1_7d_applies,stage3_policy_preview,station_hour_rows,eligible_anchor_hours,updates,batch_anchor_hours,anchor_draws,effective_passes,descriptive_flag,budgets_changed
+476,1,False,True,1518,23,100,16,1600,69.56521739130434,repeated_exposure_over_10_passes,False
+476,7,True,True,11041,167,300,16,4800,28.74251497005988,repeated_exposure_over_10_passes,False
+476,30,False,True,47393,719,600,16,9600,13.351877607788595,repeated_exposure_over_10_passes,False
+476,full,False,True,259371,4023,1200,16,19200,4.772557792692021,between_1_and_10_passes,False
+532,1,False,True,963,23,100,16,1600,69.56521739130434,repeated_exposure_over_10_passes,False
+532,7,True,True,7011,167,300,16,4800,28.74251497005988,repeated_exposure_over_10_passes,False
+532,30,False,True,30316,719,600,16,9600,13.351877607788595,repeated_exposure_over_10_passes,False
+532,full,False,True,172035,4024,1200,16,19200,4.7713717693836974,between_1_and_10_passes,False
+619,1,False,True,1739,23,100,16,1600,69.56521739130434,repeated_exposure_over_10_passes,False
+619,7,True,True,13291,167,300,16,4800,28.74251497005988,repeated_exposure_over_10_passes,False
+619,30,False,True,57479,719,600,16,9600,13.351877607788595,repeated_exposure_over_10_passes,False
+619,full,False,True,320516,4024,1200,16,19200,4.7713717693836974,between_1_and_10_passes,False
+658,1,False,True,2470,23,100,16,1600,69.56521739130434,repeated_exposure_over_10_passes,False
+658,7,True,True,17856,167,300,16,4800,28.74251497005988,repeated_exposure_over_10_passes,False
+658,30,False,True,74495,705,600,16,9600,13.617021276595745,repeated_exposure_over_10_passes,False
+658,full,False,True,415062,3897,1200,16,19200,4.926866820631255,between_1_and_10_passes,False

@@ -1,0 +1,242 @@
+{
+  "schema_version": "1.0",
+  "protocol_version": "2.2",
+  "artifact_role": "stage4_scientific_gate_audit_not_execution_contract",
+  "status": "BLOCKED_BY_SCIENTIFIC_AMBIGUITY",
+  "producer": {
+    "path": "research/scripts/rebind_stage3_audit_stage4_v2_2.py",
+    "sha256": "9cc5380e8ae51de929f7c472ca68774ce6fedff3a9918c6876c085d374ec6516"
+  },
+  "stage3_rebind": {
+    "path": "research/results/stage3_finetuning_policy_v2_2/stage3_finetuning_policy_manifest.json",
+    "sha256": "f5cb2653dd097eb1288f419884778ae01e9034e9e1d88006b33beac4cff069b5"
+  },
+  "historical_method_seal": {
+    "path": "research/results/stage4_adversarial_method_v2_1/stage4_adversarial_method_manifest.json",
+    "sha256": "a830e155f0f4052a4b8f3a7d9492bc27877513b11cee885dc93ab6fa1cee7d92"
+  },
+  "upstream_sha256": {
+    "research/results/stage1_scale_loss_v2_2_a40/stage1_decision_manifest.json": "8db24acabd373fa57aa6f35708566da400646fa2ea8474fd0e656a4955828aed",
+    "research/results/stage2_graphgru_selection_v2_2_a40/stage2_decision_manifest.json": "9cca604ec3496a28f4440d89a9d6d1184311fc507c35f27b428a3ca768a6eeca",
+    "research/results/stage2b_vanilla_fairness_v2_2_a40/stage2b_decision_manifest.json": "9d85d6df6a509013f1b5411002246aee81c254fbde078f639293976674b4f36d",
+    "processed/protocol_v2_2/PROTOCOL_DATASET_MANIFEST.json": "140dd8c53cf51f48be5cf66b70d162c9f2cc6a9fa0b1b7039496633e385a6ab6",
+    "research/results/stage2_graphgru_selection_v2_2/scientific_contract.json": "55ebfa06ca49d77e5ae0b7b2e531d6bb14c26a2b93f478da7754c75fb1aae52f",
+    "research/results/stage2_graphgru_selection_v2_2/job_map.json": "fd34f71b46eb6f9cfc9adb5ebfd44001a2e26df049b9bb197aff1d272e7a074a",
+    "research/results/stage2b_vanilla_fairness_v2_2/scientific_contract.json": "2eb1a2a14dd1412f1286248c547814a2c7e04fad94edaace2084c7d78be0cad3",
+    "research/results/stage2b_vanilla_fairness_v2_2/job_map.json": "0cf72a4f66797bcc5625bd438046562c5fd444677676971e2697e1f9a3d0f23d"
+  },
+  "scientific_identity": "GRL-based multi-source domain-invariant pretraining",
+  "backbone": {
+    "config_id": "GGRU_K04_H032_D00",
+    "graph_k": 4,
+    "hidden_size": 32,
+    "dropout": 0.0,
+    "target": "LOG1P"
+  },
+  "historically_bound_method": {
+    "adaptation": {
+      "discriminator_present": false,
+      "domain_objective": false,
+      "early_stopping": false,
+      "fresh_reset_adamw": true,
+      "full_network": true,
+      "governing_policy": "frozen_stage3_fine_tuning_policy",
+      "target_history": "7_days",
+      "updates": 300
+    },
+    "alternate_name": "adversarial source-domain-invariant pretraining",
+    "canonical_source_target_dann_claim": false,
+    "classifier": {
+      "dropout_eval_disabled": true,
+      "dropout_location": "after_hidden_relu",
+      "dropout_train_active": true,
+      "layers": [
+        "Linear(32,64)",
+        "ReLU",
+        "torch.nn.Dropout(0.10)",
+        "Linear(64,7)"
+      ],
+      "pseudo_target_is_class": false,
+      "recurrent_or_interlayer_gru_dropout": false
+    },
+    "discriminator_parameter_gradient": "ordinary_unscaled_cross_entropy_gradient",
+    "domain_ce_forward_weight": 1.0,
+    "domain_objective": "ordinary_unweighted_seven_class_cross_entropy",
+    "forecast_head_domain_gradient": "none",
+    "forecast_objective": "LOG1P_TARGET_MAE",
+    "grl_encoder_backward_multiplier": "-lambda_t",
+    "grl_forward": "identity",
+    "inference": {
+      "discriminator_present": false
+    },
+    "optimizer": {
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "clip_scope": "all_joint_optimizer_parameters",
+      "epsilon": 1e-08,
+      "global_gradient_norm_clip": 1.0,
+      "learning_rate": 0.001,
+      "owns": [
+        "graph_gru_encoder",
+        "forecast_head",
+        "domain_discriminator"
+      ],
+      "separate_discriminator_optimizer": false,
+      "type": "single_joint_AdamW",
+      "weight_decay": 0.0001
+    },
+    "pooling": {
+      "M_hist_used": false,
+      "demand_value_supplied_to_domain_classifier": false,
+      "empty_mask_behavior": "raise_error_no_denominator_clamp",
+      "formula": "sum_n(M_target[n]*h[n])/sum_n(M_target[n])",
+      "mask": "current_hour_M_target_valid_station_coverage_mask_only",
+      "representation": "final_per_station_graph_gru_hidden_state"
+    },
+    "scientific_name": "GRL-based multi-source domain-generalized pretraining",
+    "separate_alpha_coefficient": false,
+    "source_balancing": {
+      "domain_ce_class_weighting": "none",
+      "maximum_exposure_count_difference": 1,
+      "sampler": "EqualCitySampler",
+      "updates": 12000
+    }
+  },
+  "lambda_schedule": {
+    "constant": "lambda_max",
+    "constant_known_degenerate_claim": false,
+    "ganin_sigmoid": false,
+    "linear": "lambda_max * min(1, j/2999)",
+    "source_updates": 12000,
+    "warmup_steps": 3000,
+    "zero_indexed_updates": [
+      0,
+      11999
+    ]
+  },
+  "candidate_grid": {
+    "configurations": 6,
+    "lambda_max": [
+      0.01,
+      0.1,
+      0.5
+    ],
+    "pseudo_target_city_ids": [
+      532,
+      476,
+      619,
+      658
+    ],
+    "schedule": [
+      "constant",
+      "linear"
+    ],
+    "seeds": [
+      17,
+      29,
+      43
+    ]
+  },
+  "workload": {
+    "adaptation_fits": 72,
+    "parameter_changing_fits": 144,
+    "post_adaptation_evaluations": 72,
+    "source_pretraining_fits": 72,
+    "zero_shot_selection_evaluations": 0
+  },
+  "historically_bound_selection_rule": {
+    "diagnostics_used_for_selection_or_stopping": false,
+    "evaluation": "post_7_day_300_update_adaptation_count_space_mae",
+    "primary": "equal_pseudo_target_mean_mae",
+    "seed_aggregation": "arithmetic_mean_within_pseudo_target",
+    "tie_1": "lower_fold_dispersion",
+    "tie_2": "smaller_lambda_max",
+    "tie_3": "constant_schedule"
+  },
+  "confirmed_primary": "Post-7-day/300-update adaptation count-space MAE; arithmetic mean of seeds 17/29/43 within fold, then equal arithmetic mean of four folds",
+  "confirmed_tie_break_order": [
+    "lower fold dispersion",
+    "smaller lambda_max",
+    "constant schedule"
+  ],
+  "missing_precommitments": [
+    {
+      "id": "STAGE4_PRIMARY_TIE_DEFINITION_UNSPECIFIED",
+      "missing": "No exact tie equality/quantization rule, precision, or rounding mode is registered for Stage 4.",
+      "evidence": [
+        "DEVELOPMENT_SELECTION_PROTOCOL.md:77-89",
+        "research/governance/stage4_adversarial_method_seal.py:126-134",
+        "historical method manifest selection_rule"
+      ],
+      "why_not_inherited": "The explicit four-decimal/ROUND_HALF_UP conventions belong to other stages. No Stage-4 authority explicitly imports them."
+    },
+    {
+      "id": "STAGE4_FOLD_DISPERSION_UNDEFINED",
+      "missing": "lower_fold_dispersion names no exact statistic or numerical comparison/quantization convention.",
+      "evidence": [
+        "DEVELOPMENT_SELECTION_PROTOCOL.md:88",
+        "research/governance/stage4_adversarial_method_seal.py:130"
+      ],
+      "why_material": "Standard deviation, variance, and range are not an explicit interchangeable Stage-4 contract. Population versus sample SD has identical ranking with four folds but remains unspecified numerically."
+    }
+  ],
+  "no_silent_resolution_applied": true,
+  "historical_specification_fully_executable": false,
+  "v2_2_pooling_binding": "Current training-example target-observation mask M_i(t;C) from the sealed fit snapshot at C; no historical mask, raw demand, pseudo-target, or retrospective evaluation mask in pooling/inference",
+  "ordinary_graph_gru_baseline_unchanged": true,
+  "stage2_rerun_required": false,
+  "zero_shot_selection_evaluations": 0,
+  "post_adaptation_selection_evaluations": 72,
+  "stage4_implementation_created": false,
+  "stage4_execution_scientifically_authorized": false,
+  "stage4_deployment_package_created": false,
+  "stage4_job_map_created": false,
+  "required_resolution": "Explicit append-only Stage-4 selection clarification defining the primary tie rule and exact dispersion statistic/comparison before implementation validation and packaging; do not modify old seals or consult Stage-4 outcomes.",
+  "real_scientific_training_updates": 0,
+  "real_scientific_evaluations": 0,
+  "final_target_labels_accessed": false,
+  "final_experiment_started": false,
+  "downstream_blockers": [
+    "FINAL_SEED_COUNT_UNRESOLVED_3_VS_5",
+    "SEED_X_TEMPORAL_BOOTSTRAP_AGGREGATION_UNRESOLVED"
+  ],
+  "final_verdict": "STAGE4_BLOCKED_BY_SCIENTIFIC_AMBIGUITY",
+  "inspected_governance_sha256": {
+    "research/results/stage2_graphgru_selection_v2_2/scientific_contract.json": "55ebfa06ca49d77e5ae0b7b2e531d6bb14c26a2b93f478da7754c75fb1aae52f",
+    "research/results/stage2_graphgru_selection_v2_2/job_map.json": "fd34f71b46eb6f9cfc9adb5ebfd44001a2e26df049b9bb197aff1d272e7a074a",
+    "research/results/stage2b_vanilla_fairness_v2_2/scientific_contract.json": "2eb1a2a14dd1412f1286248c547814a2c7e04fad94edaace2084c7d78be0cad3",
+    "research/results/stage2b_vanilla_fairness_v2_2/job_map.json": "0cf72a4f66797bcc5625bd438046562c5fd444677676971e2697e1f9a3d0f23d",
+    "research/results/stage2_stage2b_v2_2_a40/preflight/9a39fea9e35041afbfaa1b5218cd778b.json": "67e01da7b5a97a8db8accbe307afd5fe17727f25431b43c7905b82989c207997",
+    "research/results/stage2_stage2b_v2_2_a40/preflight/22fecff624df433ab0fedfa4b31a83e7.json": "8469a7aee77ff0b13bf71ffd8ddfe03c4239864e56810d0ea11ac6028391a7ff",
+    "research/results/stage3_finetuning_policy_v2_1/stage3_finetuning_policy_manifest.json": "c63528bfe73881eafe02167f5cfddf37e51bca769fab6289850a66836642a6c1",
+    "research/results/stage4_adversarial_method_v2_1/stage4_adversarial_method_manifest.json": "a830e155f0f4052a4b8f3a7d9492bc27877513b11cee885dc93ab6fa1cee7d92",
+    "RESEARCH_PROTOCOL_V2_1.md": "6bbf5bc39292ef9e1bf8321b90006269217b43fd0df59da25687712fc418c35c",
+    "COMPUTATION_DAG_V2_1.md": "48f38bc97505d622316008b8ac155fb09e2b9a9efce6f36dad7e15b35d9f53cf",
+    "TRAINING_BUDGET_PROTOCOL.md": "479d87f18095611b1d488a7f1b932c160e688d11a8776c1b0c6d85b21af81940",
+    "EVALUATION_PROTOCOL_V2.md": "ebde12ca004508645e876e66d1899eb23f36410751ef0d102029c602874549ee",
+    "DEVELOPMENT_SELECTION_PROTOCOL.md": "14a1778ceb6437c6187837f1e34822164e4f32ae2e4d0f5c8f840c0576d5eb97",
+    "MODEL_SPECIFICATION_V2_1.md": "430fd12c6322a102687c2a546be394bb7ef344656c1a34edf05a86beadca88bf",
+    "TEMPORAL_SPLIT_PROTOCOL_V2.md": "f02d22ac5794b9f892180336e421cbe3cc8dc77e3c4d27177272adf146d11531",
+    "NEURAL_REPRODUCIBILITY_PROTOCOL.md": "35f5ecdca9dea4553455130ea3883e2d5bce07758a26c04958dd67865249bab9",
+    "research/results/stage3_finetuning_policy_v2_1/STAGE3_FINE_TUNING_POLICY_SEAL.md": "496ffc5d37e251d62a7dd87bb70aa0cf21761e2826670ac0b5ebb85fe8af3ec7",
+    "research/governance/stage3_policy.py": "ce5ca2da72ed84d6553ca16bb1cde644fd2465b65de033d300493142d4241a87",
+    "research/scripts/verify_stage3_policy_seal.py": "68974c7d312f2306bf7d3ee8a5c61456ab2e2056335101140fbe5f2e5d5c5010",
+    "research/tests/test_stage3_policy_seal.py": "c964a8309018ccd969b5d90f34034a70d2a2dc3ee042d96f1cae7c5ff22c9c79",
+    "FEATURE_PROTOCOL_V2_1.md": "bf14a35b8a582e2cf02b2203e18769d0a078306401e1afaf6ef93b9dfc5ba6fa",
+    "MODEL_SPECIFICATION_V2.md": "cd81675bbb83386b006c28f4fc279c1e9367dc1645e68a581963d72cd840db88",
+    "NEURAL_ARCHITECTURE_SPEC.md": "ddc6875307518940f8cf98d5480b90984d984d996bf6aefa0cdffd0179542f33",
+    "research/data/budget_sampler.py": "07c2b5060c29ea9e0e629c065c3ec5ed5dbaa1700f560e5043e7aa59bcdb2edd",
+    "research/data/graph_dataset.py": "2a80c0d3b7e2907a9eb85cae2e05d2d62aa5a57b1b11f0ea3b03b8a72e51d74f",
+    "research/models/common.py": "989bb7afac452b682bd041fee70c0c29f2341e66c52ed79abac0c3d10a902739",
+    "research/models/graph_gru.py": "91b0131e71f0b7e0e375e46d01d931b808e3c6822b58ed87d6310b7041b7835d",
+    "research/models/heads.py": "2cfb0572e35989d1100eb9133d2fcd882a472d21db02e5c29170e97176af9b94",
+    "research/training/trainer.py": "01057936c5556303c87f1f100311d91c598702bf01e0d5c7c2080d68b5408929",
+    "research/governance/stage4_adversarial_method_seal.py": "eda3a8edf29e8c7b5ba149924c4b2c17d557c1c33832d6bf8d7134eba5e8177a",
+    "research/results/stage4_adversarial_method_v2_1/STAGE4_ADVERSARIAL_METHOD_SEAL.md": "fa3e82673dd0e5196729966953fe2a099f58190a3f33821eacf2f827b4000ee1",
+    "research/results/stage4_adversarial_method_v2_1/stage4_expected_workload.csv": "493051a95c06acabe0b96df1af874a63367dcc40cedc99cc881a15b5423fbb52",
+    "research/scripts/verify_stage4_adversarial_method_seal.py": "d4ea0896ba95933355f3600b82e7de4bfe71f63f0c77e0fe2f73805ad99eb06c",
+    "research/tests/test_stage4_adversarial_method_seal.py": "5ac4573dc85ca7d384641a0ae50c77b973ec348cb9d76ba26e16902643259966"
+  }
+}

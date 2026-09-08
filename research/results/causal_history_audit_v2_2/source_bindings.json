@@ -1,0 +1,71 @@
+{
+  "files": {
+    "feasibility_test/full_audit/coverage/data/station_status/train-00000-of-00005.parquet": {
+      "bytes": 38169081,
+      "sha256": "f9f52d605c16bbecf53dd923c1b86f3673079aff8b318c8540f0381322cf7afd"
+    },
+    "feasibility_test/full_audit/coverage/data/station_status/train-00001-of-00005.parquet": {
+      "bytes": 38200145,
+      "sha256": "732fdf6c5a24621dc8600359ac8bd1e9795335650bbdec7e6a48b3e082f8e767"
+    },
+    "feasibility_test/full_audit/coverage/data/station_status/train-00002-of-00005.parquet": {
+      "bytes": 37395654,
+      "sha256": "9041797bb01206aa0269cc2bc7eaa689980acb9650dcce7c3b24f21b21a8eb48"
+    },
+    "feasibility_test/full_audit/coverage/data/station_status/train-00003-of-00005.parquet": {
+      "bytes": 36953901,
+      "sha256": "159acf7a1b317a94c87fc84387e1955316e17e667c92fd24c21ae7ec4acb04f5"
+    },
+    "feasibility_test/full_audit/coverage/data/station_status/train-00004-of-00005.parquet": {
+      "bytes": 36271730,
+      "sha256": "f1866171ae5dfb93625695349fbdfad1956ae33bd1f6f43ee8147611c939f300"
+    },
+    "feasibility_test/full_audit/data/trips/train-00000-of-00006.parquet": {
+      "bytes": 107743633,
+      "sha256": "4d6948903f8513617b5eb87a6a8e986171770704acb7f30d63b3260dd9a8fa4a"
+    },
+    "feasibility_test/full_audit/data/trips/train-00001-of-00006.parquet": {
+      "bytes": 88801745,
+      "sha256": "d0cf2ce6f6258c1e8eb524772402f75e1af2a87758943e8e6167f0d56da4d245"
+    },
+    "feasibility_test/full_audit/data/trips/train-00002-of-00006.parquet": {
+      "bytes": 97845676,
+      "sha256": "f7a37504a9ac1443d717983b19d302482d8c5346939c229defc96441b29816ae"
+    },
+    "feasibility_test/full_audit/data/trips/train-00003-of-00006.parquet": {
+      "bytes": 101085279,
+      "sha256": "8e19a028feadcd86ebf4258923ca4498d865135777ce25a28411c3a1698ccecf"
+    },
+    "feasibility_test/full_audit/data/trips/train-00004-of-00006.parquet": {
+      "bytes": 91558163,
+      "sha256": "9ca62b910983ef1a576f674f52ba8de09b8f580943620604b4a35f7fe483e54b"
+    },
+    "feasibility_test/full_audit/data/trips/train-00005-of-00006.parquet": {
+      "bytes": 93578737,
+      "sha256": "9b3f59cc3fdc5b974bebf81b5db2bcf890e467eb1bd2c3976ed5666681fe79c0"
+    }
+  },
+  "read_projection": {
+    "status": [
+      "station_id",
+      "time"
+    ],
+    "trips": [
+      "city_id",
+      "station_id_start",
+      "time_start"
+    ]
+  },
+  "city_filter": [
+    129,
+    194,
+    438,
+    467,
+    476,
+    532,
+    619,
+    658
+  ],
+  "station_filter": "exact frozen development roster",
+  "final_outcomes_selected": false
+}

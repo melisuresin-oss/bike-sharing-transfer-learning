@@ -1,0 +1,134 @@
+{
+  "protocol_version": "2.2",
+  "status": "PASS",
+  "scope": "FULL_DEVELOPMENT_DATA",
+  "all_18_data_checks": [
+    {
+      "number": 1,
+      "status": "PASS"
+    },
+    {
+      "number": 2,
+      "status": "PASS"
+    },
+    {
+      "number": 3,
+      "status": "PASS"
+    },
+    {
+      "number": 4,
+      "status": "PASS"
+    },
+    {
+      "number": 5,
+      "status": "PASS"
+    },
+    {
+      "number": 6,
+      "status": "PASS"
+    },
+    {
+      "number": 7,
+      "status": "PASS"
+    },
+    {
+      "number": 8,
+      "status": "PASS"
+    },
+    {
+      "number": 9,
+      "status": "PASS"
+    },
+    {
+      "number": 10,
+      "status": "PASS"
+    },
+    {
+      "number": 11,
+      "status": "PASS"
+    },
+    {
+      "number": 12,
+      "status": "PASS"
+    },
+    {
+      "number": 13,
+      "status": "PASS"
+    },
+    {
+      "number": 14,
+      "status": "PASS"
+    },
+    {
+      "number": 15,
+      "status": "PASS"
+    },
+    {
+      "number": 16,
+      "status": "PASS"
+    },
+    {
+      "number": 17,
+      "status": "PASS"
+    },
+    {
+      "number": 18,
+      "status": "PASS"
+    }
+  ],
+  "city_reports": [
+    {
+      "path": "research/results/causal_history_audit_v2_2/city_129_audit.json",
+      "sha256": "33cc3f3f7532aa2423676856da9d7c11d9981c8578ac6200b61590a1c9fb3929"
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/city_194_audit.json",
+      "sha256": "845ac0deaa9f43ac61706835fa4a23f18bc475ec31f2236aa7b9526aff715d89"
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/city_438_audit.json",
+      "sha256": "a8ed49da89ffd530b4ff88ad7a39ef8bae69323b08124e8970edb48538edb03d"
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/city_467_audit.json",
+      "sha256": "4af2d4abdf1d01b7eb80108f3af5c326922286550837c33f46eccae7241a533b"
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/city_476_audit.json",
+      "sha256": "17c758019ada2eff698c37d25ffbcea03d0a93fefafce6e72f93c22135c7bb17"
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/city_532_audit.json",
+      "sha256": "44fb7304af0486d32c81c996c3d567f034def6aa90c8bd563ad0db56d2c918f5"
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/city_619_audit.json",
+      "sha256": "9668e7d4b19d174805fb5886ae781726bdbca65b040297c9ee50a6105b297114"
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/city_658_audit.json",
+      "sha256": "90fac33c0c589c8b41de24e6dc85e8d731ff5016167f33d4e8475dbec75a0b87"
+    }
+  ],
+  "station_lag_certificates_checked": 72396275,
+  "exact_boundary_equalities_accepted": 0,
+  "future_certificates": 0,
+  "boundary_violations": 0,
+  "fit_prefix_invariance": "all eight cities, every fitting hour, physically truncated HD status",
+  "predictor_prefix_equivalence": "five representative origins in every development city; full lineage checked at every origin",
+  "implementation_invariants_report": {
+    "research/results/causal_history_implementation_v2_2/preservation_after.json": "36178979b2ee7e5e7f4eaae355b3b536dc94a23a04d741af4140ec93af990cdc",
+    "research/results/causal_history_implementation_v2_2/preservation_before.json": "e8b64153b79de1ba0292762cd4e7dc5e4a4ed46d164685857c3283c131c88533",
+    "research/results/causal_history_implementation_v2_2/test_report.json": "4866d1639e16a747300f11fa87b22e34d948493aa3ffd8499c4ea5f18ec8b99c"
+  },
+  "retrospective_y_dependency": false,
+  "final_label_firewall": "PASS",
+  "graph_static": {
+    "path": "research/results/causal_history_audit_v2_2/graph_static_reconciliation.json",
+    "sha256": "e425ce873da946a4973fb03a57ffd6ecf92027da82a4220f56b6231343ff9758"
+  },
+  "preservation": {
+    "path": "research/results/causal_history_audit_v2_2/preservation_report.json",
+    "sha256": "96b7705b978d0aaf264e348b97b6098808bfec1d58a0298e404562b1d9e52b89"
+  }
+}

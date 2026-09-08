@@ -1,0 +1,15 @@
+{
+  "role": "GOVERNANCE_DELIVERY_NOT_EXECUTION_PACKAGE",
+  "files": {
+    "research/scripts/rebind_stage3_audit_stage4_v2_2.py": "9cc5380e8ae51de929f7c472ca68774ce6fedff3a9918c6876c085d374ec6516",
+    "research/results/upstream_closure_v2_2/joint_upstream_closure_manifest.json": "d7a211de6627098bc1642d3eeb7efd0d7386a61513b1bd696a7407c809eef834",
+    "research/results/stage3_finetuning_policy_v2_2/stage3_finetuning_policy_manifest.json": "f5cb2653dd097eb1288f419884778ae01e9034e9e1d88006b33beac4cff069b5",
+    "research/results/stage3_stage4_gate_v2_2/scientific_audit.json": "f24afb39a460fc4dc2813ff669230f0fd802475f3af73e782ae5af4d5dffb812",
+    "research/results/stage3_stage4_gate_v2_2/verification_report.json": "389e20c19851710cfcdef479f69784002aaf3b212485fa6513439c2fb1807094",
+    "research/results/stage3_stage4_gate_v2_2/SCIENTIFIC_ENGINEERING_REPORT.md": "d99898f90c0e0298108acf8a61190828c1f4c795057ae2322d251c48854fdb54"
+  },
+  "existing_files_modified": [],
+  "stage4_package_created": false,
+  "stage4_execution_authorized": false,
+  "final_verdict": "STAGE4_BLOCKED_BY_SCIENTIFIC_AMBIGUITY"
+}

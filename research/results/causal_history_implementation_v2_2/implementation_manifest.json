@@ -1,0 +1,199 @@
+{
+  "schema_version": "1.0",
+  "protocol_version": "2.2",
+  "purpose": "IMPLEMENTATION_AND_NON_SCIENTIFIC_TEST_ONLY",
+  "status": "IMPLEMENTED_TESTS_PASS_PENDING_INDEPENDENT_VERIFICATION",
+  "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+  "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+  "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+  "feature_function_version": "v2_2.asof_history.1",
+  "implementation_files_sha256": {
+    "research/scripts/verify_causal_history_implementation_v2_2.py": "c7566dd52847d3902e9218ef6dd2ee35f8f10cd6d1baf324d5c863cf6929da93",
+    "research/v2_2/README.md": "4f6012ef6bbf599e2aa29dda418aacb0a71a55e4118b9aa224be6759d4a474c3",
+    "research/v2_2/__init__.py": "009555e497e9ca890d3f8bc29cfc4dc9ee6aec221d5f261a6da7e8c6eab137d8",
+    "research/v2_2/artifacts.py": "acd02ba6168665ff043771942652d5edc2da2e3103af18f6641ed2b38ffd8f8a",
+    "research/v2_2/contract.py": "6ba0af4072c2c1240d36d86070a1edc1f6315e0a69a7c58f70a4f9885cf8298a",
+    "research/v2_2/history.py": "64994a2fbb2a28738557ab008e4ed7ff2e2596f47f709e61d47beb33e6178709",
+    "research/v2_2/labels.py": "8d2f5b9f5337004ab7994cdb9c5facf8abab9e52afec7bcdb0a740766d79036b",
+    "research/v2_2/snapshots.py": "784182662b698f321b3e969780122efd72a95a1ee71218f8a9d52bbea573d426"
+  },
+  "test_files_sha256": {
+    "research/scripts/test_causal_history_implementation_v2_2.py": "45fba21c140ff1652a2744d6e24d477cec66d1e49eb09fd1562e2386ad62d918",
+    "research/tests/test_causal_history_v2_2.py": "182a82a741e9a83445de074352405789dc3f68274fae2d060b086e20728efeb1",
+    "research/tests/test_causal_history_v2_2_integration.py": "db30780ad5c5807fa6458300233902167b17d2f8cc9fa61a4480d5e6e8bbdd08"
+  },
+  "evidence_files_sha256": {
+    "research/results/causal_history_implementation_v2_2/preservation_after.json": "36178979b2ee7e5e7f4eaae355b3b536dc94a23a04d741af4140ec93af990cdc",
+    "research/results/causal_history_implementation_v2_2/preservation_before.json": "e8b64153b79de1ba0292762cd4e7dc5e4a4ed46d164685857c3283c131c88533",
+    "research/results/causal_history_implementation_v2_2/test_report.json": "4866d1639e16a747300f11fa87b22e34d948493aa3ffd8499c4ea5f18ec8b99c"
+  },
+  "active_count_feed": {
+    "policy": "IDEALIZED_COUNT_FEED_BENCHMARK",
+    "Q": "1[e <= a]",
+    "active_reconstruction_delay_hours": 0
+  },
+  "fixed_station_count": 799,
+  "static_binding": "Exact hash-pinned supplied IDs, node order, coordinates, rack capacity, city mapping and timezone; no eligibility rerun",
+  "timestamp_precision": "INTEGER_UTC_MICROSECONDS",
+  "station_bracket": "0 <= s-p <= 12h AND 0 <= n-e <= 12h; evidence <= cutoff",
+  "network_rule": "D > 0 AND 2*N >= D; integer counts; prefix-only lifetime over frozen city roster",
+  "history_representation": "observed positive=(log1p(d),1); observed zero=(0,1); unknown=(0,0)",
+  "lag_order": "Storage lags 1..24 as in registered input adapter; recurrent chronological view t-24..t-1; weekly lag exact elapsed t-168h",
+  "training_origin_rule": "Predictors constructed at original row origin t, labels admitted at registered fit cutoff C",
+  "training_key_gate": "Bound SEALED_TRAINING_KEYS manifest required; non-scientific fixtures cannot authorize scientific fitting",
+  "version_isolation": "Dedicated research.v2_2 modules; explicit identity bindings and hash-bound allowlist; no legacy scientific artifact exceptions",
+  "all_18_invariants": [
+    {
+      "number": 1,
+      "status": "PASS"
+    },
+    {
+      "number": 2,
+      "status": "PASS"
+    },
+    {
+      "number": 3,
+      "status": "PASS"
+    },
+    {
+      "number": 4,
+      "status": "PASS"
+    },
+    {
+      "number": 5,
+      "status": "PASS"
+    },
+    {
+      "number": 6,
+      "status": "PASS"
+    },
+    {
+      "number": 7,
+      "status": "PASS"
+    },
+    {
+      "number": 8,
+      "status": "PASS"
+    },
+    {
+      "number": 9,
+      "status": "PASS"
+    },
+    {
+      "number": 10,
+      "status": "PASS"
+    },
+    {
+      "number": 11,
+      "status": "PASS"
+    },
+    {
+      "number": 12,
+      "status": "PASS"
+    },
+    {
+      "number": 13,
+      "status": "PASS"
+    },
+    {
+      "number": 14,
+      "status": "PASS"
+    },
+    {
+      "number": 15,
+      "status": "PASS"
+    },
+    {
+      "number": 16,
+      "status": "PASS"
+    },
+    {
+      "number": 17,
+      "status": "PASS"
+    },
+    {
+      "number": 18,
+      "status": "PASS"
+    }
+  ],
+  "unit_tests_passed": 25,
+  "integration_tests_passed": 3,
+  "skipped_tests": [],
+  "integration_provenance": {
+    "purpose": "NON_SCIENTIFIC_TEST_ONLY",
+    "city_ids": [
+      129
+    ],
+    "station_count": 76,
+    "status_event_count": 19114,
+    "recent_window_us": [
+      1675843200000000,
+      1676584800000000
+    ],
+    "earlier_evidence": "per-station first/last before window",
+    "status_rows_sha256": "5415aae710a98304b27026398c9a4e47985eac2a672424edae91d97299c38b06",
+    "source_manifest": "feasibility_test/full_audit/coverage/station_status_source_manifest.json",
+    "source_manifest_sha256": "9092761bc9859ad39202a3ead798fcfa82e5eee73775129b786e29c8fc7c9aec",
+    "query": "WITH scoped AS (\n          SELECT station_id::BIGINT station_id, epoch_us(to_timestamp(time)) ts\n          FROM read_parquet('D:/Deep/deepest/european-bike-sharing-dataset/feasibility_test/full_audit/coverage/data/station_status/*.parquet')\n          WHERE station_id IN (50366,50367,50368,50370,50371,50372,50373,50375,50376,50377,50378,50379,50380,50382,50383,50384,50385,50386,50387,50388,50389,50392,50395,50400,113544,113550,113551,113552,113553,113554,113555,113556,113557,113559,113561,113562,113563,113564,113565,113567,113570,113571,113573,117829,118419,122697,126107,147085,193147,194704,195049,4478239,6260019,6260044,6260062,6331190,7161407,7161443,7161454,7314560,7314581,14542385,14542821,14542854,14542880,14542918,14543375,14543399,14543429,14543485,14543518,16740272,39325692,52405373,62865660,81369279) AND time IS NOT NULL\n            AND isfinite(time) AND time <= 1676584800000000/1000000.0\n        ), selected AS (\n          SELECT station_id,ts FROM scoped WHERE ts >= 1675843200000000\n          UNION SELECT station_id,min(ts) FROM scoped WHERE ts < 1675843200000000 GROUP BY station_id\n          UNION SELECT station_id,max(ts) FROM scoped WHERE ts < 1675843200000000 GROUP BY station_id\n        ) SELECT station_id,ts FROM selected WHERE ts IS NOT NULL ORDER BY station_id,ts",
+    "cutoffs_us": [
+      1676498400000000,
+      1676502000000000
+    ],
+    "count_values": "SYNTHETIC: one value=3; all other declared station-hours=0",
+    "scientific_panel_accessed": false,
+    "final_target_evaluation_labels_accessed": false,
+    "model_calls": 0,
+    "snapshot_fixture_candidate_hours": 1,
+    "snapshot_fixture_rows": 50,
+    "snapshot_fixture_key_manifest_sha256": "02700cd62e50076b2a30d567e35c75086ec29303afc6a0e708e5e0312ed08de3",
+    "history_fixture_sha256": [
+      "5d480dfeca290fdb518859a8470726ff02ec53ab63bab651deb3e57437721196",
+      "9147b9e08eb1428cf63468610e143ed73e1a7d96ac41028f20d79b19cdf0ef00"
+    ]
+  },
+  "runtime_versions": {
+    "numpy": "2.5.2",
+    "duckdb": "1.5.5",
+    "tzdata": "2026.3"
+  },
+  "final_label_firewall": "PASS_NO_FINAL_TARGET_EVALUATION_LABEL_ACCESS",
+  "prohibited_scientific_actions": [
+    "full V2.2 panel construction",
+    "full registered scientific fit-cutoff snapshot generation",
+    "baseline fitting or prediction generation",
+    "Stage 1 execution",
+    "Stage 2 execution",
+    "Stage 2B execution",
+    "any scientific model training, evaluation or prediction",
+    "Stage 4 implementation",
+    "final-target evaluation-label access",
+    "sealed V2.2 scientific specification modification",
+    "V2.1 scientific result or manifest modification"
+  ],
+  "scientific_execution_performed": false,
+  "full_panel_build_authorized": false,
+  "scientific_artifacts_required_absent": [
+    "processed/protocol_v2_2/PROTOCOL_DATASET_MANIFEST.json",
+    "research/results/causal_history_audit_v2_2/causal_history_audit_manifest.json",
+    "processed/protocol_v2_2/fit_snapshots/fit_snapshot_manifest.json",
+    "research/results/development_baselines_v2_2/validation_manifest.json",
+    "research/results/stage1_scale_loss_v2_2/stage1_decision_manifest.json",
+    "research/results/stage2_graphgru_selection_v2_2/stage2_decision_manifest.json",
+    "research/results/stage2b_vanilla_selection_v2_2/stage2b_decision_and_closure_manifest.json",
+    "research/results/upstream_closure_v2_2/joint_upstream_closure_manifest.json",
+    "research/results/stage3_finetuning_policy_v2_2/stage3_finetuning_policy_manifest.json",
+    "research/results/stage4_adversarial_method_v2_2/stage4_adversarial_method_manifest.json"
+  ],
+  "preservation": {
+    "files_compared": 1182,
+    "shared_utilities_modified": false,
+    "status": "PASS",
+    "final_label_files": "Never opened or modified; excluded from new byte reads; prior hash records preserved"
+  },
+  "limitations": [
+    "Infrastructure and guarded APIs only; scientific panel/cache/checkpoint orchestration and fitting consumers have not been executed.",
+    "Integration evidence is one development city, two forecast origins, one candidate fit hour and synthetic counts; it is not a scientific result."
+  ],
+  "verification_report": "research/results/causal_history_implementation_v2_2/implementation_verification_report.json",
+  "hash_cycle_policy": "Manifest excludes itself and subsequent verification report; read-only report binds manifest and verifier SHA256."
+}

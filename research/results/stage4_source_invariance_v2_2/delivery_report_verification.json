@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "report_path": "research/results/stage4_source_invariance_v2_2/DELIVERY_REPORT.md",
+  "report_sha256": "1e3d5b5adccd929f4d0f1dc2f28c963f0a6235f98b78ef636bb01911c28385ef",
+  "powershell_syntax": "PASS",
+  "numbered_steps": 19,
+  "ts9_commands_executed_locally": false,
+  "real_local_optimizer_updates": 0,
+  "real_local_scientific_evaluations": 0,
+  "final_target_labels_accessed": false,
+  "final_experiment_started": false
+}

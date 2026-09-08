@@ -1,0 +1,95 @@
+{
+  "status": "PASS",
+  "purpose": "READ_ONLY_GOVERNANCE_REBIND_VERIFICATION_NOT_STAGE4_IMPLEMENTATION_TESTS",
+  "check_count": 20,
+  "checks": [
+    {
+      "check": "all_eight_pinned_upstream_hashes",
+      "status": "PASS"
+    },
+    {
+      "check": "stage3_contract_producer_and_dependencies",
+      "status": "PASS"
+    },
+    {
+      "check": "joint_closure_binding",
+      "status": "PASS"
+    },
+    {
+      "check": "stage3_exact_policy",
+      "status": "PASS"
+    },
+    {
+      "check": "five_budget_update_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "existing_V2_2_FitRequest_window_zero",
+      "status": "PASS"
+    },
+    {
+      "check": "existing_V2_2_FitRequest_window_1",
+      "status": "PASS"
+    },
+    {
+      "check": "existing_V2_2_FitRequest_window_7",
+      "status": "PASS"
+    },
+    {
+      "check": "existing_V2_2_FitRequest_window_30",
+      "status": "PASS"
+    },
+    {
+      "check": "existing_V2_2_FitRequest_window_full",
+      "status": "PASS"
+    },
+    {
+      "check": "cutoff_embargo_and_no_updates",
+      "status": "PASS"
+    },
+    {
+      "check": "origin_causality_and_no_window_extension",
+      "status": "PASS"
+    },
+    {
+      "check": "final_paths_rejected_before_access",
+      "status": "PASS"
+    },
+    {
+      "check": "no_new_stage3_search_or_execution",
+      "status": "PASS"
+    },
+    {
+      "check": "stage4_preserves_historical_selection_without_invented_ties",
+      "status": "PASS"
+    },
+    {
+      "check": "stage4_144_fit_and_72_evaluation_accounting",
+      "status": "PASS"
+    },
+    {
+      "check": "scientific_ambiguity_closes_execution_and_package_gates",
+      "status": "PASS"
+    },
+    {
+      "check": "downstream_final_seed_conflict_retained",
+      "status": "PASS"
+    },
+    {
+      "check": "stage3_binding_in_stage4_audit",
+      "status": "PASS"
+    },
+    {
+      "check": "all_inspected_governance_files_preserved",
+      "status": "PASS"
+    }
+  ],
+  "real_scientific_training_updates": 0,
+  "real_scientific_evaluations": 0,
+  "stage4_implementation_tests_run": 0,
+  "controller_startup_integration": "NOT_RUN_SCIENTIFIC_GATE_BLOCKED",
+  "metadata_canonicalization_test": "NOT_RUN_NO_STAGE4_IMPLEMENTATION_CREATED",
+  "final_target_labels_accessed": false,
+  "final_experiment_started": false,
+  "files_written_by_verifier": []
+}

@@ -1,0 +1,615 @@
+{
+  "purpose": "READ_ONLY_IMPLEMENTATION_VERIFICATION",
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "sealed_binding:research/results/causal_history_spec_v2_2/v2_2_specification.json",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_binding:research/results/causal_history_spec_v2_2/causal_history_spec_seal.json",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_binding:research/results/causal_history_spec_v2_2/fixed_cohort_static_manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_binding:RESEARCH_PROTOCOL_V2_2_AMENDMENT.md",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_binding:research/results/causal_history_spec_v2_2/supersession_registry.json",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_binding:research/scripts/verify_causal_history_spec_v2_2.py",
+      "status": "PASS"
+    },
+    {
+      "check": "manifest_version",
+      "status": "PASS"
+    },
+    {
+      "check": "manifest_authority",
+      "status": "PASS"
+    },
+    {
+      "check": "manifest_purpose",
+      "status": "PASS"
+    },
+    {
+      "check": "manifest_feature_version",
+      "status": "PASS"
+    },
+    {
+      "check": "active_count_rule",
+      "status": "PASS"
+    },
+    {
+      "check": "exact_precision",
+      "status": "PASS"
+    },
+    {
+      "check": "complete_file_set:implementation_files_sha256",
+      "status": "PASS"
+    },
+    {
+      "check": "file_binding:research/scripts/verify_causal_history_implementation_v2_2.py",
+      "status": "PASS"
+    },
+    {
+      "check": "file_binding:research/v2_2/README.md",
+      "status": "PASS"
+    },
+    {
+      "check": "file_binding:research/v2_2/__init__.py",
+      "status": "PASS"
+    },
+    {
+      "check": "file_binding:research/v2_2/artifacts.py",
+      "status": "PASS"
+    },
+    {
+      "check": "file_binding:research/v2_2/contract.py",
+      "status": "PASS"
+    },
+    {
+      "check": "file_binding:research/v2_2/history.py",
+      "status": "PASS"
+    },
+    {
+      "check": "file_binding:research/v2_2/labels.py",
+      "status": "PASS"
+    },
+    {
+      "check": "file_binding:research/v2_2/snapshots.py",
+      "status": "PASS"
+    },
+    {
+      "check": "complete_file_set:test_files_sha256",
+      "status": "PASS"
+    },
+    {
+      "check": "file_binding:research/scripts/test_causal_history_implementation_v2_2.py",
+      "status": "PASS"
+    },
+    {
+      "check": "file_binding:research/tests/test_causal_history_v2_2.py",
+      "status": "PASS"
+    },
+    {
+      "check": "file_binding:research/tests/test_causal_history_v2_2_integration.py",
+      "status": "PASS"
+    },
+    {
+      "check": "complete_file_set:evidence_files_sha256",
+      "status": "PASS"
+    },
+    {
+      "check": "file_binding:research/results/causal_history_implementation_v2_2/preservation_after.json",
+      "status": "PASS"
+    },
+    {
+      "check": "file_binding:research/results/causal_history_implementation_v2_2/preservation_before.json",
+      "status": "PASS"
+    },
+    {
+      "check": "file_binding:research/results/causal_history_implementation_v2_2/test_report.json",
+      "status": "PASS"
+    },
+    {
+      "check": "test_report_purpose",
+      "status": "PASS"
+    },
+    {
+      "check": "test_authority:specification_sha256",
+      "status": "PASS"
+    },
+    {
+      "check": "test_authority:specification_seal_sha256",
+      "status": "PASS"
+    },
+    {
+      "check": "test_authority:cohort_static_sha256",
+      "status": "PASS"
+    },
+    {
+      "check": "test_totals",
+      "status": "PASS"
+    },
+    {
+      "check": "all_18_reported",
+      "status": "PASS"
+    },
+    {
+      "check": "invariant_test_present:1",
+      "status": "PASS"
+    },
+    {
+      "check": "invariant_test_present:2",
+      "status": "PASS"
+    },
+    {
+      "check": "invariant_test_present:3",
+      "status": "PASS"
+    },
+    {
+      "check": "invariant_test_present:4",
+      "status": "PASS"
+    },
+    {
+      "check": "invariant_test_present:5",
+      "status": "PASS"
+    },
+    {
+      "check": "invariant_test_present:6",
+      "status": "PASS"
+    },
+    {
+      "check": "invariant_test_present:7",
+      "status": "PASS"
+    },
+    {
+      "check": "invariant_test_present:8",
+      "status": "PASS"
+    },
+    {
+      "check": "invariant_test_present:9",
+      "status": "PASS"
+    },
+    {
+      "check": "invariant_test_present:10",
+      "status": "PASS"
+    },
+    {
+      "check": "invariant_test_present:11",
+      "status": "PASS"
+    },
+    {
+      "check": "invariant_test_present:12",
+      "status": "PASS"
+    },
+    {
+      "check": "invariant_test_present:13",
+      "status": "PASS"
+    },
+    {
+      "check": "invariant_test_present:14",
+      "status": "PASS"
+    },
+    {
+      "check": "invariant_test_present:15",
+      "status": "PASS"
+    },
+    {
+      "check": "invariant_test_present:16",
+      "status": "PASS"
+    },
+    {
+      "check": "invariant_test_present:17",
+      "status": "PASS"
+    },
+    {
+      "check": "invariant_test_present:18",
+      "status": "PASS"
+    },
+    {
+      "check": "additional_adversarial_case:test_01b_",
+      "status": "PASS"
+    },
+    {
+      "check": "additional_adversarial_case:test_07b_",
+      "status": "PASS"
+    },
+    {
+      "check": "integration_provenance_binding",
+      "status": "PASS"
+    },
+    {
+      "check": "development_only_fixture",
+      "status": "PASS"
+    },
+    {
+      "check": "fixture_source_manifest",
+      "status": "PASS"
+    },
+    {
+      "check": "runtime_versions_recorded",
+      "status": "PASS"
+    },
+    {
+      "check": "no_scientific_execution_reported",
+      "status": "PASS"
+    },
+    {
+      "check": "firewall_report",
+      "status": "PASS"
+    },
+    {
+      "check": "verifier_path_rejection:processed/protocol_v2_1/final_labels/x.parquet",
+      "status": "PASS"
+    },
+    {
+      "check": "verifier_path_rejection:../escape.json",
+      "status": "PASS"
+    },
+    {
+      "check": "verifier_path_rejection:processed/protocol_v2_2/final_labels/x.json",
+      "status": "PASS"
+    },
+    {
+      "check": "verifier_path_rejection:x/final_evaluation_labels.parquet",
+      "status": "PASS"
+    },
+    {
+      "check": "no_scientific_imports:research/v2_2/__init__.py",
+      "status": "PASS"
+    },
+    {
+      "check": "no_scientific_imports:research/v2_2/artifacts.py",
+      "status": "PASS"
+    },
+    {
+      "check": "no_scientific_imports:research/v2_2/contract.py",
+      "status": "PASS"
+    },
+    {
+      "check": "no_scientific_imports:research/v2_2/history.py",
+      "status": "PASS"
+    },
+    {
+      "check": "no_retrospective_predictor_fields",
+      "status": "PASS"
+    },
+    {
+      "check": "no_scientific_imports:research/v2_2/labels.py",
+      "status": "PASS"
+    },
+    {
+      "check": "no_scientific_imports:research/v2_2/snapshots.py",
+      "status": "PASS"
+    },
+    {
+      "check": "preservation_report_binding",
+      "status": "PASS"
+    },
+    {
+      "check": "all_1182_historical_files_unchanged",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:RESEARCH_PROTOCOL_V2_2_AMENDMENT.md",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:research/results/causal_history_spec_v2_2/fixed_cohort_static_manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:research/results/causal_history_spec_v2_2/supersession_registry.json",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:research/results/causal_history_spec_v2_2/v2_2_specification.json",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:research/scripts/verify_causal_history_spec_v2_2.py",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:COMPUTATION_DAG_V2_1.md",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:DEVELOPMENT_SELECTION_PROTOCOL.md",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:EVALUATION_PROTOCOL_V2.md",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:FEATURE_PROTOCOL_V2_1.md",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:MODEL_SPECIFICATION_V2.md",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:MODEL_SPECIFICATION_V2_1.md",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:NEURAL_ARCHITECTURE_SPEC.md",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:NEURAL_REPRODUCIBILITY_PROTOCOL.md",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:RESEARCH_PROTOCOL_V2_1.md",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:TEMPORAL_SPLIT_PROTOCOL_V2.md",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:TRAINING_BUDGET_PROTOCOL.md",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:etl/data_pipeline.py",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:etl/schema_definition.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:feasibility_test/full_audit/coverage/station_status_source_manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:feasibility_test/full_audit/data/cities/train-00000-of-00001.parquet",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:feasibility_test/full_audit/source_manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:processed/protocol_v2_1/PROTOCOL_DATASET_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:processed/protocol_v2_1/artifact_hashes.json",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:processed/protocol_v2_1/manifests/budget_manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:processed/protocol_v2_1/manifests/feature_manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:processed/protocol_v2_1/manifests/split_manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:processed/protocol_v2_1/station_manifests/city_129_dortmund_stations.parquet",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:processed/protocol_v2_1/station_manifests/city_194_heidelberg_stations.parquet",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:processed/protocol_v2_1/station_manifests/city_195_mannheim_stations.parquet",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:processed/protocol_v2_1/station_manifests/city_199_innsbruck_stations.parquet",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:processed/protocol_v2_1/station_manifests/city_237_glasgow_stations.parquet",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:processed/protocol_v2_1/station_manifests/city_438_marburg_stations.parquet",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:processed/protocol_v2_1/station_manifests/city_467_gießen_stations.parquet",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:processed/protocol_v2_1/station_manifests/city_476_cardiff_stations.parquet",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:processed/protocol_v2_1/station_manifests/city_532_bilbao_stations.parquet",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:processed/protocol_v2_1/station_manifests/city_617_split_stations.parquet",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:processed/protocol_v2_1/station_manifests/city_619_freiburg_stations.parquet",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:processed/protocol_v2_1/station_manifests/city_658_göteborg_stations.parquet",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:processed/protocol_v2_1/station_manifests/station_manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:research/graphs/geographic_graph.py",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:research/results/development_baselines_v2_1/validation_manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:research/results/stage1_scale_loss_v2_1/stage1_decision_manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:research/results/stage2_graphgru_selection_v2_1_a40/stage2_decision_manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:research/results/stage2b_execution_package_v2_1_r1/REMOTE_STAGE2B_ABORTED_PRETRAIN_CACHE_BUILD.json",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:research/results/stage2b_execution_package_v2_1_r1/STAGE2B_CACHE_FILL_INCIDENT_REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:research/results/stage2b_execution_package_v2_1_r2/REMOTE_STAGE2B_R1_ABORTED_FIRST_FORWARD.json",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:research/results/stage2b_execution_package_v2_1_r2/STAGE2B_CUBLAS_DETERMINISM_INCIDENT_REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:research/results/stage2b_vanilla_fairness_v2_1/stage2b_fairness_manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:research/results/stage2b_vanilla_fairness_v2_1_a40_closure/stage2b_completion_provenance.json",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:research/results/stage3_finetuning_policy_v2_1/stage3_finetuning_policy_manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:research/results/stage4_adversarial_method_v2_1/stage4_adversarial_method_manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed_governing_source:research/scripts/build_protocol_dataset.py",
+      "status": "PASS"
+    },
+    {
+      "check": "fixed_799_cohort",
+      "status": "PASS"
+    },
+    {
+      "check": "future_scientific_authorities_recorded",
+      "status": "PASS"
+    },
+    {
+      "check": "scientific_authority_absent:processed/protocol_v2_2/PROTOCOL_DATASET_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "check": "scientific_authority_absent:research/results/causal_history_audit_v2_2/causal_history_audit_manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "scientific_authority_absent:processed/protocol_v2_2/fit_snapshots/fit_snapshot_manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "scientific_authority_absent:research/results/development_baselines_v2_2/validation_manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "scientific_authority_absent:research/results/stage1_scale_loss_v2_2/stage1_decision_manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "scientific_authority_absent:research/results/stage2_graphgru_selection_v2_2/stage2_decision_manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "scientific_authority_absent:research/results/stage2b_vanilla_selection_v2_2/stage2b_decision_and_closure_manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "scientific_authority_absent:research/results/upstream_closure_v2_2/joint_upstream_closure_manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "scientific_authority_absent:research/results/stage3_finetuning_policy_v2_2/stage3_finetuning_policy_manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "scientific_authority_absent:research/results/stage4_adversarial_method_v2_2/stage4_adversarial_method_manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "scientific_output_directory_absent:processed/protocol_v2_2",
+      "status": "PASS"
+    },
+    {
+      "check": "scientific_output_directory_absent:processed/protocol_v2_2/fit_snapshots",
+      "status": "PASS"
+    },
+    {
+      "check": "scientific_output_directory_absent:research/results/causal_history_audit_v2_2",
+      "status": "PASS"
+    },
+    {
+      "check": "scientific_output_directory_absent:research/results/development_baselines_v2_2",
+      "status": "PASS"
+    },
+    {
+      "check": "scientific_output_directory_absent:research/results/stage1_scale_loss_v2_2",
+      "status": "PASS"
+    },
+    {
+      "check": "scientific_output_directory_absent:research/results/stage2_graphgru_selection_v2_2",
+      "status": "PASS"
+    },
+    {
+      "check": "scientific_output_directory_absent:research/results/stage2b_vanilla_selection_v2_2",
+      "status": "PASS"
+    },
+    {
+      "check": "scientific_output_directory_absent:research/results/stage3_finetuning_policy_v2_2",
+      "status": "PASS"
+    },
+    {
+      "check": "scientific_output_directory_absent:research/results/stage4_adversarial_method_v2_2",
+      "status": "PASS"
+    },
+    {
+      "check": "scientific_output_directory_absent:research/results/upstream_closure_v2_2",
+      "status": "PASS"
+    }
+  ],
+  "tests_rerun": false,
+  "raw_status_read": false,
+  "scientific_model_calls": 0,
+  "scientific_panel_builds": 0,
+  "scientific_fit_snapshots_built": 0,
+  "final_target_evaluation_labels_accessed": false,
+  "files_written": [],
+  "implementation_manifest_sha256": "a1fe0ee486c55b1348e92d91edd42289dd49ce982129cdaa544691eafd605a9d",
+  "verifier_sha256": "c7566dd52847d3902e9218ef6dd2ee35f8f10cd6d1baf324d5c863cf6929da93",
+  "historical_files_verified": 1182,
+  "historical_bytes_verified": 246669586,
+  "preservation_exclusions": [
+    "processed/protocol_v2_1/final_labels/ (never opened; existing hash records remain preserved)",
+    "__pycache__ runtime caches"
+  ],
+  "verdict": "A. V2_2_IMPLEMENTATION_VERIFIED_READY_FOR_PANEL_BUILD_AUTHORIZATION",
+  "check_count": 148
+}

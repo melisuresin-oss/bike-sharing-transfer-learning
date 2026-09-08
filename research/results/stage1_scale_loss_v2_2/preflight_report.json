@@ -1,0 +1,149 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "number": 1,
+      "name": "specification_bindings",
+      "status": "PASS"
+    },
+    {
+      "number": 2,
+      "name": "implementation_binding",
+      "status": "PASS"
+    },
+    {
+      "number": 3,
+      "name": "development_data_binding",
+      "status": "PASS"
+    },
+    {
+      "number": 4,
+      "name": "fixed_development_cohort",
+      "status": "PASS"
+    },
+    {
+      "number": 5,
+      "name": "fold_source_rosters",
+      "status": "PASS"
+    },
+    {
+      "number": 6,
+      "name": "pseudo_target_exclusion",
+      "status": "PASS"
+    },
+    {
+      "number": 7,
+      "name": "source_snapshot_hashes",
+      "status": "PASS"
+    },
+    {
+      "number": 8,
+      "name": "adaptation_snapshot_hashes",
+      "status": "PASS"
+    },
+    {
+      "number": 9,
+      "name": "no_final_target_input",
+      "status": "PASS"
+    },
+    {
+      "number": 10,
+      "name": "legacy_predictor_cross_loading_rejected",
+      "status": "PASS"
+    },
+    {
+      "number": 11,
+      "name": "exact_candidates",
+      "status": "PASS"
+    },
+    {
+      "number": 12,
+      "name": "exact_seeds",
+      "status": "PASS"
+    },
+    {
+      "number": 13,
+      "name": "48_parameter_changing_fits",
+      "status": "PASS"
+    },
+    {
+      "number": 14,
+      "name": "deterministic_initialization",
+      "status": "PASS"
+    },
+    {
+      "number": 15,
+      "name": "deterministic_runtime",
+      "status": "PASS"
+    },
+    {
+      "number": 16,
+      "name": "optimizer_owns_exactly_all_parameters",
+      "status": "PASS"
+    },
+    {
+      "number": 17,
+      "name": "exact_update_budgets",
+      "status": "PASS"
+    },
+    {
+      "number": 18,
+      "name": "checkpoint_roundtrip_zero_difference",
+      "status": "PASS"
+    },
+    {
+      "number": 19,
+      "name": "evaluation_labels_separate",
+      "status": "PASS"
+    },
+    {
+      "number": 20,
+      "name": "final_label_firewall",
+      "status": "PASS"
+    },
+    {
+      "number": 21,
+      "name": "RAW_loss_contract",
+      "status": "PASS"
+    },
+    {
+      "number": 22,
+      "name": "LOG1P_loss_contract",
+      "status": "PASS"
+    },
+    {
+      "number": 23,
+      "name": "deterministic_dropout_forward",
+      "status": "PASS"
+    },
+    {
+      "number": 24,
+      "name": "parameter_count_12939",
+      "status": "PASS"
+    }
+  ],
+  "check_count": 24,
+  "scientific_training_steps": 0,
+  "scientific_evaluation_performed": false,
+  "synthetic_forward_only": true,
+  "checkpoint_roundtrip_max_abs": 0.0,
+  "runtime": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "torch": "2.13.0+cpu",
+    "numpy": "2.5.2",
+    "device": "cpu",
+    "cuda_available_to_runtime": false,
+    "threads": 2,
+    "interop_threads": 1,
+    "deterministic_algorithms": true,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "tf32": false,
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8"
+  },
+  "job_map": {
+    "path": "research/results/stage1_scale_loss_v2_2/job_map.json",
+    "sha256": "4709c222b799a9a2d4ef209ce80ae5ee859b5a818db5c1cb97df2954ffce3937"
+  },
+  "final_target_evaluation_labels_accessed": false
+}

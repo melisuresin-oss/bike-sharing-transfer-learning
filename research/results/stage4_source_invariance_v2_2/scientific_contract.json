@@ -1,0 +1,292 @@
+{
+  "schema_version": "1.0",
+  "protocol_version": "2.2",
+  "stage": 4,
+  "status": "SEALED_SCIENTIFIC_AND_IMPLEMENTATION_CONTRACT",
+  "method": "GRL-based multi-source source-domain-invariant pretraining; not canonical target-domain DANN",
+  "backbone_id": "GGRU_K04_H032_D00",
+  "graph_k": 4,
+  "architecture": {
+    "model_type": "graph_gru",
+    "input_size": 2,
+    "hidden_size": 32,
+    "context_size": 10,
+    "dropout": 0.0,
+    "output_mode": "log1p_target",
+    "recurrent_layers": 1
+  },
+  "target": "LOG1P",
+  "pseudo_targets": [
+    532,
+    476,
+    619,
+    658
+  ],
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "lambda_max": [
+    0.01,
+    0.1,
+    0.5
+  ],
+  "schedules": [
+    "constant",
+    "linear"
+  ],
+  "source_domains": "exactly the other seven development cities; pseudo-target excluded from all source batches, domain labels, and reload probes",
+  "source_updates": 12000,
+  "source_optimizer": {
+    "name": "AdamW",
+    "learning_rate": 0.001,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "epsilon": 1e-08,
+    "weight_decay": 0.0001
+  },
+  "batch_size_full_city_graphs": 16,
+  "global_clip_all_parameters": 1.0,
+  "domain_representation": "mean final station hidden states weighted only by current training-example target-observation mask M_i(t;C) from registered sealed fitting snapshot at cutoff C=HD",
+  "pooling_exclusions": [
+    "historical observation mask",
+    "raw demand as pooling weights/input",
+    "future evaluation mask",
+    "pseudo-target source rows"
+  ],
+  "domain_classifier": [
+    "Linear(32,64)",
+    "ReLU",
+    "Dropout(0.1)",
+    "Linear(64,7)"
+  ],
+  "loss": "LOG1P_TARGET_MAE + ordinary unit-weight unweighted seven-source-class cross entropy",
+  "grl": {
+    "forward": "identity",
+    "encoder_backward": "-lambda_t",
+    "forecast_head_direct_domain_gradient": false,
+    "separate_alpha": false
+  },
+  "schedule": {
+    "j": "0..11999",
+    "constant": "lambda_max",
+    "linear": "lambda_max * min(1, j / 2999)"
+  },
+  "source_sampler": "exact hash-pinned EqualCitySampler class compiled from original AST without importing legacy data readers; 12000 balanced shuffled city tokens; eligible anchors uniformly with replacement",
+  "initialization": "registered seed initializes unchanged GraphGRU first, then discriminator; each immutable source fit starts at update 0",
+  "data_rng": "candidate-independent, ordinary Stage-2 source schedule/anchor namespace SHA256(stage2-v2.1|label|target|seed), first 4 bytes big endian; fine-tune uses inherited stage1-v2.1 namespace; namespace text is RNG provenance, never predictor or checkpoint version",
+  "adaptation": {
+    "discriminator_discarded": true,
+    "source_dependency": "matching validated Stage-4 V2.2 A40 source completion only",
+    "fresh_optimizer": {
+      "name": "AdamW",
+      "learning_rate": 0.0002,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "epsilon": 1e-08,
+      "weight_decay": 0.0001
+    },
+    "window": "[HD - 168 elapsed UTC hours, HD)",
+    "updates": 300,
+    "full_network": true,
+    "batch_size": 16,
+    "gradient_clip": 1.0,
+    "window_extension": false,
+    "early_stopping": false
+  },
+  "causal_predictors": "unchanged V2.2 features frozen at each original origin t; fitting cutoff C only admits targets/masks; never recertify predictors at C",
+  "cache_binding": {
+    "path": "tmp/stage1_scale_loss_cache_v2_2/cache_manifest.json",
+    "sha256": "836e7d483a76a2253b5ec63180e23683d22ba1160d170e290d83e68d5d79756d",
+    "bytes": 68325
+  },
+  "dataset_binding": {
+    "path": "processed/protocol_v2_2/PROTOCOL_DATASET_MANIFEST.json",
+    "sha256": "140dd8c53cf51f48be5cf66b70d162c9f2cc6a9fa0b1b7039496633e385a6ab6",
+    "bytes": 16242
+  },
+  "static_graph_binding": {
+    "path": "research/results/causal_history_audit_v2_2/graph_static_reconciliation.json",
+    "sha256": "e425ce873da946a4973fb03a57ffd6ecf92027da82a4220f56b6231343ff9758",
+    "bytes": 25852
+  },
+  "stage3": {
+    "path": "research/results/stage3_finetuning_policy_v2_2/stage3_finetuning_policy_manifest.json",
+    "sha256": "f5cb2653dd097eb1288f419884778ae01e9034e9e1d88006b33beac4cff069b5",
+    "bytes": 8627
+  },
+  "prospective_selection_clarification": {
+    "path": "research/results/stage4_selection_clarification_v2_2/selection_clarification.json",
+    "sha256": "852d8c32dd9004a8dfaa17633e285877828672d79414cf5fb67b8550c8ea7d4d",
+    "bytes": 4811
+  },
+  "selection_fields": {
+    "primary": {
+      "regime": "post_7_day_300_update_adaptation",
+      "metric": "count_space_MAE",
+      "seeds": [
+        17,
+        29,
+        43
+      ],
+      "folds": [
+        532,
+        476,
+        619,
+        658
+      ],
+      "seed_aggregation": "arithmetic_mean_within_fold_in_registered_seed_order",
+      "fold_aggregation": "unweighted_arithmetic_mean_of_four_seed_mean_fold_MAEs",
+      "lower_is_better": true
+    },
+    "primary_tie": {
+      "operation": "Decimal(str(primary_unrounded)).quantize(Decimal('0.0001'), rounding=ROUND_HALF_UP)",
+      "precision_decimal_places": 4,
+      "rounding": "ROUND_HALF_UP",
+      "tie_iff": "quantized_primary_values_equal",
+      "quantized_value_use": "primary_equality_only; compare unrounded primary when quantized values differ",
+      "retain_unrounded": true,
+      "rationale": "Prospectively matches frozen Stage-2 convention; not chosen after Stage-4 results"
+    },
+    "dispersion": {
+      "statistic": "population_standard_deviation",
+      "inputs": "four_fold_MAEs_after_seed_averaging",
+      "denominator": 4,
+      "comparison": "unrounded_full_precision; no tolerance and no quantization",
+      "equality": "exact_equality_of_deterministic_stored_numeric_representation"
+    },
+    "numerical_implementation": {
+      "aggregation": "statistics.fmean in registered seed/fold order",
+      "dispersion": "statistics.pstdev over four seed-mean fold MAEs",
+      "storage": "finite binary64 Python float, lossless JSON roundtrip"
+    },
+    "hierarchy": [
+      "lower_primary_with_4dp_HALF_UP_equality",
+      "lower_unrounded_population_SD",
+      "smaller_lambda_max",
+      "constant_before_linear"
+    ],
+    "excluded_selection_inputs": [
+      "zero_shot_MAE",
+      "RMSE",
+      "WAPE",
+      "station_macro_MAE",
+      "pooled_station_hours",
+      "discriminator_accuracy",
+      "domain_loss",
+      "subjective_stability",
+      "final_target_performance"
+    ]
+  },
+  "evaluation": {
+    "window": "[HD,HF)",
+    "forecast_grid_hours": 1440,
+    "post_adaptation_records": 72,
+    "zero_shot_records": 0,
+    "prediction_committed_before_label_read": true,
+    "labels": "pseudo-target development retrospective labels only"
+  },
+  "workload": {
+    "source_fits": 72,
+    "adaptation_fits": 72,
+    "total_scientific_fits": 144
+  },
+  "precision": "float32 CUDA; no AMP or compilation",
+  "execution_environment": "UNIVERSITY_A40",
+  "deterministic_runtime": {
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8",
+    "deterministic_algorithms": true,
+    "cuda_matmul_tf32": false,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "cudnn_tf32": false
+  },
+  "workers": 4,
+  "partial_policy": "preserve every attempt; no partial checkpoint resume; new attempt from update 0; completed jobs skipped only after hash and semantic validation",
+  "completion_policy": "final budget checkpoint + exact roundtrip + phase-appropriate evaluation + immutable completion hash commitment + worker exit 0",
+  "corrupt_policy": "fail closed; retain evidence; no automatic replacement",
+  "metadata": "recursive tuple/list, NumPy/native scalar, Path/string representation normalization only; no rounding, defaults, missing keys or ignored differences",
+  "upstream_sha256": {
+    "research/results/stage1_scale_loss_v2_2_a40/stage1_decision_manifest.json": "8db24acabd373fa57aa6f35708566da400646fa2ea8474fd0e656a4955828aed",
+    "research/results/stage2_graphgru_selection_v2_2_a40/stage2_decision_manifest.json": "9cca604ec3496a28f4440d89a9d6d1184311fc507c35f27b428a3ca768a6eeca",
+    "research/results/stage2b_vanilla_fairness_v2_2_a40/stage2b_decision_manifest.json": "9d85d6df6a509013f1b5411002246aee81c254fbde078f639293976674b4f36d",
+    "research/results/stage3_finetuning_policy_v2_2/stage3_finetuning_policy_manifest.json": "f5cb2653dd097eb1288f419884778ae01e9034e9e1d88006b33beac4cff069b5",
+    "research/results/stage4_selection_clarification_v2_2/selection_clarification.json": "852d8c32dd9004a8dfaa17633e285877828672d79414cf5fb67b8550c8ea7d4d",
+    "processed/protocol_v2_2/PROTOCOL_DATASET_MANIFEST.json": "140dd8c53cf51f48be5cf66b70d162c9f2cc6a9fa0b1b7039496633e385a6ab6",
+    "tmp/stage1_scale_loss_cache_v2_2/cache_manifest.json": "836e7d483a76a2253b5ec63180e23683d22ba1160d170e290d83e68d5d79756d",
+    "processed/protocol_v2_2/fit_snapshots/fit_snapshot_manifest.json": "467aefd170c789c6533a7f2f1ebc0f3c343944f8e2781c9e2e5e0927d200077d",
+    "research/results/causal_history_audit_v2_2/graph_static_reconciliation.json": "e425ce873da946a4973fb03a57ffd6ecf92027da82a4220f56b6231343ff9758",
+    "research/results/stage2_graphgru_selection_v2_2/scientific_contract.json": "55ebfa06ca49d77e5ae0b7b2e531d6bb14c26a2b93f478da7754c75fb1aae52f",
+    "research/results/stage2_graphgru_selection_v2_2/job_map.json": "fd34f71b46eb6f9cfc9adb5ebfd44001a2e26df049b9bb197aff1d272e7a074a",
+    "research/results/stage2b_vanilla_fairness_v2_2/scientific_contract.json": "2eb1a2a14dd1412f1286248c547814a2c7e04fad94edaace2084c7d78be0cad3",
+    "research/results/stage2b_vanilla_fairness_v2_2/job_map.json": "0cf72a4f66797bcc5625bd438046562c5fd444677676971e2697e1f9a3d0f23d",
+    "research/results/stage4_adversarial_method_v2_1/stage4_adversarial_method_manifest.json": "a830e155f0f4052a4b8f3a7d9492bc27877513b11cee885dc93ab6fa1cee7d92",
+    "research/results/causal_history_implementation_v2_2/implementation_manifest.json": "a1fe0ee486c55b1348e92d91edd42289dd49ce982129cdaa544691eafd605a9d",
+    "processed/protocol_v2_2/development_labels/retrospective_label_manifest.json": "1868d6a95641e43ef3ad779f8a4f779aaf94fc3cb938b3db13b77e2eb0dd3469",
+    "RESEARCH_PROTOCOL_V2_2_AMENDMENT.md": "02a44e3aa8bf1d656d2f9de833b45072d564052e2ab3c1426bda2a6456c558d0",
+    "research/results/upstream_closure_v2_2/joint_upstream_closure_manifest.json": "d7a211de6627098bc1642d3eeb7efd0d7386a61513b1bd696a7407c809eef834",
+    "COMPUTATION_DAG_V2_1.md": "48f38bc97505d622316008b8ac155fb09e2b9a9efce6f36dad7e15b35d9f53cf",
+    "DEVELOPMENT_SELECTION_PROTOCOL.md": "14a1778ceb6437c6187837f1e34822164e4f32ae2e4d0f5c8f840c0576d5eb97",
+    "EVALUATION_PROTOCOL_V2.md": "ebde12ca004508645e876e66d1899eb23f36410751ef0d102029c602874549ee",
+    "FEATURE_PROTOCOL_V2_1.md": "bf14a35b8a582e2cf02b2203e18769d0a078306401e1afaf6ef93b9dfc5ba6fa",
+    "MODEL_SPECIFICATION_V2.md": "cd81675bbb83386b006c28f4fc279c1e9367dc1645e68a581963d72cd840db88",
+    "MODEL_SPECIFICATION_V2_1.md": "430fd12c6322a102687c2a546be394bb7ef344656c1a34edf05a86beadca88bf",
+    "NEURAL_ARCHITECTURE_SPEC.md": "ddc6875307518940f8cf98d5480b90984d984d996bf6aefa0cdffd0179542f33",
+    "NEURAL_REPRODUCIBILITY_PROTOCOL.md": "35f5ecdca9dea4553455130ea3883e2d5bce07758a26c04958dd67865249bab9",
+    "RESEARCH_PROTOCOL_V2_1.md": "6bbf5bc39292ef9e1bf8321b90006269217b43fd0df59da25687712fc418c35c",
+    "TRAINING_BUDGET_PROTOCOL.md": "479d87f18095611b1d488a7f1b932c160e688d11a8776c1b0c6d85b21af81940",
+    "research/data/budget_sampler.py": "07c2b5060c29ea9e0e629c065c3ec5ed5dbaa1700f560e5043e7aa59bcdb2edd",
+    "research/models/common.py": "989bb7afac452b682bd041fee70c0c29f2341e66c52ed79abac0c3d10a902739",
+    "research/models/graph_gru.py": "91b0131e71f0b7e0e375e46d01d931b808e3c6822b58ed87d6310b7041b7835d",
+    "research/models/heads.py": "2cfb0572e35989d1100eb9133d2fcd882a472d21db02e5c29170e97176af9b94",
+    "research/training/trainer.py": "01057936c5556303c87f1f100311d91c598702bf01e0d5c7c2080d68b5408929",
+    "research/governance/stage4_adversarial_method_seal.py": "eda3a8edf29e8c7b5ba149924c4b2c17d557c1c33832d6bf8d7134eba5e8177a",
+    "research/results/stage4_adversarial_method_v2_1/STAGE4_ADVERSARIAL_METHOD_SEAL.md": "fa3e82673dd0e5196729966953fe2a099f58190a3f33821eacf2f827b4000ee1"
+  },
+  "implementation_sha256": {
+    "deployment/stage4_v2_2_a40/run_stage4_a40.ps1": "ccfc34ebfdfbe07631a5deeab808aec5cf12fd991e9ec4a0324ffa736113f37f",
+    "research/data/budget_sampler.py": "07c2b5060c29ea9e0e629c065c3ec5ed5dbaa1700f560e5043e7aa59bcdb2edd",
+    "research/development_data_v2_2/__init__.py": "2705419475c8a25b3ca063d89e8ca72bdf000210124c2b5e0803aaa87df550b9",
+    "research/development_data_v2_2/registry.py": "b5a142bbe1052cbc98b6fad8e927138b6cdbddf25ea6558b26e794d983b21051",
+    "research/evaluation/__init__.py": "1292a08ce6d23570c0a2e12c0f98805ee1bf198df19a39822ff1fe341cbea286",
+    "research/evaluation/metrics.py": "6f3282f40051ad38380b8074a7a36a212918dc4a4df44c32d5d7452d5169ab87",
+    "research/models/__init__.py": "b0f8de097af05e0ddf3f18b5d850894e7b5b47f4f1f101eb5368eb2ea74c19f3",
+    "research/models/common.py": "989bb7afac452b682bd041fee70c0c29f2341e66c52ed79abac0c3d10a902739",
+    "research/models/graph_gru.py": "91b0131e71f0b7e0e375e46d01d931b808e3c6822b58ed87d6310b7041b7835d",
+    "research/models/heads.py": "2cfb0572e35989d1100eb9133d2fcd882a472d21db02e5c29170e97176af9b94",
+    "research/models/vanilla_gru.py": "fd9a5b1df0c6dcfd648b0d79ce2f15d1aacd266ad6ee20d53790b0cb9164bcb2",
+    "research/stage1_v2_2/__init__.py": "4114200fb1313ea400bbd3ba60a9cbf59bdcab1f471aff53520d8221d753fd06",
+    "research/stage1_v2_2/core.py": "91a841e4f1798abd7c7fdfedf2008776350ea61b8b17d3351ab59306bb1be1c5",
+    "research/stage4_v2_2/__init__.py": "5728652b7d100861ebf0d74ec010bada3667c7880cecad31f73204c6ba7a6290",
+    "research/stage4_v2_2/a40.py": "cb295c33d51f97345932492035e0f00a12a7857973e886aaf0b16c9694bf377c",
+    "research/stage4_v2_2/controller.py": "368b6331b32306cd5ff12ffbbca18183b2ea8812b80e37df3c66104c3e12824a",
+    "research/stage4_v2_2/core.py": "4eda3dcad1d9cf97cf1f03374e9ccb3eef45716a8e0999b8ea1d080a7c247f03",
+    "research/stage4_v2_2/method.py": "2579d5af8f79e3abd49a16a654f2ca1116fb0fc178628aed52f1354cd1c26782",
+    "research/stage4_v2_2/sampler.py": "90d31174b84703bff4891052b0ede076bdafd0341825b0b3a07b112c217eed4a",
+    "research/stage4_v2_2/selection.py": "654eb08e9a1a9165a1dd504bc00c204ac6a5203a180bbb8d2f120c704dbee535",
+    "research/stage4_v2_2/synthetic_worker.py": "a056aea60a8175a688ce43666dcf1885ec5f2c2c4dba540a99189bdab92ccb1b",
+    "research/stage4_v2_2/tests.py": "f748f4936746408c4a6900b06e8205ada051fb2bb83a9e616f4cc6b82116cd84",
+    "research/stage4_v2_2/verify_selection.py": "f61241778167f4a0baf8765809080eca88b34453607d23f4ddd94ab422a0bc7e",
+    "research/training/__init__.py": "ce9993a2017d898aa8de88653164ff3f60e608e8d1b5d421b80d375d9ee8e36c",
+    "research/training/losses.py": "2a14a673ed82af6f568ac2299edb6f444bf8966408c14a53e22c2f44d8e6d310",
+    "research/training/reproducibility.py": "4a5e1f881b15189d049060e79c2f7db55ae4adafee47218a962bc2d1a8a085c9",
+    "research/training/trainer.py": "01057936c5556303c87f1f100311d91c598702bf01e0d5c7c2080d68b5408929",
+    "research/v2_2/__init__.py": "009555e497e9ca890d3f8bc29cfc4dc9ee6aec221d5f261a6da7e8c6eab137d8",
+    "research/v2_2/artifacts.py": "acd02ba6168665ff043771942652d5edc2da2e3103af18f6641ed2b38ffd8f8a",
+    "research/v2_2/contract.py": "6ba0af4072c2c1240d36d86070a1edc1f6315e0a69a7c58f70a4f9885cf8298a",
+    "research/v2_2/history.py": "64994a2fbb2a28738557ab008e4ed7ff2e2596f47f709e61d47beb33e6178709",
+    "research/v2_2/labels.py": "8d2f5b9f5337004ab7994cdb9c5facf8abab9e52afec7bcdb0a740766d79036b",
+    "research/v2_2/snapshots.py": "784182662b698f321b3e969780122efd72a95a1ee71218f8a9d52bbea573d426"
+  },
+  "final_experiment_authorized": false,
+  "downstream_blockers": [
+    "FINAL_SEED_COUNT_UNRESOLVED_3_VS_5",
+    "FINAL_SEED_BOOTSTRAP_AGGREGATION_UNRESOLVED"
+  ],
+  "timestamp_utc": "2026-09-08T11:20:17.466165+00:00"
+}

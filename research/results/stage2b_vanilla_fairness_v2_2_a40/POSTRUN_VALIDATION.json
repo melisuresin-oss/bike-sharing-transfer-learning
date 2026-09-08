@@ -1,0 +1,264 @@
+{
+  "status": "PASS",
+  "purpose": "READ_ONLY_POSTRUN_VALIDATION",
+  "protocol_version": "2.2",
+  "stage": "2B",
+  "execution_environment": "UNIVERSITY_A40",
+  "validated_jobs": 48,
+  "source_fits": 48,
+  "zero_shot_evaluations": 48,
+  "adaptation_fits": 0,
+  "training_steps_performed_by_validator": 0,
+  "optimizer_steps_performed_by_validator": 0,
+  "model_forward_calls_by_validator": 0,
+  "bundle_manifest_sha256": "ce9f6c32ce0bcf0d07db3cf2e890df66fa96f6595f4220a7bf2819d64d936342",
+  "scientific_contract_sha256": "2eb1a2a14dd1412f1286248c547814a2c7e04fad94edaace2084c7d78be0cad3",
+  "job_map_sha256": "0cf72a4f66797bcc5625bd438046562c5fd444677676971e2697e1f9a3d0f23d",
+  "execution_records": [
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h032_d00_target-532_seed-17.json",
+      "sha256": "f9c0e54c8d4edcd86629af1c019f9292f81a239ff456c4be0ba533283c429d73",
+      "bytes": 20676
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h032_d00_target-532_seed-29.json",
+      "sha256": "2d38c5ebab5b2feecea0fca49aa3a1bd4e1c0204a899369b812811b9729b3d64",
+      "bytes": 20675
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h032_d00_target-532_seed-43.json",
+      "sha256": "cface74876af6424cfca34370c6eaa27109de755be3258c4395417d10b4ce299",
+      "bytes": 20671
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h032_d00_target-476_seed-17.json",
+      "sha256": "507c9ee13645754018087fb4bcba6b07ae88d3ba467908b4a5418593b70a8a36",
+      "bytes": 20645
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h032_d00_target-476_seed-29.json",
+      "sha256": "4f15de84b090e0f9c500f380e5a8f12244fa2e775a7373e07c0dee0e761177ae",
+      "bytes": 20640
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h032_d00_target-476_seed-43.json",
+      "sha256": "038abc88974ebcb2394a047e53b8c32a26f9e6c9f40f655e49a5f5fa3a13e86a",
+      "bytes": 20643
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h032_d00_target-619_seed-17.json",
+      "sha256": "7f8d439f3b5482571c43c8ed4ce8b982389325bad4cde5fdbf7910b357dc9a84",
+      "bytes": 20654
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h032_d00_target-619_seed-29.json",
+      "sha256": "10e62654b21a4b9e6a31ba6d0c97ac07a78b0c93cd6a8e5587a2c3692781566b",
+      "bytes": 20645
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h032_d00_target-619_seed-43.json",
+      "sha256": "c69139a72837bae6cd122e0d8da680f58c71698a39d93d2c9edfcff55e5c33dc",
+      "bytes": 20637
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h032_d00_target-658_seed-17.json",
+      "sha256": "6612db55b1f08085d7e02fc61654f34e430251e4c18d2d8d1cc99e424ef1f5e9",
+      "bytes": 20654
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h032_d00_target-658_seed-29.json",
+      "sha256": "ccb2be01a61fee65f8f60c597467652d68d9eeba035ecbe2a11fb4c3cdd5f9c6",
+      "bytes": 20650
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h032_d00_target-658_seed-43.json",
+      "sha256": "163f392cb1c348b3d149780e887ad85a1a821e01d52f3ec12744324729d86d74",
+      "bytes": 20657
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h032_d10_target-532_seed-17.json",
+      "sha256": "762fd18717524c5860a174b601a7f80968da3033f2a4d791c8c6cd45a8f62296",
+      "bytes": 20672
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h032_d10_target-532_seed-29.json",
+      "sha256": "25215317c26b8d8b42abf6c7e72a68aa0bbbfed59da538efbbda9726dd98acc8",
+      "bytes": 20675
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h032_d10_target-532_seed-43.json",
+      "sha256": "8ff2c15fe659c81926441f70c69d91aa4931cbab1baa9a1eccd1bc77f9caf220",
+      "bytes": 20670
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h032_d10_target-476_seed-17.json",
+      "sha256": "297f8a7a07078baac6ec27642ca2d01d2d2c1360094f9f8ac3d1d1e317fb738b",
+      "bytes": 20643
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h032_d10_target-476_seed-29.json",
+      "sha256": "adef660c701d67619cafc976bf7b9cb8fa4954092953c9c9f60e394508f0436b",
+      "bytes": 20643
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h032_d10_target-476_seed-43.json",
+      "sha256": "7bb6a88dd3b43c0bbf7b23581c7d5023cfe9e1ddbb7cb3e3d181d5be2ecf994f",
+      "bytes": 20642
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h032_d10_target-619_seed-17.json",
+      "sha256": "bae4db1d632857fff0f284a51992bc71bb7fc16c116a229219eb2b5bb23fd18d",
+      "bytes": 20636
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h032_d10_target-619_seed-29.json",
+      "sha256": "9a9acebe20b13723ca3db0c62d064fe4778944eaf5a7b8952acc76d4f25d017f",
+      "bytes": 20643
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h032_d10_target-619_seed-43.json",
+      "sha256": "59da58a4d64380335e3e0970c670e233142014c47f28fa409d79b2e7dbfbb507",
+      "bytes": 20641
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h032_d10_target-658_seed-17.json",
+      "sha256": "1e0cb39f2da5bc5dce510bf7f9e27c077a8362ff84c948ebef76e074520da3a6",
+      "bytes": 20647
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h032_d10_target-658_seed-29.json",
+      "sha256": "ff03ebe3675624e5220abe0d9d9551247d262d3d97f4e89d8d10cb0484e8e5f2",
+      "bytes": 20645
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h032_d10_target-658_seed-43.json",
+      "sha256": "649117c6481ba3e86bb4aebd289ecb253c3b2d4c1fc38c5d53ae0b62cd488742",
+      "bytes": 20656
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h064_d00_target-532_seed-17.json",
+      "sha256": "f6c1cdcfa39c7ee51b1ec5f9e16244ef04b68b327f266948b6643315b9c1fa7e",
+      "bytes": 20675
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h064_d00_target-532_seed-29.json",
+      "sha256": "52bb5083787ca4019225e92ae5a25ae4e0cadb9cbcc88bbef820ab09ca0bb893",
+      "bytes": 20677
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h064_d00_target-532_seed-43.json",
+      "sha256": "e33851602ee9d0f575f52d0ac546897d7463917f1de291ef4872e190168e82c3",
+      "bytes": 20678
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h064_d00_target-476_seed-17.json",
+      "sha256": "f949f2f5d35faccef50a767defc9dc7eab4951b93ee58dd197f5984940be777e",
+      "bytes": 20680
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h064_d00_target-476_seed-29.json",
+      "sha256": "57a522b412a3f41814a863e482a88e30b6c5cb721bfbc222e5c2ab0255019c74",
+      "bytes": 20672
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h064_d00_target-476_seed-43.json",
+      "sha256": "a57bdde97c62c2b5b38f364c43d76837fe455fd454eb072cdc1d6cdea1ae9533",
+      "bytes": 20640
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h064_d00_target-619_seed-17.json",
+      "sha256": "6606700ea6e9b054d18a0664aa278827729694a3d398bc914cc2e5909bf36340",
+      "bytes": 20651
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h064_d00_target-619_seed-29.json",
+      "sha256": "9dca6d0dd040a922b3c91c1e6d3d35e55da22379718b564513352e5db4bf81bd",
+      "bytes": 20681
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h064_d00_target-619_seed-43.json",
+      "sha256": "e4138fbd9f35c0acbce1280b87e6de266aeaa848d76abb364413a0d7b0d9931e",
+      "bytes": 20651
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h064_d00_target-658_seed-17.json",
+      "sha256": "27e0005a82966dd6e7a2693f3bf5ddbdcf8ffc9f89bf92775605f9c02985bcc3",
+      "bytes": 20644
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h064_d00_target-658_seed-29.json",
+      "sha256": "947d54bd8d2ecc8e2192b3b18db643dc513662ba5a30be268ac147a0315b544b",
+      "bytes": 20650
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h064_d00_target-658_seed-43.json",
+      "sha256": "adfb8527343890f0058311a06035e1cd0d48e11f78d5a22ceff33a1ade66c5a7",
+      "bytes": 20650
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h064_d10_target-532_seed-17.json",
+      "sha256": "4141e01565af7e566769d1b9d99894f5febb972c50c3d2c2c9ff7515d39cc365",
+      "bytes": 20677
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h064_d10_target-532_seed-29.json",
+      "sha256": "b5c4baf7b6496616cb2333776421a1c4b7ed73c40d8f85676dea62dc13f89cad",
+      "bytes": 20682
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h064_d10_target-532_seed-43.json",
+      "sha256": "e1d18044359bf1eff969c7f89300b94e3a111101b15f32543280719704453a13",
+      "bytes": 20679
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h064_d10_target-476_seed-17.json",
+      "sha256": "351c74bdaf3fdb14a555d297cb0e7d0e68e3fd7a58a14e6d8fdbedfe58e5d9fc",
+      "bytes": 20683
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h064_d10_target-476_seed-29.json",
+      "sha256": "6da8c6bb70fd5d2e2e1dd49b20c361823db7c7ed8222298d3be9ddb8514a86a1",
+      "bytes": 20676
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h064_d10_target-476_seed-43.json",
+      "sha256": "00a60c2998a3c18817030cbf0cbda02e9e011b8035a206e8de213e1942f7f05c",
+      "bytes": 20638
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h064_d10_target-619_seed-17.json",
+      "sha256": "b71525aca8e13c86715ea462d49ea2d26082fa181a07f232efd1ae52431ff437",
+      "bytes": 20654
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h064_d10_target-619_seed-29.json",
+      "sha256": "cec0cf21f774ab75eac5e69c812d1a2beb5a14a44fb51f297809a7ffee4a8984",
+      "bytes": 20680
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h064_d10_target-619_seed-43.json",
+      "sha256": "74c0d349025c938d92097201c2cd8930dca585c4166f56e2da1f99d6a093a05e",
+      "bytes": 20645
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h064_d10_target-658_seed-17.json",
+      "sha256": "f72288e3db7bf391f89a4f0c1e332fa7cb0b3e95c931efb43fe9a0a686a82c9e",
+      "bytes": 20654
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h064_d10_target-658_seed-29.json",
+      "sha256": "2c54879a7c7266bb7886dcfcd1c6faee0f369577ce53098d983d2d586be28c66",
+      "bytes": 20648
+    },
+    {
+      "path": "research/results/stage2b_vanilla_fairness_v2_2_a40/completed/vgru_h064_d10_target-658_seed-43.json",
+      "sha256": "53c115bc8524d0df6a56c7c45f8d01f1baedddc0b5c665d78d8dc15d1b9d20f6",
+      "bytes": 20660
+    }
+  ],
+  "v2_1_fitted_checkpoints_reused": false,
+  "final_target_labels_accessed": false,
+  "stage3_started": false,
+  "stage4_started": false,
+  "recorded_utc": "2026-09-08T02:18:36.407558+00:00"
+}

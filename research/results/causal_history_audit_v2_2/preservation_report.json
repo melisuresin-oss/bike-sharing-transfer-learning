@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "files_unchanged": 1182,
+  "excluded": [
+    "processed/protocol_v2_1/final_labels/ (never opened; existing hash records remain preserved)",
+    "__pycache__ runtime caches"
+  ],
+  "final_labels_accessed": false
+}

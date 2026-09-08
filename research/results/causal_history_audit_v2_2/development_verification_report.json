@@ -1,0 +1,3861 @@
+{
+  "status": "PASS",
+  "purpose": "READ_ONLY_DEVELOPMENT_DATA_VERIFICATION",
+  "checks": [
+    {
+      "check": "builder_binding",
+      "status": "PASS"
+    },
+    {
+      "check": "accepted_implementation_manifest",
+      "status": "PASS"
+    },
+    {
+      "check": "implementation_binding:research/scripts/verify_causal_history_implementation_v2_2.py",
+      "status": "PASS"
+    },
+    {
+      "check": "implementation_binding:research/v2_2/README.md",
+      "status": "PASS"
+    },
+    {
+      "check": "implementation_binding:research/v2_2/__init__.py",
+      "status": "PASS"
+    },
+    {
+      "check": "implementation_binding:research/v2_2/artifacts.py",
+      "status": "PASS"
+    },
+    {
+      "check": "implementation_binding:research/v2_2/contract.py",
+      "status": "PASS"
+    },
+    {
+      "check": "implementation_binding:research/v2_2/history.py",
+      "status": "PASS"
+    },
+    {
+      "check": "implementation_binding:research/v2_2/labels.py",
+      "status": "PASS"
+    },
+    {
+      "check": "implementation_binding:research/v2_2/snapshots.py",
+      "status": "PASS"
+    },
+    {
+      "check": "implementation_binding:research/scripts/test_causal_history_implementation_v2_2.py",
+      "status": "PASS"
+    },
+    {
+      "check": "implementation_binding:research/tests/test_causal_history_v2_2.py",
+      "status": "PASS"
+    },
+    {
+      "check": "implementation_binding:research/tests/test_causal_history_v2_2_integration.py",
+      "status": "PASS"
+    },
+    {
+      "check": "implementation_binding:research/results/causal_history_implementation_v2_2/preservation_after.json",
+      "status": "PASS"
+    },
+    {
+      "check": "implementation_binding:research/results/causal_history_implementation_v2_2/preservation_before.json",
+      "status": "PASS"
+    },
+    {
+      "check": "implementation_binding:research/results/causal_history_implementation_v2_2/test_report.json",
+      "status": "PASS"
+    },
+    {
+      "check": "exact_development_cohort",
+      "status": "PASS"
+    },
+    {
+      "check": "fixed_boundaries",
+      "status": "PASS"
+    },
+    {
+      "check": "count_policy",
+      "status": "PASS"
+    },
+    {
+      "check": "artifact_bytes:research/results/causal_history_audit_v2_2/source_bindings.json",
+      "status": "PASS"
+    },
+    {
+      "check": "artifact_bytes:research/results/causal_history_audit_v2_2/graph_static_reconciliation.json",
+      "status": "PASS"
+    },
+    {
+      "check": "artifact_bytes:processed/protocol_v2_2/fit_snapshots/fit_snapshot_manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "artifact_bytes:processed/protocol_v2_2/fit_snapshots/ha_fitting_pools.json",
+      "status": "PASS"
+    },
+    {
+      "check": "artifact_bytes:processed/protocol_v2_2/development_labels/retrospective_label_manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "artifact_bytes:research/results/causal_history_audit_v2_2/lag_availability.json",
+      "status": "PASS"
+    },
+    {
+      "check": "artifact_bytes:research/results/causal_history_audit_v2_2/fit_pool_comparison.json",
+      "status": "PASS"
+    },
+    {
+      "check": "artifact_bytes:research/results/causal_history_audit_v2_2/baseline_availability.json",
+      "status": "PASS"
+    },
+    {
+      "check": "artifact_bytes:research/results/causal_history_audit_v2_2/effective_pass_preview.json",
+      "status": "PASS"
+    },
+    {
+      "check": "artifact_bytes:research/results/causal_history_audit_v2_2/causal_history_audit_manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "artifact_bytes:research/results/causal_history_audit_v2_2/preservation_report.json",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_source_binding:feasibility_test/full_audit/coverage/data/station_status/train-00000-of-00005.parquet",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_source_binding:feasibility_test/full_audit/coverage/data/station_status/train-00001-of-00005.parquet",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_source_binding:feasibility_test/full_audit/coverage/data/station_status/train-00002-of-00005.parquet",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_source_binding:feasibility_test/full_audit/coverage/data/station_status/train-00003-of-00005.parquet",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_source_binding:feasibility_test/full_audit/coverage/data/station_status/train-00004-of-00005.parquet",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_source_binding:feasibility_test/full_audit/data/trips/train-00000-of-00006.parquet",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_source_binding:feasibility_test/full_audit/data/trips/train-00001-of-00006.parquet",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_source_binding:feasibility_test/full_audit/data/trips/train-00002-of-00006.parquet",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_source_binding:feasibility_test/full_audit/data/trips/train-00003-of-00006.parquet",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_source_binding:feasibility_test/full_audit/data/trips/train-00004-of-00006.parquet",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_source_binding:feasibility_test/full_audit/data/trips/train-00005-of-00006.parquet",
+      "status": "PASS"
+    },
+    {
+      "check": "18_full_development_checks",
+      "status": "PASS"
+    },
+    {
+      "check": "schema:129",
+      "status": "PASS"
+    },
+    {
+      "check": "origin_keys:129",
+      "status": "PASS"
+    },
+    {
+      "check": "indicator_equals_mask:129",
+      "status": "PASS"
+    },
+    {
+      "check": "states:129:1",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:129:1",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:129:1",
+      "status": "PASS"
+    },
+    {
+      "check": "states:129:2",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:129:2",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:129:2",
+      "status": "PASS"
+    },
+    {
+      "check": "states:129:3",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:129:3",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:129:3",
+      "status": "PASS"
+    },
+    {
+      "check": "states:129:4",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:129:4",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:129:4",
+      "status": "PASS"
+    },
+    {
+      "check": "states:129:5",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:129:5",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:129:5",
+      "status": "PASS"
+    },
+    {
+      "check": "states:129:6",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:129:6",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:129:6",
+      "status": "PASS"
+    },
+    {
+      "check": "states:129:7",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:129:7",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:129:7",
+      "status": "PASS"
+    },
+    {
+      "check": "states:129:8",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:129:8",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:129:8",
+      "status": "PASS"
+    },
+    {
+      "check": "states:129:9",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:129:9",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:129:9",
+      "status": "PASS"
+    },
+    {
+      "check": "states:129:10",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:129:10",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:129:10",
+      "status": "PASS"
+    },
+    {
+      "check": "states:129:11",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:129:11",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:129:11",
+      "status": "PASS"
+    },
+    {
+      "check": "states:129:12",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:129:12",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:129:12",
+      "status": "PASS"
+    },
+    {
+      "check": "states:129:13",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:129:13",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:129:13",
+      "status": "PASS"
+    },
+    {
+      "check": "states:129:14",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:129:14",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:129:14",
+      "status": "PASS"
+    },
+    {
+      "check": "states:129:15",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:129:15",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:129:15",
+      "status": "PASS"
+    },
+    {
+      "check": "states:129:16",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:129:16",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:129:16",
+      "status": "PASS"
+    },
+    {
+      "check": "states:129:17",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:129:17",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:129:17",
+      "status": "PASS"
+    },
+    {
+      "check": "states:129:18",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:129:18",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:129:18",
+      "status": "PASS"
+    },
+    {
+      "check": "states:129:19",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:129:19",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:129:19",
+      "status": "PASS"
+    },
+    {
+      "check": "states:129:20",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:129:20",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:129:20",
+      "status": "PASS"
+    },
+    {
+      "check": "states:129:21",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:129:21",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:129:21",
+      "status": "PASS"
+    },
+    {
+      "check": "states:129:22",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:129:22",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:129:22",
+      "status": "PASS"
+    },
+    {
+      "check": "states:129:23",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:129:23",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:129:23",
+      "status": "PASS"
+    },
+    {
+      "check": "states:129:24",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:129:24",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:129:24",
+      "status": "PASS"
+    },
+    {
+      "check": "states:129:168",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:129:168",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:129:168",
+      "status": "PASS"
+    },
+    {
+      "check": "all_original_origin_fingerprints:129",
+      "status": "PASS"
+    },
+    {
+      "check": "calendar_and_UTC_offset:129",
+      "status": "PASS"
+    },
+    {
+      "check": "frozen_static:129",
+      "status": "PASS"
+    },
+    {
+      "check": "separate_labels:129",
+      "status": "PASS"
+    },
+    {
+      "check": "source_scope_cutoff:129",
+      "status": "PASS"
+    },
+    {
+      "check": "source_original_features:129",
+      "status": "PASS"
+    },
+    {
+      "check": "source_unique_sorted_keys:129",
+      "status": "PASS"
+    },
+    {
+      "check": "full_data_coverage_audit:129",
+      "status": "PASS"
+    },
+    {
+      "check": "schema:194",
+      "status": "PASS"
+    },
+    {
+      "check": "origin_keys:194",
+      "status": "PASS"
+    },
+    {
+      "check": "indicator_equals_mask:194",
+      "status": "PASS"
+    },
+    {
+      "check": "states:194:1",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:194:1",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:194:1",
+      "status": "PASS"
+    },
+    {
+      "check": "states:194:2",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:194:2",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:194:2",
+      "status": "PASS"
+    },
+    {
+      "check": "states:194:3",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:194:3",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:194:3",
+      "status": "PASS"
+    },
+    {
+      "check": "states:194:4",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:194:4",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:194:4",
+      "status": "PASS"
+    },
+    {
+      "check": "states:194:5",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:194:5",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:194:5",
+      "status": "PASS"
+    },
+    {
+      "check": "states:194:6",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:194:6",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:194:6",
+      "status": "PASS"
+    },
+    {
+      "check": "states:194:7",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:194:7",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:194:7",
+      "status": "PASS"
+    },
+    {
+      "check": "states:194:8",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:194:8",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:194:8",
+      "status": "PASS"
+    },
+    {
+      "check": "states:194:9",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:194:9",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:194:9",
+      "status": "PASS"
+    },
+    {
+      "check": "states:194:10",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:194:10",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:194:10",
+      "status": "PASS"
+    },
+    {
+      "check": "states:194:11",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:194:11",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:194:11",
+      "status": "PASS"
+    },
+    {
+      "check": "states:194:12",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:194:12",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:194:12",
+      "status": "PASS"
+    },
+    {
+      "check": "states:194:13",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:194:13",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:194:13",
+      "status": "PASS"
+    },
+    {
+      "check": "states:194:14",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:194:14",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:194:14",
+      "status": "PASS"
+    },
+    {
+      "check": "states:194:15",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:194:15",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:194:15",
+      "status": "PASS"
+    },
+    {
+      "check": "states:194:16",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:194:16",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:194:16",
+      "status": "PASS"
+    },
+    {
+      "check": "states:194:17",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:194:17",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:194:17",
+      "status": "PASS"
+    },
+    {
+      "check": "states:194:18",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:194:18",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:194:18",
+      "status": "PASS"
+    },
+    {
+      "check": "states:194:19",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:194:19",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:194:19",
+      "status": "PASS"
+    },
+    {
+      "check": "states:194:20",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:194:20",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:194:20",
+      "status": "PASS"
+    },
+    {
+      "check": "states:194:21",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:194:21",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:194:21",
+      "status": "PASS"
+    },
+    {
+      "check": "states:194:22",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:194:22",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:194:22",
+      "status": "PASS"
+    },
+    {
+      "check": "states:194:23",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:194:23",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:194:23",
+      "status": "PASS"
+    },
+    {
+      "check": "states:194:24",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:194:24",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:194:24",
+      "status": "PASS"
+    },
+    {
+      "check": "states:194:168",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:194:168",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:194:168",
+      "status": "PASS"
+    },
+    {
+      "check": "all_original_origin_fingerprints:194",
+      "status": "PASS"
+    },
+    {
+      "check": "calendar_and_UTC_offset:194",
+      "status": "PASS"
+    },
+    {
+      "check": "frozen_static:194",
+      "status": "PASS"
+    },
+    {
+      "check": "separate_labels:194",
+      "status": "PASS"
+    },
+    {
+      "check": "source_scope_cutoff:194",
+      "status": "PASS"
+    },
+    {
+      "check": "source_original_features:194",
+      "status": "PASS"
+    },
+    {
+      "check": "source_unique_sorted_keys:194",
+      "status": "PASS"
+    },
+    {
+      "check": "full_data_coverage_audit:194",
+      "status": "PASS"
+    },
+    {
+      "check": "schema:438",
+      "status": "PASS"
+    },
+    {
+      "check": "origin_keys:438",
+      "status": "PASS"
+    },
+    {
+      "check": "indicator_equals_mask:438",
+      "status": "PASS"
+    },
+    {
+      "check": "states:438:1",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:438:1",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:438:1",
+      "status": "PASS"
+    },
+    {
+      "check": "states:438:2",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:438:2",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:438:2",
+      "status": "PASS"
+    },
+    {
+      "check": "states:438:3",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:438:3",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:438:3",
+      "status": "PASS"
+    },
+    {
+      "check": "states:438:4",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:438:4",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:438:4",
+      "status": "PASS"
+    },
+    {
+      "check": "states:438:5",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:438:5",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:438:5",
+      "status": "PASS"
+    },
+    {
+      "check": "states:438:6",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:438:6",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:438:6",
+      "status": "PASS"
+    },
+    {
+      "check": "states:438:7",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:438:7",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:438:7",
+      "status": "PASS"
+    },
+    {
+      "check": "states:438:8",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:438:8",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:438:8",
+      "status": "PASS"
+    },
+    {
+      "check": "states:438:9",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:438:9",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:438:9",
+      "status": "PASS"
+    },
+    {
+      "check": "states:438:10",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:438:10",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:438:10",
+      "status": "PASS"
+    },
+    {
+      "check": "states:438:11",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:438:11",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:438:11",
+      "status": "PASS"
+    },
+    {
+      "check": "states:438:12",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:438:12",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:438:12",
+      "status": "PASS"
+    },
+    {
+      "check": "states:438:13",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:438:13",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:438:13",
+      "status": "PASS"
+    },
+    {
+      "check": "states:438:14",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:438:14",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:438:14",
+      "status": "PASS"
+    },
+    {
+      "check": "states:438:15",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:438:15",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:438:15",
+      "status": "PASS"
+    },
+    {
+      "check": "states:438:16",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:438:16",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:438:16",
+      "status": "PASS"
+    },
+    {
+      "check": "states:438:17",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:438:17",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:438:17",
+      "status": "PASS"
+    },
+    {
+      "check": "states:438:18",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:438:18",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:438:18",
+      "status": "PASS"
+    },
+    {
+      "check": "states:438:19",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:438:19",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:438:19",
+      "status": "PASS"
+    },
+    {
+      "check": "states:438:20",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:438:20",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:438:20",
+      "status": "PASS"
+    },
+    {
+      "check": "states:438:21",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:438:21",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:438:21",
+      "status": "PASS"
+    },
+    {
+      "check": "states:438:22",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:438:22",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:438:22",
+      "status": "PASS"
+    },
+    {
+      "check": "states:438:23",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:438:23",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:438:23",
+      "status": "PASS"
+    },
+    {
+      "check": "states:438:24",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:438:24",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:438:24",
+      "status": "PASS"
+    },
+    {
+      "check": "states:438:168",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:438:168",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:438:168",
+      "status": "PASS"
+    },
+    {
+      "check": "all_original_origin_fingerprints:438",
+      "status": "PASS"
+    },
+    {
+      "check": "calendar_and_UTC_offset:438",
+      "status": "PASS"
+    },
+    {
+      "check": "frozen_static:438",
+      "status": "PASS"
+    },
+    {
+      "check": "separate_labels:438",
+      "status": "PASS"
+    },
+    {
+      "check": "source_scope_cutoff:438",
+      "status": "PASS"
+    },
+    {
+      "check": "source_original_features:438",
+      "status": "PASS"
+    },
+    {
+      "check": "source_unique_sorted_keys:438",
+      "status": "PASS"
+    },
+    {
+      "check": "full_data_coverage_audit:438",
+      "status": "PASS"
+    },
+    {
+      "check": "schema:467",
+      "status": "PASS"
+    },
+    {
+      "check": "origin_keys:467",
+      "status": "PASS"
+    },
+    {
+      "check": "indicator_equals_mask:467",
+      "status": "PASS"
+    },
+    {
+      "check": "states:467:1",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:467:1",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:467:1",
+      "status": "PASS"
+    },
+    {
+      "check": "states:467:2",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:467:2",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:467:2",
+      "status": "PASS"
+    },
+    {
+      "check": "states:467:3",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:467:3",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:467:3",
+      "status": "PASS"
+    },
+    {
+      "check": "states:467:4",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:467:4",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:467:4",
+      "status": "PASS"
+    },
+    {
+      "check": "states:467:5",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:467:5",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:467:5",
+      "status": "PASS"
+    },
+    {
+      "check": "states:467:6",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:467:6",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:467:6",
+      "status": "PASS"
+    },
+    {
+      "check": "states:467:7",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:467:7",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:467:7",
+      "status": "PASS"
+    },
+    {
+      "check": "states:467:8",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:467:8",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:467:8",
+      "status": "PASS"
+    },
+    {
+      "check": "states:467:9",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:467:9",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:467:9",
+      "status": "PASS"
+    },
+    {
+      "check": "states:467:10",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:467:10",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:467:10",
+      "status": "PASS"
+    },
+    {
+      "check": "states:467:11",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:467:11",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:467:11",
+      "status": "PASS"
+    },
+    {
+      "check": "states:467:12",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:467:12",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:467:12",
+      "status": "PASS"
+    },
+    {
+      "check": "states:467:13",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:467:13",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:467:13",
+      "status": "PASS"
+    },
+    {
+      "check": "states:467:14",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:467:14",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:467:14",
+      "status": "PASS"
+    },
+    {
+      "check": "states:467:15",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:467:15",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:467:15",
+      "status": "PASS"
+    },
+    {
+      "check": "states:467:16",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:467:16",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:467:16",
+      "status": "PASS"
+    },
+    {
+      "check": "states:467:17",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:467:17",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:467:17",
+      "status": "PASS"
+    },
+    {
+      "check": "states:467:18",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:467:18",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:467:18",
+      "status": "PASS"
+    },
+    {
+      "check": "states:467:19",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:467:19",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:467:19",
+      "status": "PASS"
+    },
+    {
+      "check": "states:467:20",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:467:20",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:467:20",
+      "status": "PASS"
+    },
+    {
+      "check": "states:467:21",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:467:21",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:467:21",
+      "status": "PASS"
+    },
+    {
+      "check": "states:467:22",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:467:22",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:467:22",
+      "status": "PASS"
+    },
+    {
+      "check": "states:467:23",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:467:23",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:467:23",
+      "status": "PASS"
+    },
+    {
+      "check": "states:467:24",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:467:24",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:467:24",
+      "status": "PASS"
+    },
+    {
+      "check": "states:467:168",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:467:168",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:467:168",
+      "status": "PASS"
+    },
+    {
+      "check": "all_original_origin_fingerprints:467",
+      "status": "PASS"
+    },
+    {
+      "check": "calendar_and_UTC_offset:467",
+      "status": "PASS"
+    },
+    {
+      "check": "frozen_static:467",
+      "status": "PASS"
+    },
+    {
+      "check": "separate_labels:467",
+      "status": "PASS"
+    },
+    {
+      "check": "source_scope_cutoff:467",
+      "status": "PASS"
+    },
+    {
+      "check": "source_original_features:467",
+      "status": "PASS"
+    },
+    {
+      "check": "source_unique_sorted_keys:467",
+      "status": "PASS"
+    },
+    {
+      "check": "full_data_coverage_audit:467",
+      "status": "PASS"
+    },
+    {
+      "check": "schema:476",
+      "status": "PASS"
+    },
+    {
+      "check": "origin_keys:476",
+      "status": "PASS"
+    },
+    {
+      "check": "indicator_equals_mask:476",
+      "status": "PASS"
+    },
+    {
+      "check": "states:476:1",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:476:1",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:476:1",
+      "status": "PASS"
+    },
+    {
+      "check": "states:476:2",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:476:2",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:476:2",
+      "status": "PASS"
+    },
+    {
+      "check": "states:476:3",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:476:3",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:476:3",
+      "status": "PASS"
+    },
+    {
+      "check": "states:476:4",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:476:4",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:476:4",
+      "status": "PASS"
+    },
+    {
+      "check": "states:476:5",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:476:5",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:476:5",
+      "status": "PASS"
+    },
+    {
+      "check": "states:476:6",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:476:6",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:476:6",
+      "status": "PASS"
+    },
+    {
+      "check": "states:476:7",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:476:7",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:476:7",
+      "status": "PASS"
+    },
+    {
+      "check": "states:476:8",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:476:8",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:476:8",
+      "status": "PASS"
+    },
+    {
+      "check": "states:476:9",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:476:9",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:476:9",
+      "status": "PASS"
+    },
+    {
+      "check": "states:476:10",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:476:10",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:476:10",
+      "status": "PASS"
+    },
+    {
+      "check": "states:476:11",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:476:11",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:476:11",
+      "status": "PASS"
+    },
+    {
+      "check": "states:476:12",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:476:12",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:476:12",
+      "status": "PASS"
+    },
+    {
+      "check": "states:476:13",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:476:13",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:476:13",
+      "status": "PASS"
+    },
+    {
+      "check": "states:476:14",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:476:14",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:476:14",
+      "status": "PASS"
+    },
+    {
+      "check": "states:476:15",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:476:15",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:476:15",
+      "status": "PASS"
+    },
+    {
+      "check": "states:476:16",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:476:16",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:476:16",
+      "status": "PASS"
+    },
+    {
+      "check": "states:476:17",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:476:17",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:476:17",
+      "status": "PASS"
+    },
+    {
+      "check": "states:476:18",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:476:18",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:476:18",
+      "status": "PASS"
+    },
+    {
+      "check": "states:476:19",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:476:19",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:476:19",
+      "status": "PASS"
+    },
+    {
+      "check": "states:476:20",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:476:20",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:476:20",
+      "status": "PASS"
+    },
+    {
+      "check": "states:476:21",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:476:21",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:476:21",
+      "status": "PASS"
+    },
+    {
+      "check": "states:476:22",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:476:22",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:476:22",
+      "status": "PASS"
+    },
+    {
+      "check": "states:476:23",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:476:23",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:476:23",
+      "status": "PASS"
+    },
+    {
+      "check": "states:476:24",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:476:24",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:476:24",
+      "status": "PASS"
+    },
+    {
+      "check": "states:476:168",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:476:168",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:476:168",
+      "status": "PASS"
+    },
+    {
+      "check": "all_original_origin_fingerprints:476",
+      "status": "PASS"
+    },
+    {
+      "check": "calendar_and_UTC_offset:476",
+      "status": "PASS"
+    },
+    {
+      "check": "frozen_static:476",
+      "status": "PASS"
+    },
+    {
+      "check": "separate_labels:476",
+      "status": "PASS"
+    },
+    {
+      "check": "source_scope_cutoff:476",
+      "status": "PASS"
+    },
+    {
+      "check": "source_original_features:476",
+      "status": "PASS"
+    },
+    {
+      "check": "source_unique_sorted_keys:476",
+      "status": "PASS"
+    },
+    {
+      "check": "full_data_coverage_audit:476",
+      "status": "PASS"
+    },
+    {
+      "check": "baseline_availability:476:PERSISTENCE_T_MINUS_1:all_prediction_keys",
+      "status": "PASS"
+    },
+    {
+      "check": "baseline_availability:476:PERSISTENCE_T_MINUS_1:retrospectively_observed_evaluation_keys",
+      "status": "PASS"
+    },
+    {
+      "check": "baseline_availability:476:SEASONAL_NAIVE_T_MINUS_168:all_prediction_keys",
+      "status": "PASS"
+    },
+    {
+      "check": "baseline_availability:476:SEASONAL_NAIVE_T_MINUS_168:retrospectively_observed_evaluation_keys",
+      "status": "PASS"
+    },
+    {
+      "check": "evaluation_keys:476",
+      "status": "PASS"
+    },
+    {
+      "check": "schema:532",
+      "status": "PASS"
+    },
+    {
+      "check": "origin_keys:532",
+      "status": "PASS"
+    },
+    {
+      "check": "indicator_equals_mask:532",
+      "status": "PASS"
+    },
+    {
+      "check": "states:532:1",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:532:1",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:532:1",
+      "status": "PASS"
+    },
+    {
+      "check": "states:532:2",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:532:2",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:532:2",
+      "status": "PASS"
+    },
+    {
+      "check": "states:532:3",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:532:3",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:532:3",
+      "status": "PASS"
+    },
+    {
+      "check": "states:532:4",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:532:4",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:532:4",
+      "status": "PASS"
+    },
+    {
+      "check": "states:532:5",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:532:5",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:532:5",
+      "status": "PASS"
+    },
+    {
+      "check": "states:532:6",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:532:6",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:532:6",
+      "status": "PASS"
+    },
+    {
+      "check": "states:532:7",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:532:7",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:532:7",
+      "status": "PASS"
+    },
+    {
+      "check": "states:532:8",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:532:8",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:532:8",
+      "status": "PASS"
+    },
+    {
+      "check": "states:532:9",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:532:9",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:532:9",
+      "status": "PASS"
+    },
+    {
+      "check": "states:532:10",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:532:10",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:532:10",
+      "status": "PASS"
+    },
+    {
+      "check": "states:532:11",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:532:11",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:532:11",
+      "status": "PASS"
+    },
+    {
+      "check": "states:532:12",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:532:12",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:532:12",
+      "status": "PASS"
+    },
+    {
+      "check": "states:532:13",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:532:13",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:532:13",
+      "status": "PASS"
+    },
+    {
+      "check": "states:532:14",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:532:14",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:532:14",
+      "status": "PASS"
+    },
+    {
+      "check": "states:532:15",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:532:15",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:532:15",
+      "status": "PASS"
+    },
+    {
+      "check": "states:532:16",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:532:16",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:532:16",
+      "status": "PASS"
+    },
+    {
+      "check": "states:532:17",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:532:17",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:532:17",
+      "status": "PASS"
+    },
+    {
+      "check": "states:532:18",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:532:18",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:532:18",
+      "status": "PASS"
+    },
+    {
+      "check": "states:532:19",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:532:19",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:532:19",
+      "status": "PASS"
+    },
+    {
+      "check": "states:532:20",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:532:20",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:532:20",
+      "status": "PASS"
+    },
+    {
+      "check": "states:532:21",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:532:21",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:532:21",
+      "status": "PASS"
+    },
+    {
+      "check": "states:532:22",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:532:22",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:532:22",
+      "status": "PASS"
+    },
+    {
+      "check": "states:532:23",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:532:23",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:532:23",
+      "status": "PASS"
+    },
+    {
+      "check": "states:532:24",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:532:24",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:532:24",
+      "status": "PASS"
+    },
+    {
+      "check": "states:532:168",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:532:168",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:532:168",
+      "status": "PASS"
+    },
+    {
+      "check": "all_original_origin_fingerprints:532",
+      "status": "PASS"
+    },
+    {
+      "check": "calendar_and_UTC_offset:532",
+      "status": "PASS"
+    },
+    {
+      "check": "frozen_static:532",
+      "status": "PASS"
+    },
+    {
+      "check": "separate_labels:532",
+      "status": "PASS"
+    },
+    {
+      "check": "source_scope_cutoff:532",
+      "status": "PASS"
+    },
+    {
+      "check": "source_original_features:532",
+      "status": "PASS"
+    },
+    {
+      "check": "source_unique_sorted_keys:532",
+      "status": "PASS"
+    },
+    {
+      "check": "full_data_coverage_audit:532",
+      "status": "PASS"
+    },
+    {
+      "check": "baseline_availability:532:PERSISTENCE_T_MINUS_1:all_prediction_keys",
+      "status": "PASS"
+    },
+    {
+      "check": "baseline_availability:532:PERSISTENCE_T_MINUS_1:retrospectively_observed_evaluation_keys",
+      "status": "PASS"
+    },
+    {
+      "check": "baseline_availability:532:SEASONAL_NAIVE_T_MINUS_168:all_prediction_keys",
+      "status": "PASS"
+    },
+    {
+      "check": "baseline_availability:532:SEASONAL_NAIVE_T_MINUS_168:retrospectively_observed_evaluation_keys",
+      "status": "PASS"
+    },
+    {
+      "check": "evaluation_keys:532",
+      "status": "PASS"
+    },
+    {
+      "check": "schema:619",
+      "status": "PASS"
+    },
+    {
+      "check": "origin_keys:619",
+      "status": "PASS"
+    },
+    {
+      "check": "indicator_equals_mask:619",
+      "status": "PASS"
+    },
+    {
+      "check": "states:619:1",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:619:1",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:619:1",
+      "status": "PASS"
+    },
+    {
+      "check": "states:619:2",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:619:2",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:619:2",
+      "status": "PASS"
+    },
+    {
+      "check": "states:619:3",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:619:3",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:619:3",
+      "status": "PASS"
+    },
+    {
+      "check": "states:619:4",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:619:4",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:619:4",
+      "status": "PASS"
+    },
+    {
+      "check": "states:619:5",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:619:5",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:619:5",
+      "status": "PASS"
+    },
+    {
+      "check": "states:619:6",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:619:6",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:619:6",
+      "status": "PASS"
+    },
+    {
+      "check": "states:619:7",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:619:7",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:619:7",
+      "status": "PASS"
+    },
+    {
+      "check": "states:619:8",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:619:8",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:619:8",
+      "status": "PASS"
+    },
+    {
+      "check": "states:619:9",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:619:9",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:619:9",
+      "status": "PASS"
+    },
+    {
+      "check": "states:619:10",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:619:10",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:619:10",
+      "status": "PASS"
+    },
+    {
+      "check": "states:619:11",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:619:11",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:619:11",
+      "status": "PASS"
+    },
+    {
+      "check": "states:619:12",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:619:12",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:619:12",
+      "status": "PASS"
+    },
+    {
+      "check": "states:619:13",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:619:13",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:619:13",
+      "status": "PASS"
+    },
+    {
+      "check": "states:619:14",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:619:14",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:619:14",
+      "status": "PASS"
+    },
+    {
+      "check": "states:619:15",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:619:15",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:619:15",
+      "status": "PASS"
+    },
+    {
+      "check": "states:619:16",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:619:16",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:619:16",
+      "status": "PASS"
+    },
+    {
+      "check": "states:619:17",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:619:17",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:619:17",
+      "status": "PASS"
+    },
+    {
+      "check": "states:619:18",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:619:18",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:619:18",
+      "status": "PASS"
+    },
+    {
+      "check": "states:619:19",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:619:19",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:619:19",
+      "status": "PASS"
+    },
+    {
+      "check": "states:619:20",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:619:20",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:619:20",
+      "status": "PASS"
+    },
+    {
+      "check": "states:619:21",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:619:21",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:619:21",
+      "status": "PASS"
+    },
+    {
+      "check": "states:619:22",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:619:22",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:619:22",
+      "status": "PASS"
+    },
+    {
+      "check": "states:619:23",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:619:23",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:619:23",
+      "status": "PASS"
+    },
+    {
+      "check": "states:619:24",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:619:24",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:619:24",
+      "status": "PASS"
+    },
+    {
+      "check": "states:619:168",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:619:168",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:619:168",
+      "status": "PASS"
+    },
+    {
+      "check": "all_original_origin_fingerprints:619",
+      "status": "PASS"
+    },
+    {
+      "check": "calendar_and_UTC_offset:619",
+      "status": "PASS"
+    },
+    {
+      "check": "frozen_static:619",
+      "status": "PASS"
+    },
+    {
+      "check": "separate_labels:619",
+      "status": "PASS"
+    },
+    {
+      "check": "source_scope_cutoff:619",
+      "status": "PASS"
+    },
+    {
+      "check": "source_original_features:619",
+      "status": "PASS"
+    },
+    {
+      "check": "source_unique_sorted_keys:619",
+      "status": "PASS"
+    },
+    {
+      "check": "full_data_coverage_audit:619",
+      "status": "PASS"
+    },
+    {
+      "check": "baseline_availability:619:PERSISTENCE_T_MINUS_1:all_prediction_keys",
+      "status": "PASS"
+    },
+    {
+      "check": "baseline_availability:619:PERSISTENCE_T_MINUS_1:retrospectively_observed_evaluation_keys",
+      "status": "PASS"
+    },
+    {
+      "check": "baseline_availability:619:SEASONAL_NAIVE_T_MINUS_168:all_prediction_keys",
+      "status": "PASS"
+    },
+    {
+      "check": "baseline_availability:619:SEASONAL_NAIVE_T_MINUS_168:retrospectively_observed_evaluation_keys",
+      "status": "PASS"
+    },
+    {
+      "check": "evaluation_keys:619",
+      "status": "PASS"
+    },
+    {
+      "check": "schema:658",
+      "status": "PASS"
+    },
+    {
+      "check": "origin_keys:658",
+      "status": "PASS"
+    },
+    {
+      "check": "indicator_equals_mask:658",
+      "status": "PASS"
+    },
+    {
+      "check": "states:658:1",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:658:1",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:658:1",
+      "status": "PASS"
+    },
+    {
+      "check": "states:658:2",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:658:2",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:658:2",
+      "status": "PASS"
+    },
+    {
+      "check": "states:658:3",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:658:3",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:658:3",
+      "status": "PASS"
+    },
+    {
+      "check": "states:658:4",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:658:4",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:658:4",
+      "status": "PASS"
+    },
+    {
+      "check": "states:658:5",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:658:5",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:658:5",
+      "status": "PASS"
+    },
+    {
+      "check": "states:658:6",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:658:6",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:658:6",
+      "status": "PASS"
+    },
+    {
+      "check": "states:658:7",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:658:7",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:658:7",
+      "status": "PASS"
+    },
+    {
+      "check": "states:658:8",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:658:8",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:658:8",
+      "status": "PASS"
+    },
+    {
+      "check": "states:658:9",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:658:9",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:658:9",
+      "status": "PASS"
+    },
+    {
+      "check": "states:658:10",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:658:10",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:658:10",
+      "status": "PASS"
+    },
+    {
+      "check": "states:658:11",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:658:11",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:658:11",
+      "status": "PASS"
+    },
+    {
+      "check": "states:658:12",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:658:12",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:658:12",
+      "status": "PASS"
+    },
+    {
+      "check": "states:658:13",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:658:13",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:658:13",
+      "status": "PASS"
+    },
+    {
+      "check": "states:658:14",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:658:14",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:658:14",
+      "status": "PASS"
+    },
+    {
+      "check": "states:658:15",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:658:15",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:658:15",
+      "status": "PASS"
+    },
+    {
+      "check": "states:658:16",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:658:16",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:658:16",
+      "status": "PASS"
+    },
+    {
+      "check": "states:658:17",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:658:17",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:658:17",
+      "status": "PASS"
+    },
+    {
+      "check": "states:658:18",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:658:18",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:658:18",
+      "status": "PASS"
+    },
+    {
+      "check": "states:658:19",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:658:19",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:658:19",
+      "status": "PASS"
+    },
+    {
+      "check": "states:658:20",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:658:20",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:658:20",
+      "status": "PASS"
+    },
+    {
+      "check": "states:658:21",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:658:21",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:658:21",
+      "status": "PASS"
+    },
+    {
+      "check": "states:658:22",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:658:22",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:658:22",
+      "status": "PASS"
+    },
+    {
+      "check": "states:658:23",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:658:23",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:658:23",
+      "status": "PASS"
+    },
+    {
+      "check": "states:658:24",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:658:24",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:658:24",
+      "status": "PASS"
+    },
+    {
+      "check": "states:658:168",
+      "status": "PASS"
+    },
+    {
+      "check": "availability_counts:658:168",
+      "status": "PASS"
+    },
+    {
+      "check": "history_H0_padding:658:168",
+      "status": "PASS"
+    },
+    {
+      "check": "all_original_origin_fingerprints:658",
+      "status": "PASS"
+    },
+    {
+      "check": "calendar_and_UTC_offset:658",
+      "status": "PASS"
+    },
+    {
+      "check": "frozen_static:658",
+      "status": "PASS"
+    },
+    {
+      "check": "separate_labels:658",
+      "status": "PASS"
+    },
+    {
+      "check": "source_scope_cutoff:658",
+      "status": "PASS"
+    },
+    {
+      "check": "source_original_features:658",
+      "status": "PASS"
+    },
+    {
+      "check": "source_unique_sorted_keys:658",
+      "status": "PASS"
+    },
+    {
+      "check": "full_data_coverage_audit:658",
+      "status": "PASS"
+    },
+    {
+      "check": "baseline_availability:658:PERSISTENCE_T_MINUS_1:all_prediction_keys",
+      "status": "PASS"
+    },
+    {
+      "check": "baseline_availability:658:PERSISTENCE_T_MINUS_1:retrospectively_observed_evaluation_keys",
+      "status": "PASS"
+    },
+    {
+      "check": "baseline_availability:658:SEASONAL_NAIVE_T_MINUS_168:all_prediction_keys",
+      "status": "PASS"
+    },
+    {
+      "check": "baseline_availability:658:SEASONAL_NAIVE_T_MINUS_168:retrospectively_observed_evaluation_keys",
+      "status": "PASS"
+    },
+    {
+      "check": "evaluation_keys:658",
+      "status": "PASS"
+    },
+    {
+      "check": "source_exclusion:476",
+      "status": "PASS"
+    },
+    {
+      "check": "adaptation_exact_subset:476:zero",
+      "status": "PASS"
+    },
+    {
+      "check": "zero_budget_empty:476",
+      "status": "PASS"
+    },
+    {
+      "check": "zero_cannot_start_fit:476",
+      "status": "PASS"
+    },
+    {
+      "check": "adaptation_exact_subset:476:1",
+      "status": "PASS"
+    },
+    {
+      "check": "effective_passes:476:1",
+      "status": "PASS"
+    },
+    {
+      "check": "missing_seal_rejected:476:1",
+      "status": "PASS"
+    },
+    {
+      "check": "adaptation_exact_subset:476:7",
+      "status": "PASS"
+    },
+    {
+      "check": "effective_passes:476:7",
+      "status": "PASS"
+    },
+    {
+      "check": "missing_seal_rejected:476:7",
+      "status": "PASS"
+    },
+    {
+      "check": "adaptation_exact_subset:476:30",
+      "status": "PASS"
+    },
+    {
+      "check": "effective_passes:476:30",
+      "status": "PASS"
+    },
+    {
+      "check": "missing_seal_rejected:476:30",
+      "status": "PASS"
+    },
+    {
+      "check": "adaptation_exact_subset:476:full",
+      "status": "PASS"
+    },
+    {
+      "check": "effective_passes:476:full",
+      "status": "PASS"
+    },
+    {
+      "check": "missing_seal_rejected:476:full",
+      "status": "PASS"
+    },
+    {
+      "check": "source_exclusion:532",
+      "status": "PASS"
+    },
+    {
+      "check": "adaptation_exact_subset:532:zero",
+      "status": "PASS"
+    },
+    {
+      "check": "zero_budget_empty:532",
+      "status": "PASS"
+    },
+    {
+      "check": "zero_cannot_start_fit:532",
+      "status": "PASS"
+    },
+    {
+      "check": "adaptation_exact_subset:532:1",
+      "status": "PASS"
+    },
+    {
+      "check": "effective_passes:532:1",
+      "status": "PASS"
+    },
+    {
+      "check": "missing_seal_rejected:532:1",
+      "status": "PASS"
+    },
+    {
+      "check": "adaptation_exact_subset:532:7",
+      "status": "PASS"
+    },
+    {
+      "check": "effective_passes:532:7",
+      "status": "PASS"
+    },
+    {
+      "check": "missing_seal_rejected:532:7",
+      "status": "PASS"
+    },
+    {
+      "check": "adaptation_exact_subset:532:30",
+      "status": "PASS"
+    },
+    {
+      "check": "effective_passes:532:30",
+      "status": "PASS"
+    },
+    {
+      "check": "missing_seal_rejected:532:30",
+      "status": "PASS"
+    },
+    {
+      "check": "adaptation_exact_subset:532:full",
+      "status": "PASS"
+    },
+    {
+      "check": "effective_passes:532:full",
+      "status": "PASS"
+    },
+    {
+      "check": "missing_seal_rejected:532:full",
+      "status": "PASS"
+    },
+    {
+      "check": "source_exclusion:619",
+      "status": "PASS"
+    },
+    {
+      "check": "adaptation_exact_subset:619:zero",
+      "status": "PASS"
+    },
+    {
+      "check": "zero_budget_empty:619",
+      "status": "PASS"
+    },
+    {
+      "check": "zero_cannot_start_fit:619",
+      "status": "PASS"
+    },
+    {
+      "check": "adaptation_exact_subset:619:1",
+      "status": "PASS"
+    },
+    {
+      "check": "effective_passes:619:1",
+      "status": "PASS"
+    },
+    {
+      "check": "missing_seal_rejected:619:1",
+      "status": "PASS"
+    },
+    {
+      "check": "adaptation_exact_subset:619:7",
+      "status": "PASS"
+    },
+    {
+      "check": "effective_passes:619:7",
+      "status": "PASS"
+    },
+    {
+      "check": "missing_seal_rejected:619:7",
+      "status": "PASS"
+    },
+    {
+      "check": "adaptation_exact_subset:619:30",
+      "status": "PASS"
+    },
+    {
+      "check": "effective_passes:619:30",
+      "status": "PASS"
+    },
+    {
+      "check": "missing_seal_rejected:619:30",
+      "status": "PASS"
+    },
+    {
+      "check": "adaptation_exact_subset:619:full",
+      "status": "PASS"
+    },
+    {
+      "check": "effective_passes:619:full",
+      "status": "PASS"
+    },
+    {
+      "check": "missing_seal_rejected:619:full",
+      "status": "PASS"
+    },
+    {
+      "check": "source_exclusion:658",
+      "status": "PASS"
+    },
+    {
+      "check": "adaptation_exact_subset:658:zero",
+      "status": "PASS"
+    },
+    {
+      "check": "zero_budget_empty:658",
+      "status": "PASS"
+    },
+    {
+      "check": "zero_cannot_start_fit:658",
+      "status": "PASS"
+    },
+    {
+      "check": "adaptation_exact_subset:658:1",
+      "status": "PASS"
+    },
+    {
+      "check": "effective_passes:658:1",
+      "status": "PASS"
+    },
+    {
+      "check": "missing_seal_rejected:658:1",
+      "status": "PASS"
+    },
+    {
+      "check": "adaptation_exact_subset:658:7",
+      "status": "PASS"
+    },
+    {
+      "check": "effective_passes:658:7",
+      "status": "PASS"
+    },
+    {
+      "check": "missing_seal_rejected:658:7",
+      "status": "PASS"
+    },
+    {
+      "check": "adaptation_exact_subset:658:30",
+      "status": "PASS"
+    },
+    {
+      "check": "effective_passes:658:30",
+      "status": "PASS"
+    },
+    {
+      "check": "missing_seal_rejected:658:30",
+      "status": "PASS"
+    },
+    {
+      "check": "adaptation_exact_subset:658:full",
+      "status": "PASS"
+    },
+    {
+      "check": "effective_passes:658:full",
+      "status": "PASS"
+    },
+    {
+      "check": "missing_seal_rejected:658:full",
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_arithmetic:source_city:129:",
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_arithmetic:source_city:194:",
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_arithmetic:source_city:438:",
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_arithmetic:source_city:467:",
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_arithmetic:source_city:476:",
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_arithmetic:source_city:532:",
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_arithmetic:source_city:619:",
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_arithmetic:source_city:658:",
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_arithmetic:source_fold:476:",
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_arithmetic:adaptation:476:zero",
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_arithmetic:adaptation:476:1",
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_arithmetic:adaptation:476:7",
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_arithmetic:adaptation:476:30",
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_arithmetic:adaptation:476:full",
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_arithmetic:source_fold:532:",
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_arithmetic:adaptation:532:zero",
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_arithmetic:adaptation:532:1",
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_arithmetic:adaptation:532:7",
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_arithmetic:adaptation:532:30",
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_arithmetic:adaptation:532:full",
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_arithmetic:source_fold:619:",
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_arithmetic:adaptation:619:zero",
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_arithmetic:adaptation:619:1",
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_arithmetic:adaptation:619:7",
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_arithmetic:adaptation:619:30",
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_arithmetic:adaptation:619:full",
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_arithmetic:source_fold:658:",
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_arithmetic:adaptation:658:zero",
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_arithmetic:adaptation:658:1",
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_arithmetic:adaptation:658:7",
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_arithmetic:adaptation:658:30",
+      "status": "PASS"
+    },
+    {
+      "check": "comparison_arithmetic:adaptation:658:full",
+      "status": "PASS"
+    },
+    {
+      "check": "HA_SOURCE_pool:476",
+      "status": "PASS"
+    },
+    {
+      "check": "HA_TARGET_pool:476:1",
+      "status": "PASS"
+    },
+    {
+      "check": "HA_TARGET_pool:476:7",
+      "status": "PASS"
+    },
+    {
+      "check": "HA_TARGET_pool:476:30",
+      "status": "PASS"
+    },
+    {
+      "check": "HA_TARGET_pool:476:full",
+      "status": "PASS"
+    },
+    {
+      "check": "HA_SOURCE_pool:532",
+      "status": "PASS"
+    },
+    {
+      "check": "HA_TARGET_pool:532:1",
+      "status": "PASS"
+    },
+    {
+      "check": "HA_TARGET_pool:532:7",
+      "status": "PASS"
+    },
+    {
+      "check": "HA_TARGET_pool:532:30",
+      "status": "PASS"
+    },
+    {
+      "check": "HA_TARGET_pool:532:full",
+      "status": "PASS"
+    },
+    {
+      "check": "HA_SOURCE_pool:619",
+      "status": "PASS"
+    },
+    {
+      "check": "HA_TARGET_pool:619:1",
+      "status": "PASS"
+    },
+    {
+      "check": "HA_TARGET_pool:619:7",
+      "status": "PASS"
+    },
+    {
+      "check": "HA_TARGET_pool:619:30",
+      "status": "PASS"
+    },
+    {
+      "check": "HA_TARGET_pool:619:full",
+      "status": "PASS"
+    },
+    {
+      "check": "HA_SOURCE_pool:658",
+      "status": "PASS"
+    },
+    {
+      "check": "HA_TARGET_pool:658:1",
+      "status": "PASS"
+    },
+    {
+      "check": "HA_TARGET_pool:658:7",
+      "status": "PASS"
+    },
+    {
+      "check": "HA_TARGET_pool:658:30",
+      "status": "PASS"
+    },
+    {
+      "check": "HA_TARGET_pool:658:full",
+      "status": "PASS"
+    },
+    {
+      "check": "equal_city:1",
+      "status": "PASS"
+    },
+    {
+      "check": "equal_city:2",
+      "status": "PASS"
+    },
+    {
+      "check": "equal_city:3",
+      "status": "PASS"
+    },
+    {
+      "check": "equal_city:4",
+      "status": "PASS"
+    },
+    {
+      "check": "equal_city:5",
+      "status": "PASS"
+    },
+    {
+      "check": "equal_city:6",
+      "status": "PASS"
+    },
+    {
+      "check": "equal_city:7",
+      "status": "PASS"
+    },
+    {
+      "check": "equal_city:8",
+      "status": "PASS"
+    },
+    {
+      "check": "equal_city:9",
+      "status": "PASS"
+    },
+    {
+      "check": "equal_city:10",
+      "status": "PASS"
+    },
+    {
+      "check": "equal_city:11",
+      "status": "PASS"
+    },
+    {
+      "check": "equal_city:12",
+      "status": "PASS"
+    },
+    {
+      "check": "equal_city:13",
+      "status": "PASS"
+    },
+    {
+      "check": "equal_city:14",
+      "status": "PASS"
+    },
+    {
+      "check": "equal_city:15",
+      "status": "PASS"
+    },
+    {
+      "check": "equal_city:16",
+      "status": "PASS"
+    },
+    {
+      "check": "equal_city:17",
+      "status": "PASS"
+    },
+    {
+      "check": "equal_city:18",
+      "status": "PASS"
+    },
+    {
+      "check": "equal_city:19",
+      "status": "PASS"
+    },
+    {
+      "check": "equal_city:20",
+      "status": "PASS"
+    },
+    {
+      "check": "equal_city:21",
+      "status": "PASS"
+    },
+    {
+      "check": "equal_city:22",
+      "status": "PASS"
+    },
+    {
+      "check": "equal_city:23",
+      "status": "PASS"
+    },
+    {
+      "check": "equal_city:24",
+      "status": "PASS"
+    },
+    {
+      "check": "equal_city:168",
+      "status": "PASS"
+    },
+    {
+      "check": "all_24_graphs_reusable",
+      "status": "PASS"
+    },
+    {
+      "check": "immutable_graph:129:4",
+      "status": "PASS"
+    },
+    {
+      "check": "versioned_static_graph_access:129:4",
+      "status": "PASS"
+    },
+    {
+      "check": "immutable_graph:129:8",
+      "status": "PASS"
+    },
+    {
+      "check": "versioned_static_graph_access:129:8",
+      "status": "PASS"
+    },
+    {
+      "check": "immutable_graph:129:16",
+      "status": "PASS"
+    },
+    {
+      "check": "versioned_static_graph_access:129:16",
+      "status": "PASS"
+    },
+    {
+      "check": "immutable_graph:194:4",
+      "status": "PASS"
+    },
+    {
+      "check": "versioned_static_graph_access:194:4",
+      "status": "PASS"
+    },
+    {
+      "check": "immutable_graph:194:8",
+      "status": "PASS"
+    },
+    {
+      "check": "versioned_static_graph_access:194:8",
+      "status": "PASS"
+    },
+    {
+      "check": "immutable_graph:194:16",
+      "status": "PASS"
+    },
+    {
+      "check": "versioned_static_graph_access:194:16",
+      "status": "PASS"
+    },
+    {
+      "check": "immutable_graph:438:4",
+      "status": "PASS"
+    },
+    {
+      "check": "versioned_static_graph_access:438:4",
+      "status": "PASS"
+    },
+    {
+      "check": "immutable_graph:438:8",
+      "status": "PASS"
+    },
+    {
+      "check": "versioned_static_graph_access:438:8",
+      "status": "PASS"
+    },
+    {
+      "check": "immutable_graph:438:16",
+      "status": "PASS"
+    },
+    {
+      "check": "versioned_static_graph_access:438:16",
+      "status": "PASS"
+    },
+    {
+      "check": "immutable_graph:467:4",
+      "status": "PASS"
+    },
+    {
+      "check": "versioned_static_graph_access:467:4",
+      "status": "PASS"
+    },
+    {
+      "check": "immutable_graph:467:8",
+      "status": "PASS"
+    },
+    {
+      "check": "versioned_static_graph_access:467:8",
+      "status": "PASS"
+    },
+    {
+      "check": "immutable_graph:467:16",
+      "status": "PASS"
+    },
+    {
+      "check": "versioned_static_graph_access:467:16",
+      "status": "PASS"
+    },
+    {
+      "check": "immutable_graph:476:4",
+      "status": "PASS"
+    },
+    {
+      "check": "versioned_static_graph_access:476:4",
+      "status": "PASS"
+    },
+    {
+      "check": "immutable_graph:476:8",
+      "status": "PASS"
+    },
+    {
+      "check": "versioned_static_graph_access:476:8",
+      "status": "PASS"
+    },
+    {
+      "check": "immutable_graph:476:16",
+      "status": "PASS"
+    },
+    {
+      "check": "versioned_static_graph_access:476:16",
+      "status": "PASS"
+    },
+    {
+      "check": "immutable_graph:532:4",
+      "status": "PASS"
+    },
+    {
+      "check": "versioned_static_graph_access:532:4",
+      "status": "PASS"
+    },
+    {
+      "check": "immutable_graph:532:8",
+      "status": "PASS"
+    },
+    {
+      "check": "versioned_static_graph_access:532:8",
+      "status": "PASS"
+    },
+    {
+      "check": "immutable_graph:532:16",
+      "status": "PASS"
+    },
+    {
+      "check": "versioned_static_graph_access:532:16",
+      "status": "PASS"
+    },
+    {
+      "check": "immutable_graph:619:4",
+      "status": "PASS"
+    },
+    {
+      "check": "versioned_static_graph_access:619:4",
+      "status": "PASS"
+    },
+    {
+      "check": "immutable_graph:619:8",
+      "status": "PASS"
+    },
+    {
+      "check": "versioned_static_graph_access:619:8",
+      "status": "PASS"
+    },
+    {
+      "check": "immutable_graph:619:16",
+      "status": "PASS"
+    },
+    {
+      "check": "versioned_static_graph_access:619:16",
+      "status": "PASS"
+    },
+    {
+      "check": "immutable_graph:658:4",
+      "status": "PASS"
+    },
+    {
+      "check": "versioned_static_graph_access:658:4",
+      "status": "PASS"
+    },
+    {
+      "check": "immutable_graph:658:8",
+      "status": "PASS"
+    },
+    {
+      "check": "versioned_static_graph_access:658:8",
+      "status": "PASS"
+    },
+    {
+      "check": "immutable_graph:658:16",
+      "status": "PASS"
+    },
+    {
+      "check": "versioned_static_graph_access:658:16",
+      "status": "PASS"
+    },
+    {
+      "check": "rejected_path:processed/protocol_v2_1/development/development_panel.parquet",
+      "status": "PASS"
+    },
+    {
+      "check": "rejected_path:processed/protocol_v2_1/final_labels/SEALED_final_evaluation_labels.parquet",
+      "status": "PASS"
+    },
+    {
+      "check": "rejected_path:processed/protocol_v2_2/final_labels/x.npz",
+      "status": "PASS"
+    },
+    {
+      "check": "rejected_path:../escape",
+      "status": "PASS"
+    },
+    {
+      "check": "final_city_rejected:195",
+      "status": "PASS"
+    },
+    {
+      "check": "final_city_rejected:199",
+      "status": "PASS"
+    },
+    {
+      "check": "final_city_rejected:237",
+      "status": "PASS"
+    },
+    {
+      "check": "final_city_rejected:617",
+      "status": "PASS"
+    },
+    {
+      "check": "mismatched_manifest_rejected:protocol_version",
+      "status": "PASS"
+    },
+    {
+      "check": "mismatched_manifest_rejected:specification_sha256",
+      "status": "PASS"
+    },
+    {
+      "check": "mismatched_manifest_rejected:cohort_static_sha256",
+      "status": "PASS"
+    },
+    {
+      "check": "mismatched_manifest_rejected:implementation_manifest_sha256",
+      "status": "PASS"
+    },
+    {
+      "check": "predictor_label_path_rejected_before_read",
+      "status": "PASS"
+    },
+    {
+      "check": "1182_historical_files_preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "no_scientific_model_execution",
+      "status": "PASS"
+    },
+    {
+      "check": "no_result_directory:stage1_scale_loss_v2_2",
+      "status": "PASS"
+    },
+    {
+      "check": "no_result_directory:stage2_graphgru_selection_v2_2",
+      "status": "PASS"
+    },
+    {
+      "check": "no_result_directory:stage2b_vanilla_selection_v2_2",
+      "status": "PASS"
+    },
+    {
+      "check": "no_result_directory:stage4_adversarial_method_v2_2",
+      "status": "PASS"
+    },
+    {
+      "check": "no_final_data_partitions",
+      "status": "PASS"
+    }
+  ],
+  "manifest_sha256": "140dd8c53cf51f48be5cf66b70d162c9f2cc6a9fa0b1b7039496633e385a6ab6",
+  "files_written": [],
+  "models_trained": 0,
+  "forecasting_metrics_computed": false,
+  "scientific_predictions_generated": false,
+  "final_target_evaluation_labels_accessed": false,
+  "preserved_historical_files": 1182,
+  "preservation_exclusions": [
+    "processed/protocol_v2_1/final_labels/ (never opened; existing hash records remain preserved)",
+    "__pycache__ runtime caches"
+  ],
+  "verdict": "A. V2_2_DEVELOPMENT_DATA_VERIFIED_READY_FOR_STAGE1_AUTHORIZATION",
+  "check_count": 960,
+  "verifier_sha256": "68becfa546413e1354f872b2e698053765c0680dc5fd5b13c89e59d993575f54",
+  "registry_sha256": "b5a142bbe1052cbc98b6fad8e927138b6cdbddf25ea6558b26e794d983b21051"
+}

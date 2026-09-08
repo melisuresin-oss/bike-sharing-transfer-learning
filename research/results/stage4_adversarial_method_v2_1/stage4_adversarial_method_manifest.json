@@ -1,0 +1,243 @@
+{
+  "append_only": true,
+  "artifact_integrity": {
+    "research/governance/stage4_adversarial_method_seal.py": "eda3a8edf29e8c7b5ba149924c4b2c17d557c1c33832d6bf8d7134eba5e8177a",
+    "research/results/stage4_adversarial_method_v2_1/STAGE4_ADVERSARIAL_METHOD_SEAL.md": "fa3e82673dd0e5196729966953fe2a099f58190a3f33821eacf2f827b4000ee1",
+    "research/results/stage4_adversarial_method_v2_1/stage4_expected_workload.csv": "493051a95c06acabe0b96df1af874a63367dcc40cedc99cc881a15b5423fbb52",
+    "research/scripts/verify_stage4_adversarial_method_seal.py": "d4ea0896ba95933355f3600b82e7de4bfe71f63f0c77e0fe2f73805ad99eb06c",
+    "research/tests/test_stage4_adversarial_method_seal.py": "5ac4573dc85ca7d384641a0ae50c77b973ec348cb9d76ba26e16902643259966"
+  },
+  "backbone": {
+    "config_id": "GGRU_K04_H032_D00",
+    "dropout": 0.0,
+    "graph_k": 4,
+    "hidden_size": 32,
+    "model_type": "Graph-GRU",
+    "scale_loss_formulation": "LOG1P_TARGET_MAE"
+  },
+  "candidate_grid": {
+    "configurations": 6,
+    "lambda_max": [
+      0.01,
+      0.1,
+      0.5
+    ],
+    "pseudo_target_city_ids": [
+      532,
+      476,
+      619,
+      658
+    ],
+    "schedule": [
+      "constant",
+      "linear"
+    ],
+    "seeds": [
+      17,
+      29,
+      43
+    ]
+  },
+  "created_utc": "2026-09-04T19:36:29.078237+00:00",
+  "diagnostic_references": {
+    "chance_accuracy": 0.14285714285714285,
+    "descriptive_only": true,
+    "may_affect_selection_stopping_lambda_or_validity": false,
+    "uniform_prediction_cross_entropy": 1.9459101490553132
+  },
+  "firewall": {
+    "final_target_labels_accessed": false,
+    "method_seal_only": true,
+    "prediction_evaluation_triggered": false,
+    "scientific_training_triggered": false,
+    "stage1_stage2_stage3_changed": false,
+    "stage4_implementation_authorized": false,
+    "stage4_scientific_execution_authorized": false
+  },
+  "future_software_gates": [
+    "grl_forward_identity",
+    "grl_exact_negative_scaled_backward_gradient",
+    "lambda_zero_gives_zero_adversarial_encoder_gradient",
+    "discriminator_ce_gradient_not_lambda_scaled",
+    "forecast_head_receives_no_domain_gradient",
+    "exact_M_target_pooling",
+    "nonempty_pooling_mask_assertion",
+    "explicit_discriminator_dropout_active_in_train",
+    "discriminator_deterministic_in_eval",
+    "exact_warmup_boundaries",
+    "joint_optimizer_each_parameter_exactly_once",
+    "global_clipping_covers_all_optimizer_parameters",
+    "EqualCitySampler_source_balance",
+    "pseudo_target_absent_from_source_domain_classes",
+    "discriminator_stripping_leaves_forecasting_model_executable",
+    "fresh_reset_adaptation_optimizer",
+    "stage3_7_day_300_update_policy",
+    "checkpoint_round_trip",
+    "deterministic_reproducibility",
+    "final_label_firewall",
+    "small_nonscientific_synthetic_grl_adversarial_optimization_test"
+  ],
+  "governing_input_sha256": {
+    "COMPUTATION_DAG_V2_1.md": "48f38bc97505d622316008b8ac155fb09e2b9a9efce6f36dad7e15b35d9f53cf",
+    "DEVELOPMENT_SELECTION_PROTOCOL.md": "14a1778ceb6437c6187837f1e34822164e4f32ae2e4d0f5c8f840c0576d5eb97",
+    "EVALUATION_PROTOCOL_V2.md": "ebde12ca004508645e876e66d1899eb23f36410751ef0d102029c602874549ee",
+    "FEATURE_PROTOCOL_V2_1.md": "bf14a35b8a582e2cf02b2203e18769d0a078306401e1afaf6ef93b9dfc5ba6fa",
+    "MODEL_SPECIFICATION_V2.md": "cd81675bbb83386b006c28f4fc279c1e9367dc1645e68a581963d72cd840db88",
+    "MODEL_SPECIFICATION_V2_1.md": "430fd12c6322a102687c2a546be394bb7ef344656c1a34edf05a86beadca88bf",
+    "NEURAL_ARCHITECTURE_SPEC.md": "ddc6875307518940f8cf98d5480b90984d984d996bf6aefa0cdffd0179542f33",
+    "NEURAL_REPRODUCIBILITY_PROTOCOL.md": "35f5ecdca9dea4553455130ea3883e2d5bce07758a26c04958dd67865249bab9",
+    "RESEARCH_PROTOCOL_V2_1.md": "6bbf5bc39292ef9e1bf8321b90006269217b43fd0df59da25687712fc418c35c",
+    "TRAINING_BUDGET_PROTOCOL.md": "479d87f18095611b1d488a7f1b932c160e688d11a8776c1b0c6d85b21af81940",
+    "processed/protocol_v2_1/development/development_panel.parquet": "0d8e0e5d141052be99ac335b904afa9dbc7dff01620aca00c4fb51de3394827a",
+    "processed/protocol_v2_1/manifests/split_manifest.json": "bd30fa238d5748f672a8d72796501a7c7565eddebaadf0c397d15e7b5a53bf28",
+    "research/data/budget_sampler.py": "07c2b5060c29ea9e0e629c065c3ec5ed5dbaa1700f560e5043e7aa59bcdb2edd",
+    "research/data/graph_dataset.py": "2a80c0d3b7e2907a9eb85cae2e05d2d62aa5a57b1b11f0ea3b03b8a72e51d74f",
+    "research/models/common.py": "989bb7afac452b682bd041fee70c0c29f2341e66c52ed79abac0c3d10a902739",
+    "research/models/graph_gru.py": "91b0131e71f0b7e0e375e46d01d931b808e3c6822b58ed87d6310b7041b7835d",
+    "research/models/heads.py": "2cfb0572e35989d1100eb9133d2fcd882a472d21db02e5c29170e97176af9b94",
+    "research/training/trainer.py": "01057936c5556303c87f1f100311d91c598702bf01e0d5c7c2080d68b5408929"
+  },
+  "lambda_schedule": {
+    "constant": "lambda_max",
+    "constant_known_degenerate_claim": false,
+    "ganin_sigmoid": false,
+    "linear": "lambda_max * min(1, j/2999)",
+    "source_updates": 12000,
+    "warmup_steps": 3000,
+    "zero_indexed_updates": [
+      0,
+      11999
+    ]
+  },
+  "method": {
+    "adaptation": {
+      "discriminator_present": false,
+      "domain_objective": false,
+      "early_stopping": false,
+      "fresh_reset_adamw": true,
+      "full_network": true,
+      "governing_policy": "frozen_stage3_fine_tuning_policy",
+      "target_history": "7_days",
+      "updates": 300
+    },
+    "alternate_name": "adversarial source-domain-invariant pretraining",
+    "canonical_source_target_dann_claim": false,
+    "classifier": {
+      "dropout_eval_disabled": true,
+      "dropout_location": "after_hidden_relu",
+      "dropout_train_active": true,
+      "layers": [
+        "Linear(32,64)",
+        "ReLU",
+        "torch.nn.Dropout(0.10)",
+        "Linear(64,7)"
+      ],
+      "pseudo_target_is_class": false,
+      "recurrent_or_interlayer_gru_dropout": false
+    },
+    "discriminator_parameter_gradient": "ordinary_unscaled_cross_entropy_gradient",
+    "domain_ce_forward_weight": 1.0,
+    "domain_objective": "ordinary_unweighted_seven_class_cross_entropy",
+    "forecast_head_domain_gradient": "none",
+    "forecast_objective": "LOG1P_TARGET_MAE",
+    "grl_encoder_backward_multiplier": "-lambda_t",
+    "grl_forward": "identity",
+    "inference": {
+      "discriminator_present": false
+    },
+    "optimizer": {
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "clip_scope": "all_joint_optimizer_parameters",
+      "epsilon": 1e-08,
+      "global_gradient_norm_clip": 1.0,
+      "learning_rate": 0.001,
+      "owns": [
+        "graph_gru_encoder",
+        "forecast_head",
+        "domain_discriminator"
+      ],
+      "separate_discriminator_optimizer": false,
+      "type": "single_joint_AdamW",
+      "weight_decay": 0.0001
+    },
+    "pooling": {
+      "M_hist_used": false,
+      "demand_value_supplied_to_domain_classifier": false,
+      "empty_mask_behavior": "raise_error_no_denominator_clamp",
+      "formula": "sum_n(M_target[n]*h[n])/sum_n(M_target[n])",
+      "mask": "current_hour_M_target_valid_station_coverage_mask_only",
+      "representation": "final_per_station_graph_gru_hidden_state"
+    },
+    "scientific_name": "GRL-based multi-source domain-generalized pretraining",
+    "separate_alpha_coefficient": false,
+    "source_balancing": {
+      "domain_ce_class_weighting": "none",
+      "maximum_exposure_count_difference": 1,
+      "sampler": "EqualCitySampler",
+      "updates": 12000
+    }
+  },
+  "protocol_version": "2.1",
+  "random_encoder_diagnostic": "OMIT",
+  "recorded_unchanged": {
+    "batch_size_semantics": "16_city_hour_graphs",
+    "early_stopping": false,
+    "effective_adaptation_passes_approx": {
+      "1_day": 66.67,
+      "30_days": 13.3,
+      "7_days": 28.57,
+      "full": 4.8
+    },
+    "evaluation": "count_MAE_primary_secondary_RMSE_WAPE_station_macro_per_city_then_equal_city_2000_paired_7day_blocks_no_iid_cross_city",
+    "stage2_winner": "GGRU_K04_H032_D00_ranked_first_in_all_four_folds_small_leading_gaps",
+    "target_history_to_updates": {
+      "0": 0,
+      "1": 100,
+      "30": 600,
+      "7": 300,
+      "full": 1200
+    },
+    "zero_day": "distinct_zero_shot_target_fitting_methods_NA_target_only_transfer_gain_undefined"
+  },
+  "required_diagnostics": [
+    "forecast_loss",
+    "domain_cross_entropy",
+    "domain_accuracy",
+    "lambda_t",
+    "cumulative_exposure_count_for_each_source_city"
+  ],
+  "schema_version": "1.0",
+  "seal_type": "append_only_adversarial_domain_generalization_executable_method",
+  "selection_rule": {
+    "diagnostics_used_for_selection_or_stopping": false,
+    "evaluation": "post_7_day_300_update_adaptation_count_space_mae",
+    "primary": "equal_pseudo_target_mean_mae",
+    "seed_aggregation": "arithmetic_mean_within_pseudo_target",
+    "tie_1": "lower_fold_dispersion",
+    "tie_2": "smaller_lambda_max",
+    "tie_3": "constant_schedule"
+  },
+  "stage": 4,
+  "status": "FROZEN_VERIFIED",
+  "unresolved_final_execution_blockers": [
+    "final_seed_count_3_vs_5",
+    "seed_x_temporal_bootstrap_aggregation"
+  ],
+  "upstream_sha256": {
+    "research/results/pre_stage4_development_audit_v2_1/pre_stage4_audit_manifest.json": "c1fb8fd309ab4168691dccf5a2cb4a9b2d493a98865c45b4765e30abdcab6873",
+    "research/results/preseal_method_audit_v2_1/preseal_audit_manifest.json": "296bc0d0b16a9ace6ad057fb6df8baedd588a10032e4eb7a109c5f8f1d48d4b6",
+    "research/results/stage1_scale_loss_v2_1/stage1_decision_manifest.json": "f35a38fe936ca9389d5bf08ee08c5ec61920e588f6ef029044cf5f4fdf040d31",
+    "research/results/stage2_graphgru_selection_v2_1_a40/stage2_decision_manifest.json": "593dd284acc5d4e2da0e1d74ace84e85396894c05f3b738c01d64421d232e408",
+    "research/results/stage3_finetuning_policy_v2_1/stage3_finetuning_policy_manifest.json": "c63528bfe73881eafe02167f5cfddf37e51bca769fab6289850a66836642a6c1"
+  },
+  "workload": {
+    "adaptation_fits": 72,
+    "parameter_changing_fits": 144,
+    "post_adaptation_evaluations": 72,
+    "source_pretraining_fits": 72,
+    "zero_shot_selection_evaluations": 0
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "budget_update_mapping_authoritative": true,
+  "created_utc": "2026-09-04T16:44:08.192092+00:00",
+  "final_evaluation_window_content_accessed": false,
+  "final_seed_contradiction": {
+    "evaluation_protocol_v2": [
+      17,
+      29,
+      43
+    ],
+    "irrelevant_to_stage4_development": true,
+    "research_protocol_v2_1_and_dag": [
+      17,
+      29,
+      43,
+      71,
+      101
+    ],
+    "resolved": false
+  },
+  "final_target_adaptation_content_accessed": false,
+  "final_target_labels_accessed": false,
+  "implementation_sha256": {
+    "research/scripts/run_pre_stage4_development_audit.py": "c75c279478fa6addfd58d0d07320c693e4be1d83f101c4606d8a23369af3072e",
+    "research/scripts/verify_pre_stage4_development_audit.py": "5cce332ecdcfd5b46b859111d05dc6b403207b0da24025339743a2164c27e450",
+    "research/tests/test_pre_stage4_development_audit.py": "591c755838fe01b2007fdde76181658612d73b7362c509506bc6f9a97e5ec94e"
+  },
+  "input_sha256": {
+    "ABLATION_MATRIX_V2.csv": "601563021c6caf7b339a262ca06088a2522d46b7df58f6aeb3556f4125bbc336",
+    "BASELINE_SPEC.md": "9a4d9d6c4c7cfa54b1175f08ab3277b9181b2916718a024979d91a09727f0436",
+    "COMPUTATION_DAG_V2_1.md": "48f38bc97505d622316008b8ac155fb09e2b9a9efce6f36dad7e15b35d9f53cf",
+    "DATA_LOADER_SPEC.md": "28881d3d8d02b3370f6912212ae2f9d58fb70ef700392335e5586b6349f5a14b",
+    "DEVELOPMENT_SELECTION_PROTOCOL.md": "14a1778ceb6437c6187837f1e34822164e4f32ae2e4d0f5c8f840c0576d5eb97",
+    "EVALUATION_PROTOCOL_V2.md": "ebde12ca004508645e876e66d1899eb23f36410751ef0d102029c602874549ee",
+    "HISTORICAL_AVERAGE_BASELINE_AMENDMENT.md": "f490478bacbc6b10493ac3b58111ce953f7d37c03113e0ab965ad18860dcc774",
+    "MODEL_SPECIFICATION_V2.md": "cd81675bbb83386b006c28f4fc279c1e9367dc1645e68a581963d72cd840db88",
+    "MODEL_SPECIFICATION_V2_1.md": "430fd12c6322a102687c2a546be394bb7ef344656c1a34edf05a86beadca88bf",
+    "NEURAL_ARCHITECTURE_SPEC.md": "ddc6875307518940f8cf98d5480b90984d984d996bf6aefa0cdffd0179542f33",
+    "NEURAL_IMPLEMENTATION_AUDIT.md": "991d88ef184fd2d15023a3940b4295057f19ba9dca69e6fc244d032e61b5af25",
+    "RESEARCH_PROTOCOL_V2_1.md": "6bbf5bc39292ef9e1bf8321b90006269217b43fd0df59da25687712fc418c35c",
+    "TEMPORAL_SPLIT_PROTOCOL_V2.md": "f02d22ac5794b9f892180336e421cbe3cc8dc77e3c4d27177272adf146d11531",
+    "TRAINING_BUDGET_PROTOCOL.md": "479d87f18095611b1d488a7f1b932c160e688d11a8776c1b0c6d85b21af81940",
+    "processed/protocol_v2_1/development/development_panel.parquet": "0d8e0e5d141052be99ac335b904afa9dbc7dff01620aca00c4fb51de3394827a",
+    "processed/protocol_v2_1/manifests/split_manifest.json": "bd30fa238d5748f672a8d72796501a7c7565eddebaadf0c397d15e7b5a53bf28",
+    "research/results/stage1_scale_loss_v2_1/stage1_decision_manifest.json": "f35a38fe936ca9389d5bf08ee08c5ec61920e588f6ef029044cf5f4fdf040d31",
+    "research/results/stage2_graphgru_selection_v2_1_a40/stage2_config_summary.csv": "c6a0fd9888a32e67214b5a716328e426b3919c6e16a842f8279c8cd3efa5cd0e",
+    "research/results/stage2_graphgru_selection_v2_1_a40/stage2_decision_manifest.json": "593dd284acc5d4e2da0e1d74ace84e85396894c05f3b738c01d64421d232e408",
+    "research/results/stage2_graphgru_selection_v2_1_a40/stage2_individual_runs.csv": "954d563435b1a9e5e38fa2a8b2a55c996ef784dc5cb572cd71704cd8326f484b",
+    "research/results/stage3_finetuning_policy_v2_1/stage3_finetuning_policy_manifest.json": "c63528bfe73881eafe02167f5cfddf37e51bca769fab6289850a66836642a6c1"
+  },
+  "output_sha256": {
+    "PRE_STAGE4_DEVELOPMENT_AUDIT.md": "77c70c345756a64c6b6e5a377bb3ae078d2e4ec6c11acdbb5303c6a6e920af78",
+    "STAGE2B_BASELINE_FAIRNESS_AMENDMENT_DRAFT.md": "6fe082fdbdf66efd557bae51d2dea176e583a6fb6e6cd6b594266fcdccb0beaf",
+    "adaptation_graph_hour_effective_passes.csv": "3606fcbfeaba479f0a80a514b215caabd0195f64216e78c1e12bde6157bc5981",
+    "stage2_rank_spearman_correlation.csv": "e4c51694bc0b62966dc96afac764fe3c2eb677289d42bf54a628cd806d2bfd54",
+    "stage2_rank_stability.csv": "78a864156d52f30503944cdb4539aa9a38fe6d4958bd64456039632d73027c3a",
+    "stage2_stability_by_pseudo_target.csv": "bb24b6757a91cdd05e98e2d501e954aa77d3a3606226f369149fbfc415c1a4c0",
+    "stage2b_proposed_run_plan.csv": "ae78669fb4e805e71cbbf6e498398dd7cfc69532b739178c00e2143dbcb201c7",
+    "stage4_diagnostic_logging_spec.json": "afd934700bd19275117276ef667dddfb71f12792e132d9db6a5b517ea966f133",
+    "zero_day_executable_method_matrix.csv": "c9a0ebd4badb082785810c34ff80b9e517254e712aa5cefadd2f0554791e1053"
+  },
+  "prediction_evaluation_triggered": false,
+  "record_type": "DEVELOPMENT_ONLY_PRE_STAGE4_AUDIT_NOT_A_SCIENTIFIC_SEAL",
+  "scientific_training_triggered": false,
+  "stage2_rows_read": 144,
+  "stage2b_proposed_source_fits": 48,
+  "stage2b_status": "PROPOSED_UNSEALED_NOT_EXECUTED",
+  "stage4_status": "NOT_IMPLEMENTED_NOT_SEALED_NOT_AUTHORIZED",
+  "status": "PASS_WITH_REGISTERED_PRE_STAGE4_BLOCKERS",
+  "unresolved": [
+    "exact domain-loss weighting/objective after the V2.1 lambda-only amendment",
+    "exact station mask used for hidden-state mean pooling",
+    "linear warm-up endpoint and step-index convention",
+    "optimizer ownership and gradient-clipping scope for discriminator parameters"
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "purpose": "NON_SCIENTIFIC_TEST_ONLY",
+  "status": "PASS",
+  "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+  "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+  "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+  "unit_tests": 25,
+  "integration_tests": 3,
+  "tests": [
+    {
+      "test": "research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_01_future_append_own_station",
+      "status": "PASS"
+    },
+    {
+      "test": "research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_01b_future_append_other_station_denominator",
+      "status": "PASS"
+    },
+    {
+      "test": "research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_02_status_prefix_equivalence",
+      "status": "PASS"
+    },
+    {
+      "test": "research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_03_all_status_lineage_at_or_before_origin",
+      "status": "PASS"
+    },
+    {
+      "test": "research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_04_exact_backward_forward_boundaries",
+      "status": "PASS"
+    },
+    {
+      "test": "research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_05_train_inference_and_chronological_parity",
+      "status": "PASS"
+    },
+    {
+      "test": "research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_06_fit_cutoff_append_invariance",
+      "status": "PASS"
+    },
+    {
+      "test": "research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_07_fit_label_changes_do_not_rewrite_predictors",
+      "status": "PASS"
+    },
+    {
+      "test": "research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_07b_retrospective_adjudication_is_a_separate_type",
+      "status": "PASS"
+    },
+    {
+      "test": "research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_08_final_label_firewall_before_open",
+      "status": "PASS"
+    },
+    {
+      "test": "research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_09_zero_denominator_is_unknown",
+      "status": "PASS"
+    },
+    {
+      "test": "research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_10_integer_odd_even_thresholds",
+      "status": "PASS"
+    },
+    {
+      "test": "research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_11_positive_zero_unknown_and_no_exception",
+      "status": "PASS"
+    },
+    {
+      "test": "research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_12_duplicate_missing_and_order_determinism",
+      "status": "PASS"
+    },
+    {
+      "test": "research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_13_dst_elapsed_hour_and_week",
+      "status": "PASS"
+    },
+    {
+      "test": "research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_14_fixed_799_cohort_and_foreign_station_invariance",
+      "status": "PASS"
+    },
+    {
+      "test": "research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_15_static_metadata_hash_and_fields",
+      "status": "PASS"
+    },
+    {
+      "test": "research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_16_completed_count_feed_no_eight_hour_delay",
+      "status": "PASS"
+    },
+    {
+      "test": "research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_17_no_retrospective_y_dependency",
+      "status": "PASS"
+    },
+    {
+      "test": "research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_18_sealed_keys_required_for_neural_and_ha",
+      "status": "PASS"
+    },
+    {
+      "test": "research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_extra_all_registered_budgets",
+      "status": "PASS"
+    },
+    {
+      "test": "research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_extra_artifact_loader_content_hash_and_schema",
+      "status": "PASS"
+    },
+    {
+      "test": "research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_extra_count_feed_domain_and_copy",
+      "status": "PASS"
+    },
+    {
+      "test": "research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_extra_identity_cross_loading_and_graph",
+      "status": "PASS"
+    },
+    {
+      "test": "research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_extra_timestamp_precision_and_naive_rejection",
+      "status": "PASS"
+    },
+    {
+      "test": "research.tests.test_causal_history_v2_2_integration.DevelopmentStatusFixtureTests.test_development_one_hour_fit_snapshot_prefix",
+      "status": "PASS"
+    },
+    {
+      "test": "research.tests.test_causal_history_v2_2_integration.DevelopmentStatusFixtureTests.test_development_physical_prefix_and_future_append",
+      "status": "PASS"
+    },
+    {
+      "test": "research.tests.test_causal_history_v2_2_integration.DevelopmentStatusFixtureTests.test_development_training_inference_array_schema",
+      "status": "PASS"
+    }
+  ],
+  "all_18_invariants": [
+    {
+      "number": 1,
+      "status": "PASS"
+    },
+    {
+      "number": 2,
+      "status": "PASS"
+    },
+    {
+      "number": 3,
+      "status": "PASS"
+    },
+    {
+      "number": 4,
+      "status": "PASS"
+    },
+    {
+      "number": 5,
+      "status": "PASS"
+    },
+    {
+      "number": 6,
+      "status": "PASS"
+    },
+    {
+      "number": 7,
+      "status": "PASS"
+    },
+    {
+      "number": 8,
+      "status": "PASS"
+    },
+    {
+      "number": 9,
+      "status": "PASS"
+    },
+    {
+      "number": 10,
+      "status": "PASS"
+    },
+    {
+      "number": 11,
+      "status": "PASS"
+    },
+    {
+      "number": 12,
+      "status": "PASS"
+    },
+    {
+      "number": 13,
+      "status": "PASS"
+    },
+    {
+      "number": 14,
+      "status": "PASS"
+    },
+    {
+      "number": 15,
+      "status": "PASS"
+    },
+    {
+      "number": 16,
+      "status": "PASS"
+    },
+    {
+      "number": 17,
+      "status": "PASS"
+    },
+    {
+      "number": 18,
+      "status": "PASS"
+    }
+  ],
+  "integration_provenance": {
+    "purpose": "NON_SCIENTIFIC_TEST_ONLY",
+    "city_ids": [
+      129
+    ],
+    "station_count": 76,
+    "status_event_count": 19114,
+    "recent_window_us": [
+      1675843200000000,
+      1676584800000000
+    ],
+    "earlier_evidence": "per-station first/last before window",
+    "status_rows_sha256": "5415aae710a98304b27026398c9a4e47985eac2a672424edae91d97299c38b06",
+    "source_manifest": "feasibility_test/full_audit/coverage/station_status_source_manifest.json",
+    "source_manifest_sha256": "9092761bc9859ad39202a3ead798fcfa82e5eee73775129b786e29c8fc7c9aec",
+    "query": "WITH scoped AS (\n          SELECT station_id::BIGINT station_id, epoch_us(to_timestamp(time)) ts\n          FROM read_parquet('D:/Deep/deepest/european-bike-sharing-dataset/feasibility_test/full_audit/coverage/data/station_status/*.parquet')\n          WHERE station_id IN (50366,50367,50368,50370,50371,50372,50373,50375,50376,50377,50378,50379,50380,50382,50383,50384,50385,50386,50387,50388,50389,50392,50395,50400,113544,113550,113551,113552,113553,113554,113555,113556,113557,113559,113561,113562,113563,113564,113565,113567,113570,113571,113573,117829,118419,122697,126107,147085,193147,194704,195049,4478239,6260019,6260044,6260062,6331190,7161407,7161443,7161454,7314560,7314581,14542385,14542821,14542854,14542880,14542918,14543375,14543399,14543429,14543485,14543518,16740272,39325692,52405373,62865660,81369279) AND time IS NOT NULL\n            AND isfinite(time) AND time <= 1676584800000000/1000000.0\n        ), selected AS (\n          SELECT station_id,ts FROM scoped WHERE ts >= 1675843200000000\n          UNION SELECT station_id,min(ts) FROM scoped WHERE ts < 1675843200000000 GROUP BY station_id\n          UNION SELECT station_id,max(ts) FROM scoped WHERE ts < 1675843200000000 GROUP BY station_id\n        ) SELECT station_id,ts FROM selected WHERE ts IS NOT NULL ORDER BY station_id,ts",
+    "cutoffs_us": [
+      1676498400000000,
+      1676502000000000
+    ],
+    "count_values": "SYNTHETIC: one value=3; all other declared station-hours=0",
+    "scientific_panel_accessed": false,
+    "final_target_evaluation_labels_accessed": false,
+    "model_calls": 0,
+    "snapshot_fixture_candidate_hours": 1,
+    "snapshot_fixture_rows": 50,
+    "snapshot_fixture_key_manifest_sha256": "02700cd62e50076b2a30d567e35c75086ec29303afc6a0e708e5e0312ed08de3",
+    "history_fixture_sha256": [
+      "5d480dfeca290fdb518859a8470726ff02ec53ab63bab651deb3e57437721196",
+      "9147b9e08eb1428cf63468610e143ed73e1a7d96ac41028f20d79b19cdf0ef00"
+    ]
+  },
+  "python_version": "3.12.10",
+  "runtime_versions": {
+    "numpy": "2.5.2",
+    "duckdb": "1.5.5",
+    "tzdata": "2026.3"
+  },
+  "log": "test_01_future_append_own_station (research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_01_future_append_own_station) ... ok\ntest_01b_future_append_other_station_denominator (research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_01b_future_append_other_station_denominator) ... ok\ntest_02_status_prefix_equivalence (research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_02_status_prefix_equivalence) ... ok\ntest_03_all_status_lineage_at_or_before_origin (research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_03_all_status_lineage_at_or_before_origin) ... ok\ntest_04_exact_backward_forward_boundaries (research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_04_exact_backward_forward_boundaries) ... ok\ntest_05_train_inference_and_chronological_parity (research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_05_train_inference_and_chronological_parity) ... ok\ntest_06_fit_cutoff_append_invariance (research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_06_fit_cutoff_append_invariance) ... ok\ntest_07_fit_label_changes_do_not_rewrite_predictors (research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_07_fit_label_changes_do_not_rewrite_predictors) ... ok\ntest_07b_retrospective_adjudication_is_a_separate_type (research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_07b_retrospective_adjudication_is_a_separate_type) ... ok\ntest_08_final_label_firewall_before_open (research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_08_final_label_firewall_before_open) ... ok\ntest_09_zero_denominator_is_unknown (research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_09_zero_denominator_is_unknown) ... ok\ntest_10_integer_odd_even_thresholds (research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_10_integer_odd_even_thresholds) ... ok\ntest_11_positive_zero_unknown_and_no_exception (research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_11_positive_zero_unknown_and_no_exception) ... ok\ntest_12_duplicate_missing_and_order_determinism (research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_12_duplicate_missing_and_order_determinism) ... ok\ntest_13_dst_elapsed_hour_and_week (research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_13_dst_elapsed_hour_and_week) ... ok\ntest_14_fixed_799_cohort_and_foreign_station_invariance (research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_14_fixed_799_cohort_and_foreign_station_invariance) ... ok\ntest_15_static_metadata_hash_and_fields (research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_15_static_metadata_hash_and_fields) ... ok\ntest_16_completed_count_feed_no_eight_hour_delay (research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_16_completed_count_feed_no_eight_hour_delay) ... ok\ntest_17_no_retrospective_y_dependency (research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_17_no_retrospective_y_dependency) ... ok\ntest_18_sealed_keys_required_for_neural_and_ha (research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_18_sealed_keys_required_for_neural_and_ha) ... ok\ntest_extra_all_registered_budgets (research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_extra_all_registered_budgets) ... ok\ntest_extra_artifact_loader_content_hash_and_schema (research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_extra_artifact_loader_content_hash_and_schema) ... ok\ntest_extra_count_feed_domain_and_copy (research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_extra_count_feed_domain_and_copy) ... ok\ntest_extra_identity_cross_loading_and_graph (research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_extra_identity_cross_loading_and_graph) ... ok\ntest_extra_timestamp_precision_and_naive_rejection (research.tests.test_causal_history_v2_2.CausalHistoryV22Tests.test_extra_timestamp_precision_and_naive_rejection) ... ok\n\n----------------------------------------------------------------------\nRan 25 tests in 0.175s\n\nOK\ntest_development_one_hour_fit_snapshot_prefix (research.tests.test_causal_history_v2_2_integration.DevelopmentStatusFixtureTests.test_development_one_hour_fit_snapshot_prefix) ... ok\ntest_development_physical_prefix_and_future_append (research.tests.test_causal_history_v2_2_integration.DevelopmentStatusFixtureTests.test_development_physical_prefix_and_future_append) ... ok\ntest_development_training_inference_array_schema (research.tests.test_causal_history_v2_2_integration.DevelopmentStatusFixtureTests.test_development_training_inference_array_schema) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.856s\n\nOK\n",
+  "scientific_model_calls": 0,
+  "scientific_panel_builds": 0,
+  "scientific_fit_snapshots_built": 0,
+  "final_target_evaluation_labels_accessed": false,
+  "files_written_by_test_runner": []
+}

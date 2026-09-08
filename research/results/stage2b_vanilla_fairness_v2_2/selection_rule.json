@@ -1,0 +1,8 @@
+{
+  "seed_aggregation": "arithmetic_mean_within_pseudo_target",
+  "primary": "arithmetic_mean_of_four_pseudo_target_seed_mean_count_space_mae",
+  "primary_quantization": "decimal_ROUND_HALF_UP_to_4_places",
+  "tie_1": "lower_population_standard_deviation_across_four_pseudo_target_seed_means",
+  "tie_2": "smaller_hidden_size",
+  "tie_3": "lower_dropout"
+}

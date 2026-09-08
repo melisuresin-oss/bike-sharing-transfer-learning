@@ -1,0 +1,931 @@
+{
+  "purpose": "COMPLETE_DEVELOPMENT_DELIVERY_ARTIFACT_INDEX",
+  "data_manifest_sha256": "140dd8c53cf51f48be5cf66b70d162c9f2cc6a9fa0b1b7039496633e385a6ab6",
+  "verification_status": "PASS",
+  "artifacts": [
+    {
+      "path": "processed/protocol_v2_2/development/city_129_predictors.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/development/city_129_predictors.npz",
+      "bytes": 3447857,
+      "sha256": "ee60c48205f29f5d1c2ab8fba106e673a9dcecd6a765612191d1edee3046a17b",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/development/city_194_predictors.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/development/city_194_predictors.npz",
+      "bytes": 1959201,
+      "sha256": "823f3c5d07a816b125e82bbd74a922bd28d0281b0869e2ef15e9f3db24734e3c",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/development/city_438_predictors.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/development/city_438_predictors.npz",
+      "bytes": 1732368,
+      "sha256": "be7279a5e72d06b75b842d79b426a285bff5334da0b4520d482546034c1abdc3",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/development/city_467_predictors.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/development/city_467_predictors.npz",
+      "bytes": 1093451,
+      "sha256": "c6e02eeba63d9fc3eb2fd841f5554c77ebb95ae918d4ac73f9a39e62715a7363",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/development/city_476_predictors.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/development/city_476_predictors.npz",
+      "bytes": 3286383,
+      "sha256": "8bc84d1357d8eb99e287ebedcc21edb45749091f6cc4fe056e76f4c527babf31",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/development/city_532_predictors.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/development/city_532_predictors.npz",
+      "bytes": 1307050,
+      "sha256": "87ded7633788ab9c217980abcd4a3b3810e8a1739109dd892a3ad84c93f0e625",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/development/city_619_predictors.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/development/city_619_predictors.npz",
+      "bytes": 4070723,
+      "sha256": "635a39151e857bdf586b967d86ccf304bfee4bd2dfcf822ba6b70d3460d732a5",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/development/city_658_predictors.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/development/city_658_predictors.npz",
+      "bytes": 5575564,
+      "sha256": "4c4cfee8d688fee0c4d220f5cb5fba64968fbced558a2fa43cf0a14a223ccbc3",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/development_labels/city_129_retrospective.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/development_labels/city_129_retrospective.npz",
+      "bytes": 242456,
+      "sha256": "bc866c46488dfcddd1c7b4259bc65295e228f2c302092c6975d04d5d17ec09dc",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/development_labels/city_194_retrospective.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/development_labels/city_194_retrospective.npz",
+      "bytes": 163233,
+      "sha256": "a6c81c9b2dc07d2e334d78274f89f2aa2ed3070b06480ca7b0edec1cbebc99b9",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/development_labels/city_438_retrospective.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/development_labels/city_438_retrospective.npz",
+      "bytes": 138939,
+      "sha256": "db96a0a15219fbd6eea2bb39d46a2436dcb217e15d2eabd3fe004d5326436f44",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/development_labels/city_467_retrospective.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/development_labels/city_467_retrospective.npz",
+      "bytes": 109007,
+      "sha256": "8d7dd7072995ceb579d70d22c9a55d8c9a2507e9706eb06a17acf6d2a16a34a9",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/development_labels/city_476_retrospective.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/development_labels/city_476_retrospective.npz",
+      "bytes": 226142,
+      "sha256": "215a495769a9fb5269560c9ef385492d04b4019f0ad292c13e312b8d3f142d4f",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/development_labels/city_532_retrospective.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/development_labels/city_532_retrospective.npz",
+      "bytes": 188627,
+      "sha256": "44a4ff791341157e694f14b903cd628c6790ae4c32f8436bea31e4621a8afe5e",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/development_labels/city_619_retrospective.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/development_labels/city_619_retrospective.npz",
+      "bytes": 271200,
+      "sha256": "d1978729ea2ed3a2b53f6cb59b91eea1f08863176e5f65a66aea89f43ff853ff",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/development_labels/city_658_retrospective.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/development_labels/city_658_retrospective.npz",
+      "bytes": 354745,
+      "sha256": "8a6561bcd1622357e5f7548321391b3b6eee3d78774621a07fa3a73e6d15a27d",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/development_labels/evaluation_keys_city_476_HD_HF.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/development_labels/evaluation_keys_city_476_HD_HF.npz",
+      "bytes": 55238,
+      "sha256": "de19639d0962231cb019de45a23fcc23c2b24ca0dc235eb28b6a3fee461fece9",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/development_labels/evaluation_keys_city_532_HD_HF.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/development_labels/evaluation_keys_city_532_HD_HF.npz",
+      "bytes": 55376,
+      "sha256": "3fe94ec991d114d955611baa808f03be625220ff8a0299957223124764bb8340",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/development_labels/evaluation_keys_city_619_HD_HF.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/development_labels/evaluation_keys_city_619_HD_HF.npz",
+      "bytes": 70626,
+      "sha256": "1fb78dcc825fa1c77580df20f3676d08e4878615fe32c101149b6fb30b29be2b",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/development_labels/evaluation_keys_city_658_HD_HF.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/development_labels/evaluation_keys_city_658_HD_HF.npz",
+      "bytes": 81376,
+      "sha256": "8a54b8b6501965fa89e2f55791bf8e4292c07eb580016ed50c8db81a7e388db7",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/development_labels/retrospective_label_manifest.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/development_labels/retrospective_label_manifest.json",
+      "bytes": 5856,
+      "sha256": "1868d6a95641e43ef3ad779f8a4f779aaf94fc3cb938b3db13b77e2eb0dd3469",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_476_1_HD.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_476_1_HD.json",
+      "bytes": 1535,
+      "sha256": "1f3a429d8108f4c9c00a36314868baa54c51e6eaeea613b3360ea76b3cbaf8e0",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_476_1_HD.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_476_1_HD.npz",
+      "bytes": 4210,
+      "sha256": "20aa62c1447cd73dcdfd8b1968b2000368a8baaadc703146dc0f17c7c216cacc",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_476_30_HD.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_476_30_HD.json",
+      "bytes": 1538,
+      "sha256": "99ad7bbbb10da34145faf7d9ae256746392b18c8edef651dd8fac4cd60c91b10",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_476_30_HD.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_476_30_HD.npz",
+      "bytes": 1692485,
+      "sha256": "814553d851f16b0fc22a37381642c20b2ee75ceffb91e523bd41c68f2079b392",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_476_7_HD.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_476_7_HD.json",
+      "bytes": 1536,
+      "sha256": "1046fa3acb1573ebee6a7cee1ba609058e49dc173ca888247eaf3937f6df9458",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_476_7_HD.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_476_7_HD.npz",
+      "bytes": 21342,
+      "sha256": "ea5387c1830fdad32c64d58bfeede84b4b198a01459099892f95b347dd9b5364",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_476_full_HD.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_476_full_HD.json",
+      "bytes": 1543,
+      "sha256": "d08b8f9e2e8314eb6f084e7f7c470e1d6e2ddf9b95504a821bda29ea78a55122",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_476_full_HD.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_476_full_HD.npz",
+      "bytes": 9743452,
+      "sha256": "ba541c4a21a44beb9454134ae0b1df248399690a34e3cb125856a5c985203a7b",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_476_zero_HD.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_476_zero_HD.json",
+      "bytes": 1538,
+      "sha256": "7a3a75852de9d9fab42a21968f9c7c82fdfbbc407267158ea05f0114d6ec49e2",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_476_zero_HD.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_476_zero_HD.npz",
+      "bytes": 1175,
+      "sha256": "2224e9d815c592b27d98b14cce20b2d0cb1eee79bee312f2f3fa43627c4a42b0",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_532_1_HD.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_532_1_HD.json",
+      "bytes": 1534,
+      "sha256": "ed0bffc46a1041b9c28df384bddb95c84d4c48d2d22b765fe2312e3f30e4a8eb",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_532_1_HD.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_532_1_HD.npz",
+      "bytes": 3815,
+      "sha256": "1853d0b75eea5db51d77c3ef3013aa1e9dd472008d06137f8df2911b35479b2b",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_532_30_HD.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_532_30_HD.json",
+      "bytes": 1538,
+      "sha256": "43ab4bea8d31566d3e4065e7a7ac018adb4cc21325a989250a367c8845833ff1",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_532_30_HD.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_532_30_HD.npz",
+      "bytes": 1126825,
+      "sha256": "498f0e31beb335d2bdcc87d4f193c21fa4773a94d82f779d942d71a5855fa9da",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_532_7_HD.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_532_7_HD.json",
+      "bytes": 1535,
+      "sha256": "2cb83b64f4ca5ef8817248af8f40c60543d7afc816d2b9e18b504642a1f5f000",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_532_7_HD.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_532_7_HD.npz",
+      "bytes": 18206,
+      "sha256": "3c0037d9befb8a9597ab5bb412d9d0fe5d1c955cb190ce19da2319a7ddcb2846",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_532_full_HD.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_532_full_HD.json",
+      "bytes": 1543,
+      "sha256": "dc822449f31f2c6317aa6eeee46cdc5da0d9d16cec02c545d9ab36dd85e6ceeb",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_532_full_HD.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_532_full_HD.npz",
+      "bytes": 6432220,
+      "sha256": "7158057eb36b9bd668fbb577705ec2284f2e24ff188c7bf3b3d4e8527cb39510",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_532_zero_HD.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_532_zero_HD.json",
+      "bytes": 1538,
+      "sha256": "14bb3fa2fb5a7d3da8e8d32a73a1248f0366a0a576770f13998f87f70ae422f5",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_532_zero_HD.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_532_zero_HD.npz",
+      "bytes": 1175,
+      "sha256": "2224e9d815c592b27d98b14cce20b2d0cb1eee79bee312f2f3fa43627c4a42b0",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_619_1_HD.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_619_1_HD.json",
+      "bytes": 1535,
+      "sha256": "a474b0547b7064abcf04537521963af0b6d79ef9e5f56723a25505feb7a6626b",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_619_1_HD.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_619_1_HD.npz",
+      "bytes": 4392,
+      "sha256": "5f599357854926b6fec26356b65ae92c68129cc0d22de473502008872aff2651",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_619_30_HD.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_619_30_HD.json",
+      "bytes": 1538,
+      "sha256": "00d226ff2951c00f6551fa74a65b1a980bc2cf896224fbf0cacaa44f56003a4a",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_619_30_HD.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_619_30_HD.npz",
+      "bytes": 2076788,
+      "sha256": "a7602330073ea0d74cb451a554725e825ffec0f05b2abf5c5f9fcb6f60541833",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_619_7_HD.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_619_7_HD.json",
+      "bytes": 1536,
+      "sha256": "41726d68eb192a91e0770eccdc44d3f76c12970e6e39d1efd1c149c93d9cd2fc",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_619_7_HD.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_619_7_HD.npz",
+      "bytes": 23879,
+      "sha256": "1d74d7e46700d01bcd01ce1e169dc012d6e9c142494876cc65c02936b4780c24",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_619_full_HD.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_619_full_HD.json",
+      "bytes": 1543,
+      "sha256": "29994baee727d01e8eb2b7cdaa2badc7340e7169645ec36a5f9019ae4210365f",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_619_full_HD.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_619_full_HD.npz",
+      "bytes": 11960851,
+      "sha256": "744a98c18f3d28188f3023e79f27cbf9e163addc5e2bfc4faa36b2d43d47be1b",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_619_zero_HD.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_619_zero_HD.json",
+      "bytes": 1538,
+      "sha256": "9b19b8ff9333404c7b6c9226e37a922470f8cc927b2d3c3ced04931116fd8ea0",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_619_zero_HD.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_619_zero_HD.npz",
+      "bytes": 1175,
+      "sha256": "2224e9d815c592b27d98b14cce20b2d0cb1eee79bee312f2f3fa43627c4a42b0",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_658_1_HD.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_658_1_HD.json",
+      "bytes": 1535,
+      "sha256": "ddb8a38d1e248986a17d12cbdb168abab450ab6668e6e2df6d4da31f41d6dc4d",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_658_1_HD.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_658_1_HD.npz",
+      "bytes": 5340,
+      "sha256": "9e1fbd3609b38e7529130a6a5900269264666c5d1e1babe78dc9a2027a3ed4e0",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_658_30_HD.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_658_30_HD.json",
+      "bytes": 1538,
+      "sha256": "d7d39c0289afb1e808063d0fc1a3065027c21b9c1cef3e5a07051804f064f46a",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_658_30_HD.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_658_30_HD.npz",
+      "bytes": 2597543,
+      "sha256": "5922c1bd791bd51f9fdd6b872002df02cbc3bca48903254f5e3b7943cbaa9593",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_658_7_HD.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_658_7_HD.json",
+      "bytes": 1536,
+      "sha256": "1349ad6597934742361159fd3ad6a3f4009b9c6799d4b6ed99d6cb0a100f0103",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_658_7_HD.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_658_7_HD.npz",
+      "bytes": 31054,
+      "sha256": "b8508f38642ff4a19b3d14eae29b7f5a4d84b1078199946888fa68b72c4dde9e",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_658_full_HD.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_658_full_HD.json",
+      "bytes": 1543,
+      "sha256": "edf5cc2edc6ee2953f16a28e3abeedeaef16c0f4abe9a24a195966d42f046170",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_658_full_HD.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_658_full_HD.npz",
+      "bytes": 15519393,
+      "sha256": "5051e2bb5e1d063ff80b15e3712994b98151bdb97cf8dccb3fbcc0569cdad740",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_658_zero_HD.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_658_zero_HD.json",
+      "bytes": 1538,
+      "sha256": "5eda952c811eb984bddb8e86fc49de39e13040ce272371f758d892134f9fd2b7",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/adaptation_city_658_zero_HD.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/adaptation_city_658_zero_HD.npz",
+      "bytes": 1175,
+      "sha256": "2224e9d815c592b27d98b14cce20b2d0cb1eee79bee312f2f3fa43627c4a42b0",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/fit_snapshot_manifest.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/fit_snapshot_manifest.json",
+      "bytes": 23874,
+      "sha256": "467aefd170c789c6533a7f2f1ebc0f3c343944f8e2781c9e2e5e0927d200077d",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/ha_fitting_pools.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/ha_fitting_pools.json",
+      "bytes": 95680,
+      "sha256": "2533e9dbba7cb0b39961972739cee3a259ebbbba96e21ab52ad33e1bf1192926",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/source_city_129_HD.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/source_city_129_HD.npz",
+      "bytes": 9775395,
+      "sha256": "d32649fdc74e1266be5c417696462816e4344ab87839b6caf5ded54f3bed1095",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/source_city_194_HD.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/source_city_194_HD.npz",
+      "bytes": 6545351,
+      "sha256": "9074a270bcb163ac74b434c43f0d56d0d569d55c20c092c0070091f9e106127e",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/source_city_438_HD.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/source_city_438_HD.npz",
+      "bytes": 4763257,
+      "sha256": "e327cd79fefd91e403f59d9041282de4cbfc1890e5a814e7440378a1722828cf",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/source_city_467_HD.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/source_city_467_HD.npz",
+      "bytes": 3817737,
+      "sha256": "6f64d1e29a7011bfa92dd1d9cc92e65ef60e96d6e928335da2a62c0c27977093",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/source_city_476_HD.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/source_city_476_HD.npz",
+      "bytes": 9743452,
+      "sha256": "cfaa6c54d92b71dec95ae750a9ba0558e952ce6c4c0b06e9483b0d0227cb9521",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/source_city_532_HD.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/source_city_532_HD.npz",
+      "bytes": 6432220,
+      "sha256": "0c5f823c0b3983c9cf0c4eb56a30e27431c92e1899ba950bb180b5da3f7d3ce8",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/source_city_619_HD.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/source_city_619_HD.npz",
+      "bytes": 11960851,
+      "sha256": "39ea054d850939f337dcf7e64debcf434b210242287bab331f2bee4ae5d0f1f2",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/source_city_658_HD.npz",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/source_city_658_HD.npz",
+      "bytes": 15519393,
+      "sha256": "4fbd89d601bb03e21d3a1e40cd3d9f377c96e9bfb60b3f4dd5ac2f5ecc030ac2",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/source_fold_excluding_476_HD.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/source_fold_excluding_476_HD.json",
+      "bytes": 10000,
+      "sha256": "00adec7a75b3551ecabe7cb1e019f529473db80be37da47c35e9717a0ca61356",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/source_fold_excluding_532_HD.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/source_fold_excluding_532_HD.json",
+      "bytes": 10000,
+      "sha256": "f5614e447625cf03d6136aefd32a00c4f6f5fedfcb4273f127ec2224a158b2e3",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/source_fold_excluding_619_HD.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/source_fold_excluding_619_HD.json",
+      "bytes": 10000,
+      "sha256": "2e59b547dc5562f591d0362b7d9d9d2a74f7daea1a028cdb8156f8467d0ee883",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/fit_snapshots/source_fold_excluding_658_HD.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/fit_snapshots/source_fold_excluding_658_HD.json",
+      "bytes": 10000,
+      "sha256": "6adedc5889f683476ba9e49f8aa516f0fbfbbc8ea4b29862db182cb269bf123c",
+      "reused": false
+    },
+    {
+      "path": "processed/protocol_v2_2/PROTOCOL_DATASET_MANIFEST.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/processed/protocol_v2_2/PROTOCOL_DATASET_MANIFEST.json",
+      "bytes": 16242,
+      "sha256": "140dd8c53cf51f48be5cf66b70d162c9f2cc6a9fa0b1b7039496633e385a6ab6",
+      "reused": false
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/baseline_availability.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/research/results/causal_history_audit_v2_2/baseline_availability.json",
+      "bytes": 100843,
+      "sha256": "bfb87b4ab693a228ef47c02f294bcb2a7a286ef8a0a410a583af971e25f12fc2",
+      "reused": false
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/causal_history_audit_manifest.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/research/results/causal_history_audit_v2_2/causal_history_audit_manifest.json",
+      "bytes": 4008,
+      "sha256": "90ce85d1bcb89ffd9b304bcc534146263805b733aa5fb04004cc8e2587d5b629",
+      "reused": false
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/city_129_audit.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/research/results/causal_history_audit_v2_2/city_129_audit.json",
+      "bytes": 2341,
+      "sha256": "33cc3f3f7532aa2423676856da9d7c11d9981c8578ac6200b61590a1c9fb3929",
+      "reused": false
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/city_194_audit.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/research/results/causal_history_audit_v2_2/city_194_audit.json",
+      "bytes": 1979,
+      "sha256": "845ac0deaa9f43ac61706835fa4a23f18bc475ec31f2236aa7b9526aff715d89",
+      "reused": false
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/city_438_audit.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/research/results/causal_history_audit_v2_2/city_438_audit.json",
+      "bytes": 1979,
+      "sha256": "a8ed49da89ffd530b4ff88ad7a39ef8bae69323b08124e8970edb48538edb03d",
+      "reused": false
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/city_467_audit.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/research/results/causal_history_audit_v2_2/city_467_audit.json",
+      "bytes": 1717,
+      "sha256": "4af2d4abdf1d01b7eb80108f3af5c326922286550837c33f46eccae7241a533b",
+      "reused": false
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/city_476_audit.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/research/results/causal_history_audit_v2_2/city_476_audit.json",
+      "bytes": 3822,
+      "sha256": "17c758019ada2eff698c37d25ffbcea03d0a93fefafce6e72f93c22135c7bb17",
+      "reused": false
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/city_532_audit.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/research/results/causal_history_audit_v2_2/city_532_audit.json",
+      "bytes": 3293,
+      "sha256": "44fb7304af0486d32c81c996c3d567f034def6aa90c8bd563ad0db56d2c918f5",
+      "reused": false
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/city_619_audit.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/research/results/causal_history_audit_v2_2/city_619_audit.json",
+      "bytes": 4157,
+      "sha256": "9668e7d4b19d174805fb5886ae781726bdbca65b040297c9ee50a6105b297114",
+      "reused": false
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/city_658_audit.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/research/results/causal_history_audit_v2_2/city_658_audit.json",
+      "bytes": 4865,
+      "sha256": "90fac33c0c589c8b41de24e6dc85e8d731ff5016167f33d4e8475dbec75a0b87",
+      "reused": false
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/development_verification_report.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/research/results/causal_history_audit_v2_2/development_verification_report.json",
+      "bytes": 78577,
+      "sha256": "040e46bdfde99ad70bcb70b9b8132aac6ef64e88545d239b38a9c259de7324f2",
+      "reused": false
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/effective_pass_preview.csv",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/research/results/causal_history_audit_v2_2/effective_pass_preview.csv",
+      "bytes": 1726,
+      "sha256": "b46d34ff034820366f9a12729e0bbccd025b39cf2ca9c8abd929165e5eb262b5",
+      "reused": false
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/effective_pass_preview.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/research/results/causal_history_audit_v2_2/effective_pass_preview.json",
+      "bytes": 7069,
+      "sha256": "ccea6018850b77146704f2d88e8b29eb6b0b981f3aad0ea0c023360b11f75038",
+      "reused": false
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/fit_pool_comparison.csv",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/research/results/causal_history_audit_v2_2/fit_pool_comparison.csv",
+      "bytes": 1764,
+      "sha256": "43a52a50b13fcd5eb9793f3219ed8acf85c183977acb6476a5abbb198421c506",
+      "reused": false
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/fit_pool_comparison.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/research/results/causal_history_audit_v2_2/fit_pool_comparison.json",
+      "bytes": 9006,
+      "sha256": "9c6ac84ed7089c6d0bf7510a3323c43d28bcf0878d052b6045ed2b6999f4b801",
+      "reused": false
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/graph_static_reconciliation.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/research/results/causal_history_audit_v2_2/graph_static_reconciliation.json",
+      "bytes": 25852,
+      "sha256": "e425ce873da946a4973fb03a57ffd6ecf92027da82a4220f56b6231343ff9758",
+      "reused": false
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/lag_availability.csv",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/research/results/causal_history_audit_v2_2/lag_availability.csv",
+      "bytes": 26023,
+      "sha256": "6b8918fef96e90bf3886d2226dac9fc3053b7941bf40563857667293ad298e8b",
+      "reused": false
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/lag_availability.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/research/results/causal_history_audit_v2_2/lag_availability.json",
+      "bytes": 89004,
+      "sha256": "1eba60d802981083385b061d5507a444c9fa15c3777005458a65a9b740b163df",
+      "reused": false
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/preservation_report.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/research/results/causal_history_audit_v2_2/preservation_report.json",
+      "bytes": 247,
+      "sha256": "96b7705b978d0aaf264e348b97b6098808bfec1d58a0298e404562b1d9e52b89",
+      "reused": false
+    },
+    {
+      "path": "research/results/causal_history_audit_v2_2/source_bindings.json",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/research/results/causal_history_audit_v2_2/source_bindings.json",
+      "bytes": 2648,
+      "sha256": "19ea2bad24060f6185abb58ca130956994e222f3432b1d53efbcdd65af6fd737",
+      "reused": false
+    },
+    {
+      "path": "research/scripts/build_development_data_v2_2.py",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/research/scripts/build_development_data_v2_2.py",
+      "bytes": 27971,
+      "sha256": "ac0044f64b6b2435ea06eeaef82f7274093790f1c72c9428f9936d8990421226",
+      "reused": false
+    },
+    {
+      "path": "research/scripts/verify_development_data_v2_2.py",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/research/scripts/verify_development_data_v2_2.py",
+      "bytes": 19402,
+      "sha256": "68becfa546413e1354f872b2e698053765c0680dc5fd5b13c89e59d993575f54",
+      "reused": false
+    },
+    {
+      "path": "research/development_data_v2_2/__init__.py",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/research/development_data_v2_2/__init__.py",
+      "bytes": 72,
+      "sha256": "2705419475c8a25b3ca063d89e8ca72bdf000210124c2b5e0803aaa87df550b9",
+      "reused": false
+    },
+    {
+      "path": "research/development_data_v2_2/registry.py",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/research/development_data_v2_2/registry.py",
+      "bytes": 7741,
+      "sha256": "b5a142bbe1052cbc98b6fad8e927138b6cdbddf25ea6558b26e794d983b21051",
+      "reused": false
+    },
+    {
+      "path": "research/development_data_v2_2/README.md",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/research/development_data_v2_2/README.md",
+      "bytes": 2776,
+      "sha256": "77938a36ed3223442152f3b3e738b204fc2bb72584237b6909b9eea5a37a350e",
+      "reused": false
+    },
+    {
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_04/city_129/adjacency.npy",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/tmp/stage2_graph_grid_cache_v2_1/k_04/city_129/adjacency.npy",
+      "bytes": 23232,
+      "sha256": "d4dd6709e3a7e771b0a7d6b62dad176581537d3050167b8d85ef4acf706ffb89",
+      "reused": true,
+      "city_id": 129,
+      "k": 4
+    },
+    {
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_08/city_129/adjacency.npy",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/tmp/stage2_graph_grid_cache_v2_1/k_08/city_129/adjacency.npy",
+      "bytes": 23232,
+      "sha256": "f13dc798678026b5fc772c24d40ac0179f7c140ea608d20e73132ff892f507ff",
+      "reused": true,
+      "city_id": 129,
+      "k": 8
+    },
+    {
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_16/city_129/adjacency.npy",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/tmp/stage2_graph_grid_cache_v2_1/k_16/city_129/adjacency.npy",
+      "bytes": 23232,
+      "sha256": "38a8954c182a3df8c7b20289713d2ea83e8d0ef1e002793fb35af27ad6f9afdd",
+      "reused": true,
+      "city_id": 129,
+      "k": 16
+    },
+    {
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_04/city_194/adjacency.npy",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/tmp/stage2_graph_grid_cache_v2_1/k_04/city_194/adjacency.npy",
+      "bytes": 8964,
+      "sha256": "be83e28e178ff91b9a08e35b66444b03413c1ea8e06393d568f2aa03e258903d",
+      "reused": true,
+      "city_id": 194,
+      "k": 4
+    },
+    {
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_08/city_194/adjacency.npy",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/tmp/stage2_graph_grid_cache_v2_1/k_08/city_194/adjacency.npy",
+      "bytes": 8964,
+      "sha256": "dad624182366cb8e1c035d1bee7b5814acdf8585e2807e00ab335ad7b0e73d61",
+      "reused": true,
+      "city_id": 194,
+      "k": 8
+    },
+    {
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_16/city_194/adjacency.npy",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/tmp/stage2_graph_grid_cache_v2_1/k_16/city_194/adjacency.npy",
+      "bytes": 8964,
+      "sha256": "a844a42d3c65f4fa73afae062005f3793c20d58429a8e28de786e1be51967394",
+      "reused": true,
+      "city_id": 194,
+      "k": 16
+    },
+    {
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_04/city_438/adjacency.npy",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/tmp/stage2_graph_grid_cache_v2_1/k_04/city_438/adjacency.npy",
+      "bytes": 7524,
+      "sha256": "673375adbbe59e9563bbcb1fbd9caf75e4488054f63fdbb27ca4e27dd9553d7f",
+      "reused": true,
+      "city_id": 438,
+      "k": 4
+    },
+    {
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_08/city_438/adjacency.npy",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/tmp/stage2_graph_grid_cache_v2_1/k_08/city_438/adjacency.npy",
+      "bytes": 7524,
+      "sha256": "837a1ac13929ede2f004abf0dd8acb7177d90f45ef658b62c46308a12029a07d",
+      "reused": true,
+      "city_id": 438,
+      "k": 8
+    },
+    {
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_16/city_438/adjacency.npy",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/tmp/stage2_graph_grid_cache_v2_1/k_16/city_438/adjacency.npy",
+      "bytes": 7524,
+      "sha256": "da5d976697b0c39444b4fbca40ca84dfb9b8ebff06a9faf3ee8ff9b79e3d9096",
+      "reused": true,
+      "city_id": 438,
+      "k": 16
+    },
+    {
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_04/city_467/adjacency.npy",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/tmp/stage2_graph_grid_cache_v2_1/k_04/city_467/adjacency.npy",
+      "bytes": 3264,
+      "sha256": "aba5279796ceaa4a66170b15189aef9c9506f979cf0d1546623c5a580c2ad5bc",
+      "reused": true,
+      "city_id": 467,
+      "k": 4
+    },
+    {
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_08/city_467/adjacency.npy",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/tmp/stage2_graph_grid_cache_v2_1/k_08/city_467/adjacency.npy",
+      "bytes": 3264,
+      "sha256": "3ba11b666450954ed0cdffe6130a3c7839c88c5b782a36afcb4c288ff7a2110a",
+      "reused": true,
+      "city_id": 467,
+      "k": 8
+    },
+    {
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_16/city_467/adjacency.npy",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/tmp/stage2_graph_grid_cache_v2_1/k_16/city_467/adjacency.npy",
+      "bytes": 3264,
+      "sha256": "f60863fcb505d1c5025f2cdb2656198307b2382835d9c14f441cd3d91256b210",
+      "reused": true,
+      "city_id": 467,
+      "k": 16
+    },
+    {
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_04/city_476/adjacency.npy",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/tmp/stage2_graph_grid_cache_v2_1/k_04/city_476/adjacency.npy",
+      "bytes": 21444,
+      "sha256": "7a36fb74f2af5c327665c943cbe3c72241d2068c9c705b5067c38db18cc9b0f5",
+      "reused": true,
+      "city_id": 476,
+      "k": 4
+    },
+    {
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_08/city_476/adjacency.npy",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/tmp/stage2_graph_grid_cache_v2_1/k_08/city_476/adjacency.npy",
+      "bytes": 21444,
+      "sha256": "76c3ed7fac2bdb211fe78538fe3e4cc0a509635c9e5b64796de07f711880cd5c",
+      "reused": true,
+      "city_id": 476,
+      "k": 8
+    },
+    {
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_16/city_476/adjacency.npy",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/tmp/stage2_graph_grid_cache_v2_1/k_16/city_476/adjacency.npy",
+      "bytes": 21444,
+      "sha256": "1c433f872fe4ad1f12c5c7f880940a07ff78862217a56c98246b2cee5bf0a948",
+      "reused": true,
+      "city_id": 476,
+      "k": 16
+    },
+    {
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_04/city_532/adjacency.npy",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/tmp/stage2_graph_grid_cache_v2_1/k_04/city_532/adjacency.npy",
+      "bytes": 7524,
+      "sha256": "431bead888e5414d6251bae75feef97f83f551f5394e47e2e95283dc48f0706a",
+      "reused": true,
+      "city_id": 532,
+      "k": 4
+    },
+    {
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_08/city_532/adjacency.npy",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/tmp/stage2_graph_grid_cache_v2_1/k_08/city_532/adjacency.npy",
+      "bytes": 7524,
+      "sha256": "60780dcb05abbec7188bbc5ce55893c1650ff9898654ec986723d2c077d49aae",
+      "reused": true,
+      "city_id": 532,
+      "k": 8
+    },
+    {
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_16/city_532/adjacency.npy",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/tmp/stage2_graph_grid_cache_v2_1/k_16/city_532/adjacency.npy",
+      "bytes": 7524,
+      "sha256": "0c876958449e13aff58eb3d73b499d3d69fe61ef01173b9a310fd1726aef838f",
+      "reused": true,
+      "city_id": 532,
+      "k": 16
+    },
+    {
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_04/city_619/adjacency.npy",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/tmp/stage2_graph_grid_cache_v2_1/k_04/city_619/adjacency.npy",
+      "bytes": 30404,
+      "sha256": "ebd9a5cf1a60e7cd3a9ac05d867fb6021c021b64bc0bc37eff4a4196ca15c9e1",
+      "reused": true,
+      "city_id": 619,
+      "k": 4
+    },
+    {
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_08/city_619/adjacency.npy",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/tmp/stage2_graph_grid_cache_v2_1/k_08/city_619/adjacency.npy",
+      "bytes": 30404,
+      "sha256": "63c25716a3ace8e58698483d49d44551ca4137b6955f507c23317d8ac9e4a3e5",
+      "reused": true,
+      "city_id": 619,
+      "k": 8
+    },
+    {
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_16/city_619/adjacency.npy",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/tmp/stage2_graph_grid_cache_v2_1/k_16/city_619/adjacency.npy",
+      "bytes": 30404,
+      "sha256": "912e6a20377cc450f305a33f3c1dfcb508e2128f504518b7c68dca6534cafa85",
+      "reused": true,
+      "city_id": 619,
+      "k": 16
+    },
+    {
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_04/city_658/adjacency.npy",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/tmp/stage2_graph_grid_cache_v2_1/k_04/city_658/adjacency.npy",
+      "bytes": 63632,
+      "sha256": "d31dc9fa7e3fa1d39b098c5431ac7fd751492732a0e4bcc0d0b42d6b25ad30f7",
+      "reused": true,
+      "city_id": 658,
+      "k": 4
+    },
+    {
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_08/city_658/adjacency.npy",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/tmp/stage2_graph_grid_cache_v2_1/k_08/city_658/adjacency.npy",
+      "bytes": 63632,
+      "sha256": "69eb5e7f66e46cecf732ad3027c0b91199e97e8ac23edb8c9c5fb0bd9fce1bc6",
+      "reused": true,
+      "city_id": 658,
+      "k": 8
+    },
+    {
+      "path": "tmp/stage2_graph_grid_cache_v2_1/k_16/city_658/adjacency.npy",
+      "absolute_path": "D:/Deep/deepest/european-bike-sharing-dataset/tmp/stage2_graph_grid_cache_v2_1/k_16/city_658/adjacency.npy",
+      "bytes": 63632,
+      "sha256": "a0fcb1e75369714774ccbf5db3d37f09d8296788736e279485ec5c123ea5d7fd",
+      "reused": true,
+      "city_id": 658,
+      "k": 16
+    }
+  ],
+  "excludes_self_and_subsequent_delivery_report_and_seal": true
+}

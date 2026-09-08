@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "protocol_version": "2.2",
+  "artifact_role": "prospective_stage4_selection_clarification",
+  "status": "FROZEN_PROSPECTIVE_CLARIFICATION",
+  "timestamp_utc": "2026-09-08T10:31:36.546015+00:00",
+  "historically_defined": false,
+  "created_before_stage4_scientific_execution": true,
+  "reason": "Historical Stage-4 seal omitted primary tie equality/quantization/rounding and the exact fold-dispersion statistic/comparison.",
+  "authority": "User explicitly resolves the two omissions prospectively before Stage-4 scientific execution or result inspection.",
+  "pre_execution_evidence": {
+    "path": "research/results/stage4_selection_clarification_v2_2/pre_execution_firewall.json",
+    "sha256": "0c56f51a1fed9d5e34da1ea49ac7b9bd373f9bd93eebbf3f4c10a7e338a99cfb"
+  },
+  "upstream_sha256": {
+    "research/results/stage1_scale_loss_v2_2_a40/stage1_decision_manifest.json": "8db24acabd373fa57aa6f35708566da400646fa2ea8474fd0e656a4955828aed",
+    "research/results/stage2_graphgru_selection_v2_2_a40/stage2_decision_manifest.json": "9cca604ec3496a28f4440d89a9d6d1184311fc507c35f27b428a3ca768a6eeca",
+    "research/results/stage2b_vanilla_fairness_v2_2_a40/stage2b_decision_manifest.json": "9d85d6df6a509013f1b5411002246aee81c254fbde078f639293976674b4f36d",
+    "processed/protocol_v2_2/PROTOCOL_DATASET_MANIFEST.json": "140dd8c53cf51f48be5cf66b70d162c9f2cc6a9fa0b1b7039496633e385a6ab6",
+    "research/results/stage2_graphgru_selection_v2_2/scientific_contract.json": "55ebfa06ca49d77e5ae0b7b2e531d6bb14c26a2b93f478da7754c75fb1aae52f",
+    "research/results/stage2_graphgru_selection_v2_2/job_map.json": "fd34f71b46eb6f9cfc9adb5ebfd44001a2e26df049b9bb197aff1d272e7a074a",
+    "research/results/stage2b_vanilla_fairness_v2_2/scientific_contract.json": "2eb1a2a14dd1412f1286248c547814a2c7e04fad94edaace2084c7d78be0cad3",
+    "research/results/stage2b_vanilla_fairness_v2_2/job_map.json": "0cf72a4f66797bcc5625bd438046562c5fd444677676971e2697e1f9a3d0f23d",
+    "research/results/stage3_finetuning_policy_v2_2/stage3_finetuning_policy_manifest.json": "f5cb2653dd097eb1288f419884778ae01e9034e9e1d88006b33beac4cff069b5"
+  },
+  "dataset_manifest_sha256": "140dd8c53cf51f48be5cf66b70d162c9f2cc6a9fa0b1b7039496633e385a6ab6",
+  "primary": {
+    "regime": "post_7_day_300_update_adaptation",
+    "metric": "count_space_MAE",
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "folds": [
+      532,
+      476,
+      619,
+      658
+    ],
+    "seed_aggregation": "arithmetic_mean_within_fold_in_registered_seed_order",
+    "fold_aggregation": "unweighted_arithmetic_mean_of_four_seed_mean_fold_MAEs",
+    "lower_is_better": true
+  },
+  "primary_tie": {
+    "operation": "Decimal(str(primary_unrounded)).quantize(Decimal('0.0001'), rounding=ROUND_HALF_UP)",
+    "precision_decimal_places": 4,
+    "rounding": "ROUND_HALF_UP",
+    "tie_iff": "quantized_primary_values_equal",
+    "quantized_value_use": "primary_equality_only; compare unrounded primary when quantized values differ",
+    "retain_unrounded": true,
+    "rationale": "Prospectively matches frozen Stage-2 convention; not chosen after Stage-4 results"
+  },
+  "dispersion": {
+    "statistic": "population_standard_deviation",
+    "inputs": "four_fold_MAEs_after_seed_averaging",
+    "denominator": 4,
+    "comparison": "unrounded_full_precision; no tolerance and no quantization",
+    "equality": "exact_equality_of_deterministic_stored_numeric_representation"
+  },
+  "numerical_implementation": {
+    "aggregation": "statistics.fmean in registered seed/fold order",
+    "dispersion": "statistics.pstdev over four seed-mean fold MAEs",
+    "storage": "finite binary64 Python float, lossless JSON roundtrip"
+  },
+  "hierarchy": [
+    "lower_primary_with_4dp_HALF_UP_equality",
+    "lower_unrounded_population_SD",
+    "smaller_lambda_max",
+    "constant_before_linear"
+  ],
+  "lambda_order": [
+    0.01,
+    0.1,
+    0.5
+  ],
+  "schedule_order": [
+    "constant",
+    "linear"
+  ],
+  "excluded_selection_inputs": [
+    "zero_shot_MAE",
+    "RMSE",
+    "WAPE",
+    "station_macro_MAE",
+    "pooled_station_hours",
+    "discriminator_accuracy",
+    "domain_loss",
+    "subjective_stability",
+    "final_target_performance"
+  ],
+  "selection_code": {
+    "path": "research/stage4_v2_2/selection.py",
+    "sha256": "654eb08e9a1a9165a1dd504bc00c204ac6a5203a180bbb8d2f120c704dbee535"
+  },
+  "stage4_scientific_results_inspected": false,
+  "real_scientific_optimizer_updates_locally": 0,
+  "real_scientific_evaluations_locally": 0,
+  "final_target_labels_accessed": false,
+  "final_experiment_started": false,
+  "downstream_blockers": [
+    "FINAL_SEED_COUNT_UNRESOLVED_3_VS_5",
+    "FINAL_SEED_BOOTSTRAP_AGGREGATION_UNRESOLVED"
+  ]
+}
