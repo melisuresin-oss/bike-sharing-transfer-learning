@@ -27,3 +27,13 @@ research/tests/test_window_causality.py whitespace=-trailing-space,-blank-at-eof
 *.txt text eol=lf
 *.ps1 text eol=lf
 *.toml text eol=lf
+
+# Preserve intentional formatting in byte-frozen final protocol/source layers.
+FINAL_EVALUATION_PROTOCOL_V2_2_AMENDMENT.md whitespace=-blank-at-eof
+FINAL_GRL_SOURCE_DOMAIN_CARDINALITY_CLARIFICATION_V2_2.md whitespace=-trailing-space,-blank-at-eof
+research/final_v2_2_r7_r1/** whitespace=-blank-at-eof
+research/final_v2_2_r7_r1_pb1/** whitespace=-blank-at-eof
+research/final_v2_2_r7_r1_pb1_r4/** whitespace=-blank-at-eof
+research/final_v2_2_r7_r1_pb1_r5_recovery/** whitespace=-blank-at-eof
+research/final_v2_2_r7_r1_pb1_r6_scoring_fix/** whitespace=-blank-at-eof
+research/final_v2_2_r7_r1_pb1_r7_r1_final_validation_fix/** whitespace=-blank-at-eof
