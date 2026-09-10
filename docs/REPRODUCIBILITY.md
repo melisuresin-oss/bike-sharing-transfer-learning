@@ -19,8 +19,10 @@ historical workflow operated.
 Use Python with the dependencies in [`requirements.txt`](../requirements.txt):
 DuckDB 1.5.5, NumPy 2.x, PyTorch 2.13.0, pandas, PyArrow, PyYAML, and pytest.
 The experiment used the
-[European Bike-Sharing Dataset](https://huggingface.co/datasets/PellelNitram/european-bike-sharing-dataset).
-Raw data are deliberately excluded from Git.
+[European Bike-Sharing Dataset](https://github.com/TUMFTM/european-bike-sharing-dataset),
+with a [Hugging Face mirror](https://huggingface.co/datasets/PellelNitram/european-bike-sharing-dataset)
+available as an alternative access point. Raw data are deliberately excluded
+from Git.
 
 The frozen cohort identity and hashes are recorded in
 [`processed/protocol_v2_2/FINAL_DATASET_MANIFEST.json`](../processed/protocol_v2_2/FINAL_DATASET_MANIFEST.json).

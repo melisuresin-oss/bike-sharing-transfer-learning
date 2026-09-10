@@ -29,8 +29,10 @@ across heterogeneous bike-sharing systems and supervision budgets?
 
 ## Dataset and City Split
 
-The benchmark uses 12 systems from the
-[European Bike-Sharing Dataset](https://huggingface.co/datasets/PellelNitram/european-bike-sharing-dataset).
+The benchmark uses 12 systems from the [European Bike-Sharing Dataset](https://github.com/TUMFTM/european-bike-sharing-dataset).
+The canonical source is maintained by TUM's Chair of Automotive Technology on
+GitHub; a [Hugging Face mirror](https://huggingface.co/datasets/PellelNitram/european-bike-sharing-dataset)
+is also available.
 
 | Role | Cities |
 |---|---|
@@ -122,15 +124,20 @@ python -m pip install -r requirements.txt
 
 ## Dataset
 
-The external dataset is hosted on Hugging Face:
-[PellelNitram/european-bike-sharing-dataset](https://huggingface.co/datasets/PellelNitram/european-bike-sharing-dataset).
-Dataset files are not redistributed here. Their final protocol identity is
-recorded in [`processed/protocol_v2_2/FINAL_DATASET_MANIFEST.json`](processed/protocol_v2_2/FINAL_DATASET_MANIFEST.json).
+Dataset resources:
+
+- [Canonical TUMFTM GitHub repository](https://github.com/TUMFTM/european-bike-sharing-dataset)
+- [Hugging Face mirror](https://huggingface.co/datasets/PellelNitram/european-bike-sharing-dataset)
+
+Dataset files are not redistributed here. Their final protocol identity is recorded
+in [`processed/protocol_v2_2/FINAL_DATASET_MANIFEST.json`](processed/protocol_v2_2/FINAL_DATASET_MANIFEST.json).
 
 ## Report
 
-Final paper: **“When Does Cross-City Graph Transfer Help? Few-Shot
+[Final submitted paper](paper/DLDM_Final_Project_Kosova_Uresin_Yilmazcan.pdf):
+**“When Does Cross-City Graph Transfer Help? Few-Shot
 Bike-Sharing Demand Forecasting Across Heterogeneous European Systems”**, by
 Sefa Kosova, Melis Üresin, and Nil Yılmazcan, submitted for TUM Deep Learning
-and Decision Making. The submitted PDF is not included in this repository and
-may be added separately later.
+and Decision Making.
+
+[Project presentation](https://drive.google.com/drive/folders/13au-S79TYy3v8xBDL3Z2-2A652nBlmRS?usp=drive_link)
