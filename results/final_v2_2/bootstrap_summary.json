@@ -1,0 +1,7050 @@
+{
+  "schema_version": "final_v2_2_r7_r1_pb1.bootstrap.1",
+  "status": "PB1_FROZEN_2000_REPLICATE_TEMPORAL_BOOTSTRAP",
+  "replicates": 2000,
+  "block_lengths": [
+    168,
+    168,
+    168,
+    168,
+    168,
+    168,
+    168,
+    168,
+    168,
+    53
+  ],
+  "namespace": "FINAL_EVALUATION_V2_2|TEMPORAL_BLOCK_BOOTSTRAP|20260908",
+  "city_draw_hashes": {
+    "195": "fd8180f33a8920c7e767c9f922f5f38b9867f303005409e6fa7d9ef96c3dad0f",
+    "199": "02551eebe1ad45e134109dbdf2c2667d731185c53222a1b47fc8ac4de8c172e6",
+    "237": "5d5adb84e20409d9451c312d3c1a2a9cdf7fabc6a8c3edd7995856c12f0e788f",
+    "617": "df023963365cd096cdbb52ff2c9aff790d54bd7edd7ca955c932c3edab936a30"
+  },
+  "city_cells": [
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.1018323550340148,
+          "upper": 1.2181450874494342,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.7981903064486109,
+          "upper": 2.1421452496740487,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.0048972188448075,
+          "upper": 1.0709986261992581,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.0983327261842257,
+          "upper": 1.2117331795084039,
+          "reason": null
+        }
+      },
+      "cell_id": "195|HA_SOURCE|0",
+      "city_id": 195,
+      "method": "HA_SOURCE",
+      "budget": "0",
+      "replicate_key": "cell_000"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.0000333405553883,
+          "upper": 1.1419334963081966,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.8211647400073658,
+          "upper": 2.212804906394944,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9450962986052421,
+          "upper": 0.9713257767723347,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.9760450548009628,
+          "upper": 1.1176892106298022,
+          "reason": null
+        }
+      },
+      "cell_id": "195|HA_TARGET|1",
+      "city_id": 195,
+      "method": "HA_TARGET",
+      "budget": "1",
+      "replicate_key": "cell_001"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.9991986260785443,
+          "upper": 1.1209022275258185,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.9128500033559623,
+          "upper": 2.2147606611375648,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9228023964052833,
+          "upper": 0.9722949777966268,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.9746892242097308,
+          "upper": 1.0948227680497697,
+          "reason": null
+        }
+      },
+      "cell_id": "195|HA_TARGET|7",
+      "city_id": 195,
+      "method": "HA_TARGET",
+      "budget": "7",
+      "replicate_key": "cell_002"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.882284098363472,
+          "upper": 0.9581540941406672,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.59293469492955,
+          "upper": 1.8039091448560678,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.7905643540036589,
+          "upper": 0.8575217607635,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.861753148614027,
+          "upper": 0.9370801113116692,
+          "reason": null
+        }
+      },
+      "cell_id": "195|HA_TARGET|30",
+      "city_id": 195,
+      "method": "HA_TARGET",
+      "budget": "30",
+      "replicate_key": "cell_003"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.8377049845058431,
+          "upper": 0.9042755011564191,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.4995938502059398,
+          "upper": 1.692176481712321,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.7457497824124447,
+          "upper": 0.8139490463295118,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.8178449079593278,
+          "upper": 0.8845104797825172,
+          "reason": null
+        }
+      },
+      "cell_id": "195|HA_TARGET|full",
+      "city_id": 195,
+      "method": "HA_TARGET",
+      "budget": "full",
+      "replicate_key": "cell_004"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.043499803709088,
+          "upper": 1.1939756130379844,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 2.2699311566120115,
+          "upper": 2.636130561584571,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9842975523340789,
+          "upper": 1.0197928576273763,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.012476631552644,
+          "upper": 1.16421878861344,
+          "reason": null
+        }
+      },
+      "cell_id": "195|grl_l50_constant_adapted|1",
+      "city_id": 195,
+      "method": "grl_l50_constant_adapted",
+      "budget": "1",
+      "replicate_key": "cell_005"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.9991031518108598,
+          "upper": 1.154220343479918,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 2.1041892117417658,
+          "upper": 2.455792954876275,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.952404799636067,
+          "upper": 0.9733686230194492,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.9698162338321057,
+          "upper": 1.1237818619695499,
+          "reason": null
+        }
+      },
+      "cell_id": "195|grl_l50_constant_adapted|7",
+      "city_id": 195,
+      "method": "grl_l50_constant_adapted",
+      "budget": "7",
+      "replicate_key": "cell_006"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.9744775765200954,
+          "upper": 1.1353445380110607,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 2.0130730441666183,
+          "upper": 2.3965011736395887,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9328587263115229,
+          "upper": 0.9514623370791918,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.9463733224645472,
+          "upper": 1.1056670496348016,
+          "reason": null
+        }
+      },
+      "cell_id": "195|grl_l50_constant_adapted|30",
+      "city_id": 195,
+      "method": "grl_l50_constant_adapted",
+      "budget": "30",
+      "replicate_key": "cell_007"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.9752132266755352,
+          "upper": 1.134312942119656,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 2.007863990696441,
+          "upper": 2.3865627159452556,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9329489192932812,
+          "upper": 0.9512575844562489,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.9464101682702711,
+          "upper": 1.1045590587922514,
+          "reason": null
+        }
+      },
+      "cell_id": "195|grl_l50_constant_adapted|full",
+      "city_id": 195,
+      "method": "grl_l50_constant_adapted",
+      "budget": "full",
+      "replicate_key": "cell_008"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.9756158061972515,
+          "upper": 1.1374989581630943,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.9981327483626088,
+          "upper": 2.3823404073437975,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.933656566209415,
+          "upper": 0.9532254547492548,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.9471747667844332,
+          "upper": 1.1074392852088155,
+          "reason": null
+        }
+      },
+      "cell_id": "195|grl_l50_constant_source_graphgru|0",
+      "city_id": 195,
+      "method": "grl_l50_constant_source_graphgru",
+      "budget": "0",
+      "replicate_key": "cell_009"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.9756158061972515,
+          "upper": 1.1374989581630943,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.9981327483626088,
+          "upper": 2.3823404073437975,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.933656566209415,
+          "upper": 0.9532254547492548,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.9471747667844332,
+          "upper": 1.1074392852088155,
+          "reason": null
+        }
+      },
+      "cell_id": "195|grl_l50_constant_source_graphgru|1",
+      "city_id": 195,
+      "method": "grl_l50_constant_source_graphgru",
+      "budget": "1",
+      "replicate_key": "cell_010"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.9756158061972515,
+          "upper": 1.1374989581630943,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.9981327483626088,
+          "upper": 2.3823404073437975,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.933656566209415,
+          "upper": 0.9532254547492548,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.9471747667844332,
+          "upper": 1.1074392852088155,
+          "reason": null
+        }
+      },
+      "cell_id": "195|grl_l50_constant_source_graphgru|7",
+      "city_id": 195,
+      "method": "grl_l50_constant_source_graphgru",
+      "budget": "7",
+      "replicate_key": "cell_011"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.9756158061972515,
+          "upper": 1.1374989581630943,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.9981327483626088,
+          "upper": 2.3823404073437975,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.933656566209415,
+          "upper": 0.9532254547492548,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.9471747667844332,
+          "upper": 1.1074392852088155,
+          "reason": null
+        }
+      },
+      "cell_id": "195|grl_l50_constant_source_graphgru|30",
+      "city_id": 195,
+      "method": "grl_l50_constant_source_graphgru",
+      "budget": "30",
+      "replicate_key": "cell_012"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.9756158061972515,
+          "upper": 1.1374989581630943,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.9981327483626088,
+          "upper": 2.3823404073437975,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.933656566209415,
+          "upper": 0.9532254547492548,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.9471747667844332,
+          "upper": 1.1074392852088155,
+          "reason": null
+        }
+      },
+      "cell_id": "195|grl_l50_constant_source_graphgru|full",
+      "city_id": 195,
+      "method": "grl_l50_constant_source_graphgru",
+      "budget": "full",
+      "replicate_key": "cell_013"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.93463585724802,
+          "upper": 1.0673602658768293,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.827863358820672,
+          "upper": 2.147614461094023,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8823299085715948,
+          "upper": 0.9084335149062022,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.9076528167628464,
+          "upper": 1.0411653488798547,
+          "reason": null
+        }
+      },
+      "cell_id": "195|ordinary_source_adapted|1",
+      "city_id": 195,
+      "method": "ordinary_source_adapted",
+      "budget": "1",
+      "replicate_key": "cell_014"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.9083802958385897,
+          "upper": 1.0416164116334976,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.7997562892838548,
+          "upper": 2.1395958873155405,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8593728605120451,
+          "upper": 0.8827157807445104,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.8820631792801605,
+          "upper": 1.014408793069295,
+          "reason": null
+        }
+      },
+      "cell_id": "195|ordinary_source_adapted|7",
+      "city_id": 195,
+      "method": "ordinary_source_adapted",
+      "budget": "7",
+      "replicate_key": "cell_015"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.9058450722267197,
+          "upper": 1.0406121438943894,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.8164603221597877,
+          "upper": 2.159127189101167,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8577386681563112,
+          "upper": 0.8806105546010667,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.8790508340231522,
+          "upper": 1.013259013763926,
+          "reason": null
+        }
+      },
+      "cell_id": "195|ordinary_source_adapted|30",
+      "city_id": 195,
+      "method": "ordinary_source_adapted",
+      "budget": "30",
+      "replicate_key": "cell_016"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.9057237181582221,
+          "upper": 1.0382435379829802,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.8032644000949452,
+          "upper": 2.136816320697087,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8562177494027878,
+          "upper": 0.8799824873843688,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.8789015348980881,
+          "upper": 1.0113590022188101,
+          "reason": null
+        }
+      },
+      "cell_id": "195|ordinary_source_adapted|full",
+      "city_id": 195,
+      "method": "ordinary_source_adapted",
+      "budget": "full",
+      "replicate_key": "cell_017"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.908269872619275,
+          "upper": 1.043347663466781,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.8160306600464173,
+          "upper": 2.157780040679381,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8605767482848137,
+          "upper": 0.8824255931469257,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.8810825451116017,
+          "upper": 1.0158518174751132,
+          "reason": null
+        }
+      },
+      "cell_id": "195|ordinary_source_graphgru|0",
+      "city_id": 195,
+      "method": "ordinary_source_graphgru",
+      "budget": "0",
+      "replicate_key": "cell_018"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.908269872619275,
+          "upper": 1.043347663466781,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.8160306600464173,
+          "upper": 2.157780040679381,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8605767482848137,
+          "upper": 0.8824255931469257,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.8810825451116017,
+          "upper": 1.0158518174751132,
+          "reason": null
+        }
+      },
+      "cell_id": "195|ordinary_source_graphgru|1",
+      "city_id": 195,
+      "method": "ordinary_source_graphgru",
+      "budget": "1",
+      "replicate_key": "cell_019"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.908269872619275,
+          "upper": 1.043347663466781,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.8160306600464173,
+          "upper": 2.157780040679381,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8605767482848137,
+          "upper": 0.8824255931469257,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.8810825451116017,
+          "upper": 1.0158518174751132,
+          "reason": null
+        }
+      },
+      "cell_id": "195|ordinary_source_graphgru|7",
+      "city_id": 195,
+      "method": "ordinary_source_graphgru",
+      "budget": "7",
+      "replicate_key": "cell_020"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.908269872619275,
+          "upper": 1.043347663466781,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.8160306600464173,
+          "upper": 2.157780040679381,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8605767482848137,
+          "upper": 0.8824255931469257,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.8810825451116017,
+          "upper": 1.0158518174751132,
+          "reason": null
+        }
+      },
+      "cell_id": "195|ordinary_source_graphgru|30",
+      "city_id": 195,
+      "method": "ordinary_source_graphgru",
+      "budget": "30",
+      "replicate_key": "cell_021"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.908269872619275,
+          "upper": 1.043347663466781,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.8160306600464173,
+          "upper": 2.157780040679381,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8605767482848137,
+          "upper": 0.8824255931469257,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.8810825451116017,
+          "upper": 1.0158518174751132,
+          "reason": null
+        }
+      },
+      "cell_id": "195|ordinary_source_graphgru|full",
+      "city_id": 195,
+      "method": "ordinary_source_graphgru",
+      "budget": "full",
+      "replicate_key": "cell_022"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "rmse": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "wape": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "195|persistence|0",
+      "city_id": 195,
+      "method": "persistence",
+      "budget": "0",
+      "replicate_key": "cell_023"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "rmse": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "wape": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "195|persistence|1",
+      "city_id": 195,
+      "method": "persistence",
+      "budget": "1",
+      "replicate_key": "cell_024"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "rmse": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "wape": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "195|persistence|7",
+      "city_id": 195,
+      "method": "persistence",
+      "budget": "7",
+      "replicate_key": "cell_025"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "rmse": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "wape": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "195|persistence|30",
+      "city_id": 195,
+      "method": "persistence",
+      "budget": "30",
+      "replicate_key": "cell_026"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "rmse": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "wape": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "195|persistence|full",
+      "city_id": 195,
+      "method": "persistence",
+      "budget": "full",
+      "replicate_key": "cell_027"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.9496339923297871,
+          "upper": 1.0989812811793431,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.9182779147235047,
+          "upper": 2.2850056417744185,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9069024119932004,
+          "upper": 0.9225381896849361,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.9209281663964133,
+          "upper": 1.0697194809962143,
+          "reason": null
+        }
+      },
+      "cell_id": "195|pooled_graph|1",
+      "city_id": 195,
+      "method": "pooled_graph",
+      "budget": "1",
+      "replicate_key": "cell_028"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.8708246480180303,
+          "upper": 0.9916674984075755,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.6996774334412235,
+          "upper": 2.014378287544856,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8166145119749456,
+          "upper": 0.8466780052508771,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.8455602026511183,
+          "upper": 0.9663238752491131,
+          "reason": null
+        }
+      },
+      "cell_id": "195|pooled_graph|7",
+      "city_id": 195,
+      "method": "pooled_graph",
+      "budget": "7",
+      "replicate_key": "cell_029"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.9098591660914074,
+          "upper": 1.0448343521570491,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.8121231552909691,
+          "upper": 2.149277393854475,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8615455600857688,
+          "upper": 0.8841609428908043,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.8827873238959061,
+          "upper": 1.0176499216539916,
+          "reason": null
+        }
+      },
+      "cell_id": "195|pooled_graph|30",
+      "city_id": 195,
+      "method": "pooled_graph",
+      "budget": "30",
+      "replicate_key": "cell_030"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.8689276444842977,
+          "upper": 0.9900153595911583,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.7094188141744926,
+          "upper": 2.0304086596790425,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8146328190046501,
+          "upper": 0.8453403168895405,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.8441519216830959,
+          "upper": 0.9651602673005465,
+          "reason": null
+        }
+      },
+      "cell_id": "195|pooled_graph|full",
+      "city_id": 195,
+      "method": "pooled_graph",
+      "budget": "full",
+      "replicate_key": "cell_031"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.8916946500195604,
+          "upper": 1.0366231000301973,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.7474145967041634,
+          "upper": 2.119509199354066,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8411341918480213,
+          "upper": 0.8657138656987382,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.8545845930353204,
+          "upper": 0.9952044755871272,
+          "reason": null
+        }
+      },
+      "cell_id": "195|seasonal_naive|0",
+      "city_id": 195,
+      "method": "seasonal_naive",
+      "budget": "0",
+      "replicate_key": "cell_032"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.8916946500195604,
+          "upper": 1.0366231000301973,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.7474145967041634,
+          "upper": 2.119509199354066,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8411341918480213,
+          "upper": 0.8657138656987382,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.8545845930353204,
+          "upper": 0.9952044755871272,
+          "reason": null
+        }
+      },
+      "cell_id": "195|seasonal_naive|1",
+      "city_id": 195,
+      "method": "seasonal_naive",
+      "budget": "1",
+      "replicate_key": "cell_033"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.8916946500195604,
+          "upper": 1.0366231000301973,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.7474145967041634,
+          "upper": 2.119509199354066,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8411341918480213,
+          "upper": 0.8657138656987382,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.8545845930353204,
+          "upper": 0.9952044755871272,
+          "reason": null
+        }
+      },
+      "cell_id": "195|seasonal_naive|7",
+      "city_id": 195,
+      "method": "seasonal_naive",
+      "budget": "7",
+      "replicate_key": "cell_034"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.8916946500195604,
+          "upper": 1.0366231000301973,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.7474145967041634,
+          "upper": 2.119509199354066,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8411341918480213,
+          "upper": 0.8657138656987382,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.8545845930353204,
+          "upper": 0.9952044755871272,
+          "reason": null
+        }
+      },
+      "cell_id": "195|seasonal_naive|30",
+      "city_id": 195,
+      "method": "seasonal_naive",
+      "budget": "30",
+      "replicate_key": "cell_035"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.8916946500195604,
+          "upper": 1.0366231000301973,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.7474145967041634,
+          "upper": 2.119509199354066,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8411341918480213,
+          "upper": 0.8657138656987382,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.8545845930353204,
+          "upper": 0.9952044755871272,
+          "reason": null
+        }
+      },
+      "cell_id": "195|seasonal_naive|full",
+      "city_id": 195,
+      "method": "seasonal_naive",
+      "budget": "full",
+      "replicate_key": "cell_036"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.127663699573789,
+          "upper": 1.2763980780914637,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.9318273526546865,
+          "upper": 2.3295799257739795,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.0556909935537788,
+          "upper": 1.0946115414929505,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.1107993473386633,
+          "upper": 1.258294348504999,
+          "reason": null
+        }
+      },
+      "cell_id": "195|target_only_graph|1",
+      "city_id": 195,
+      "method": "target_only_graph",
+      "budget": "1",
+      "replicate_key": "cell_037"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.0373334879692142,
+          "upper": 1.2108465981086087,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 2.112488942710252,
+          "upper": 2.5194394696994986,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.0031258873009454,
+          "upper": 1.0060826640285112,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.0074161270937065,
+          "upper": 1.1801965105266865,
+          "reason": null
+        }
+      },
+      "cell_id": "195|target_only_graph|7",
+      "city_id": 195,
+      "method": "target_only_graph",
+      "budget": "7",
+      "replicate_key": "cell_038"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.033371142006726,
+          "upper": 1.2085674472260992,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 2.1270802416123717,
+          "upper": 2.5346724003666705,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.001145950309461,
+          "upper": 1.0022627059650477,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.0027996581077754,
+          "upper": 1.1768962518666723,
+          "reason": null
+        }
+      },
+      "cell_id": "195|target_only_graph|30",
+      "city_id": 195,
+      "method": "target_only_graph",
+      "budget": "30",
+      "replicate_key": "cell_039"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.0316890753700816,
+          "upper": 1.20733455802311,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 2.133262184978545,
+          "upper": 2.540827625895235,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.0002663496377766,
+          "upper": 1.0006625449574442,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.0007547276941173,
+          "upper": 1.1754892290863603,
+          "reason": null
+        }
+      },
+      "cell_id": "195|target_only_graph|full",
+      "city_id": 195,
+      "method": "target_only_graph",
+      "budget": "full",
+      "replicate_key": "cell_040"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.1531244611266926,
+          "upper": 1.2982711168703331,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.909199622677448,
+          "upper": 2.2995975898627252,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.07314600848185,
+          "upper": 1.1198533723917434,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.140478864443366,
+          "upper": 1.2835621452521147,
+          "reason": null
+        }
+      },
+      "cell_id": "195|target_only_vanilla|1",
+      "city_id": 195,
+      "method": "target_only_vanilla",
+      "budget": "1",
+      "replicate_key": "cell_041"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.0392756301038406,
+          "upper": 1.2117374968585453,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 2.1022683757397203,
+          "upper": 2.5096565146967853,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.0037756774674729,
+          "upper": 1.0078619624736398,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.0096312969500645,
+          "upper": 1.1815773184305256,
+          "reason": null
+        }
+      },
+      "cell_id": "195|target_only_vanilla|7",
+      "city_id": 195,
+      "method": "target_only_vanilla",
+      "budget": "7",
+      "replicate_key": "cell_042"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.0027735113935636,
+          "upper": 1.1646025003997,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 2.044451300062254,
+          "upper": 2.4283509369243625,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9648220461964752,
+          "upper": 0.9729825686156114,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.9728816663489417,
+          "upper": 1.135589434410761,
+          "reason": null
+        }
+      },
+      "cell_id": "195|target_only_vanilla|30",
+      "city_id": 195,
+      "method": "target_only_vanilla",
+      "budget": "30",
+      "replicate_key": "cell_043"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.9555341473582025,
+          "upper": 1.1040517854174634,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.9337711014727632,
+          "upper": 2.2996575205972767,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9112112205494018,
+          "upper": 0.9284575297210111,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.9273162417140282,
+          "upper": 1.0760196384026053,
+          "reason": null
+        }
+      },
+      "cell_id": "195|target_only_vanilla|full",
+      "city_id": 195,
+      "method": "target_only_vanilla",
+      "budget": "full",
+      "replicate_key": "cell_044"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.093565798525729,
+          "upper": 1.191704982011686,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.7867676429828216,
+          "upper": 2.075922247650713,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8553184763929073,
+          "upper": 0.9173853583242528,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.0926225371157212,
+          "upper": 1.1908860732109112,
+          "reason": null
+        }
+      },
+      "cell_id": "199|HA_SOURCE|0",
+      "city_id": 199,
+      "method": "HA_SOURCE",
+      "budget": "0",
+      "replicate_key": "cell_045"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.1349199396631973,
+          "upper": 1.3053098147121236,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.9937857771128347,
+          "upper": 2.330095287567238,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9356555666430915,
+          "upper": 0.9520802556813237,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.1312842348444938,
+          "upper": 1.3031556688649883,
+          "reason": null
+        }
+      },
+      "cell_id": "199|HA_TARGET|1",
+      "city_id": 199,
+      "method": "HA_TARGET",
+      "budget": "1",
+      "replicate_key": "cell_046"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.0518787941451746,
+          "upper": 1.1998389048169449,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.9207590386126039,
+          "upper": 2.2276460935307645,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8606900270233518,
+          "upper": 0.8832856342355679,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.048506922110727,
+          "upper": 1.197600739347856,
+          "reason": null
+        }
+      },
+      "cell_id": "199|HA_TARGET|7",
+      "city_id": 199,
+      "method": "HA_TARGET",
+      "budget": "7",
+      "replicate_key": "cell_047"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.9393446663952665,
+          "upper": 1.0620883021583447,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.6431221224751487,
+          "upper": 1.938283311389397,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.7614990685134297,
+          "upper": 0.7895306928489241,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.9367708095241234,
+          "upper": 1.0603169893706048,
+          "reason": null
+        }
+      },
+      "cell_id": "199|HA_TARGET|30",
+      "city_id": 199,
+      "method": "HA_TARGET",
+      "budget": "30",
+      "replicate_key": "cell_048"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.9082992188856109,
+          "upper": 1.0371469445925898,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.5982845229550424,
+          "upper": 1.9016636180908422,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.7437608898209485,
+          "upper": 0.7629646875178614,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.9056679155601082,
+          "upper": 1.0350928655678193,
+          "reason": null
+        }
+      },
+      "cell_id": "199|HA_TARGET|full",
+      "city_id": 199,
+      "method": "HA_TARGET",
+      "budget": "full",
+      "replicate_key": "cell_049"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.1309165556932435,
+          "upper": 1.2912626467924913,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 2.1316620290910415,
+          "upper": 2.433339275705787,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9253583913814042,
+          "upper": 0.9504460781489428,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.126914967091821,
+          "upper": 1.2879696715818092,
+          "reason": null
+        }
+      },
+      "cell_id": "199|grl_l50_constant_adapted|1",
+      "city_id": 199,
+      "method": "grl_l50_constant_adapted",
+      "budget": "1",
+      "replicate_key": "cell_050"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.1274737342559995,
+          "upper": 1.2847195521932278,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 2.126168325453965,
+          "upper": 2.4231887117577977,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9201506181234081,
+          "upper": 0.947825029078604,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.123838659349534,
+          "upper": 1.2812285828232215,
+          "reason": null
+        }
+      },
+      "cell_id": "199|grl_l50_constant_adapted|7",
+      "city_id": 199,
+      "method": "grl_l50_constant_adapted",
+      "budget": "7",
+      "replicate_key": "cell_051"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.1215807963927675,
+          "upper": 1.279006447237821,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 2.1126643845269757,
+          "upper": 2.4103228069580793,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9164542818841924,
+          "upper": 0.943749595436903,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.1183547360078456,
+          "upper": 1.2757549903499028,
+          "reason": null
+        }
+      },
+      "cell_id": "199|grl_l50_constant_adapted|30",
+      "city_id": 199,
+      "method": "grl_l50_constant_adapted",
+      "budget": "30",
+      "replicate_key": "cell_052"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.1248162593135966,
+          "upper": 1.2812131991027509,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 2.116847903822218,
+          "upper": 2.414856979237204,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9180669419744151,
+          "upper": 0.9455661583544245,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.1212919407846695,
+          "upper": 1.2786664554383624,
+          "reason": null
+        }
+      },
+      "cell_id": "199|grl_l50_constant_adapted|full",
+      "city_id": 199,
+      "method": "grl_l50_constant_adapted",
+      "budget": "full",
+      "replicate_key": "cell_053"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.1322994865422258,
+          "upper": 1.288190011900612,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 2.1310222395643805,
+          "upper": 2.4265755951581918,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9231270741597066,
+          "upper": 0.9517993767703355,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.1288832618530589,
+          "upper": 1.28571118315003,
+          "reason": null
+        }
+      },
+      "cell_id": "199|grl_l50_constant_source_graphgru|0",
+      "city_id": 199,
+      "method": "grl_l50_constant_source_graphgru",
+      "budget": "0",
+      "replicate_key": "cell_054"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.1322994865422258,
+          "upper": 1.288190011900612,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 2.1310222395643805,
+          "upper": 2.4265755951581918,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9231270741597066,
+          "upper": 0.9517993767703355,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.1288832618530589,
+          "upper": 1.28571118315003,
+          "reason": null
+        }
+      },
+      "cell_id": "199|grl_l50_constant_source_graphgru|1",
+      "city_id": 199,
+      "method": "grl_l50_constant_source_graphgru",
+      "budget": "1",
+      "replicate_key": "cell_055"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.1322994865422258,
+          "upper": 1.288190011900612,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 2.1310222395643805,
+          "upper": 2.4265755951581918,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9231270741597066,
+          "upper": 0.9517993767703355,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.1288832618530589,
+          "upper": 1.28571118315003,
+          "reason": null
+        }
+      },
+      "cell_id": "199|grl_l50_constant_source_graphgru|7",
+      "city_id": 199,
+      "method": "grl_l50_constant_source_graphgru",
+      "budget": "7",
+      "replicate_key": "cell_056"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.1322994865422258,
+          "upper": 1.288190011900612,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 2.1310222395643805,
+          "upper": 2.4265755951581918,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9231270741597066,
+          "upper": 0.9517993767703355,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.1288832618530589,
+          "upper": 1.28571118315003,
+          "reason": null
+        }
+      },
+      "cell_id": "199|grl_l50_constant_source_graphgru|30",
+      "city_id": 199,
+      "method": "grl_l50_constant_source_graphgru",
+      "budget": "30",
+      "replicate_key": "cell_057"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.1322994865422258,
+          "upper": 1.288190011900612,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 2.1310222395643805,
+          "upper": 2.4265755951581918,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9231270741597066,
+          "upper": 0.9517993767703355,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.1288832618530589,
+          "upper": 1.28571118315003,
+          "reason": null
+        }
+      },
+      "cell_id": "199|grl_l50_constant_source_graphgru|full",
+      "city_id": 199,
+      "method": "grl_l50_constant_source_graphgru",
+      "budget": "full",
+      "replicate_key": "cell_058"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.0588965487776996,
+          "upper": 1.196685730252184,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.923224697556526,
+          "upper": 2.189997495608899,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8563352935106918,
+          "upper": 0.8912592567457155,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.0555683393060382,
+          "upper": 1.194207583430805,
+          "reason": null
+        }
+      },
+      "cell_id": "199|ordinary_source_adapted|1",
+      "city_id": 199,
+      "method": "ordinary_source_adapted",
+      "budget": "1",
+      "replicate_key": "cell_059"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.037311930161608,
+          "upper": 1.169623232157629,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.917702740752575,
+          "upper": 2.1811664301394624,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8386097439194421,
+          "upper": 0.8710628835366576,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.0339305595070234,
+          "upper": 1.1673532155735313,
+          "reason": null
+        }
+      },
+      "cell_id": "199|ordinary_source_adapted|7",
+      "city_id": 199,
+      "method": "ordinary_source_adapted",
+      "budget": "7",
+      "replicate_key": "cell_060"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.0339136360021035,
+          "upper": 1.1681195376437372,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.9192602642359395,
+          "upper": 2.1852411994312684,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8379648950190234,
+          "upper": 0.868016267968157,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.0305605521772563,
+          "upper": 1.165107253944696,
+          "reason": null
+        }
+      },
+      "cell_id": "199|ordinary_source_adapted|30",
+      "city_id": 199,
+      "method": "ordinary_source_adapted",
+      "budget": "30",
+      "replicate_key": "cell_061"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.0345828249992781,
+          "upper": 1.166551606925303,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.9090506938581924,
+          "upper": 2.171758008112302,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8363165440203357,
+          "upper": 0.8688187905926581,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.0316542734658747,
+          "upper": 1.164229242086808,
+          "reason": null
+        }
+      },
+      "cell_id": "199|ordinary_source_adapted|full",
+      "city_id": 199,
+      "method": "ordinary_source_adapted",
+      "budget": "full",
+      "replicate_key": "cell_062"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.0370489274812429,
+          "upper": 1.1695815086733206,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.9181644077931408,
+          "upper": 2.1801425423460707,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8386642363643798,
+          "upper": 0.8711782307951457,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.0340006312353915,
+          "upper": 1.1675408056692564,
+          "reason": null
+        }
+      },
+      "cell_id": "199|ordinary_source_graphgru|0",
+      "city_id": 199,
+      "method": "ordinary_source_graphgru",
+      "budget": "0",
+      "replicate_key": "cell_063"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.0370489274812429,
+          "upper": 1.1695815086733206,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.9181644077931408,
+          "upper": 2.1801425423460707,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8386642363643798,
+          "upper": 0.8711782307951457,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.0340006312353915,
+          "upper": 1.1675408056692564,
+          "reason": null
+        }
+      },
+      "cell_id": "199|ordinary_source_graphgru|1",
+      "city_id": 199,
+      "method": "ordinary_source_graphgru",
+      "budget": "1",
+      "replicate_key": "cell_064"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.0370489274812429,
+          "upper": 1.1695815086733206,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.9181644077931408,
+          "upper": 2.1801425423460707,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8386642363643798,
+          "upper": 0.8711782307951457,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.0340006312353915,
+          "upper": 1.1675408056692564,
+          "reason": null
+        }
+      },
+      "cell_id": "199|ordinary_source_graphgru|7",
+      "city_id": 199,
+      "method": "ordinary_source_graphgru",
+      "budget": "7",
+      "replicate_key": "cell_065"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.0370489274812429,
+          "upper": 1.1695815086733206,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.9181644077931408,
+          "upper": 2.1801425423460707,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8386642363643798,
+          "upper": 0.8711782307951457,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.0340006312353915,
+          "upper": 1.1675408056692564,
+          "reason": null
+        }
+      },
+      "cell_id": "199|ordinary_source_graphgru|30",
+      "city_id": 199,
+      "method": "ordinary_source_graphgru",
+      "budget": "30",
+      "replicate_key": "cell_066"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.0370489274812429,
+          "upper": 1.1695815086733206,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.9181644077931408,
+          "upper": 2.1801425423460707,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8386642363643798,
+          "upper": 0.8711782307951457,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.0340006312353915,
+          "upper": 1.1675408056692564,
+          "reason": null
+        }
+      },
+      "cell_id": "199|ordinary_source_graphgru|full",
+      "city_id": 199,
+      "method": "ordinary_source_graphgru",
+      "budget": "full",
+      "replicate_key": "cell_067"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "rmse": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "wape": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "199|persistence|0",
+      "city_id": 199,
+      "method": "persistence",
+      "budget": "0",
+      "replicate_key": "cell_068"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "rmse": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "wape": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "199|persistence|1",
+      "city_id": 199,
+      "method": "persistence",
+      "budget": "1",
+      "replicate_key": "cell_069"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "rmse": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "wape": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "199|persistence|7",
+      "city_id": 199,
+      "method": "persistence",
+      "budget": "7",
+      "replicate_key": "cell_070"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "rmse": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "wape": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "199|persistence|30",
+      "city_id": 199,
+      "method": "persistence",
+      "budget": "30",
+      "replicate_key": "cell_071"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "rmse": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "wape": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "199|persistence|full",
+      "city_id": 199,
+      "method": "persistence",
+      "budget": "full",
+      "replicate_key": "cell_072"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.9953401888258999,
+          "upper": 1.1101495944935802,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.8008174940172617,
+          "upper": 2.039644289779153,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.7937166001064067,
+          "upper": 0.8385900195817996,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.9926286111227877,
+          "upper": 1.1081755696992492,
+          "reason": null
+        }
+      },
+      "cell_id": "199|pooled_graph|1",
+      "city_id": 199,
+      "method": "pooled_graph",
+      "budget": "1",
+      "replicate_key": "cell_073"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.0427374288759685,
+          "upper": 1.1751100762820352,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.915002610135989,
+          "upper": 2.17710581848086,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8420420631597851,
+          "upper": 0.8757845005647709,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.039529366776681,
+          "upper": 1.1728213697786731,
+          "reason": null
+        }
+      },
+      "cell_id": "199|pooled_graph|7",
+      "city_id": 199,
+      "method": "pooled_graph",
+      "budget": "7",
+      "replicate_key": "cell_074"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.038405580343357,
+          "upper": 1.1718094619613169,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.930566268998467,
+          "upper": 2.1937015664424733,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8403420722453804,
+          "upper": 0.8719335606749544,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.0351316926786136,
+          "upper": 1.169120835747181,
+          "reason": null
+        }
+      },
+      "cell_id": "199|pooled_graph|30",
+      "city_id": 199,
+      "method": "pooled_graph",
+      "budget": "30",
+      "replicate_key": "cell_075"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.1409932968567855,
+          "upper": 1.3170760565749975,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 2.1534149652575403,
+          "upper": 2.47121550343075,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9460370548629995,
+          "upper": 0.9574502277313865,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.1372659650336323,
+          "upper": 1.3138504893853247,
+          "reason": null
+        }
+      },
+      "cell_id": "199|pooled_graph|full",
+      "city_id": 199,
+      "method": "pooled_graph",
+      "budget": "full",
+      "replicate_key": "cell_076"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.0165443393454638,
+          "upper": 1.1689363002355173,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.881471009755162,
+          "upper": 2.1933918977854594,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8175682934554866,
+          "upper": 0.8428528683734701,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.0116556056391626,
+          "upper": 1.1649253118498482,
+          "reason": null
+        }
+      },
+      "cell_id": "199|seasonal_naive|0",
+      "city_id": 199,
+      "method": "seasonal_naive",
+      "budget": "0",
+      "replicate_key": "cell_077"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.0165443393454638,
+          "upper": 1.1689363002355173,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.881471009755162,
+          "upper": 2.1933918977854594,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8175682934554866,
+          "upper": 0.8428528683734701,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.0116556056391626,
+          "upper": 1.1649253118498482,
+          "reason": null
+        }
+      },
+      "cell_id": "199|seasonal_naive|1",
+      "city_id": 199,
+      "method": "seasonal_naive",
+      "budget": "1",
+      "replicate_key": "cell_078"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.0165443393454638,
+          "upper": 1.1689363002355173,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.881471009755162,
+          "upper": 2.1933918977854594,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8175682934554866,
+          "upper": 0.8428528683734701,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.0116556056391626,
+          "upper": 1.1649253118498482,
+          "reason": null
+        }
+      },
+      "cell_id": "199|seasonal_naive|7",
+      "city_id": 199,
+      "method": "seasonal_naive",
+      "budget": "7",
+      "replicate_key": "cell_079"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.0165443393454638,
+          "upper": 1.1689363002355173,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.881471009755162,
+          "upper": 2.1933918977854594,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8175682934554866,
+          "upper": 0.8428528683734701,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.0116556056391626,
+          "upper": 1.1649253118498482,
+          "reason": null
+        }
+      },
+      "cell_id": "199|seasonal_naive|30",
+      "city_id": 199,
+      "method": "seasonal_naive",
+      "budget": "30",
+      "replicate_key": "cell_080"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.0165443393454638,
+          "upper": 1.1689363002355173,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.881471009755162,
+          "upper": 2.1933918977854594,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8175682934554866,
+          "upper": 0.8428528683734701,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.0116556056391626,
+          "upper": 1.1649253118498482,
+          "reason": null
+        }
+      },
+      "cell_id": "199|seasonal_naive|full",
+      "city_id": 199,
+      "method": "seasonal_naive",
+      "budget": "full",
+      "replicate_key": "cell_081"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.2275787129851317,
+          "upper": 1.3897239068207576,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 2.04875196415176,
+          "upper": 2.3848689906999327,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9972355737076376,
+          "upper": 1.028815022133564,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.2251382526232455,
+          "upper": 1.387651307603891,
+          "reason": null
+        }
+      },
+      "cell_id": "199|target_only_graph|1",
+      "city_id": 199,
+      "method": "target_only_graph",
+      "budget": "1",
+      "replicate_key": "cell_082"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.1927464439769595,
+          "upper": 1.3876035615979665,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 2.2358674599549877,
+          "upper": 2.584176293071643,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9964078490976407,
+          "upper": 0.999746205608405,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.1889507901247758,
+          "upper": 1.3841901006014345,
+          "reason": null
+        }
+      },
+      "cell_id": "199|target_only_graph|7",
+      "city_id": 199,
+      "method": "target_only_graph",
+      "budget": "7",
+      "replicate_key": "cell_083"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.1924083618252446,
+          "upper": 1.3904384677540635,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 2.260274360867973,
+          "upper": 2.6082955778957606,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9985046488310043,
+          "upper": 0.9995442773006471,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.188609063559945,
+          "upper": 1.3867318992814797,
+          "reason": null
+        }
+      },
+      "cell_id": "199|target_only_graph|30",
+      "city_id": 199,
+      "method": "target_only_graph",
+      "budget": "30",
+      "replicate_key": "cell_084"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.1927717029950133,
+          "upper": 1.3919543722658987,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 2.26843897818789,
+          "upper": 2.616695407775918,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9995974407018173,
+          "upper": 0.999898497825844,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.1890352864201035,
+          "upper": 1.388157166067955,
+          "reason": null
+        }
+      },
+      "cell_id": "199|target_only_graph|full",
+      "city_id": 199,
+      "method": "target_only_graph",
+      "budget": "full",
+      "replicate_key": "cell_085"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.2382381026568365,
+          "upper": 1.3947434596655428,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 2.05194907484071,
+          "upper": 2.3843499709946365,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.0014323816872253,
+          "upper": 1.0384552113183392,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.2359655419228752,
+          "upper": 1.3926417775640698,
+          "reason": null
+        }
+      },
+      "cell_id": "199|target_only_vanilla|1",
+      "city_id": 199,
+      "method": "target_only_vanilla",
+      "budget": "1",
+      "replicate_key": "cell_086"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.193736657300042,
+          "upper": 1.389628729242652,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 2.2452453473126854,
+          "upper": 2.5931034368505705,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.997869477951845,
+          "upper": 1.0005820158306156,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.1898973770661552,
+          "upper": 1.3861696330321747,
+          "reason": null
+        }
+      },
+      "cell_id": "199|target_only_vanilla|7",
+      "city_id": 199,
+      "method": "target_only_vanilla",
+      "budget": "7",
+      "replicate_key": "cell_087"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.1483277921169734,
+          "upper": 1.3304452629488672,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 2.1540145125225574,
+          "upper": 2.4839229424834697,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9556837285114798,
+          "upper": 0.9633655707590628,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.1449169606806235,
+          "upper": 1.3278734375113788,
+          "reason": null
+        }
+      },
+      "cell_id": "199|target_only_vanilla|30",
+      "city_id": 199,
+      "method": "target_only_vanilla",
+      "budget": "30",
+      "replicate_key": "cell_088"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 1.1526237792195613,
+          "upper": 1.336849947785255,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 2.1768792176555585,
+          "upper": 2.509902345602453,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.960307300281884,
+          "upper": 0.9668260792260606,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 1.1487909906641076,
+          "upper": 1.3343076797935491,
+          "reason": null
+        }
+      },
+      "cell_id": "199|target_only_vanilla|full",
+      "city_id": 199,
+      "method": "target_only_vanilla",
+      "budget": "full",
+      "replicate_key": "cell_089"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.9657135065692014,
+          "upper": 0.9848012151672778,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.3113932251128744,
+          "upper": 1.3756761982050338,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.3603297541046913,
+          "upper": 1.553848948301274,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.9663367200045664,
+          "upper": 0.9856485377023229,
+          "reason": null
+        }
+      },
+      "cell_id": "237|HA_SOURCE|0",
+      "city_id": 237,
+      "method": "HA_SOURCE",
+      "budget": "0",
+      "replicate_key": "cell_090"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.6828700865147027,
+          "upper": 0.7412474536154844,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.1465941603751313,
+          "upper": 1.2726845988253594,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.0308299150998603,
+          "upper": 1.0936096738167436,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.664998698568626,
+          "upper": 0.7233365057707297,
+          "reason": null
+        }
+      },
+      "cell_id": "237|HA_TARGET|1",
+      "city_id": 237,
+      "method": "HA_TARGET",
+      "budget": "1",
+      "replicate_key": "cell_091"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.6713897328946506,
+          "upper": 0.7186348742842917,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.252090958014931,
+          "upper": 1.346951690482514,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.997483643243079,
+          "upper": 1.0740312926475666,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.654591336317628,
+          "upper": 0.7026118680310837,
+          "reason": null
+        }
+      },
+      "cell_id": "237|HA_TARGET|7",
+      "city_id": 237,
+      "method": "HA_TARGET",
+      "budget": "7",
+      "replicate_key": "cell_092"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.6077623098902734,
+          "upper": 0.6557522902686734,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.0701965067057422,
+          "upper": 1.1787044130623496,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9097929975271396,
+          "upper": 0.9728164504577407,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.5932026269341848,
+          "upper": 0.6419180425785911,
+          "reason": null
+        }
+      },
+      "cell_id": "237|HA_TARGET|30",
+      "city_id": 237,
+      "method": "HA_TARGET",
+      "budget": "30",
+      "replicate_key": "cell_093"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.5845731653683133,
+          "upper": 0.6334026057096875,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.0041683863040207,
+          "upper": 1.1160248622246418,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8783044888720339,
+          "upper": 0.9360672671096636,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.5712632622471128,
+          "upper": 0.6203763653920386,
+          "reason": null
+        }
+      },
+      "cell_id": "237|HA_TARGET|full",
+      "city_id": 237,
+      "method": "HA_TARGET",
+      "budget": "full",
+      "replicate_key": "cell_094"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.6185704478476174,
+          "upper": 0.7064898461447918,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.281842482805378,
+          "upper": 1.4266007351682657,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9818302783773899,
+          "upper": 0.9925580366583799,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.6015002460427519,
+          "upper": 0.6890519591046105,
+          "reason": null
+        }
+      },
+      "cell_id": "237|grl_l50_constant_adapted|1",
+      "city_id": 237,
+      "method": "grl_l50_constant_adapted",
+      "budget": "1",
+      "replicate_key": "cell_095"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.6095089284234034,
+          "upper": 0.6931877135406448,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.2618336857954324,
+          "upper": 1.3936008642929043,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9640791563040573,
+          "upper": 0.9778136986269176,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.591852650937712,
+          "upper": 0.6767167401935186,
+          "reason": null
+        }
+      },
+      "cell_id": "237|grl_l50_constant_adapted|7",
+      "city_id": 237,
+      "method": "grl_l50_constant_adapted",
+      "budget": "7",
+      "replicate_key": "cell_096"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.6091430170782024,
+          "upper": 0.6931921607377749,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.265912798611594,
+          "upper": 1.398474300221303,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9639227723586117,
+          "upper": 0.9772208417258255,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.5914984668018018,
+          "upper": 0.6763072906857774,
+          "reason": null
+        }
+      },
+      "cell_id": "237|grl_l50_constant_adapted|30",
+      "city_id": 237,
+      "method": "grl_l50_constant_adapted",
+      "budget": "30",
+      "replicate_key": "cell_097"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.6101259861305549,
+          "upper": 0.6938770415384145,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.2630150454087452,
+          "upper": 1.3961112381216005,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9647800892430939,
+          "upper": 0.9778115427397939,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.5922332379516096,
+          "upper": 0.6771752918286474,
+          "reason": null
+        }
+      },
+      "cell_id": "237|grl_l50_constant_adapted|full",
+      "city_id": 237,
+      "method": "grl_l50_constant_adapted",
+      "budget": "full",
+      "replicate_key": "cell_098"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.6121319971390035,
+          "upper": 0.6950745507134273,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.2517792623991117,
+          "upper": 1.385168886664627,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9665340305993022,
+          "upper": 0.9818184587473928,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.5946696599499384,
+          "upper": 0.678683696070882,
+          "reason": null
+        }
+      },
+      "cell_id": "237|grl_l50_constant_source_graphgru|0",
+      "city_id": 237,
+      "method": "grl_l50_constant_source_graphgru",
+      "budget": "0",
+      "replicate_key": "cell_099"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.6121319971390035,
+          "upper": 0.6950745507134273,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.2517792623991117,
+          "upper": 1.385168886664627,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9665340305993022,
+          "upper": 0.9818184587473928,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.5946696599499384,
+          "upper": 0.678683696070882,
+          "reason": null
+        }
+      },
+      "cell_id": "237|grl_l50_constant_source_graphgru|1",
+      "city_id": 237,
+      "method": "grl_l50_constant_source_graphgru",
+      "budget": "1",
+      "replicate_key": "cell_100"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.6121319971390035,
+          "upper": 0.6950745507134273,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.2517792623991117,
+          "upper": 1.385168886664627,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9665340305993022,
+          "upper": 0.9818184587473928,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.5946696599499384,
+          "upper": 0.678683696070882,
+          "reason": null
+        }
+      },
+      "cell_id": "237|grl_l50_constant_source_graphgru|7",
+      "city_id": 237,
+      "method": "grl_l50_constant_source_graphgru",
+      "budget": "7",
+      "replicate_key": "cell_101"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.6121319971390035,
+          "upper": 0.6950745507134273,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.2517792623991117,
+          "upper": 1.385168886664627,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9665340305993022,
+          "upper": 0.9818184587473928,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.5946696599499384,
+          "upper": 0.678683696070882,
+          "reason": null
+        }
+      },
+      "cell_id": "237|grl_l50_constant_source_graphgru|30",
+      "city_id": 237,
+      "method": "grl_l50_constant_source_graphgru",
+      "budget": "30",
+      "replicate_key": "cell_102"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.6121319971390035,
+          "upper": 0.6950745507134273,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.2517792623991117,
+          "upper": 1.385168886664627,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9665340305993022,
+          "upper": 0.9818184587473928,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.5946696599499384,
+          "upper": 0.678683696070882,
+          "reason": null
+        }
+      },
+      "cell_id": "237|grl_l50_constant_source_graphgru|full",
+      "city_id": 237,
+      "method": "grl_l50_constant_source_graphgru",
+      "budget": "full",
+      "replicate_key": "cell_103"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.5957675199724507,
+          "upper": 0.6709632546273789,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.1837752431174637,
+          "upper": 1.2946569209933414,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9324603992035865,
+          "upper": 0.9547290426452079,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.5791006556119728,
+          "upper": 0.6546126692336555,
+          "reason": null
+        }
+      },
+      "cell_id": "237|ordinary_source_adapted|1",
+      "city_id": 237,
+      "method": "ordinary_source_adapted",
+      "budget": "1",
+      "replicate_key": "cell_104"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.5887476609431502,
+          "upper": 0.6621068202679341,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.188902793651845,
+          "upper": 1.3012503730417335,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9206919930855552,
+          "upper": 0.9431316995617436,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.5721748922281551,
+          "upper": 0.646299680766285,
+          "reason": null
+        }
+      },
+      "cell_id": "237|ordinary_source_adapted|7",
+      "city_id": 237,
+      "method": "ordinary_source_adapted",
+      "budget": "7",
+      "replicate_key": "cell_105"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.5891937959577891,
+          "upper": 0.6630067152386991,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.1944652572752192,
+          "upper": 1.3069022654922267,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9218704262990857,
+          "upper": 0.9440966911275832,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.5725990138189785,
+          "upper": 0.6471193074256388,
+          "reason": null
+        }
+      },
+      "cell_id": "237|ordinary_source_adapted|30",
+      "city_id": 237,
+      "method": "ordinary_source_adapted",
+      "budget": "30",
+      "replicate_key": "cell_106"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.5890081105702059,
+          "upper": 0.6624281539624827,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.1931133403551093,
+          "upper": 1.3043158458516133,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.921008333849751,
+          "upper": 0.943790596589525,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.572482405628683,
+          "upper": 0.6465580131193719,
+          "reason": null
+        }
+      },
+      "cell_id": "237|ordinary_source_adapted|full",
+      "city_id": 237,
+      "method": "ordinary_source_adapted",
+      "budget": "full",
+      "replicate_key": "cell_107"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.5897654495466536,
+          "upper": 0.6636279903198526,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.1955212966776783,
+          "upper": 1.3079665051179237,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9229441079121725,
+          "upper": 0.9446694842311657,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.5731355454410673,
+          "upper": 0.6478234459283839,
+          "reason": null
+        }
+      },
+      "cell_id": "237|ordinary_source_graphgru|0",
+      "city_id": 237,
+      "method": "ordinary_source_graphgru",
+      "budget": "0",
+      "replicate_key": "cell_108"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.5897654495466536,
+          "upper": 0.6636279903198526,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.1955212966776783,
+          "upper": 1.3079665051179237,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9229441079121725,
+          "upper": 0.9446694842311657,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.5731355454410673,
+          "upper": 0.6478234459283839,
+          "reason": null
+        }
+      },
+      "cell_id": "237|ordinary_source_graphgru|1",
+      "city_id": 237,
+      "method": "ordinary_source_graphgru",
+      "budget": "1",
+      "replicate_key": "cell_109"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.5897654495466536,
+          "upper": 0.6636279903198526,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.1955212966776783,
+          "upper": 1.3079665051179237,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9229441079121725,
+          "upper": 0.9446694842311657,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.5731355454410673,
+          "upper": 0.6478234459283839,
+          "reason": null
+        }
+      },
+      "cell_id": "237|ordinary_source_graphgru|7",
+      "city_id": 237,
+      "method": "ordinary_source_graphgru",
+      "budget": "7",
+      "replicate_key": "cell_110"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.5897654495466536,
+          "upper": 0.6636279903198526,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.1955212966776783,
+          "upper": 1.3079665051179237,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9229441079121725,
+          "upper": 0.9446694842311657,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.5731355454410673,
+          "upper": 0.6478234459283839,
+          "reason": null
+        }
+      },
+      "cell_id": "237|ordinary_source_graphgru|30",
+      "city_id": 237,
+      "method": "ordinary_source_graphgru",
+      "budget": "30",
+      "replicate_key": "cell_111"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.5897654495466536,
+          "upper": 0.6636279903198526,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.1955212966776783,
+          "upper": 1.3079665051179237,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9229441079121725,
+          "upper": 0.9446694842311657,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.5731355454410673,
+          "upper": 0.6478234459283839,
+          "reason": null
+        }
+      },
+      "cell_id": "237|ordinary_source_graphgru|full",
+      "city_id": 237,
+      "method": "ordinary_source_graphgru",
+      "budget": "full",
+      "replicate_key": "cell_112"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "rmse": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "wape": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "237|persistence|0",
+      "city_id": 237,
+      "method": "persistence",
+      "budget": "0",
+      "replicate_key": "cell_113"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "rmse": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "wape": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "237|persistence|1",
+      "city_id": 237,
+      "method": "persistence",
+      "budget": "1",
+      "replicate_key": "cell_114"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "rmse": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "wape": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "237|persistence|7",
+      "city_id": 237,
+      "method": "persistence",
+      "budget": "7",
+      "replicate_key": "cell_115"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "rmse": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "wape": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "237|persistence|30",
+      "city_id": 237,
+      "method": "persistence",
+      "budget": "30",
+      "replicate_key": "cell_116"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "rmse": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "wape": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "237|persistence|full",
+      "city_id": 237,
+      "method": "persistence",
+      "budget": "full",
+      "replicate_key": "cell_117"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.6129016967428444,
+          "upper": 0.6997666427886905,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.2773166850468327,
+          "upper": 1.4162465358304248,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9739813465422315,
+          "upper": 0.9811135471112864,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.5949142446784924,
+          "upper": 0.6825254620072572,
+          "reason": null
+        }
+      },
+      "cell_id": "237|pooled_graph|1",
+      "city_id": 237,
+      "method": "pooled_graph",
+      "budget": "1",
+      "replicate_key": "cell_118"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.6021554659260855,
+          "upper": 0.6833141576792494,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.2439140890463432,
+          "upper": 1.3712124861621315,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9505342167227113,
+          "upper": 0.9643718333220088,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.5846639157320856,
+          "upper": 0.6665335248451305,
+          "reason": null
+        }
+      },
+      "cell_id": "237|pooled_graph|7",
+      "city_id": 237,
+      "method": "pooled_graph",
+      "budget": "7",
+      "replicate_key": "cell_119"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.6245926412762973,
+          "upper": 0.7181822277580782,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.3187922233976552,
+          "upper": 1.470984374918763,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.0000002395768095,
+          "upper": 1.000000377022595,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.6063811015339948,
+          "upper": 0.6998571706513591,
+          "reason": null
+        }
+      },
+      "cell_id": "237|pooled_graph|30",
+      "city_id": 237,
+      "method": "pooled_graph",
+      "budget": "30",
+      "replicate_key": "cell_120"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.6056676507224465,
+          "upper": 0.6863483761820408,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.2439814965884788,
+          "upper": 1.3709534785323536,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9550776836185948,
+          "upper": 0.9698908921932621,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.5880552394846041,
+          "upper": 0.6697865615498863,
+          "reason": null
+        }
+      },
+      "cell_id": "237|pooled_graph|full",
+      "city_id": 237,
+      "method": "pooled_graph",
+      "budget": "full",
+      "replicate_key": "cell_121"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.6070290490053073,
+          "upper": 0.6772727905816965,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.1387819539385433,
+          "upper": 1.2643312402934141,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9143933494997104,
+          "upper": 0.9605247722827406,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.580934219248384,
+          "upper": 0.651575057163584,
+          "reason": null
+        }
+      },
+      "cell_id": "237|seasonal_naive|0",
+      "city_id": 237,
+      "method": "seasonal_naive",
+      "budget": "0",
+      "replicate_key": "cell_122"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.6070290490053073,
+          "upper": 0.6772727905816965,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.1387819539385433,
+          "upper": 1.2643312402934141,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9143933494997104,
+          "upper": 0.9605247722827406,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.580934219248384,
+          "upper": 0.651575057163584,
+          "reason": null
+        }
+      },
+      "cell_id": "237|seasonal_naive|1",
+      "city_id": 237,
+      "method": "seasonal_naive",
+      "budget": "1",
+      "replicate_key": "cell_123"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.6070290490053073,
+          "upper": 0.6772727905816965,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.1387819539385433,
+          "upper": 1.2643312402934141,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9143933494997104,
+          "upper": 0.9605247722827406,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.580934219248384,
+          "upper": 0.651575057163584,
+          "reason": null
+        }
+      },
+      "cell_id": "237|seasonal_naive|7",
+      "city_id": 237,
+      "method": "seasonal_naive",
+      "budget": "7",
+      "replicate_key": "cell_124"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.6070290490053073,
+          "upper": 0.6772727905816965,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.1387819539385433,
+          "upper": 1.2643312402934141,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9143933494997104,
+          "upper": 0.9605247722827406,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.580934219248384,
+          "upper": 0.651575057163584,
+          "reason": null
+        }
+      },
+      "cell_id": "237|seasonal_naive|30",
+      "city_id": 237,
+      "method": "seasonal_naive",
+      "budget": "30",
+      "replicate_key": "cell_125"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.6070290490053073,
+          "upper": 0.6772727905816965,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.1387819539385433,
+          "upper": 1.2643312402934141,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9143933494997104,
+          "upper": 0.9605247722827406,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.580934219248384,
+          "upper": 0.651575057163584,
+          "reason": null
+        }
+      },
+      "cell_id": "237|seasonal_naive|full",
+      "city_id": 237,
+      "method": "seasonal_naive",
+      "budget": "full",
+      "replicate_key": "cell_126"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.823660439034079,
+          "upper": 0.878094802693174,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.183646409579408,
+          "upper": 1.310946313135155,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.2220560232599336,
+          "upper": 1.317623971119531,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.8178048253196418,
+          "upper": 0.871020556212723,
+          "reason": null
+        }
+      },
+      "cell_id": "237|target_only_graph|1",
+      "city_id": 237,
+      "method": "target_only_graph",
+      "budget": "1",
+      "replicate_key": "cell_127"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.6408428467213106,
+          "upper": 0.7318040173663645,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.2973332650702194,
+          "upper": 1.4483871202933227,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.018784438687202,
+          "upper": 1.0261401212579437,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.6234851205820496,
+          "upper": 0.7141109624109835,
+          "reason": null
+        }
+      },
+      "cell_id": "237|target_only_graph|7",
+      "city_id": 237,
+      "method": "target_only_graph",
+      "budget": "7",
+      "replicate_key": "cell_128"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.6294773522429863,
+          "upper": 0.7221626348974908,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.311339037499203,
+          "upper": 1.4630832063090726,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.0054847232566684,
+          "upper": 1.0078315694526192,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.6115558324019199,
+          "upper": 0.7040239763314943,
+          "reason": null
+        }
+      },
+      "cell_id": "237|target_only_graph|30",
+      "city_id": 237,
+      "method": "target_only_graph",
+      "budget": "30",
+      "replicate_key": "cell_129"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.626009657741668,
+          "upper": 0.7193000573098266,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.3162568531043537,
+          "upper": 1.46829805835568,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.0015371123499057,
+          "upper": 1.0022751902819664,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.6078893022206767,
+          "upper": 0.7010340107100276,
+          "reason": null
+        }
+      },
+      "cell_id": "237|target_only_graph|full",
+      "city_id": 237,
+      "method": "target_only_graph",
+      "budget": "full",
+      "replicate_key": "cell_130"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.9041668106583866,
+          "upper": 0.948108858338055,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.2137175905913709,
+          "upper": 1.3242570114047811,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.3180780268153998,
+          "upper": 1.4492051032249755,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.9022049931997406,
+          "upper": 0.9447342326384786,
+          "reason": null
+        }
+      },
+      "cell_id": "237|target_only_vanilla|1",
+      "city_id": 237,
+      "method": "target_only_vanilla",
+      "budget": "1",
+      "replicate_key": "cell_131"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.637428228316872,
+          "upper": 0.7284313680858563,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.298256534929254,
+          "upper": 1.4490957032305727,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.0142255135132714,
+          "upper": 1.0206273247515834,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.6199968089350355,
+          "upper": 0.7107219119245738,
+          "reason": null
+        }
+      },
+      "cell_id": "237|target_only_vanilla|7",
+      "city_id": 237,
+      "method": "target_only_vanilla",
+      "budget": "7",
+      "replicate_key": "cell_132"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.6301156978672724,
+          "upper": 0.7226929550792541,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.3106481591172285,
+          "upper": 1.46230745302139,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.006240415450991,
+          "upper": 1.0088539829998555,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.6122283225247782,
+          "upper": 0.7045967875566115,
+          "reason": null
+        }
+      },
+      "cell_id": "237|target_only_vanilla|30",
+      "city_id": 237,
+      "method": "target_only_vanilla",
+      "budget": "30",
+      "replicate_key": "cell_133"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.6260459507076114,
+          "upper": 0.7193698685405445,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.3165770418786873,
+          "upper": 1.4686204558652063,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.0016312466969997,
+          "upper": 1.0023381794869501,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.6079267099509298,
+          "upper": 0.7011007419936048,
+          "reason": null
+        }
+      },
+      "cell_id": "237|target_only_vanilla|full",
+      "city_id": 237,
+      "method": "target_only_vanilla",
+      "budget": "full",
+      "replicate_key": "cell_134"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.9938767143466254,
+          "upper": 1.0328292269132908,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.4297642823747563,
+          "upper": 1.493109506756054,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.1206630613362527,
+          "upper": 1.2135464550111357,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|HA_SOURCE|0",
+      "city_id": 617,
+      "method": "HA_SOURCE",
+      "budget": "0",
+      "replicate_key": "cell_135"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.8653708210629396,
+          "upper": 0.9225343449938669,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.4739733733869331,
+          "upper": 1.5645684836763556,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.0178561398985184,
+          "upper": 1.0425199064895625,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|HA_TARGET|1",
+      "city_id": 617,
+      "method": "HA_TARGET",
+      "budget": "1",
+      "replicate_key": "cell_136"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.858414629848224,
+          "upper": 0.9074885216615957,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.542482521574073,
+          "upper": 1.6134872712307804,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9963487720195128,
+          "upper": 1.0358938137687248,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|HA_TARGET|7",
+      "city_id": 617,
+      "method": "HA_TARGET",
+      "budget": "7",
+      "replicate_key": "cell_137"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.7646628749684793,
+          "upper": 0.8116185572391802,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.3325657797480337,
+          "upper": 1.4105856120230598,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8835113255894232,
+          "upper": 0.9272960385354871,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|HA_TARGET|30",
+      "city_id": 617,
+      "method": "HA_TARGET",
+      "budget": "30",
+      "replicate_key": "cell_138"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.7498916804161571,
+          "upper": 0.7999202627339073,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.3377675532265394,
+          "upper": 1.4249801273650418,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8756297675490313,
+          "upper": 0.9065323948920685,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|HA_TARGET|full",
+      "city_id": 617,
+      "method": "HA_TARGET",
+      "budget": "full",
+      "replicate_key": "cell_139"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.8080462153582594,
+          "upper": 0.8793697344783992,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.5864158384369633,
+          "upper": 1.6798818918325966,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.967589164889136,
+          "upper": 0.9762538671779057,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|grl_l50_constant_adapted|1",
+      "city_id": 617,
+      "method": "grl_l50_constant_adapted",
+      "budget": "1",
+      "replicate_key": "cell_140"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.7981932304376707,
+          "upper": 0.8652617864200772,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.5613449556557377,
+          "upper": 1.6459215710001842,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9523891086890136,
+          "upper": 0.963552941746176,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|grl_l50_constant_adapted|7",
+      "city_id": 617,
+      "method": "grl_l50_constant_adapted",
+      "budget": "7",
+      "replicate_key": "cell_141"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.7970550210196928,
+          "upper": 0.8637601180055079,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.55719136895607,
+          "upper": 1.6409572525856304,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9508016811296225,
+          "upper": 0.9621907585008361,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|grl_l50_constant_adapted|30",
+      "city_id": 617,
+      "method": "grl_l50_constant_adapted",
+      "budget": "30",
+      "replicate_key": "cell_142"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.7967010283152354,
+          "upper": 0.8635432922378063,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.5568144526119325,
+          "upper": 1.6409054363704345,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9504613728257715,
+          "upper": 0.9616733945981187,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|grl_l50_constant_adapted|full",
+      "city_id": 617,
+      "method": "grl_l50_constant_adapted",
+      "budget": "full",
+      "replicate_key": "cell_143"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.8008879925434479,
+          "upper": 0.8659076485493719,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.552658599920163,
+          "upper": 1.6357007626727766,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9536700529300698,
+          "upper": 0.9658621738379477,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|grl_l50_constant_source_graphgru|0",
+      "city_id": 617,
+      "method": "grl_l50_constant_source_graphgru",
+      "budget": "0",
+      "replicate_key": "cell_144"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.8008879925434479,
+          "upper": 0.8659076485493719,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.552658599920163,
+          "upper": 1.6357007626727766,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9536700529300698,
+          "upper": 0.9658621738379477,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|grl_l50_constant_source_graphgru|1",
+      "city_id": 617,
+      "method": "grl_l50_constant_source_graphgru",
+      "budget": "1",
+      "replicate_key": "cell_145"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.8008879925434479,
+          "upper": 0.8659076485493719,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.552658599920163,
+          "upper": 1.6357007626727766,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9536700529300698,
+          "upper": 0.9658621738379477,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|grl_l50_constant_source_graphgru|7",
+      "city_id": 617,
+      "method": "grl_l50_constant_source_graphgru",
+      "budget": "7",
+      "replicate_key": "cell_146"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.8008879925434479,
+          "upper": 0.8659076485493719,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.552658599920163,
+          "upper": 1.6357007626727766,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9536700529300698,
+          "upper": 0.9658621738379477,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|grl_l50_constant_source_graphgru|30",
+      "city_id": 617,
+      "method": "grl_l50_constant_source_graphgru",
+      "budget": "30",
+      "replicate_key": "cell_147"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.8008879925434479,
+          "upper": 0.8659076485493719,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.552658599920163,
+          "upper": 1.6357007626727766,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9536700529300698,
+          "upper": 0.9658621738379477,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|grl_l50_constant_source_graphgru|full",
+      "city_id": 617,
+      "method": "grl_l50_constant_source_graphgru",
+      "budget": "full",
+      "replicate_key": "cell_148"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.7636203935598801,
+          "upper": 0.819728734499161,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.4261725755574064,
+          "upper": 1.488996905430659,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9029325547342911,
+          "upper": 0.9206470607570039,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|ordinary_source_adapted|1",
+      "city_id": 617,
+      "method": "ordinary_source_adapted",
+      "budget": "1",
+      "replicate_key": "cell_149"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.7566633919820691,
+          "upper": 0.8132686571393936,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.437347242974337,
+          "upper": 1.5045669307208884,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.895638892018339,
+          "upper": 0.9120621439261094,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|ordinary_source_adapted|7",
+      "city_id": 617,
+      "method": "ordinary_source_adapted",
+      "budget": "7",
+      "replicate_key": "cell_150"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.7545949452783055,
+          "upper": 0.8113276709307848,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.4372477986667143,
+          "upper": 1.5040380227057026,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8932823314492824,
+          "upper": 0.9096446516263562,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|ordinary_source_adapted|30",
+      "city_id": 617,
+      "method": "ordinary_source_adapted",
+      "budget": "30",
+      "replicate_key": "cell_151"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.7550105036920779,
+          "upper": 0.8123510977946858,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.438369920050416,
+          "upper": 1.5066732942762013,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8941921332510178,
+          "upper": 0.9100943935301673,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|ordinary_source_adapted|full",
+      "city_id": 617,
+      "method": "ordinary_source_adapted",
+      "budget": "full",
+      "replicate_key": "cell_152"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.7582273155844115,
+          "upper": 0.8141426705868936,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.445384375975521,
+          "upper": 1.5100387893805978,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8969931049311018,
+          "upper": 0.9136705484268842,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|ordinary_source_graphgru|0",
+      "city_id": 617,
+      "method": "ordinary_source_graphgru",
+      "budget": "0",
+      "replicate_key": "cell_153"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.7582273155844115,
+          "upper": 0.8141426705868936,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.445384375975521,
+          "upper": 1.5100387893805978,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8969931049311018,
+          "upper": 0.9136705484268842,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|ordinary_source_graphgru|1",
+      "city_id": 617,
+      "method": "ordinary_source_graphgru",
+      "budget": "1",
+      "replicate_key": "cell_154"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.7582273155844115,
+          "upper": 0.8141426705868936,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.445384375975521,
+          "upper": 1.5100387893805978,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8969931049311018,
+          "upper": 0.9136705484268842,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|ordinary_source_graphgru|7",
+      "city_id": 617,
+      "method": "ordinary_source_graphgru",
+      "budget": "7",
+      "replicate_key": "cell_155"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.7582273155844115,
+          "upper": 0.8141426705868936,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.445384375975521,
+          "upper": 1.5100387893805978,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8969931049311018,
+          "upper": 0.9136705484268842,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|ordinary_source_graphgru|30",
+      "city_id": 617,
+      "method": "ordinary_source_graphgru",
+      "budget": "30",
+      "replicate_key": "cell_156"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.7582273155844115,
+          "upper": 0.8141426705868936,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.445384375975521,
+          "upper": 1.5100387893805978,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8969931049311018,
+          "upper": 0.9136705484268842,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|ordinary_source_graphgru|full",
+      "city_id": 617,
+      "method": "ordinary_source_graphgru",
+      "budget": "full",
+      "replicate_key": "cell_157"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "rmse": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "wape": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|persistence|0",
+      "city_id": 617,
+      "method": "persistence",
+      "budget": "0",
+      "replicate_key": "cell_158"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "rmse": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "wape": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|persistence|1",
+      "city_id": 617,
+      "method": "persistence",
+      "budget": "1",
+      "replicate_key": "cell_159"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "rmse": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "wape": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|persistence|7",
+      "city_id": 617,
+      "method": "persistence",
+      "budget": "7",
+      "replicate_key": "cell_160"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "rmse": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "wape": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|persistence|30",
+      "city_id": 617,
+      "method": "persistence",
+      "budget": "30",
+      "replicate_key": "cell_161"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "rmse": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "wape": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|persistence|full",
+      "city_id": 617,
+      "method": "persistence",
+      "budget": "full",
+      "replicate_key": "cell_162"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.7822516987732516,
+          "upper": 0.844964014338656,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.5101417624635785,
+          "upper": 1.5872606898739272,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9316736518464276,
+          "upper": 0.942087826668376,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|pooled_graph|1",
+      "city_id": 617,
+      "method": "pooled_graph",
+      "budget": "1",
+      "replicate_key": "cell_163"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.7610156457564503,
+          "upper": 0.8191597668198727,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.4482828643040333,
+          "upper": 1.5175129624485677,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9016123804897812,
+          "upper": 0.9177038894498016,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|pooled_graph|7",
+      "city_id": 617,
+      "method": "pooled_graph",
+      "budget": "7",
+      "replicate_key": "cell_164"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.7343370826634997,
+          "upper": 0.7842703849670118,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.3718041194991277,
+          "upper": 1.4252792162203198,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8631342625804178,
+          "upper": 0.8853263192932761,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|pooled_graph|30",
+      "city_id": 617,
+      "method": "pooled_graph",
+      "budget": "30",
+      "replicate_key": "cell_165"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.7839594063922289,
+          "upper": 0.8470405734489636,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.512086257714015,
+          "upper": 1.5884993504579372,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9339227719492891,
+          "upper": 0.9446706147462293,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|pooled_graph|full",
+      "city_id": 617,
+      "method": "pooled_graph",
+      "budget": "full",
+      "replicate_key": "cell_166"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.7806130344528871,
+          "upper": 0.8364242649945736,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.40206130472247,
+          "upper": 1.4947313921262146,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8936008180338543,
+          "upper": 0.9248050433851356,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|seasonal_naive|0",
+      "city_id": 617,
+      "method": "seasonal_naive",
+      "budget": "0",
+      "replicate_key": "cell_167"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.7806130344528871,
+          "upper": 0.8364242649945736,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.40206130472247,
+          "upper": 1.4947313921262146,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8936008180338543,
+          "upper": 0.9248050433851356,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|seasonal_naive|1",
+      "city_id": 617,
+      "method": "seasonal_naive",
+      "budget": "1",
+      "replicate_key": "cell_168"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.7806130344528871,
+          "upper": 0.8364242649945736,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.40206130472247,
+          "upper": 1.4947313921262146,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8936008180338543,
+          "upper": 0.9248050433851356,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|seasonal_naive|7",
+      "city_id": 617,
+      "method": "seasonal_naive",
+      "budget": "7",
+      "replicate_key": "cell_169"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.7806130344528871,
+          "upper": 0.8364242649945736,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.40206130472247,
+          "upper": 1.4947313921262146,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8936008180338543,
+          "upper": 0.9248050433851356,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|seasonal_naive|30",
+      "city_id": 617,
+      "method": "seasonal_naive",
+      "budget": "30",
+      "replicate_key": "cell_170"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.7806130344528871,
+          "upper": 0.8364242649945736,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.40206130472247,
+          "upper": 1.4947313921262146,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8936008180338543,
+          "upper": 0.9248050433851356,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|seasonal_naive|full",
+      "city_id": 617,
+      "method": "seasonal_naive",
+      "budget": "full",
+      "replicate_key": "cell_171"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.950746050579584,
+          "upper": 0.9914006212837284,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.4329302270150575,
+          "upper": 1.516943772000043,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.0927900334691807,
+          "upper": 1.1457468366667998,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|target_only_graph|1",
+      "city_id": 617,
+      "method": "target_only_graph",
+      "budget": "1",
+      "replicate_key": "cell_172"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.8395955268570385,
+          "upper": 0.9127900150675363,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.6194001558423021,
+          "upper": 1.7187530889424025,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.0077628080382206,
+          "upper": 1.0119539765805812,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|target_only_graph|7",
+      "city_id": 617,
+      "method": "target_only_graph",
+      "budget": "7",
+      "replicate_key": "cell_173"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.8326710545175774,
+          "upper": 0.9078260799525459,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.6370100805334156,
+          "upper": 1.7367431699892402,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.0021741947626677,
+          "upper": 1.0035144028215193,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|target_only_graph|30",
+      "city_id": 617,
+      "method": "target_only_graph",
+      "budget": "30",
+      "replicate_key": "cell_174"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.8307184495457874,
+          "upper": 0.9065673893055584,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.6437283939454574,
+          "upper": 1.7435791875191762,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.000745274470721,
+          "upper": 1.0011361280411972,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|target_only_graph|full",
+      "city_id": 617,
+      "method": "target_only_graph",
+      "budget": "full",
+      "replicate_key": "cell_175"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.9511824434907337,
+          "upper": 0.993593933576997,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.450639558560589,
+          "upper": 1.536343080858258,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.0953155574666473,
+          "upper": 1.146638990344097,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|target_only_vanilla|1",
+      "city_id": 617,
+      "method": "target_only_vanilla",
+      "budget": "1",
+      "replicate_key": "cell_176"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.8385111765290043,
+          "upper": 0.9120254079910868,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.6227280676129012,
+          "upper": 1.7221344044193998,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.00694266485561,
+          "upper": 1.01065591303736,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|target_only_vanilla|7",
+      "city_id": 617,
+      "method": "target_only_vanilla",
+      "budget": "7",
+      "replicate_key": "cell_177"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.8328078168907839,
+          "upper": 0.9080523551531479,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.6383935616145948,
+          "upper": 1.7381338592161195,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.002434488515747,
+          "upper": 1.0036797915703488,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|target_only_vanilla|30",
+      "city_id": 617,
+      "method": "target_only_vanilla",
+      "budget": "30",
+      "replicate_key": "cell_178"
+    },
+    {
+      "intervals": {
+        "mae": {
+          "lower": 0.8307002907253327,
+          "upper": 0.9065794358230114,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.6441537347894895,
+          "upper": 1.7440117963411699,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.0007615867492785,
+          "upper": 1.001110671123756,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "cell_id": "617|target_only_vanilla|full",
+      "city_id": 617,
+      "method": "target_only_vanilla",
+      "budget": "full",
+      "replicate_key": "cell_179"
+    }
+  ],
+  "equal_city_macro_cells": [
+    {
+      "macro_id": "equal_city|HA_SOURCE|0",
+      "method": "HA_SOURCE",
+      "budget": "0",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 1.052962181183809,
+          "upper": 1.0918474507051321,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.6209635052292475,
+          "upper": 1.7319521316639623,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.1055410588198873,
+          "upper": 1.1635011051326942,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_000"
+    },
+    {
+      "macro_id": "equal_city|HA_TARGET|1",
+      "method": "HA_TARGET",
+      "budget": "1",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.9463799354022921,
+          "upper": 1.0046925598114549,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.6628829332638388,
+          "upper": 1.794260309494294,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9885020212098016,
+          "upper": 1.0074235685365138,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_001"
+    },
+    {
+      "macro_id": "equal_city|HA_TARGET|7",
+      "method": "HA_TARGET",
+      "budget": "7",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.916987506642513,
+          "upper": 0.9655212472727318,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.7001896032321886,
+          "upper": 1.807786887037709,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9538992621296939,
+          "upper": 0.9792482556439503,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_002"
+    },
+    {
+      "macro_id": "equal_city|HA_TARGET|30",
+      "method": "HA_TARGET",
+      "budget": "30",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.8166499307633573,
+          "upper": 0.8546885170893825,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.4488163301827683,
+          "upper": 1.5436574187214653,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.847445725294655,
+          "upper": 0.8736793547059477,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_003"
+    },
+    {
+      "macro_id": "equal_city|HA_TARGET|full",
+      "method": "HA_TARGET",
+      "budget": "full",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.7883638150885804,
+          "upper": 0.8272925642507646,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.399441755031629,
+          "upper": 1.4957562419569392,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8199736117530438,
+          "upper": 0.8440770394792818,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_004"
+    },
+    {
+      "macro_id": "equal_city|grl_l50_constant_adapted|1",
+      "method": "grl_l50_constant_adapted",
+      "budget": "1",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.9311590441590275,
+          "upper": 0.9920073509487015,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.8740128964281233,
+          "upper": 1.9962583780987881,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9684418381485754,
+          "upper": 0.9799587953650672,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_005"
+    },
+    {
+      "macro_id": "equal_city|grl_l50_constant_adapted|7",
+      "method": "grl_l50_constant_adapted",
+      "budget": "7",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.9139275154148436,
+          "upper": 0.972721051086197,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.8158033629747807,
+          "upper": 1.9345625626940353,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9512146873309927,
+          "upper": 0.9611569439221034,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_006"
+    },
+    {
+      "macro_id": "equal_city|grl_l50_constant_adapted|30",
+      "method": "grl_l50_constant_adapted",
+      "budget": "30",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.9061707254497409,
+          "upper": 0.9662363856985864,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.7919393676324975,
+          "upper": 1.9146340454072373,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9446302602657008,
+          "upper": 0.9541551931283864,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_007"
+    },
+    {
+      "macro_id": "equal_city|grl_l50_constant_adapted|full",
+      "method": "grl_l50_constant_adapted",
+      "budget": "full",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.9069160968136928,
+          "upper": 0.9668549323306573,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.7905953590957002,
+          "upper": 1.9128945944035298,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.945235696380745,
+          "upper": 0.9549135627179246,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_008"
+    },
+    {
+      "macro_id": "equal_city|grl_l50_constant_source_graphgru|0",
+      "method": "grl_l50_constant_source_graphgru",
+      "budget": "0",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.9101454065859306,
+          "upper": 0.9701290737754765,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.7866883808967255,
+          "upper": 1.9106866373879978,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9481003725856497,
+          "upper": 0.9582950572600815,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_009"
+    },
+    {
+      "macro_id": "equal_city|grl_l50_constant_source_graphgru|1",
+      "method": "grl_l50_constant_source_graphgru",
+      "budget": "1",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.9101454065859306,
+          "upper": 0.9701290737754765,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.7866883808967255,
+          "upper": 1.9106866373879978,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9481003725856497,
+          "upper": 0.9582950572600815,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_010"
+    },
+    {
+      "macro_id": "equal_city|grl_l50_constant_source_graphgru|7",
+      "method": "grl_l50_constant_source_graphgru",
+      "budget": "7",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.9101454065859306,
+          "upper": 0.9701290737754765,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.7866883808967255,
+          "upper": 1.9106866373879978,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9481003725856497,
+          "upper": 0.9582950572600815,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_011"
+    },
+    {
+      "macro_id": "equal_city|grl_l50_constant_source_graphgru|30",
+      "method": "grl_l50_constant_source_graphgru",
+      "budget": "30",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.9101454065859306,
+          "upper": 0.9701290737754765,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.7866883808967255,
+          "upper": 1.9106866373879978,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9481003725856497,
+          "upper": 0.9582950572600815,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_012"
+    },
+    {
+      "macro_id": "equal_city|grl_l50_constant_source_graphgru|full",
+      "method": "grl_l50_constant_source_graphgru",
+      "budget": "full",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.9101454065859306,
+          "upper": 0.9701290737754765,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.7866883808967255,
+          "upper": 1.9106866373879978,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9481003725856497,
+          "upper": 0.9582950572600815,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_013"
+    },
+    {
+      "macro_id": "equal_city|ordinary_source_adapted|1",
+      "method": "ordinary_source_adapted",
+      "budget": "1",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.8634399132281412,
+          "upper": 0.9154553887075008,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.6334390782352775,
+          "upper": 1.7391005885028405,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8988442909500188,
+          "upper": 0.9114670171068703,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_014"
+    },
+    {
+      "macro_id": "equal_city|ordinary_source_adapted|7",
+      "method": "ordinary_source_adapted",
+      "budget": "7",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.8479518658341252,
+          "upper": 0.898795202879341,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.6311115548684099,
+          "upper": 1.7391540382156085,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8836537968329213,
+          "upper": 0.8955126993213852,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_015"
+    },
+    {
+      "macro_id": "equal_city|ordinary_source_adapted|30",
+      "method": "ordinary_source_adapted",
+      "budget": "30",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.846653829024592,
+          "upper": 0.8977133295087135,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.6367032474829806,
+          "upper": 1.7465265357571704,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.882640866448943,
+          "upper": 0.8942433450553426,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_016"
+    },
+    {
+      "macro_id": "equal_city|ordinary_source_adapted|full",
+      "method": "ordinary_source_adapted",
+      "budget": "full",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.8464248315882152,
+          "upper": 0.8969685062592452,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.6311851508707842,
+          "upper": 1.737988515979135,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8820120818298153,
+          "upper": 0.8940517991809366,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_017"
+    },
+    {
+      "macro_id": "equal_city|ordinary_source_graphgru|0",
+      "method": "ordinary_source_graphgru",
+      "budget": "0",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.848564602187578,
+          "upper": 0.899830888710746,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.638347899028577,
+          "upper": 1.7474351248473567,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.884699760455437,
+          "upper": 0.8964063350694704,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_018"
+    },
+    {
+      "macro_id": "equal_city|ordinary_source_graphgru|1",
+      "method": "ordinary_source_graphgru",
+      "budget": "1",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.848564602187578,
+          "upper": 0.899830888710746,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.638347899028577,
+          "upper": 1.7474351248473567,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.884699760455437,
+          "upper": 0.8964063350694704,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_019"
+    },
+    {
+      "macro_id": "equal_city|ordinary_source_graphgru|7",
+      "method": "ordinary_source_graphgru",
+      "budget": "7",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.848564602187578,
+          "upper": 0.899830888710746,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.638347899028577,
+          "upper": 1.7474351248473567,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.884699760455437,
+          "upper": 0.8964063350694704,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_020"
+    },
+    {
+      "macro_id": "equal_city|ordinary_source_graphgru|30",
+      "method": "ordinary_source_graphgru",
+      "budget": "30",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.848564602187578,
+          "upper": 0.899830888710746,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.638347899028577,
+          "upper": 1.7474351248473567,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.884699760455437,
+          "upper": 0.8964063350694704,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_021"
+    },
+    {
+      "macro_id": "equal_city|ordinary_source_graphgru|full",
+      "method": "ordinary_source_graphgru",
+      "budget": "full",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.848564602187578,
+          "upper": 0.899830888710746,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.638347899028577,
+          "upper": 1.7474351248473567,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.884699760455437,
+          "upper": 0.8964063350694704,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_022"
+    },
+    {
+      "macro_id": "equal_city|persistence|0",
+      "method": "persistence",
+      "budget": "0",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "rmse": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "wape": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_023"
+    },
+    {
+      "macro_id": "equal_city|persistence|1",
+      "method": "persistence",
+      "budget": "1",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "rmse": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "wape": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_024"
+    },
+    {
+      "macro_id": "equal_city|persistence|7",
+      "method": "persistence",
+      "budget": "7",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "rmse": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "wape": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_025"
+    },
+    {
+      "macro_id": "equal_city|persistence|30",
+      "method": "persistence",
+      "budget": "30",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "rmse": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "wape": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_026"
+    },
+    {
+      "macro_id": "equal_city|persistence|full",
+      "method": "persistence",
+      "budget": "full",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "rmse": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "wape": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_027"
+    },
+    {
+      "macro_id": "equal_city|pooled_graph|1",
+      "method": "pooled_graph",
+      "budget": "1",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.8615691882257989,
+          "upper": 0.9148795807853712,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.6766916958204132,
+          "upper": 1.7904405829947274,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9047498514281606,
+          "upper": 0.9167631151313496,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_028"
+    },
+    {
+      "macro_id": "equal_city|pooled_graph|7",
+      "method": "pooled_graph",
+      "budget": "7",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.8444077942150179,
+          "upper": 0.89413724620098,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.622791651397317,
+          "upper": 1.7276162134966935,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8825771480706219,
+          "upper": 0.8945960241851779,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_029"
+    },
+    {
+      "macro_id": "equal_city|pooled_graph|30",
+      "method": "pooled_graph",
+      "budget": "30",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.8527646631085383,
+          "upper": 0.9060059274463708,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.6563986302704754,
+          "upper": 1.7669763677851489,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8947056492433967,
+          "upper": 0.9056422133584684,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_030"
+    },
+    {
+      "macro_id": "equal_city|pooled_graph|full",
+      "method": "pooled_graph",
+      "budget": "full",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.8780217952653162,
+          "upper": 0.9356368460300896,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.7038699858990531,
+          "upper": 1.81928697916911,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9158600038634165,
+          "upper": 0.9250983157128632,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_031"
+    },
+    {
+      "macro_id": "equal_city|seasonal_naive|0",
+      "method": "seasonal_naive",
+      "budget": "0",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.8508954436278474,
+          "upper": 0.9062313611125034,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.5934474900353712,
+          "upper": 1.7186797261423243,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8736699635568121,
+          "upper": 0.8905173559184052,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_032"
+    },
+    {
+      "macro_id": "equal_city|seasonal_naive|1",
+      "method": "seasonal_naive",
+      "budget": "1",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.8508954436278474,
+          "upper": 0.9062313611125034,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.5934474900353712,
+          "upper": 1.7186797261423243,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8736699635568121,
+          "upper": 0.8905173559184052,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_033"
+    },
+    {
+      "macro_id": "equal_city|seasonal_naive|7",
+      "method": "seasonal_naive",
+      "budget": "7",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.8508954436278474,
+          "upper": 0.9062313611125034,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.5934474900353712,
+          "upper": 1.7186797261423243,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8736699635568121,
+          "upper": 0.8905173559184052,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_034"
+    },
+    {
+      "macro_id": "equal_city|seasonal_naive|30",
+      "method": "seasonal_naive",
+      "budget": "30",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.8508954436278474,
+          "upper": 0.9062313611125034,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.5934474900353712,
+          "upper": 1.7186797261423243,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8736699635568121,
+          "upper": 0.8905173559184052,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_035"
+    },
+    {
+      "macro_id": "equal_city|seasonal_naive|full",
+      "method": "seasonal_naive",
+      "budget": "full",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.8508954436278474,
+          "upper": 0.9062313611125034,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.5934474900353712,
+          "upper": 1.7186797261423243,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.8736699635568121,
+          "upper": 0.8905173559184052,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_036"
+    },
+    {
+      "macro_id": "equal_city|target_only_graph|1",
+      "method": "target_only_graph",
+      "budget": "1",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 1.0555465042846948,
+          "upper": 1.1125536755030316,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.7024703832763173,
+          "upper": 1.8344090231655148,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.1023454563170594,
+          "upper": 1.1335741743265901,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_037"
+    },
+    {
+      "macro_id": "equal_city|target_only_graph|7",
+      "method": "target_only_graph",
+      "budget": "7",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.9617155301899809,
+          "upper": 1.0313323026578352,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.8744387361409367,
+          "upper": 2.0129490823547513,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.007393110381257,
+          "upper": 1.0098671263900103,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_038"
+    },
+    {
+      "macro_id": "equal_city|target_only_graph|30",
+      "method": "target_only_graph",
+      "budget": "30",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.9567325797602622,
+          "upper": 1.0273590729481958,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.892170623117651,
+          "upper": 2.030556207274418,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.0021131453372722,
+          "upper": 1.002917928456961,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_039"
+    },
+    {
+      "macro_id": "equal_city|target_only_graph|full",
+      "method": "target_only_graph",
+      "budget": "full",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.9553291625110473,
+          "upper": 1.0263310531905503,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.898694646302408,
+          "upper": 2.037114780319431,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.0006266594970206,
+          "upper": 1.0008797013394526,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_040"
+    },
+    {
+      "macro_id": "equal_city|target_only_vanilla|1",
+      "method": "target_only_vanilla",
+      "budget": "1",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 1.0834533989327828,
+          "upper": 1.1380145952625733,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.7074003312600992,
+          "upper": 1.8365770934634578,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.1339591562018225,
+          "upper": 1.1729051808714106,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_041"
+    },
+    {
+      "macro_id": "equal_city|target_only_vanilla|7",
+      "method": "target_only_vanilla",
+      "budget": "7",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.9614777645609637,
+          "upper": 1.031060759737286,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.8753508143031223,
+          "upper": 2.01370885948924,
+          "reason": null
+        },
+        "wape": {
+          "lower": 1.0065540890870268,
+          "upper": 1.0088365064131732,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_042"
+    },
+    {
+      "macro_id": "equal_city|target_only_vanilla|30",
+      "method": "target_only_vanilla",
+      "budget": "30",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.9367164123205106,
+          "upper": 1.0031667568387992,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.8434496752710339,
+          "upper": 1.9750036783243576,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.9831084706842467,
+          "upper": 0.9859935354376743,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_043"
+    },
+    {
+      "macro_id": "equal_city|target_only_vanilla|full",
+      "method": "target_only_vanilla",
+      "budget": "full",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "intervals": {
+        "mae": {
+          "lower": 0.9236704942957517,
+          "upper": 0.9882015381345933,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 1.8239278038009288,
+          "upper": 1.9523913466948513,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.969137482003192,
+          "upper": 0.9737149358248384,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "macro_cell_044"
+    }
+  ],
+  "undefined_replicates_redrawn": false,
+  "training_seed_randomness_inside_bootstrap": false
+}

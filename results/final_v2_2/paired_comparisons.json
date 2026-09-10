@@ -1,0 +1,7344 @@
+{
+  "schema_version": "final_v2_2_r7_r1_pb1.comparisons.1",
+  "status": "PB1_FROZEN_PAIRED_COMPARISONS",
+  "registered_parameter_zero_candidates": [
+    {
+      "method": "HA_SOURCE",
+      "equal_city_macro_mae_estimable": true
+    },
+    {
+      "method": "persistence",
+      "equal_city_macro_mae_estimable": false
+    },
+    {
+      "method": "seasonal_naive",
+      "equal_city_macro_mae_estimable": true
+    }
+  ],
+  "selected_parameter_zero_reference": "seasonal_naive",
+  "city_comparisons": [
+    {
+      "point_gain": {
+        "mae": 0.023509179729236072,
+        "rmse": -0.026122038538586256,
+        "wape": 0.020932013158194086,
+        "station_macro_mae": 0.026946688894214522
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.02117950622475792,
+          "upper": 0.02609459159926815,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.030296785502932626,
+          "upper": -0.021200522129218427,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.017698309307780217,
+          "upper": 0.025157736989637414,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.0242638170359132,
+          "upper": 0.0299106393005659,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        105498,
+        105498,
+        105498,
+        105498,
+        105498
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "graph_contribution|195|1",
+      "family": "graph_contribution",
+      "city_id": 195,
+      "budget": "1",
+      "method": "target_only_graph",
+      "reference": "target_only_vanilla",
+      "replicate_key": "comparison_000"
+    },
+    {
+      "point_gain": {
+        "mae": 0.008282401962432661,
+        "rmse": 0.0010330778310148503,
+        "wape": 0.00639284784441434,
+        "station_macro_mae": 0.008401636899922594
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.004695513229830528,
+          "upper": 0.013135321061149417,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.0008873002867610146,
+          "upper": 0.0034529471118462736,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.0033863555989184875,
+          "upper": 0.010846286930436495,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.004770847458079329,
+          "upper": 0.013330827872722939,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        63815,
+        63815,
+        63815,
+        63815,
+        63815
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "graph_contribution|199|1",
+      "family": "graph_contribution",
+      "city_id": 199,
+      "budget": "1",
+      "method": "target_only_graph",
+      "reference": "target_only_vanilla",
+      "replicate_key": "comparison_001"
+    },
+    {
+      "point_gain": {
+        "mae": 0.07443999831015322,
+        "rmse": 0.020139379429601378,
+        "wape": 0.11039896239108642,
+        "station_macro_mae": 0.07812108109496604
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.06795052111536833,
+          "upper": 0.08203976070387255,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.012400672835245586,
+          "upper": 0.030571500486571597,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.09532403511452918,
+          "upper": 0.1307830080926887,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.07120001640387667,
+          "upper": 0.0860672655674788,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        126198,
+        126198,
+        126198,
+        126198,
+        126198
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "graph_contribution|237|1",
+      "family": "graph_contribution",
+      "city_id": 237,
+      "budget": "1",
+      "method": "target_only_graph",
+      "reference": "target_only_vanilla",
+      "replicate_key": "comparison_002"
+    },
+    {
+      "point_gain": {
+        "mae": 0.0012313414209392359,
+        "rmse": 0.0184855431818284,
+        "wape": 0.001416862985589562,
+        "station_macro_mae": 0.001114311181625216
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.00047398317516344433,
+          "upper": 0.0027720676681271266,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.01726287261914723,
+          "upper": 0.019568757060915667,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.0005527819107178367,
+          "upper": 0.0031186984501442683,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "valid_n_by_seed": [
+        80053,
+        80053,
+        80053,
+        80053,
+        80053
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "graph_contribution|617|1",
+      "family": "graph_contribution",
+      "city_id": 617,
+      "budget": "1",
+      "method": "target_only_graph",
+      "reference": "target_only_vanilla",
+      "replicate_key": "comparison_003"
+    },
+    {
+      "point_gain": {
+        "mae": 0.20077986233091388,
+        "rmse": 0.1454411472604042,
+        "wape": 0.1787696027090462,
+        "station_macro_mae": 0.21025804929603037
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.18628803531835866,
+          "upper": 0.21298805173182747,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.09344917861557203,
+          "upper": 0.1911126039852436,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.16736824021788527,
+          "upper": 0.1893232284779102,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.1960748358995423,
+          "upper": 0.2226957099846936,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        105498,
+        105498,
+        105498,
+        105498,
+        105498
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "ordinary_transfer|195|1",
+      "family": "ordinary_transfer",
+      "city_id": 195,
+      "budget": "1",
+      "method": "ordinary_source_adapted",
+      "reference": "target_only_graph",
+      "replicate_key": "comparison_004"
+    },
+    {
+      "point_gain": {
+        "mae": 0.1830969455515045,
+        "rmse": 0.16265713699255632,
+        "wape": 0.141325055098386,
+        "station_macro_mae": 0.18368148296840198
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.16089749749917684,
+          "upper": 0.19996603949838684,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.11071870807587643,
+          "upper": 0.20341717225534445,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.12972435970877733,
+          "upper": 0.15058140560252084,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.16171431227527786,
+          "upper": 0.20038037729725336,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        63815,
+        63815,
+        63815,
+        63815,
+        63815
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "ordinary_transfer|199|1",
+      "family": "ordinary_transfer",
+      "city_id": 199,
+      "budget": "1",
+      "method": "ordinary_source_adapted",
+      "reference": "target_only_graph",
+      "replicate_key": "comparison_005"
+    },
+    {
+      "point_gain": {
+        "mae": 0.21657463855850673,
+        "rmse": 0.008847701598001212,
+        "wape": 0.32119312090073715,
+        "station_macro_mae": 0.22619767356178952
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.20513195453402738,
+          "upper": 0.228565723734113,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.0018723997667288372,
+          "upper": 0.018912665582160905,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.2870545499153978,
+          "upper": 0.3643716905407999,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.21460785976223745,
+          "upper": 0.23912818594190569,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        126198,
+        126198,
+        126198,
+        126198,
+        126198
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "ordinary_transfer|237|1",
+      "family": "ordinary_transfer",
+      "city_id": 237,
+      "budget": "1",
+      "method": "ordinary_source_adapted",
+      "reference": "target_only_graph",
+      "replicate_key": "comparison_006"
+    },
+    {
+      "point_gain": {
+        "mae": 0.17985795654600342,
+        "rmse": 0.01939632063396828,
+        "wape": 0.20695647605147563,
+        "station_macro_mae": 0.18328735781000005
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.1691685755224265,
+          "upper": 0.18821600255514528,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.006405485640247203,
+          "upper": 0.030120305754968584,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.1878981065808845,
+          "upper": 0.22578653748244254,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "valid_n_by_seed": [
+        80053,
+        80053,
+        80053,
+        80053,
+        80053
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "ordinary_transfer|617|1",
+      "family": "ordinary_transfer",
+      "city_id": 617,
+      "budget": "1",
+      "method": "ordinary_source_adapted",
+      "reference": "target_only_graph",
+      "replicate_key": "comparison_007"
+    },
+    {
+      "point_gain": {
+        "mae": -0.026450096222108345,
+        "rmse": -0.003349038364130008,
+        "wape": -0.023550535090262857,
+        "station_macro_mae": -0.02571624221347051
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.031740110146826934,
+          "upper": -0.019848066777520688,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.018026337699811115,
+          "upper": 0.013043400327863686,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.028579483781999863,
+          "upper": -0.01721469028970275,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.030911459992214056,
+          "upper": -0.019285316439119307,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        105498,
+        105498,
+        105498,
+        105498,
+        105498
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "adaptation|195|1",
+      "family": "adaptation",
+      "city_id": 195,
+      "budget": "1",
+      "method": "ordinary_source_adapted",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_008"
+    },
+    {
+      "point_gain": {
+        "mae": -0.02345419024009694,
+        "rmse": -0.0073355239422554066,
+        "wape": -0.018103331642074384,
+        "station_macro_mae": -0.023415557706708712
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.030112884608368473,
+          "upper": -0.01654471203010119,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.0167152023548463,
+          "upper": 0.002596181393020831,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.023385488726574543,
+          "upper": -0.013142903712830558,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.030052318723720637,
+          "upper": -0.016557245895687998,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        63815,
+        63815,
+        63815,
+        63815,
+        63815
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "adaptation|199|1",
+      "family": "adaptation",
+      "city_id": 199,
+      "budget": "1",
+      "method": "ordinary_source_adapted",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_009"
+    },
+    {
+      "point_gain": {
+        "mae": -0.006808557288806472,
+        "rmse": 0.013189593279800117,
+        "wape": -0.010097497006014677,
+        "station_macro_mae": -0.006810776231564919
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.008110002803010096,
+          "upper": -0.005593141068863822,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.010632965108708401,
+          "upper": 0.015741430049809234,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.01190704958255037,
+          "upper": -0.008404001219440368,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.00807536637963162,
+          "upper": -0.0056287987571643945,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        126198,
+        126198,
+        126198,
+        126198,
+        126198
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "adaptation|237|1",
+      "family": "adaptation",
+      "city_id": 237,
+      "budget": "1",
+      "method": "ordinary_source_adapted",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_010"
+    },
+    {
+      "point_gain": {
+        "mae": -0.00523613729414385,
+        "rmse": 0.020927862013211306,
+        "wape": -0.006025046338389517,
+        "station_macro_mae": -0.005692486058264445
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.006434643529722458,
+          "upper": -0.004025189460122784,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.018312791970995255,
+          "upper": 0.02352449719752377,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.007442769064753565,
+          "upper": -0.004622961585866095,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "valid_n_by_seed": [
+        80053,
+        80053,
+        80053,
+        80053,
+        80053
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "adaptation|617|1",
+      "family": "adaptation",
+      "city_id": 617,
+      "budget": "1",
+      "method": "ordinary_source_adapted",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_011"
+    },
+    {
+      "point_gain": {
+        "mae": -0.022475888639913722,
+        "rmse": -0.11419527664166748,
+        "wape": -0.02001199540653087,
+        "station_macro_mae": -0.02148595423415729
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.032721816406416006,
+          "upper": -0.013032552010032554,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.13780259372466216,
+          "upper": -0.08852129950500882,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.02751372100766871,
+          "upper": -0.012471122098662357,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.03145050770937879,
+          "upper": -0.012324144180042027,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        105498,
+        105498,
+        105498,
+        105498,
+        105498
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "pooled_vs_sequential|195|1",
+      "family": "pooled_vs_sequential",
+      "city_id": 195,
+      "budget": "1",
+      "method": "pooled_graph",
+      "reference": "ordinary_source_adapted",
+      "replicate_key": "comparison_012"
+    },
+    {
+      "point_gain": {
+        "mae": 0.07496527640205435,
+        "rmse": 0.13663881880392154,
+        "wape": 0.057862635480207314,
+        "station_macro_mae": 0.07467835721612533
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.06062494277906223,
+          "upper": 0.08738313399555185,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.10933034532018206,
+          "upper": 0.15765584958626047,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.05031495923116715,
+          "upper": 0.06321829081080291,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.06029883451589393,
+          "upper": 0.08710625714667308,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        63815,
+        63815,
+        63815,
+        63815,
+        63815
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "pooled_vs_sequential|199|1",
+      "family": "pooled_vs_sequential",
+      "city_id": 199,
+      "budget": "1",
+      "method": "pooled_graph",
+      "reference": "ordinary_source_adapted",
+      "replicate_key": "comparison_013"
+    },
+    {
+      "point_gain": {
+        "mae": -0.023028695431654932,
+        "rmse": -0.10928200128756434,
+        "wape": -0.034152930394791434,
+        "station_macro_mae": -0.02170437451543992
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.029745645256327016,
+          "upper": -0.01644240221375408,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.12465109645382695,
+          "upper": -0.09274845303581367,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.041537623320480895,
+          "upper": -0.02619360965863095,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.02809922618154441,
+          "upper": -0.015348564150737294,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        126198,
+        126198,
+        126198,
+        126198,
+        126198
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "pooled_vs_sequential|237|1",
+      "family": "pooled_vs_sequential",
+      "city_id": 237,
+      "budget": "1",
+      "method": "pooled_graph",
+      "reference": "ordinary_source_adapted",
+      "replicate_key": "comparison_014"
+    },
+    {
+      "point_gain": {
+        "mae": -0.02253961448740689,
+        "rmse": -0.09247268187217257,
+        "wape": -0.02593557313478867,
+        "station_macro_mae": -0.021270524540402614
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.026240587623065102,
+          "upper": -0.01794129391873413,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.09965830171341734,
+          "upper": -0.08319413906761935,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.029100018377694162,
+          "upper": -0.02157255370198559,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "valid_n_by_seed": [
+        80053,
+        80053,
+        80053,
+        80053,
+        80053
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "pooled_vs_sequential|617|1",
+      "family": "pooled_vs_sequential",
+      "city_id": 617,
+      "budget": "1",
+      "method": "pooled_graph",
+      "reference": "ordinary_source_adapted",
+      "replicate_key": "comparison_015"
+    },
+    {
+      "point_gain": {
+        "mae": -0.12087138742513959,
+        "rmse": -0.4812701604977031,
+        "wape": -0.10762100171814107,
+        "station_macro_mae": -0.11697687778679167
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.13611428206413861,
+          "upper": -0.10537494975945237,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.5729644794534355,
+          "upper": -0.38567000002183305,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.11939940739610504,
+          "upper": -0.09679110026508193,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.13231866499864975,
+          "upper": -0.1016323020773316,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        105498,
+        105498,
+        105498,
+        105498,
+        105498
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_incremental|195|1",
+      "family": "grl_incremental",
+      "city_id": 195,
+      "budget": "1",
+      "method": "grl_l50_constant_adapted",
+      "reference": "ordinary_source_adapted",
+      "replicate_key": "comparison_016"
+    },
+    {
+      "point_gain": {
+        "mae": -0.08394976924021944,
+        "rmse": -0.22812739693749426,
+        "wape": -0.06479739860015006,
+        "station_macro_mae": -0.08351811868044841
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.09937548414935918,
+          "upper": -0.06660142717084706,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.24908560422507123,
+          "upper": -0.2023534664637048,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.07283442146059983,
+          "upper": -0.05478649509863677,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.09896714106052816,
+          "upper": -0.06634933812822315,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        63815,
+        63815,
+        63815,
+        63815,
+        63815
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_incremental|199|1",
+      "family": "grl_incremental",
+      "city_id": 199,
+      "budget": "1",
+      "method": "grl_l50_constant_adapted",
+      "reference": "ordinary_source_adapted",
+      "replicate_key": "comparison_017"
+    },
+    {
+      "point_gain": {
+        "mae": -0.029665479790549808,
+        "rmse": -0.11727256080814849,
+        "wape": -0.04399567788898975,
+        "station_macro_mae": -0.028434653834462198
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.03603193716167165,
+          "upper": -0.02280775619100923,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.1334760622695278,
+          "upper": -0.09795338647212382,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.050620585867861716,
+          "upper": -0.036299393220089966,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.03458207359024659,
+          "upper": -0.021804235646743886,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        126198,
+        126198,
+        126198,
+        126198,
+        126198
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_incremental|237|1",
+      "family": "grl_incremental",
+      "city_id": 237,
+      "budget": "1",
+      "method": "grl_l50_constant_adapted",
+      "reference": "ordinary_source_adapted",
+      "replicate_key": "comparison_018"
+    },
+    {
+      "point_gain": {
+        "mae": -0.05295001826299768,
+        "rmse": -0.1776474114758379,
+        "wape": -0.060927797674429685,
+        "station_macro_mae": -0.05092641503890403
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.0618085301754413,
+          "upper": -0.04327947251623895,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.1931320882489574,
+          "upper": -0.15836084925857452,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.0688146741323946,
+          "upper": -0.052039348603072695,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "valid_n_by_seed": [
+        80053,
+        80053,
+        80053,
+        80053,
+        80053
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_incremental|617|1",
+      "family": "grl_incremental",
+      "city_id": 617,
+      "budget": "1",
+      "method": "grl_l50_constant_adapted",
+      "reference": "ordinary_source_adapted",
+      "replicate_key": "comparison_019"
+    },
+    {
+      "point_gain": {
+        "mae": -0.08132098263102046,
+        "rmse": -0.20795811366250633,
+        "wape": -0.07240626419444662,
+        "station_macro_mae": -0.07876978034867252
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.09527951908068909,
+          "upper": -0.06625509051880575,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.23374553412569868,
+          "upper": -0.17403880777939884,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.0801583040116711,
+          "upper": -0.06368274461615304,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.09258378604066642,
+          "upper": -0.06409494733123242,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        105498,
+        105498,
+        105498,
+        105498,
+        105498
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_source_invariance|195|1",
+      "family": "grl_source_invariance",
+      "city_id": 195,
+      "budget": "1",
+      "method": "grl_l50_constant_source_graphgru",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_020"
+    },
+    {
+      "point_gain": {
+        "mae": -0.10702792166829408,
+        "rmse": -0.2327624703016909,
+        "wape": -0.08261048201146862,
+        "station_macro_mae": -0.10659094954254016
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.11875811024507961,
+          "upper": -0.09446142244545239,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.2598045220992871,
+          "upper": -0.20914789827041572,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.0860344558755018,
+          "upper": -0.07753891405061694,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.11835948447007433,
+          "upper": -0.09402061411615088,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        63815,
+        63815,
+        63815,
+        63815,
+        63815
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_source_invariance|199|1",
+      "family": "grl_source_invariance",
+      "city_id": 199,
+      "budget": "1",
+      "method": "grl_l50_constant_source_graphgru",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_021"
+    },
+    {
+      "point_gain": {
+        "mae": -0.027382326014044646,
+        "rmse": -0.06945694898481589,
+        "wape": -0.040609624508718786,
+        "station_macro_mae": -0.026586335760094105
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.031851698576971864,
+          "upper": -0.022523634964896757,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.08032952584114304,
+          "upper": -0.05663104132997986,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.04447928643825324,
+          "upper": -0.0359552060143963,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.030969738655720436,
+          "upper": -0.021867328926220644,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        126198,
+        126198,
+        126198,
+        126198,
+        126198
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_source_invariance|237|1",
+      "family": "grl_source_invariance",
+      "city_id": 237,
+      "budget": "1",
+      "method": "grl_l50_constant_source_graphgru",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_022"
+    },
+    {
+      "point_gain": {
+        "mae": -0.04764971262812394,
+        "rmse": -0.1161495711797805,
+        "wape": -0.05482891499359217,
+        "station_macro_mae": -0.04662109074614358
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.053769323073215476,
+          "upper": -0.041838899665288365,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.12731345571985878,
+          "upper": -0.10509582029844762,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.06010428550020772,
+          "upper": -0.04984586450292164,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "valid_n_by_seed": [
+        80053,
+        80053,
+        80053,
+        80053,
+        80053
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_source_invariance|617|1",
+      "family": "grl_source_invariance",
+      "city_id": 617,
+      "budget": "1",
+      "method": "grl_l50_constant_source_graphgru",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_023"
+    },
+    {
+      "point_gain": {
+        "mae": 0.0013056868709659497,
+        "rmse": -0.009986128768989388,
+        "wape": 0.0011625524615625604,
+        "station_macro_mae": 0.001776123101692395
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.000793308855145961,
+          "upper": 0.0018751412441447653,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.010308650092667924,
+          "upper": -0.00971079590455269,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.0006618073928879343,
+          "upper": 0.0018177551405513235,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.0012291349228045411,
+          "upper": 0.0023870021870089388,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        105498,
+        105498,
+        105498,
+        105498,
+        105498
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "graph_contribution|195|7",
+      "family": "graph_contribution",
+      "city_id": 195,
+      "budget": "7",
+      "method": "target_only_graph",
+      "reference": "target_only_vanilla",
+      "replicate_key": "comparison_024"
+    },
+    {
+      "point_gain": {
+        "mae": 0.0014847083919203642,
+        "rmse": 0.009308831557529106,
+        "wape": 0.00114598577633922,
+        "station_macro_mae": 0.0014454930346950335
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.0009389326652057317,
+          "upper": 0.0020625474642790207,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.008969559253821697,
+          "upper": 0.009851676325265792,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.0007795570111567651,
+          "upper": 0.0014893712704724346,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.0008963681664903045,
+          "upper": 0.0020314163094314994,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        63815,
+        63815,
+        63815,
+        63815,
+        63815
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "graph_contribution|199|7",
+      "family": "graph_contribution",
+      "city_id": 199,
+      "budget": "7",
+      "method": "target_only_graph",
+      "reference": "target_only_vanilla",
+      "replicate_key": "comparison_025"
+    },
+    {
+      "point_gain": {
+        "mae": -0.0033808467915642073,
+        "rmse": 0.0008858796472027031,
+        "wape": -0.005013997666104331,
+        "station_macro_mae": -0.0034563550867761973
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.0034763463340539455,
+          "upper": -0.00326596970827402,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.000702695034435621,
+          "upper": 0.0011207967505396752,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.005512591228258175,
+          "upper": -0.004604086564414521,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.0035476279627547984,
+          "upper": -0.0033432236774552275,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        126198,
+        126198,
+        126198,
+        126198,
+        126198
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "graph_contribution|237|7",
+      "family": "graph_contribution",
+      "city_id": 237,
+      "budget": "7",
+      "method": "target_only_graph",
+      "reference": "target_only_vanilla",
+      "replicate_key": "comparison_026"
+    },
+    {
+      "point_gain": {
+        "mae": -0.0009094325445192508,
+        "rmse": 0.0033399831467679775,
+        "wape": -0.001046453313685225,
+        "station_macro_mae": -0.0009246423356090272
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.0010755439150921193,
+          "upper": -0.0007276262933145957,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.0031110343465929435,
+          "upper": 0.003543879121336102,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.0012921939843762275,
+          "upper": -0.0008043792590968502,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "valid_n_by_seed": [
+        80053,
+        80053,
+        80053,
+        80053,
+        80053
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "graph_contribution|617|7",
+      "family": "graph_contribution",
+      "city_id": 617,
+      "budget": "7",
+      "method": "target_only_graph",
+      "reference": "target_only_vanilla",
+      "replicate_key": "comparison_027"
+    },
+    {
+      "point_gain": {
+        "mae": 0.1512350527251888,
+        "rmse": 0.3515847138012903,
+        "wape": 0.13465608541360632,
+        "station_macro_mae": 0.14686085461684834
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.12751858432902635,
+          "upper": 0.1723364055506757,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.29634067966053435,
+          "upper": 0.4010375133189981,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.1227731169075885,
+          "upper": 0.14413448094988002,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.12359598600501395,
+          "upper": 0.16761344541825873,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        105498,
+        105498,
+        105498,
+        105498,
+        105498
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "ordinary_transfer|195|7",
+      "family": "ordinary_transfer",
+      "city_id": 195,
+      "budget": "7",
+      "method": "ordinary_source_adapted",
+      "reference": "target_only_graph",
+      "replicate_key": "comparison_028"
+    },
+    {
+      "point_gain": {
+        "mae": 0.18799629847401628,
+        "rmse": 0.3628250663093441,
+        "wape": 0.14510666554325086,
+        "station_macro_mae": 0.18733152535235104
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.15395272006078928,
+          "upper": 0.21988855925222686,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.30548243847612927,
+          "upper": 0.4111870985848359,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.1283721881448531,
+          "upper": 0.15795090157755037,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.15330797565471,
+          "upper": 0.2192265592542399,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        63815,
+        63815,
+        63815,
+        63815,
+        63815
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "ordinary_transfer|199|7",
+      "family": "ordinary_transfer",
+      "city_id": 199,
+      "budget": "7",
+      "method": "ordinary_source_adapted",
+      "reference": "target_only_graph",
+      "replicate_key": "comparison_029"
+    },
+    {
+      "point_gain": {
+        "mae": 0.06130840204076131,
+        "rmse": 0.1297006464666366,
+        "wape": 0.09092402102100053,
+        "station_macro_mae": 0.060059788612179664
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.05208060073828366,
+          "upper": 0.07042034997068593,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.10729589024641228,
+          "upper": 0.15061125794460128,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.08268051084281323,
+          "upper": 0.09866536186929974,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.05118121956770055,
+          "upper": 0.06889738777883002,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        126198,
+        126198,
+        126198,
+        126198,
+        126198
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "ordinary_transfer|237|7",
+      "family": "ordinary_transfer",
+      "city_id": 237,
+      "budget": "7",
+      "method": "ordinary_source_adapted",
+      "reference": "target_only_graph",
+      "replicate_key": "comparison_030"
+    },
+    {
+      "point_gain": {
+        "mae": 0.0926587036710107,
+        "rmse": 0.1988471654294564,
+        "wape": 0.10661924084712622,
+        "station_macro_mae": 0.09034157148357895
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.08307707410836487,
+          "upper": 0.10137639801206277,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.17964371769923546,
+          "upper": 0.21565245750031753,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.0994229660901658,
+          "upper": 0.11263503961950298,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "valid_n_by_seed": [
+        80053,
+        80053,
+        80053,
+        80053,
+        80053
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "ordinary_transfer|617|7",
+      "family": "ordinary_transfer",
+      "city_id": 617,
+      "budget": "7",
+      "method": "ordinary_source_adapted",
+      "reference": "target_only_graph",
+      "replicate_key": "comparison_031"
+    },
+    {
+      "point_gain": {
+        "mae": 0.0005368057246874613,
+        "rmse": 0.017323838896874964,
+        "wape": 0.0004779590194964989,
+        "station_macro_mae": 0.00039331613381254904
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.000799450928959164,
+          "upper": 0.001827604118346187,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.014437939670446145,
+          "upper": 0.019955021342482525,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.0007587951878873278,
+          "upper": 0.0015274950976788535,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.0009064256270590754,
+          "upper": 0.0016522070207895176,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        105498,
+        105498,
+        105498,
+        105498,
+        105498
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "adaptation|195|7",
+      "family": "adaptation",
+      "city_id": 195,
+      "budget": "7",
+      "method": "ordinary_source_adapted",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_032"
+    },
+    {
+      "point_gain": {
+        "mae": -4.926549608241793e-06,
+        "rmse": -0.0009645463461133818,
+        "wape": -3.8026024559600914e-06,
+        "station_macro_mae": 1.476940302902463e-06
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.0005126183888334207,
+          "upper": 0.00045081906669914277,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.0025619199711987063,
+          "upper": 0.0007248810523846295,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.0004094288160378623,
+          "upper": 0.0003547285988930102,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.000497616877127725,
+          "upper": 0.00045704957717546997,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        63815,
+        63815,
+        63815,
+        63815,
+        63815
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "adaptation|199|7",
+      "family": "adaptation",
+      "city_id": 199,
+      "budget": "7",
+      "method": "ordinary_source_adapted",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_033"
+    },
+    {
+      "point_gain": {
+        "mae": 0.0013175718174411656,
+        "rmse": 0.006685221258396412,
+        "wape": 0.001954037678979903,
+        "station_macro_mae": 0.0012040147561595883
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.0009033974954608243,
+          "upper": 0.001714739698464534,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.005439659630671832,
+          "upper": 0.007603559433637676,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.0014355294948123648,
+          "upper": 0.0024118304974537035,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.0008125496895431571,
+          "upper": 0.0015804439250219806,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        126198,
+        126198,
+        126198,
+        126198,
+        126198
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "adaptation|237|7",
+      "family": "adaptation",
+      "city_id": 237,
+      "budget": "7",
+      "method": "ordinary_source_adapted",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_034"
+    },
+    {
+      "point_gain": {
+        "mae": 0.0012647319117047528,
+        "rmse": 0.006665931826665039,
+        "wape": 0.0014552842955786627,
+        "station_macro_mae": 0.0010042139223673586
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.0005924611490559994,
+          "upper": 0.0018666746391385195,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.004850845945397792,
+          "upper": 0.008765005753045287,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.0006724332880429784,
+          "upper": 0.002202625882951536,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "valid_n_by_seed": [
+        80053,
+        80053,
+        80053,
+        80053,
+        80053
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "adaptation|617|7",
+      "family": "adaptation",
+      "city_id": 617,
+      "budget": "7",
+      "method": "ordinary_source_adapted",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_035"
+    },
+    {
+      "point_gain": {
+        "mae": 0.04478694019365197,
+        "rmse": 0.11442353777299026,
+        "wape": 0.03987722380134442,
+        "station_macro_mae": 0.04314838342965781
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.037556832683992916,
+          "upper": 0.05118781162249181,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.09684352992859459,
+          "upper": 0.13007027509234342,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.036137171010788886,
+          "upper": 0.042741907269083175,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.036005652397392285,
+          "upper": 0.049438790026956024,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        105498,
+        105498,
+        105498,
+        105498,
+        105498
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "pooled_vs_sequential|195|7",
+      "family": "pooled_vs_sequential",
+      "city_id": 195,
+      "budget": "7",
+      "method": "pooled_graph",
+      "reference": "ordinary_source_adapted",
+      "replicate_key": "comparison_036"
+    },
+    {
+      "point_gain": {
+        "mae": -0.004880282678947623,
+        "rmse": 0.004212026218729914,
+        "wape": -0.003766890902633646,
+        "station_macro_mae": -0.004884525484774071
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.006942315108565284,
+          "upper": -0.002919193185663352,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.0005689791475312089,
+          "upper": 0.007258556318638136,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.005458326245158127,
+          "upper": -0.0022958142381927543,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.006941216511614637,
+          "upper": -0.0029333621714296458,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        63815,
+        63815,
+        63815,
+        63815,
+        63815
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "pooled_vs_sequential|199|7",
+      "family": "pooled_vs_sequential",
+      "city_id": 199,
+      "budget": "7",
+      "method": "pooled_graph",
+      "reference": "ordinary_source_adapted",
+      "replicate_key": "comparison_037"
+    },
+    {
+      "point_gain": {
+        "mae": -0.017428451302848334,
+        "rmse": -0.06393906483235975,
+        "wape": -0.025847433954812482,
+        "station_macro_mae": -0.01654267885313727
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.021462802586284406,
+          "upper": -0.013278458594254788,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.0716339304694381,
+          "upper": -0.05492670970968983,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.02981447551254823,
+          "upper": -0.021143542864881487,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.020409920659650506,
+          "upper": -0.012521953216510388,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        126198,
+        126198,
+        126198,
+        126198,
+        126198
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "pooled_vs_sequential|237|7",
+      "family": "pooled_vs_sequential",
+      "city_id": 237,
+      "budget": "7",
+      "method": "pooled_graph",
+      "reference": "ordinary_source_adapted",
+      "replicate_key": "comparison_038"
+    },
+    {
+      "point_gain": {
+        "mae": -0.005110911581014399,
+        "rmse": -0.01214290485671774,
+        "wape": -0.0058809533396809496,
+        "station_macro_mae": -0.004804359683526327
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.006343495686222389,
+          "upper": -0.004071537980275238,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.015517345498201614,
+          "upper": -0.009776830423360548,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.007186918203605728,
+          "upper": -0.004850931365512424,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "valid_n_by_seed": [
+        80053,
+        80053,
+        80053,
+        80053,
+        80053
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "pooled_vs_sequential|617|7",
+      "family": "pooled_vs_sequential",
+      "city_id": 617,
+      "budget": "7",
+      "method": "pooled_graph",
+      "reference": "ordinary_source_adapted",
+      "replicate_key": "comparison_039"
+    },
+    {
+      "point_gain": {
+        "mae": -0.10450808522298556,
+        "rmse": -0.3204329420129034,
+        "wape": -0.0930515075481237,
+        "station_macro_mae": -0.10088557195119505
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.11690051086365354,
+          "upper": -0.08994074560711925,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.3754917483821439,
+          "upper": -0.2649293606124735,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.10053428259512388,
+          "upper": -0.08578385374170647,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.11319860138235528,
+          "upper": -0.08633956474779943,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        105498,
+        105498,
+        105498,
+        105498,
+        105498
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_incremental|195|7",
+      "family": "grl_incremental",
+      "city_id": 195,
+      "budget": "7",
+      "method": "grl_l50_constant_adapted",
+      "reference": "ordinary_source_adapted",
+      "replicate_key": "comparison_040"
+    },
+    {
+      "point_gain": {
+        "mae": -0.10221740022214458,
+        "rmse": -0.22775549350163954,
+        "wape": -0.07889743695557602,
+        "station_macro_mae": -0.10177499197761097
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.11492528651686813,
+          "upper": -0.08888209623079564,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.25053132999045635,
+          "upper": -0.2061226411442167,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.08302046904915544,
+          "upper": -0.07351742151313276,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.11441999984074942,
+          "upper": -0.08843772661560914,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        63815,
+        63815,
+        63815,
+        63815,
+        63815
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_incremental|199|7",
+      "family": "grl_incremental",
+      "city_id": 199,
+      "budget": "7",
+      "method": "grl_l50_constant_adapted",
+      "reference": "ordinary_source_adapted",
+      "replicate_key": "comparison_041"
+    },
+    {
+      "point_gain": {
+        "mae": -0.02654471140625505,
+        "rmse": -0.08483542773768918,
+        "wape": -0.03936739203044404,
+        "station_macro_mae": -0.025422703043918627
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.03170905947956681,
+          "upper": -0.021133303108836553,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.09526651291716148,
+          "upper": -0.0724398254390155,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.04427259763157066,
+          "upper": -0.03367481100144228,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.030475737664680435,
+          "upper": -0.020156691975321,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        126198,
+        126198,
+        126198,
+        126198,
+        126198
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_incremental|237|7",
+      "family": "grl_incremental",
+      "city_id": 237,
+      "budget": "7",
+      "method": "grl_l50_constant_adapted",
+      "reference": "ordinary_source_adapted",
+      "replicate_key": "comparison_042"
+    },
+    {
+      "point_gain": {
+        "mae": -0.04734045536871616,
+        "rmse": -0.13233550339192157,
+        "wape": -0.054473063110086616,
+        "station_macro_mae": -0.04579869351920367
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.05422548823296253,
+          "upper": -0.04068582051291636,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.14258856954132051,
+          "upper": -0.12212169351095949,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.06057187142524651,
+          "upper": -0.04851913074653717,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "valid_n_by_seed": [
+        80053,
+        80053,
+        80053,
+        80053,
+        80053
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_incremental|617|7",
+      "family": "grl_incremental",
+      "city_id": 617,
+      "budget": "7",
+      "method": "grl_l50_constant_adapted",
+      "reference": "ordinary_source_adapted",
+      "replicate_key": "comparison_043"
+    },
+    {
+      "point_gain": {
+        "mae": -0.08132098263102046,
+        "rmse": -0.20795811366250633,
+        "wape": -0.07240626419444662,
+        "station_macro_mae": -0.07876978034867252
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.09527951908068909,
+          "upper": -0.06625509051880575,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.23374553412569868,
+          "upper": -0.17403880777939884,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.0801583040116711,
+          "upper": -0.06368274461615304,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.09258378604066642,
+          "upper": -0.06409494733123242,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        105498,
+        105498,
+        105498,
+        105498,
+        105498
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_source_invariance|195|7",
+      "family": "grl_source_invariance",
+      "city_id": 195,
+      "budget": "7",
+      "method": "grl_l50_constant_source_graphgru",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_044"
+    },
+    {
+      "point_gain": {
+        "mae": -0.10702792166829408,
+        "rmse": -0.2327624703016909,
+        "wape": -0.08261048201146862,
+        "station_macro_mae": -0.10659094954254016
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.11875811024507961,
+          "upper": -0.09446142244545239,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.2598045220992871,
+          "upper": -0.20914789827041572,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.0860344558755018,
+          "upper": -0.07753891405061694,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.11835948447007433,
+          "upper": -0.09402061411615088,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        63815,
+        63815,
+        63815,
+        63815,
+        63815
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_source_invariance|199|7",
+      "family": "grl_source_invariance",
+      "city_id": 199,
+      "budget": "7",
+      "method": "grl_l50_constant_source_graphgru",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_045"
+    },
+    {
+      "point_gain": {
+        "mae": -0.027382326014044646,
+        "rmse": -0.06945694898481589,
+        "wape": -0.040609624508718786,
+        "station_macro_mae": -0.026586335760094105
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.031851698576971864,
+          "upper": -0.022523634964896757,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.08032952584114304,
+          "upper": -0.05663104132997986,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.04447928643825324,
+          "upper": -0.0359552060143963,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.030969738655720436,
+          "upper": -0.021867328926220644,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        126198,
+        126198,
+        126198,
+        126198,
+        126198
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_source_invariance|237|7",
+      "family": "grl_source_invariance",
+      "city_id": 237,
+      "budget": "7",
+      "method": "grl_l50_constant_source_graphgru",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_046"
+    },
+    {
+      "point_gain": {
+        "mae": -0.04764971262812394,
+        "rmse": -0.1161495711797805,
+        "wape": -0.05482891499359217,
+        "station_macro_mae": -0.04662109074614358
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.053769323073215476,
+          "upper": -0.041838899665288365,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.12731345571985878,
+          "upper": -0.10509582029844762,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.06010428550020772,
+          "upper": -0.04984586450292164,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "valid_n_by_seed": [
+        80053,
+        80053,
+        80053,
+        80053,
+        80053
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_source_invariance|617|7",
+      "family": "grl_source_invariance",
+      "city_id": 617,
+      "budget": "7",
+      "method": "grl_l50_constant_source_graphgru",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_047"
+    },
+    {
+      "point_gain": {
+        "mae": -0.03745454927829082,
+        "rmse": -0.09521279936544516,
+        "wape": -0.03334863773883314,
+        "station_macro_mae": -0.03590683972800326
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.043533382794640425,
+          "upper": -0.03021200380456666,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.10657604178793123,
+          "upper": -0.07997726951043418,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.03635378839096024,
+          "upper": -0.029187175987657563,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.04186103018358524,
+          "upper": -0.0287944197953988,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        105498,
+        105498,
+        105498,
+        105498,
+        105498
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "graph_contribution|195|30",
+      "family": "graph_contribution",
+      "city_id": 195,
+      "budget": "30",
+      "method": "target_only_graph",
+      "reference": "target_only_vanilla",
+      "replicate_key": "comparison_048"
+    },
+    {
+      "point_gain": {
+        "mae": -0.05192126129230905,
+        "rmse": -0.11655581858963329,
+        "wape": -0.04007590127083351,
+        "station_macro_mae": -0.05167663241497409
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.05952983911310447,
+          "upper": -0.043389624367700524,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.12653199029873335,
+          "upper": -0.102521765812287,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.0429660918311417,
+          "upper": -0.035963395532803505,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.059295368255937404,
+          "upper": -0.043113480907054184,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        63815,
+        63815,
+        63815,
+        63815,
+        63815
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "graph_contribution|199|30",
+      "family": "graph_contribution",
+      "city_id": 199,
+      "budget": "30",
+      "method": "target_only_graph",
+      "reference": "target_only_vanilla",
+      "replicate_key": "comparison_049"
+    },
+    {
+      "point_gain": {
+        "mae": 0.0005877775525054529,
+        "rmse": -0.000749032045160325,
+        "wape": 0.0008717092072330513,
+        "station_macro_mae": 0.0006254494590771209
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.0005400671884275976,
+          "upper": 0.0006431557278090017,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.0008355364194943771,
+          "upper": -0.0006896317415431008,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.0007521965275137388,
+          "upper": 0.0010263659085991428,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.0005762677020724244,
+          "upper": 0.0006848826691833843,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        126198,
+        126198,
+        126198,
+        126198,
+        126198
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "graph_contribution|237|30",
+      "family": "graph_contribution",
+      "city_id": 237,
+      "budget": "30",
+      "method": "target_only_graph",
+      "reference": "target_only_vanilla",
+      "replicate_key": "comparison_050"
+    },
+    {
+      "point_gain": {
+        "mae": 0.0001914109470906089,
+        "rmse": 0.001384550654025718,
+        "wape": 0.00022025011207889024,
+        "station_macro_mae": 0.0001794020171917987
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.00013615797263338223,
+          "upper": 0.00024975321570608555,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.0013490602805136165,
+          "upper": 0.001422863133832417,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.0001606793490388869,
+          "upper": 0.00027741986819948544,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "valid_n_by_seed": [
+        80053,
+        80053,
+        80053,
+        80053,
+        80053
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "graph_contribution|617|30",
+      "family": "graph_contribution",
+      "city_id": 617,
+      "budget": "30",
+      "method": "target_only_graph",
+      "reference": "target_only_vanilla",
+      "replicate_key": "comparison_051"
+    },
+    {
+      "point_gain": {
+        "mae": 0.1500759148600342,
+        "rmse": 0.3481443647246816,
+        "wape": 0.13362401669300336,
+        "station_macro_mae": 0.14508431505031577
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.126199018824851,
+          "upper": 0.17177782025978786,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.2931267303547228,
+          "upper": 0.39754922275947935,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.12150146926685479,
+          "upper": 0.1434438596009123,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.12168888533357922,
+          "upper": 0.16657142646084147,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        105498,
+        105498,
+        105498,
+        105498,
+        105498
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "ordinary_transfer|195|30",
+      "family": "ordinary_transfer",
+      "city_id": 195,
+      "budget": "30",
+      "method": "ordinary_source_adapted",
+      "reference": "target_only_graph",
+      "replicate_key": "comparison_052"
+    },
+    {
+      "point_gain": {
+        "mae": 0.19136460813707828,
+        "rmse": 0.38414679025496173,
+        "wape": 0.1477065262197183,
+        "station_macro_mae": 0.1905901807854762
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.1570343190331871,
+          "upper": 0.22359984355787188,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.32960692437733285,
+          "upper": 0.42919538207350433,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.1314687500570269,
+          "upper": 0.16057959203170755,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.15612569914799582,
+          "upper": 0.22286694975072002,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        63815,
+        63815,
+        63815,
+        63815,
+        63815
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "ordinary_transfer|199|30",
+      "family": "ordinary_transfer",
+      "city_id": 199,
+      "budget": "30",
+      "method": "ordinary_source_adapted",
+      "reference": "target_only_graph",
+      "replicate_key": "comparison_053"
+    },
+    {
+      "point_gain": {
+        "mae": 0.0501056834670186,
+        "rmse": 0.13832970183009352,
+        "wape": 0.07430972044904767,
+        "station_macro_mae": 0.04835421969808795
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.040100500651074206,
+          "upper": 0.06005185267773454,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.116005306665827,
+          "upper": 0.15905660822773138,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.06357758663929501,
+          "upper": 0.08380234031380343,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.038719713166234904,
+          "upper": 0.058010514745375184,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        126198,
+        126198,
+        126198,
+        126198,
+        126198
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "ordinary_transfer|237|30",
+      "family": "ordinary_transfer",
+      "city_id": 237,
+      "budget": "30",
+      "method": "ordinary_source_adapted",
+      "reference": "target_only_graph",
+      "replicate_key": "comparison_054"
+    },
+    {
+      "point_gain": {
+        "mae": 0.08873794928331853,
+        "rmse": 0.2170919524506992,
+        "wape": 0.10210776119327736,
+        "station_macro_mae": 0.08609480844333203
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.07821264680512474,
+          "upper": 0.0983446518604036,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.1973133367422652,
+          "upper": 0.23411139056190802,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.09372638886940148,
+          "upper": 0.10903201045409602,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "valid_n_by_seed": [
+        80053,
+        80053,
+        80053,
+        80053,
+        80053
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "ordinary_transfer|617|30",
+      "family": "ordinary_transfer",
+      "city_id": 617,
+      "budget": "30",
+      "method": "ordinary_source_adapted",
+      "reference": "target_only_graph",
+      "replicate_key": "comparison_055"
+    },
+    {
+      "point_gain": {
+        "mae": 0.0025228205537658256,
+        "rmse": -0.0005885547504846933,
+        "wape": 0.0022462592755424283,
+        "station_macro_mae": 0.0024552753818526617
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.0014934316793679292,
+          "upper": 0.0035242892426221545,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.0037882312712810107,
+          "upper": 0.002182273872233498,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.0013737378034027374,
+          "upper": 0.003032486840891712,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.001457731632327498,
+          "upper": 0.0034426286538065086,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        105498,
+        105498,
+        105498,
+        105498,
+        105498
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "adaptation|195|30",
+      "family": "adaptation",
+      "city_id": 195,
+      "budget": "30",
+      "method": "ordinary_source_adapted",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_056"
+    },
+    {
+      "point_gain": {
+        "mae": 0.0020542544920344906,
+        "rmse": -0.004053045117292475,
+        "wape": 0.0015855951523298995,
+        "station_macro_mae": 0.0020574246780682205
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.00024654928991456825,
+          "upper": 0.004815532031100138,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.008537442962151844,
+          "upper": 0.0013974199463668295,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.0001822447250840159,
+          "upper": 0.003844115499972929,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.00022830230251016714,
+          "upper": 0.004804613285161663,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        63815,
+        63815,
+        63815,
+        63815,
+        63815
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "adaptation|199|30",
+      "family": "adaptation",
+      "city_id": 199,
+      "budget": "30",
+      "method": "ordinary_source_adapted",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_057"
+    },
+    {
+      "point_gain": {
+        "mae": 0.0005860809521222255,
+        "rmse": 0.0010257903536639913,
+        "wape": 0.0008691930475587251,
+        "station_macro_mae": 0.0005535750467152934
+      },
+      "intervals": {
+        "mae": {
+          "lower": 4.1367342384043276e-05,
+          "upper": 0.0009898166989913532,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.0011474723410957366,
+          "upper": 0.00241683365604901,
+          "reason": null
+        },
+        "wape": {
+          "lower": 6.49769911816406e-05,
+          "upper": 0.0014365583247861527,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 4.845577156168013e-05,
+          "upper": 0.0009374164273298329,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        126198,
+        126198,
+        126198,
+        126198,
+        126198
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "adaptation|237|30",
+      "family": "adaptation",
+      "city_id": 237,
+      "budget": "30",
+      "method": "ordinary_source_adapted",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_058"
+    },
+    {
+      "point_gain": {
+        "mae": 0.0033591299154590803,
+        "rmse": 0.00706676720022541,
+        "wape": 0.0038652373420282383,
+        "station_macro_mae": 0.003102938944068101
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.002634679534223194,
+          "upper": 0.004005409089720628,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.005210154642919125,
+          "upper": 0.008736148809389225,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.0029706744551142973,
+          "upper": 0.004664035277224487,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "valid_n_by_seed": [
+        80053,
+        80053,
+        80053,
+        80053,
+        80053
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "adaptation|617|30",
+      "family": "adaptation",
+      "city_id": 617,
+      "budget": "30",
+      "method": "ordinary_source_adapted",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_059"
+    },
+    {
+      "point_gain": {
+        "mae": -0.0037899497370169843,
+        "rmse": 0.005893858748400582,
+        "wape": -0.0033744808912018255,
+        "station_macro_mae": -0.003691573226314482
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.005794586333469572,
+          "upper": -0.002091848716794276,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.0007908377469301453,
+          "upper": 0.011160919155818922,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.00513380254126367,
+          "upper": -0.0018519453888354437,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.005652865538864956,
+          "upper": -0.0020473105377670996,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        105498,
+        105498,
+        105498,
+        105498,
+        105498
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "pooled_vs_sequential|195|30",
+      "family": "pooled_vs_sequential",
+      "city_id": 195,
+      "budget": "30",
+      "method": "pooled_graph",
+      "reference": "ordinary_source_adapted",
+      "replicate_key": "comparison_060"
+    },
+    {
+      "point_gain": {
+        "mae": -0.0037153589276403888,
+        "rmse": -0.009015213084561902,
+        "wape": -0.0028677338312634417,
+        "station_macro_mae": -0.0036986730642342815
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.005818216588784945,
+          "upper": -0.0016195600713051616,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.014084882555228365,
+          "upper": -0.004049030618151704,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.00463299034263086,
+          "upper": -0.0012350695528044197,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.0057914802006713536,
+          "upper": -0.0016155021261698755,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        63815,
+        63815,
+        63815,
+        63815,
+        63815
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "pooled_vs_sequential|199|30",
+      "family": "pooled_vs_sequential",
+      "city_id": 199,
+      "budget": "30",
+      "method": "pooled_graph",
+      "reference": "ordinary_source_adapted",
+      "replicate_key": "comparison_061"
+    },
+    {
+      "point_gain": {
+        "mae": -0.04570929708497695,
+        "rmse": -0.14594123360421954,
+        "wape": -0.067789616931239,
+        "station_macro_mae": -0.043684440961091565
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.056093252759007964,
+          "upper": -0.03529837119381997,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.16675965871058204,
+          "upper": -0.12354132119157775,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.07812982074407046,
+          "upper": -0.055903677696105124,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.0536807133563587,
+          "upper": -0.03361133775391226,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        126198,
+        126198,
+        126198,
+        126198,
+        126198
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "pooled_vs_sequential|237|30",
+      "family": "pooled_vs_sequential",
+      "city_id": 237,
+      "budget": "30",
+      "method": "pooled_graph",
+      "reference": "ordinary_source_adapted",
+      "replicate_key": "comparison_062"
+    },
+    {
+      "point_gain": {
+        "mae": 0.023994429478305525,
+        "rmse": 0.07254974373745897,
+        "wape": 0.027609579609705094,
+        "station_macro_mae": 0.023331900568709107
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.020122056052847566,
+          "upper": 0.02760786264577953,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.06375184469616248,
+          "upper": 0.08035566018148799,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.024182866180757275,
+          "upper": 0.030596888011974015,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "valid_n_by_seed": [
+        80053,
+        80053,
+        80053,
+        80053,
+        80053
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "pooled_vs_sequential|617|30",
+      "family": "pooled_vs_sequential",
+      "city_id": 617,
+      "budget": "30",
+      "method": "pooled_graph",
+      "reference": "ordinary_source_adapted",
+      "replicate_key": "comparison_063"
+    },
+    {
+      "point_gain": {
+        "mae": -0.08303456905665581,
+        "rmse": -0.22178344334693212,
+        "wape": -0.07393200069492076,
+        "station_macro_mae": -0.0801498074249845
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.09644681748944585,
+          "upper": -0.06804726776590637,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.2557242198778494,
+          "upper": -0.18253883175116936,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.08097536830259193,
+          "upper": -0.06537192231302856,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.09335023637514821,
+          "upper": -0.06546564109781684,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        105498,
+        105498,
+        105498,
+        105498,
+        105498
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_incremental|195|30",
+      "family": "grl_incremental",
+      "city_id": 195,
+      "budget": "30",
+      "method": "grl_l50_constant_adapted",
+      "reference": "ordinary_source_adapted",
+      "replicate_key": "comparison_064"
+    },
+    {
+      "point_gain": {
+        "mae": -0.09922452033193419,
+        "rmse": -0.21037839597373198,
+        "wape": -0.0765873551892591,
+        "station_macro_mae": -0.09879909351569031
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.11105846092371623,
+          "upper": -0.08658165873384518,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.2263198663715085,
+          "upper": -0.19172672158456922,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.08070057470491042,
+          "upper": -0.07145305680727107,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.11066777638115849,
+          "upper": -0.08618925547974751,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        63815,
+        63815,
+        63815,
+        63815,
+        63815
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_incremental|199|30",
+      "family": "grl_incremental",
+      "city_id": 199,
+      "budget": "30",
+      "method": "grl_l50_constant_adapted",
+      "reference": "ordinary_source_adapted",
+      "replicate_key": "comparison_065"
+    },
+    {
+      "point_gain": {
+        "mae": -0.025588918796121796,
+        "rmse": -0.08369056157979485,
+        "wape": -0.03794989451815047,
+        "station_macro_mae": -0.024458621069906417
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.030608115308575396,
+          "upper": -0.020182578485685665,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.0938504738794246,
+          "upper": -0.07155632978914722,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.042775811589464106,
+          "upper": -0.03215043230957317,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.029399235967647167,
+          "upper": -0.019194067894663405,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        126198,
+        126198,
+        126198,
+        126198,
+        126198
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_incremental|237|30",
+      "family": "grl_incremental",
+      "city_id": 237,
+      "budget": "30",
+      "method": "grl_l50_constant_adapted",
+      "reference": "ordinary_source_adapted",
+      "replicate_key": "comparison_066"
+    },
+    {
+      "point_gain": {
+        "mae": -0.048159310380959906,
+        "rmse": -0.12837159023386552,
+        "wape": -0.055415291916559827,
+        "station_macro_mae": -0.04667662518092817
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.05484770247216064,
+          "upper": -0.04165887218681447,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.1388636408522485,
+          "upper": -0.11809232202304258,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.06127031028675646,
+          "upper": -0.04971264055597888,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "valid_n_by_seed": [
+        80053,
+        80053,
+        80053,
+        80053,
+        80053
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_incremental|617|30",
+      "family": "grl_incremental",
+      "city_id": 617,
+      "budget": "30",
+      "method": "grl_l50_constant_adapted",
+      "reference": "ordinary_source_adapted",
+      "replicate_key": "comparison_067"
+    },
+    {
+      "point_gain": {
+        "mae": -0.08132098263102046,
+        "rmse": -0.20795811366250633,
+        "wape": -0.07240626419444662,
+        "station_macro_mae": -0.07876978034867252
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.09527951908068909,
+          "upper": -0.06625509051880575,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.23374553412569868,
+          "upper": -0.17403880777939884,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.0801583040116711,
+          "upper": -0.06368274461615304,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.09258378604066642,
+          "upper": -0.06409494733123242,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        105498,
+        105498,
+        105498,
+        105498,
+        105498
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_source_invariance|195|30",
+      "family": "grl_source_invariance",
+      "city_id": 195,
+      "budget": "30",
+      "method": "grl_l50_constant_source_graphgru",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_068"
+    },
+    {
+      "point_gain": {
+        "mae": -0.10702792166829408,
+        "rmse": -0.2327624703016909,
+        "wape": -0.08261048201146862,
+        "station_macro_mae": -0.10659094954254016
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.11875811024507961,
+          "upper": -0.09446142244545239,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.2598045220992871,
+          "upper": -0.20914789827041572,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.0860344558755018,
+          "upper": -0.07753891405061694,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.11835948447007433,
+          "upper": -0.09402061411615088,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        63815,
+        63815,
+        63815,
+        63815,
+        63815
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_source_invariance|199|30",
+      "family": "grl_source_invariance",
+      "city_id": 199,
+      "budget": "30",
+      "method": "grl_l50_constant_source_graphgru",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_069"
+    },
+    {
+      "point_gain": {
+        "mae": -0.027382326014044646,
+        "rmse": -0.06945694898481589,
+        "wape": -0.040609624508718786,
+        "station_macro_mae": -0.026586335760094105
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.031851698576971864,
+          "upper": -0.022523634964896757,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.08032952584114304,
+          "upper": -0.05663104132997986,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.04447928643825324,
+          "upper": -0.0359552060143963,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.030969738655720436,
+          "upper": -0.021867328926220644,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        126198,
+        126198,
+        126198,
+        126198,
+        126198
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_source_invariance|237|30",
+      "family": "grl_source_invariance",
+      "city_id": 237,
+      "budget": "30",
+      "method": "grl_l50_constant_source_graphgru",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_070"
+    },
+    {
+      "point_gain": {
+        "mae": -0.04764971262812394,
+        "rmse": -0.1161495711797805,
+        "wape": -0.05482891499359217,
+        "station_macro_mae": -0.04662109074614358
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.053769323073215476,
+          "upper": -0.041838899665288365,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.12731345571985878,
+          "upper": -0.10509582029844762,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.06010428550020772,
+          "upper": -0.04984586450292164,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "valid_n_by_seed": [
+        80053,
+        80053,
+        80053,
+        80053,
+        80053
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_source_invariance|617|30",
+      "family": "grl_source_invariance",
+      "city_id": 617,
+      "budget": "30",
+      "method": "grl_l50_constant_source_graphgru",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_071"
+    },
+    {
+      "point_gain": {
+        "mae": -0.0921311627524188,
+        "rmse": -0.22335407765243329,
+        "wape": -0.0820313908534664,
+        "station_macro_mae": -0.08882587094277046
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.10653879226630973,
+          "upper": -0.07504933193182636,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.2507570641456903,
+          "upper": -0.18732785723271467,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.08910415606342575,
+          "upper": -0.07215219360980248,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.10283740846368142,
+          "upper": -0.07215282026191605,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        105498,
+        105498,
+        105498,
+        105498,
+        105498
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "graph_contribution|195|full",
+      "family": "graph_contribution",
+      "city_id": 195,
+      "budget": "full",
+      "method": "target_only_graph",
+      "reference": "target_only_vanilla",
+      "replicate_key": "comparison_072"
+    },
+    {
+      "point_gain": {
+        "mae": -0.047451259774508835,
+        "rmse": -0.0999360163849314,
+        "wape": -0.03662568964174173,
+        "station_macro_mae": -0.04724240297625495
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.054485685983120986,
+          "upper": -0.03975209565604013,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.10869396932051331,
+          "upper": -0.08858334123871947,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.039304413885046505,
+          "upper": -0.03305545993923408,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.05432256550252006,
+          "upper": -0.03950045784146183,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        63815,
+        63815,
+        63815,
+        63815,
+        63815
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "graph_contribution|199|full",
+      "family": "graph_contribution",
+      "city_id": 199,
+      "budget": "full",
+      "method": "target_only_graph",
+      "reference": "target_only_vanilla",
+      "replicate_key": "comparison_073"
+    },
+    {
+      "point_gain": {
+        "mae": 5.285728606139184e-05,
+        "rmse": 0.0003002785903028382,
+        "wape": 7.839051139786335e-05,
+        "station_macro_mae": 4.82213670204068e-05
+      },
+      "intervals": {
+        "mae": {
+          "lower": 3.272314420436795e-05,
+          "upper": 7.220475257954827e-05,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.00024135646792851627,
+          "upper": 0.0003413447110209,
+          "reason": null
+        },
+        "wape": {
+          "lower": 5.124821722243933e-05,
+          "upper": 0.0001014173519539041,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 2.819377560297487e-05,
+          "upper": 6.688315518711018e-05,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        126198,
+        126198,
+        126198,
+        126198,
+        126198
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "graph_contribution|237|full",
+      "family": "graph_contribution",
+      "city_id": 237,
+      "budget": "full",
+      "method": "target_only_graph",
+      "reference": "target_only_vanilla",
+      "replicate_key": "comparison_074"
+    },
+    {
+      "point_gain": {
+        "mae": -2.510520614440459e-06,
+        "rmse": 0.00043070659962523016,
+        "wape": -2.8887712803626895e-06,
+        "station_macro_mae": -8.603234430371032e-06
+      },
+      "intervals": {
+        "mae": {
+          "lower": -2.1357756807970363e-05,
+          "upper": 1.6490844374817394e-05,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.00041467711633302206,
+          "upper": 0.0004453834749219043,
+          "reason": null
+        },
+        "wape": {
+          "lower": -2.5703074502183564e-05,
+          "upper": 1.819124977149865e-05,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "valid_n_by_seed": [
+        80053,
+        80053,
+        80053,
+        80053,
+        80053
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "graph_contribution|617|full",
+      "family": "graph_contribution",
+      "city_id": 617,
+      "budget": "full",
+      "method": "target_only_graph",
+      "reference": "target_only_vanilla",
+      "replicate_key": "comparison_075"
+    },
+    {
+      "point_gain": {
+        "mae": 0.14995003583516014,
+        "rmse": 0.3721609654449924,
+        "wape": 0.1335119370102857,
+        "station_macro_mae": 0.1445972220346685
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.12523312709181003,
+          "upper": 0.1720495140921159,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.31546662952562987,
+          "upper": 0.4241950058804095,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.12059945581245528,
+          "upper": 0.14411230813321455,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.1201682202926124,
+          "upper": 0.16632581919348943,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        105498,
+        105498,
+        105498,
+        105498,
+        105498
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "ordinary_transfer|195|full",
+      "family": "ordinary_transfer",
+      "city_id": 195,
+      "budget": "full",
+      "method": "ordinary_source_adapted",
+      "reference": "target_only_graph",
+      "replicate_key": "comparison_076"
+    },
+    {
+      "point_gain": {
+        "mae": 0.19326501981395294,
+        "rmse": 0.404890233691188,
+        "wape": 0.14917337638554137,
+        "station_macro_mae": 0.1924451562409633
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.1569827544420915,
+          "upper": 0.2275269539466313,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.3453848609177832,
+          "upper": 0.4538541746231855,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.13105801010665832,
+          "upper": 0.16326851909137027,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.1561407100125817,
+          "upper": 0.22671156950695875,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        63815,
+        63815,
+        63815,
+        63815,
+        63815
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "ordinary_transfer|199|full",
+      "family": "ordinary_transfer",
+      "city_id": 199,
+      "budget": "full",
+      "method": "ordinary_source_adapted",
+      "reference": "target_only_graph",
+      "replicate_key": "comparison_077"
+    },
+    {
+      "point_gain": {
+        "mae": 0.04736704172540127,
+        "rmse": 0.1455754691313052,
+        "wape": 0.0702481512188099,
+        "station_macro_mae": 0.04541260179777786
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.03697593468192799,
+          "upper": 0.05778574518166791,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.12220834218806095,
+          "upper": 0.167503486845588,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.05836532944376414,
+          "upper": 0.08059897427909664,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.03536233637126604,
+          "upper": 0.05539469395823572,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        126198,
+        126198,
+        126198,
+        126198,
+        126198
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "ordinary_transfer|237|full",
+      "family": "ordinary_transfer",
+      "city_id": 237,
+      "budget": "full",
+      "method": "ordinary_source_adapted",
+      "reference": "target_only_graph",
+      "replicate_key": "comparison_078"
+    },
+    {
+      "point_gain": {
+        "mae": 0.0864822577151346,
+        "rmse": 0.22171656114196278,
+        "wape": 0.09951221308978844,
+        "station_macro_mae": 0.08367883688715812
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.07590926646517196,
+          "upper": 0.09608854301398972,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.2020633947276017,
+          "upper": 0.23807278221953088,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.09103597685918588,
+          "upper": 0.10661720842517487,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "valid_n_by_seed": [
+        80053,
+        80053,
+        80053,
+        80053,
+        80053
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "ordinary_transfer|617|full",
+      "family": "ordinary_transfer",
+      "city_id": 617,
+      "budget": "full",
+      "method": "ordinary_source_adapted",
+      "reference": "target_only_graph",
+      "replicate_key": "comparison_079"
+    },
+    {
+      "point_gain": {
+        "mae": 0.0037386054941456193,
+        "rmse": 0.017325548793811894,
+        "wape": 0.0033287652014261314,
+        "station_macro_mae": 0.0035753301464399147
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.0019136702897009205,
+          "upper": 0.0056025587359542104,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.01181350515585791,
+          "upper": 0.022950977743482273,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.0018043418306278665,
+          "upper": 0.0047338563127289485,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.0018062940197532916,
+          "upper": 0.005375196156774788,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        105498,
+        105498,
+        105498,
+        105498,
+        105498
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "adaptation|195|full",
+      "family": "adaptation",
+      "city_id": 195,
+      "budget": "full",
+      "method": "ordinary_source_adapted",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_080"
+    },
+    {
+      "point_gain": {
+        "mae": 0.0029790740999989353,
+        "rmse": 0.008398562876664916,
+        "wape": 0.0022994256406428937,
+        "station_macro_mae": 0.002968323332739242
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.0017714732656590082,
+          "upper": 0.0041151947268686295,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.004020804045202799,
+          "upper": 0.012389186934759691,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.001389099194725642,
+          "upper": 0.0032067354918041634,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.0017644829983197862,
+          "upper": 0.004097045175684286,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        63815,
+        63815,
+        63815,
+        63815,
+        63815
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "adaptation|199|full",
+      "family": "adaptation",
+      "city_id": 199,
+      "budget": "full",
+      "method": "ordinary_source_adapted",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_081"
+    },
+    {
+      "point_gain": {
+        "mae": 0.0009860638523000675,
+        "rmse": 0.003237932762021556,
+        "wape": 0.0014623915719572888,
+        "station_macro_mae": 0.0009376205050808606
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.0005052129067189182,
+          "upper": 0.0014282169651277134,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.0015095587238776686,
+          "upper": 0.004401817699435337,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.0008092358111408988,
+          "upper": 0.002005682144383019,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.0004785799947867275,
+          "upper": 0.0013637037898795842,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        126198,
+        126198,
+        126198,
+        126198,
+        126198
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "adaptation|237|full",
+      "family": "adaptation",
+      "city_id": 237,
+      "budget": "full",
+      "method": "ordinary_source_adapted",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_082"
+    },
+    {
+      "point_gain": {
+        "mae": 0.0027274480220004006,
+        "rmse": 0.004916606634266163,
+        "wape": 0.003138382321731781,
+        "station_macro_mae": 0.0024372591213735586
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.0016517147500914118,
+          "upper": 0.00362504771347794,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.0024555798961088822,
+          "upper": 0.007053483393107367,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.0018407668179646036,
+          "upper": 0.004290242109454272,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "valid_n_by_seed": [
+        80053,
+        80053,
+        80053,
+        80053,
+        80053
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "adaptation|617|full",
+      "family": "adaptation",
+      "city_id": 617,
+      "budget": "full",
+      "method": "ordinary_source_adapted",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_083"
+    },
+    {
+      "point_gain": {
+        "mae": 0.04336676387595566,
+        "rmse": 0.10164655007235579,
+        "wape": 0.038612732665909075,
+        "station_macro_mae": 0.04180285357936793
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.03607790757492444,
+          "upper": 0.049878276654494416,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.08637535084066761,
+          "upper": 0.11465337928286966,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.034273547222990496,
+          "upper": 0.04209604280667593,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": 0.03457887134403759,
+          "upper": 0.04831002565833015,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        105498,
+        105498,
+        105498,
+        105498,
+        105498
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "pooled_vs_sequential|195|full",
+      "family": "pooled_vs_sequential",
+      "city_id": 195,
+      "budget": "full",
+      "method": "pooled_graph",
+      "reference": "ordinary_source_adapted",
+      "replicate_key": "comparison_084"
+    },
+    {
+      "point_gain": {
+        "mae": -0.13014776797710448,
+        "rmse": -0.272344860721865,
+        "wape": -0.10045574722666428,
+        "station_macro_mae": -0.12959394667868138
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.15294215387987825,
+          "upper": -0.10598464381944116,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.3055312600942048,
+          "upper": -0.2320534131876683,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.10980067200932035,
+          "upper": -0.08857540498367532,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.15240531560673423,
+          "upper": -0.10550194250281687,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        63815,
+        63815,
+        63815,
+        63815,
+        63815
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "pooled_vs_sequential|199|full",
+      "family": "pooled_vs_sequential",
+      "city_id": 199,
+      "budget": "full",
+      "method": "pooled_graph",
+      "reference": "ordinary_source_adapted",
+      "replicate_key": "comparison_085"
+    },
+    {
+      "point_gain": {
+        "mae": -0.020476979279083762,
+        "rmse": -0.060145512687910595,
+        "wape": -0.030368582974649082,
+        "station_macro_mae": -0.019672191800060034
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.02450968470184038,
+          "upper": -0.016392256661447377,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.06903083700678098,
+          "upper": -0.051021186479805816,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.03414826574841137,
+          "upper": -0.026128235241863095,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.023550671309387816,
+          "upper": -0.015718618365034402,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        126198,
+        126198,
+        126198,
+        126198,
+        126198
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "pooled_vs_sequential|237|full",
+      "family": "pooled_vs_sequential",
+      "city_id": 237,
+      "budget": "full",
+      "method": "pooled_graph",
+      "reference": "ordinary_source_adapted",
+      "replicate_key": "comparison_086"
+    },
+    {
+      "point_gain": {
+        "mae": -0.032450170056021355,
+        "rmse": -0.07785443355225859,
+        "wape": -0.03733931470720098,
+        "station_macro_mae": -0.03131423452328974
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.03593479349373857,
+          "upper": -0.02864474961905533,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.08284411443423172,
+          "upper": -0.07197807289927866,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.04003549034960131,
+          "upper": -0.03435989184753823,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "valid_n_by_seed": [
+        80053,
+        80053,
+        80053,
+        80053,
+        80053
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "pooled_vs_sequential|617|full",
+      "family": "pooled_vs_sequential",
+      "city_id": 617,
+      "budget": "full",
+      "method": "pooled_graph",
+      "reference": "ordinary_source_adapted",
+      "replicate_key": "comparison_087"
+    },
+    {
+      "point_gain": {
+        "mae": -0.08433603049400093,
+        "rmse": -0.23241399581218722,
+        "wape": -0.07509079093112418,
+        "station_macro_mae": -0.08143297467578343
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.09766832986537917,
+          "upper": -0.06959360969280232,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.26790756565201984,
+          "upper": -0.1922118371009956,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.08188573815439905,
+          "upper": -0.06698947372981731,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.09458388249513595,
+          "upper": -0.0670344258604667,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        105498,
+        105498,
+        105498,
+        105498,
+        105498
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_incremental|195|full",
+      "family": "grl_incremental",
+      "city_id": 195,
+      "budget": "full",
+      "method": "grl_l50_constant_adapted",
+      "reference": "ordinary_source_adapted",
+      "replicate_key": "comparison_088"
+    },
+    {
+      "point_gain": {
+        "mae": -0.10245272050687304,
+        "rmse": -0.22838117048809115,
+        "wape": -0.07907907107352836,
+        "station_macro_mae": -0.10200905727842055
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.11470451053424868,
+          "upper": -0.08949905877897261,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.24901472473295141,
+          "upper": -0.2063778711910813,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.08295620786152724,
+          "upper": -0.07388892085979877,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.11435315682434385,
+          "upper": -0.08911836157363487,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        63815,
+        63815,
+        63815,
+        63815,
+        63815
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_incremental|199|full",
+      "family": "grl_incremental",
+      "city_id": 199,
+      "budget": "full",
+      "method": "grl_l50_constant_adapted",
+      "reference": "ordinary_source_adapted",
+      "replicate_key": "comparison_089"
+    },
+    {
+      "point_gain": {
+        "mae": -0.026636454590897918,
+        "rmse": -0.0832810853448703,
+        "wape": -0.03950345265135957,
+        "station_macro_mae": -0.02553373197378661
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.0318740706613888,
+          "upper": -0.020943089918290487,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.09428888967480796,
+          "upper": -0.07081731545340389,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.04447354420368607,
+          "upper": -0.03350494231731785,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.030674169309371592,
+          "upper": -0.020049231862073337,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        126198,
+        126198,
+        126198,
+        126198,
+        126198
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_incremental|237|full",
+      "family": "grl_incremental",
+      "city_id": 237,
+      "budget": "full",
+      "method": "grl_l50_constant_adapted",
+      "reference": "ordinary_source_adapted",
+      "replicate_key": "comparison_090"
+    },
+    {
+      "point_gain": {
+        "mae": -0.04720051783275727,
+        "rmse": -0.12589240893636017,
+        "wape": -0.05431204171372721,
+        "station_macro_mae": -0.045693697273690395
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.05350072425471948,
+          "upper": -0.04100768617082845,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.1356844594737156,
+          "upper": -0.11608574279710757,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.05979903905931807,
+          "upper": -0.048971686768763,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "valid_n_by_seed": [
+        80053,
+        80053,
+        80053,
+        80053,
+        80053
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_incremental|617|full",
+      "family": "grl_incremental",
+      "city_id": 617,
+      "budget": "full",
+      "method": "grl_l50_constant_adapted",
+      "reference": "ordinary_source_adapted",
+      "replicate_key": "comparison_091"
+    },
+    {
+      "point_gain": {
+        "mae": -0.08132098263102046,
+        "rmse": -0.20795811366250633,
+        "wape": -0.07240626419444662,
+        "station_macro_mae": -0.07876978034867252
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.09527951908068909,
+          "upper": -0.06625509051880575,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.23374553412569868,
+          "upper": -0.17403880777939884,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.0801583040116711,
+          "upper": -0.06368274461615304,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.09258378604066642,
+          "upper": -0.06409494733123242,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        105498,
+        105498,
+        105498,
+        105498,
+        105498
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_source_invariance|195|full",
+      "family": "grl_source_invariance",
+      "city_id": 195,
+      "budget": "full",
+      "method": "grl_l50_constant_source_graphgru",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_092"
+    },
+    {
+      "point_gain": {
+        "mae": -0.10702792166829408,
+        "rmse": -0.2327624703016909,
+        "wape": -0.08261048201146862,
+        "station_macro_mae": -0.10659094954254016
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.11875811024507961,
+          "upper": -0.09446142244545239,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.2598045220992871,
+          "upper": -0.20914789827041572,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.0860344558755018,
+          "upper": -0.07753891405061694,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.11835948447007433,
+          "upper": -0.09402061411615088,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        63815,
+        63815,
+        63815,
+        63815,
+        63815
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_source_invariance|199|full",
+      "family": "grl_source_invariance",
+      "city_id": 199,
+      "budget": "full",
+      "method": "grl_l50_constant_source_graphgru",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_093"
+    },
+    {
+      "point_gain": {
+        "mae": -0.027382326014044646,
+        "rmse": -0.06945694898481589,
+        "wape": -0.040609624508718786,
+        "station_macro_mae": -0.026586335760094105
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.031851698576971864,
+          "upper": -0.022523634964896757,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.08032952584114304,
+          "upper": -0.05663104132997986,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.04447928643825324,
+          "upper": -0.0359552060143963,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.030969738655720436,
+          "upper": -0.021867328926220644,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        126198,
+        126198,
+        126198,
+        126198,
+        126198
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_source_invariance|237|full",
+      "family": "grl_source_invariance",
+      "city_id": 237,
+      "budget": "full",
+      "method": "grl_l50_constant_source_graphgru",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_094"
+    },
+    {
+      "point_gain": {
+        "mae": -0.04764971262812394,
+        "rmse": -0.1161495711797805,
+        "wape": -0.05482891499359217,
+        "station_macro_mae": -0.04662109074614358
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.053769323073215476,
+          "upper": -0.041838899665288365,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.12731345571985878,
+          "upper": -0.10509582029844762,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.06010428550020772,
+          "upper": -0.04984586450292164,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "valid_n_by_seed": [
+        80053,
+        80053,
+        80053,
+        80053,
+        80053
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_source_invariance|617|full",
+      "family": "grl_source_invariance",
+      "city_id": 617,
+      "budget": "full",
+      "method": "grl_l50_constant_source_graphgru",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_095"
+    },
+    {
+      "point_gain": {
+        "mae": -0.015862404223157676,
+        "rmse": -0.03261053574776276,
+        "wape": -0.014022016494523327,
+        "station_macro_mae": -0.01268587803903618
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.02232541990767637,
+          "upper": -0.008836397449556384,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.06068820589332657,
+          "upper": -0.003970597065887642,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.01989029370564167,
+          "upper": -0.007721846412338608,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.019039083505451294,
+          "upper": -0.005793358296016556,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        90522,
+        90522,
+        90522,
+        90522,
+        90522
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "ordinary_zero_transfer|195|0",
+      "family": "ordinary_zero_transfer",
+      "city_id": 195,
+      "budget": "0",
+      "method": "ordinary_source_graphgru",
+      "reference": "seasonal_naive",
+      "replicate_key": "comparison_096"
+    },
+    {
+      "point_gain": {
+        "mae": -0.02465684866924136,
+        "rmse": -0.04016746931781441,
+        "wape": -0.01864004519235567,
+        "station_macro_mae": -0.0242343879709215
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.035052818532227845,
+          "upper": -0.014447116142957577,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.06912353853276744,
+          "upper": -0.016548532741933134,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.027758787633560756,
+          "upper": -0.010806277257635834,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.03461401829624783,
+          "upper": -0.014108865923531276,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        56018,
+        56018,
+        56018,
+        56018,
+        56018
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "ordinary_zero_transfer|199|0",
+      "family": "ordinary_zero_transfer",
+      "city_id": 199,
+      "budget": "0",
+      "method": "ordinary_source_graphgru",
+      "reference": "seasonal_naive",
+      "replicate_key": "comparison_097"
+    },
+    {
+      "point_gain": {
+        "mae": 0.0036966333415119124,
+        "rmse": -0.06458832696708164,
+        "wape": 0.005365840218611506,
+        "station_macro_mae": 0.006308352490092895
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.004452409485676384,
+          "upper": 0.012263084858818872,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.0706625069667263,
+          "upper": -0.05928720125503881,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.006078401584342836,
+          "upper": 0.01934318900582388,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.001714136578360502,
+          "upper": 0.014691407654773708,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        107985,
+        107985,
+        107985,
+        107985,
+        107985
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "ordinary_zero_transfer|237|0",
+      "family": "ordinary_zero_transfer",
+      "city_id": 237,
+      "budget": "0",
+      "method": "ordinary_source_graphgru",
+      "reference": "seasonal_naive",
+      "replicate_key": "comparison_098"
+    },
+    {
+      "point_gain": {
+        "mae": 0.006576014268869157,
+        "rmse": -0.05006365646855486,
+        "wape": 0.007402938870293219,
+        "station_macro_mae": 0.006457973337093126
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.00019309530806840445,
+          "upper": 0.012508263049191656,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.062046400486317085,
+          "upper": -0.03997527285248364,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.0002076618503812716,
+          "upper": 0.014693633586755033,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "valid_n_by_seed": [
+        68047,
+        68047,
+        68047,
+        68047,
+        68047
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "ordinary_zero_transfer|617|0",
+      "family": "ordinary_zero_transfer",
+      "city_id": 617,
+      "budget": "0",
+      "method": "ordinary_source_graphgru",
+      "reference": "seasonal_naive",
+      "replicate_key": "comparison_099"
+    },
+    {
+      "point_gain": {
+        "mae": -0.09498576171560713,
+        "rmse": -0.24015236126724754,
+        "wape": -0.08396532447311289,
+        "station_macro_mae": -0.08786095385547685
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.10930104267123354,
+          "upper": -0.07970654803944552,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.26511553729848225,
+          "upper": -0.21434966572472686,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.09233808790281346,
+          "upper": -0.07543247118822352,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.10212297195364274,
+          "upper": -0.07265127198491109,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        90522,
+        90522,
+        90522,
+        90522,
+        90522
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_zero_transfer|195|0",
+      "family": "grl_zero_transfer",
+      "city_id": 195,
+      "budget": "0",
+      "method": "grl_l50_constant_source_graphgru",
+      "reference": "seasonal_naive",
+      "replicate_key": "comparison_100"
+    },
+    {
+      "point_gain": {
+        "mae": -0.13444022627328941,
+        "rmse": -0.2780644961666736,
+        "wape": -0.10163390816973172,
+        "station_macro_mae": -0.13327101229863086
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.15023137060582015,
+          "upper": -0.11828244784896765,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.317602120728171,
+          "upper": -0.2444770281017764,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.11189243420556436,
+          "upper": -0.09266585950927736,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.14923559895091948,
+          "upper": -0.11696129367505448,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        56018,
+        56018,
+        56018,
+        56018,
+        56018
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_zero_transfer|199|0",
+      "family": "grl_zero_transfer",
+      "city_id": 199,
+      "budget": "0",
+      "method": "grl_l50_constant_source_graphgru",
+      "reference": "seasonal_naive",
+      "replicate_key": "comparison_101"
+    },
+    {
+      "point_gain": {
+        "mae": -0.023893082296742984,
+        "rmse": -0.13330631581753027,
+        "wape": -0.03468195249302748,
+        "station_macro_mae": -0.019895845788398335
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.03655101447831033,
+          "upper": -0.010687770692516222,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.146519324958876,
+          "upper": -0.1180434634612893,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.04950051912811554,
+          "upper": -0.01675854853533992,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.032275536774114724,
+          "upper": -0.006988084736478323,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        107985,
+        107985,
+        107985,
+        107985,
+        107985
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_zero_transfer|237|0",
+      "family": "grl_zero_transfer",
+      "city_id": 237,
+      "budget": "0",
+      "method": "grl_l50_constant_source_graphgru",
+      "reference": "seasonal_naive",
+      "replicate_key": "comparison_102"
+    },
+    {
+      "point_gain": {
+        "mae": -0.04122008148575185,
+        "rmse": -0.1655034997813428,
+        "wape": -0.04640344910930343,
+        "station_macro_mae": -0.040174977813799105
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.05346395611715632,
+          "upper": -0.030714724931176888,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.17500408550298008,
+          "upper": -0.15531300205845117,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.0573051029857595,
+          "upper": -0.03639826288877634,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "valid_n_by_seed": [
+        68047,
+        68047,
+        68047,
+        68047,
+        68047
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_zero_transfer|617|0",
+      "family": "grl_zero_transfer",
+      "city_id": 617,
+      "budget": "0",
+      "method": "grl_l50_constant_source_graphgru",
+      "reference": "seasonal_naive",
+      "replicate_key": "comparison_103"
+    },
+    {
+      "point_gain": {
+        "mae": -0.08132098263102046,
+        "rmse": -0.20795811366250633,
+        "wape": -0.07240626419444662,
+        "station_macro_mae": -0.07876978034867252
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.09527951908068909,
+          "upper": -0.06625509051880575,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.23374553412569868,
+          "upper": -0.17403880777939884,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.0801583040116711,
+          "upper": -0.06368274461615304,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.09258378604066642,
+          "upper": -0.06409494733123242,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        105498,
+        105498,
+        105498,
+        105498,
+        105498
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_zero_incremental|195|0",
+      "family": "grl_zero_incremental",
+      "city_id": 195,
+      "budget": "0",
+      "method": "grl_l50_constant_source_graphgru",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_104"
+    },
+    {
+      "point_gain": {
+        "mae": -0.10702792166829408,
+        "rmse": -0.2327624703016909,
+        "wape": -0.08261048201146862,
+        "station_macro_mae": -0.10659094954254016
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.11875811024507961,
+          "upper": -0.09446142244545239,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.2598045220992871,
+          "upper": -0.20914789827041572,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.0860344558755018,
+          "upper": -0.07753891405061694,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.11835948447007433,
+          "upper": -0.09402061411615088,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        63815,
+        63815,
+        63815,
+        63815,
+        63815
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_zero_incremental|199|0",
+      "family": "grl_zero_incremental",
+      "city_id": 199,
+      "budget": "0",
+      "method": "grl_l50_constant_source_graphgru",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_105"
+    },
+    {
+      "point_gain": {
+        "mae": -0.027382326014044646,
+        "rmse": -0.06945694898481589,
+        "wape": -0.040609624508718786,
+        "station_macro_mae": -0.026586335760094105
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.031851698576971864,
+          "upper": -0.022523634964896757,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.08032952584114304,
+          "upper": -0.05663104132997986,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.04447928643825324,
+          "upper": -0.0359552060143963,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": -0.030969738655720436,
+          "upper": -0.021867328926220644,
+          "reason": null
+        }
+      },
+      "valid_n_by_seed": [
+        126198,
+        126198,
+        126198,
+        126198,
+        126198
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_zero_incremental|237|0",
+      "family": "grl_zero_incremental",
+      "city_id": 237,
+      "budget": "0",
+      "method": "grl_l50_constant_source_graphgru",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_106"
+    },
+    {
+      "point_gain": {
+        "mae": -0.04764971262812394,
+        "rmse": -0.1161495711797805,
+        "wape": -0.05482891499359217,
+        "station_macro_mae": -0.04662109074614358
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.053769323073215476,
+          "upper": -0.041838899665288365,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.12731345571985878,
+          "upper": -0.10509582029844762,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.06010428550020772,
+          "upper": -0.04984586450292164,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "valid_n_by_seed": [
+        80053,
+        80053,
+        80053,
+        80053,
+        80053
+      ],
+      "training_seeds": [
+        17,
+        29,
+        43,
+        71,
+        101
+      ],
+      "gain_definition": "error(reference)-error(method)",
+      "positive_favors_method": true,
+      "fixed_intersection": true,
+      "comparison_id": "grl_zero_incremental|617|0",
+      "family": "grl_zero_incremental",
+      "city_id": 617,
+      "budget": "0",
+      "method": "grl_l50_constant_source_graphgru",
+      "reference": "ordinary_source_graphgru",
+      "replicate_key": "comparison_107"
+    }
+  ],
+  "equal_city_macro_comparisons": [
+    {
+      "comparison_id": "graph_contribution|equal_city|1",
+      "family": "graph_contribution",
+      "budget": "1",
+      "method": "target_only_graph",
+      "reference": "target_only_vanilla",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "point_gain": {
+        "mae": 0.026865730355690298,
+        "rmse": 0.003383990475964593,
+        "wape": 0.034785171594821106,
+        "station_macro_mae": 0.028645929517682096
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.024876425997230733,
+          "upper": 0.02913110738884927,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.0011227516809449091,
+          "upper": 0.006123419701772285,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.030928312915440966,
+          "upper": 0.04017862687182223,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "comparison_macro_000",
+      "gain_definition": "error(reference)-error(method)"
+    },
+    {
+      "comparison_id": "ordinary_transfer|equal_city|1",
+      "family": "ordinary_transfer",
+      "budget": "1",
+      "method": "ordinary_source_adapted",
+      "reference": "target_only_graph",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "point_gain": {
+        "mae": 0.19507735074673216,
+        "rmse": 0.08408557662123249,
+        "wape": 0.21206106368991123,
+        "station_macro_mae": 0.20085614090905549
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.18692883926314138,
+          "upper": 0.20172552214799963,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.06620080904219453,
+          "upper": 0.09927777413231507,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.20098928481535072,
+          "upper": 0.2243872618057775,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "comparison_macro_001",
+      "gain_definition": "error(reference)-error(method)"
+    },
+    {
+      "comparison_id": "adaptation|equal_city|1",
+      "family": "adaptation",
+      "budget": "1",
+      "method": "ordinary_source_adapted",
+      "reference": "ordinary_source_graphgru",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "point_gain": {
+        "mae": -0.0154872452612889,
+        "rmse": 0.005858223246656502,
+        "wape": -0.01444410251918536,
+        "station_macro_mae": -0.015408765552502146
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.01763028741828604,
+          "upper": -0.013145935724647718,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.0015209672271559009,
+          "upper": 0.010941888961201294,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.01643081297090885,
+          "upper": -0.012357558966322305,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "comparison_macro_002",
+      "gain_definition": "error(reference)-error(method)"
+    },
+    {
+      "comparison_id": "pooled_vs_sequential|equal_city|1",
+      "family": "pooled_vs_sequential",
+      "budget": "1",
+      "method": "pooled_graph",
+      "reference": "ordinary_source_adapted",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "point_gain": {
+        "mae": 0.0017302694607697015,
+        "rmse": -0.044827785249370714,
+        "wape": -0.005559465863975915,
+        "station_macro_mae": 0.0025543759815313755
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.0031381900900784793,
+          "upper": 0.00599469063452704,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.05498783615832431,
+          "upper": -0.035447588775847284,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.008979251096587933,
+          "upper": -0.002429311969894041,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "comparison_macro_003",
+      "gain_definition": "error(reference)-error(method)"
+    },
+    {
+      "comparison_id": "grl_incremental|equal_city|1",
+      "family": "grl_incremental",
+      "budget": "1",
+      "method": "grl_l50_constant_adapted",
+      "reference": "ordinary_source_adapted",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "point_gain": {
+        "mae": -0.07185916367972663,
+        "rmse": -0.25107938242979594,
+        "wape": -0.06933546897042764,
+        "station_macro_mae": -0.06996401633515158
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.07783887179859157,
+          "upper": -0.06554839383342743,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.2751616420508721,
+          "upper": -0.22561122354546861,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.07384445073904454,
+          "upper": -0.06452126131452697,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "comparison_macro_004",
+      "gain_definition": "error(reference)-error(method)"
+    },
+    {
+      "comparison_id": "grl_source_invariance|equal_city|1",
+      "family": "grl_source_invariance",
+      "budget": "1",
+      "method": "grl_l50_constant_source_graphgru",
+      "reference": "ordinary_source_graphgru",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "point_gain": {
+        "mae": -0.06584523573537078,
+        "rmse": -0.15658177603219842,
+        "wape": -0.06261382142705654,
+        "station_macro_mae": -0.06464203909936259
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.0707909333227399,
+          "upper": -0.06070863237012977,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.16682670181726178,
+          "upper": -0.14558698232591083,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.06533919797332746,
+          "upper": -0.05973293232772869,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "comparison_macro_005",
+      "gain_definition": "error(reference)-error(method)"
+    },
+    {
+      "comparison_id": "graph_contribution|equal_city|7",
+      "family": "graph_contribution",
+      "budget": "7",
+      "method": "target_only_graph",
+      "reference": "target_only_vanilla",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "point_gain": {
+        "mae": -0.0003749710182992861,
+        "rmse": 0.0008871413956275996,
+        "wape": -0.0009379781854719438,
+        "station_macro_mae": -0.000289845321499449
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.0005712188423996407,
+          "upper": -0.00017005590982623883,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.0007474780170844455,
+          "upper": 0.0010587782868414126,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.0011469162559456466,
+          "upper": -0.0007240341491036892,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "comparison_macro_006",
+      "gain_definition": "error(reference)-error(method)"
+    },
+    {
+      "comparison_id": "ordinary_transfer|equal_city|7",
+      "family": "ordinary_transfer",
+      "budget": "7",
+      "method": "ordinary_source_adapted",
+      "reference": "target_only_graph",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "point_gain": {
+        "mae": 0.12329961422774428,
+        "rmse": 0.26073939800168183,
+        "wape": 0.11932650320624598,
+        "station_macro_mae": 0.1211484350162395
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.112943918773672,
+          "upper": 0.1333918422181404,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.23991795997032403,
+          "upper": 0.27908175453316136,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.11387270365749477,
+          "upper": 0.12407650816696374,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "comparison_macro_007",
+      "gain_definition": "error(reference)-error(method)"
+    },
+    {
+      "comparison_id": "adaptation|equal_city|7",
+      "family": "adaptation",
+      "budget": "7",
+      "method": "ordinary_source_adapted",
+      "reference": "ordinary_source_graphgru",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "point_gain": {
+        "mae": 0.0007785457260562845,
+        "rmse": 0.007427611408955758,
+        "wape": 0.0009708695978997762,
+        "station_macro_mae": 0.0006507554381605996
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.0003832552348689998,
+          "upper": 0.001190643677871933,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.006456834098145319,
+          "upper": 0.008393059226518115,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.0005776473464667666,
+          "upper": 0.0013378720907886962,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "comparison_macro_008",
+      "gain_definition": "error(reference)-error(method)"
+    },
+    {
+      "comparison_id": "pooled_vs_sequential|equal_city|7",
+      "family": "pooled_vs_sequential",
+      "budget": "7",
+      "method": "pooled_graph",
+      "reference": "ordinary_source_adapted",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "point_gain": {
+        "mae": 0.004341823657710403,
+        "rmse": 0.01063839857566067,
+        "wape": 0.0010954864010543357,
+        "station_macro_mae": 0.004229204852055035
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.002177050417451517,
+          "upper": 0.006312003303054387,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.005502310184251297,
+          "upper": 0.01511139494706403,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.0004139363710448329,
+          "upper": 0.0025453435482402156,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "comparison_macro_009",
+      "gain_definition": "error(reference)-error(method)"
+    },
+    {
+      "comparison_id": "grl_incremental|equal_city|7",
+      "family": "grl_incremental",
+      "budget": "7",
+      "method": "grl_l50_constant_adapted",
+      "reference": "ordinary_source_adapted",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "point_gain": {
+        "mae": -0.07015266305502534,
+        "rmse": -0.19133984166103843,
+        "wape": -0.0664473499110576,
+        "station_macro_mae": -0.06847049012298208
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.07508560207682388,
+          "upper": -0.06495896079884078,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.20630640271314166,
+          "upper": -0.17573389526224975,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.06942506228293283,
+          "upper": -0.06332271800321894,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "comparison_macro_010",
+      "gain_definition": "error(reference)-error(method)"
+    },
+    {
+      "comparison_id": "grl_source_invariance|equal_city|7",
+      "family": "grl_source_invariance",
+      "budget": "7",
+      "method": "grl_l50_constant_source_graphgru",
+      "reference": "ordinary_source_graphgru",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "point_gain": {
+        "mae": -0.06584523573537078,
+        "rmse": -0.15658177603219842,
+        "wape": -0.06261382142705654,
+        "station_macro_mae": -0.06464203909936259
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.0707909333227399,
+          "upper": -0.06070863237012977,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.16682670181726178,
+          "upper": -0.14558698232591083,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.06533919797332746,
+          "upper": -0.05973293232772869,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "comparison_macro_011",
+      "gain_definition": "error(reference)-error(method)"
+    },
+    {
+      "comparison_id": "graph_contribution|equal_city|30",
+      "family": "graph_contribution",
+      "budget": "30",
+      "method": "target_only_graph",
+      "reference": "target_only_vanilla",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "point_gain": {
+        "mae": -0.022149155517750953,
+        "rmse": -0.05278327483655327,
+        "wape": -0.018083144922588678,
+        "station_macro_mae": -0.021694655166677106
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.02453948845970154,
+          "upper": -0.019483305260182802,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.056593533032606044,
+          "upper": -0.04791912690370858,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.019116585316733617,
+          "upper": -0.01664931211753732,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "comparison_macro_012",
+      "gain_definition": "error(reference)-error(method)"
+    },
+    {
+      "comparison_id": "ordinary_transfer|equal_city|30",
+      "family": "ordinary_transfer",
+      "budget": "30",
+      "method": "ordinary_source_adapted",
+      "reference": "target_only_graph",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "point_gain": {
+        "mae": 0.1200710389368624,
+        "rmse": 0.271928202315109,
+        "wape": 0.11443700613876166,
+        "station_macro_mae": 0.117530880994303
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.1094469102788627,
+          "upper": 0.1305696971216308,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.25177187213568525,
+          "upper": 0.2897166293621423,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.10856075434618233,
+          "upper": 0.11952264973622992,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "comparison_macro_013",
+      "gain_definition": "error(reference)-error(method)"
+    },
+    {
+      "comparison_id": "adaptation|equal_city|30",
+      "family": "adaptation",
+      "budget": "30",
+      "method": "ordinary_source_adapted",
+      "reference": "ordinary_source_graphgru",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "point_gain": {
+        "mae": 0.0021305714783454058,
+        "rmse": 0.0008627394215280582,
+        "wape": 0.002141571204364823,
+        "station_macro_mae": 0.0020423035126760692
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.0014133292179820795,
+          "upper": 0.002898984770709807,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.0006892582441113284,
+          "upper": 0.0025202162921671724,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.0015290882566607188,
+          "upper": 0.0027897006361350444,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "comparison_macro_014",
+      "gain_definition": "error(reference)-error(method)"
+    },
+    {
+      "comparison_id": "pooled_vs_sequential|equal_city|30",
+      "family": "pooled_vs_sequential",
+      "budget": "30",
+      "method": "pooled_graph",
+      "reference": "ordinary_source_adapted",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "point_gain": {
+        "mae": -0.0073050440678322,
+        "rmse": -0.01912821105073047,
+        "wape": -0.011605563010999792,
+        "station_macro_mae": -0.006935696670732805
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.010147027404812945,
+          "upper": -0.004369461607685096,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.025330591937136826,
+          "upper": -0.012743211778818781,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.014412999638550722,
+          "upper": -0.008525579525950148,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "comparison_macro_015",
+      "gain_definition": "error(reference)-error(method)"
+    },
+    {
+      "comparison_id": "grl_incremental|equal_city|30",
+      "family": "grl_incremental",
+      "budget": "30",
+      "method": "grl_l50_constant_adapted",
+      "reference": "ordinary_source_adapted",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "point_gain": {
+        "mae": -0.06400182964141791,
+        "rmse": -0.1610559977835811,
+        "wape": -0.060971135579722543,
+        "station_macro_mae": -0.06252103679787735
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.06886458857322027,
+          "upper": -0.05882172393885589,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.1711455923524245,
+          "upper": -0.14972105087856713,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.06373530722087331,
+          "upper": -0.057833607256688964,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "comparison_macro_016",
+      "gain_definition": "error(reference)-error(method)"
+    },
+    {
+      "comparison_id": "grl_source_invariance|equal_city|30",
+      "family": "grl_source_invariance",
+      "budget": "30",
+      "method": "grl_l50_constant_source_graphgru",
+      "reference": "ordinary_source_graphgru",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "point_gain": {
+        "mae": -0.06584523573537078,
+        "rmse": -0.15658177603219842,
+        "wape": -0.06261382142705654,
+        "station_macro_mae": -0.06464203909936259
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.0707909333227399,
+          "upper": -0.06070863237012977,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.16682670181726178,
+          "upper": -0.14558698232591083,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.06533919797332746,
+          "upper": -0.05973293232772869,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "comparison_macro_017",
+      "gain_definition": "error(reference)-error(method)"
+    },
+    {
+      "comparison_id": "graph_contribution|equal_city|full",
+      "family": "graph_contribution",
+      "budget": "full",
+      "method": "target_only_graph",
+      "reference": "target_only_vanilla",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "point_gain": {
+        "mae": -0.03488301894037017,
+        "rmse": -0.08063977721185915,
+        "wape": -0.02964539468877266,
+        "station_macro_mae": -0.03400716394660884
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.03891998727087437,
+          "upper": -0.030386706827352953,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.08789354897596738,
+          "upper": -0.07126091762735114,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.03156754665913544,
+          "upper": -0.027085538692805666,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "comparison_macro_018",
+      "gain_definition": "error(reference)-error(method)"
+    },
+    {
+      "comparison_id": "ordinary_transfer|equal_city|full",
+      "family": "ordinary_transfer",
+      "budget": "full",
+      "method": "ordinary_source_adapted",
+      "reference": "target_only_graph",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "point_gain": {
+        "mae": 0.11926608877241224,
+        "rmse": 0.28608580735236205,
+        "wape": 0.11311141942610634,
+        "station_macro_mae": 0.11653345424014193
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.10807538059028561,
+          "upper": 0.13008881120689472,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.264481368726558,
+          "upper": 0.3052073641652064,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.10677175877984434,
+          "upper": 0.11865477615029348,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "comparison_macro_019",
+      "gain_definition": "error(reference)-error(method)"
+    },
+    {
+      "comparison_id": "adaptation|equal_city|full",
+      "family": "adaptation",
+      "budget": "full",
+      "method": "ordinary_source_adapted",
+      "reference": "ordinary_source_graphgru",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "point_gain": {
+        "mae": 0.0026077978671112554,
+        "rmse": 0.008469662766691132,
+        "wape": 0.002557241183939524,
+        "station_macro_mae": 0.0024796332764083938
+      },
+      "intervals": {
+        "mae": {
+          "lower": 0.001949859232095521,
+          "upper": 0.0032259673549774283,
+          "reason": null
+        },
+        "rmse": {
+          "lower": 0.0064790691258186425,
+          "upper": 0.010351951448404489,
+          "reason": null
+        },
+        "wape": {
+          "lower": 0.001964411386376394,
+          "upper": 0.0031233718351904075,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "comparison_macro_020",
+      "gain_definition": "error(reference)-error(method)"
+    },
+    {
+      "comparison_id": "pooled_vs_sequential|equal_city|full",
+      "family": "pooled_vs_sequential",
+      "budget": "full",
+      "method": "pooled_graph",
+      "reference": "ordinary_source_adapted",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "point_gain": {
+        "mae": -0.03492703835906348,
+        "rmse": -0.0771745642224196,
+        "wape": -0.032387728060651315,
+        "station_macro_mae": -0.034694379855665806
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.041053127315567074,
+          "upper": -0.02831929131739965,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.08650476103550728,
+          "upper": -0.06594561604605,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.03521117091092515,
+          "upper": -0.028939345453766065,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "comparison_macro_021",
+      "gain_definition": "error(reference)-error(method)"
+    },
+    {
+      "comparison_id": "grl_incremental|equal_city|full",
+      "family": "grl_incremental",
+      "budget": "full",
+      "method": "grl_l50_constant_adapted",
+      "reference": "ordinary_source_adapted",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "point_gain": {
+        "mae": -0.06515643085613229,
+        "rmse": -0.16749216514537724,
+        "wape": -0.061996339092434835,
+        "station_macro_mae": -0.06366736530042025
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.07001506456845986,
+          "upper": -0.05997626364380164,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.178285553370351,
+          "upper": -0.1554154479717587,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.06472683306293978,
+          "upper": -0.058934959190868594,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "comparison_macro_022",
+      "gain_definition": "error(reference)-error(method)"
+    },
+    {
+      "comparison_id": "grl_source_invariance|equal_city|full",
+      "family": "grl_source_invariance",
+      "budget": "full",
+      "method": "grl_l50_constant_source_graphgru",
+      "reference": "ordinary_source_graphgru",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "point_gain": {
+        "mae": -0.06584523573537078,
+        "rmse": -0.15658177603219842,
+        "wape": -0.06261382142705654,
+        "station_macro_mae": -0.06464203909936259
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.0707909333227399,
+          "upper": -0.06070863237012977,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.16682670181726178,
+          "upper": -0.14558698232591083,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.06533919797332746,
+          "upper": -0.05973293232772869,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "comparison_macro_023",
+      "gain_definition": "error(reference)-error(method)"
+    },
+    {
+      "comparison_id": "ordinary_zero_transfer|equal_city|0",
+      "family": "ordinary_zero_transfer",
+      "budget": "0",
+      "method": "ordinary_source_graphgru",
+      "reference": "seasonal_naive",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "point_gain": {
+        "mae": -0.007561651320504491,
+        "rmse": -0.04685749712530342,
+        "wape": -0.004973320649493568,
+        "station_macro_mae": -0.006038485045692915
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.011855844604098055,
+          "upper": -0.0031926146778945104,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.05764906106887024,
+          "upper": -0.03737088370788029,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.009647762952384724,
+          "upper": -0.00013308152328655938,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "comparison_macro_024",
+      "gain_definition": "error(reference)-error(method)"
+    },
+    {
+      "comparison_id": "grl_zero_transfer|equal_city|0",
+      "family": "grl_zero_transfer",
+      "budget": "0",
+      "method": "grl_l50_constant_source_graphgru",
+      "reference": "seasonal_naive",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "point_gain": {
+        "mae": -0.07363478794284785,
+        "rmse": -0.20425666825819858,
+        "wape": -0.06667115856129388,
+        "station_macro_mae": -0.07030069743907628
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.08081815494225118,
+          "upper": -0.06651952379350959,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.21683595976665074,
+          "upper": -0.19221834518730443,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.07268925525375627,
+          "upper": -0.06044850517479987,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "comparison_macro_025",
+      "gain_definition": "error(reference)-error(method)"
+    },
+    {
+      "comparison_id": "grl_zero_incremental|equal_city|0",
+      "family": "grl_zero_incremental",
+      "budget": "0",
+      "method": "grl_l50_constant_source_graphgru",
+      "reference": "ordinary_source_graphgru",
+      "cities": [
+        195,
+        199,
+        237,
+        617
+      ],
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "point_gain": {
+        "mae": -0.06584523573537078,
+        "rmse": -0.15658177603219842,
+        "wape": -0.06261382142705654,
+        "station_macro_mae": -0.06464203909936259
+      },
+      "intervals": {
+        "mae": {
+          "lower": -0.0707909333227399,
+          "upper": -0.06070863237012977,
+          "reason": null
+        },
+        "rmse": {
+          "lower": -0.16682670181726178,
+          "upper": -0.14558698232591083,
+          "reason": null
+        },
+        "wape": {
+          "lower": -0.06533919797332746,
+          "upper": -0.05973293232772869,
+          "reason": null
+        },
+        "station_macro_mae": {
+          "lower": null,
+          "upper": null,
+          "reason": "undefined_replicate"
+        }
+      },
+      "replicate_key": "comparison_macro_026",
+      "gain_definition": "error(reference)-error(method)"
+    }
+  ],
+  "gain_definition": "error(reference)-error(method)",
+  "positive_favors_method": true,
+  "comparison_families": [
+    [
+      "graph_contribution",
+      "1",
+      "target_only_graph",
+      "target_only_vanilla"
+    ],
+    [
+      "ordinary_transfer",
+      "1",
+      "ordinary_source_adapted",
+      "target_only_graph"
+    ],
+    [
+      "adaptation",
+      "1",
+      "ordinary_source_adapted",
+      "ordinary_source_graphgru"
+    ],
+    [
+      "pooled_vs_sequential",
+      "1",
+      "pooled_graph",
+      "ordinary_source_adapted"
+    ],
+    [
+      "grl_incremental",
+      "1",
+      "grl_l50_constant_adapted",
+      "ordinary_source_adapted"
+    ],
+    [
+      "grl_source_invariance",
+      "1",
+      "grl_l50_constant_source_graphgru",
+      "ordinary_source_graphgru"
+    ],
+    [
+      "graph_contribution",
+      "7",
+      "target_only_graph",
+      "target_only_vanilla"
+    ],
+    [
+      "ordinary_transfer",
+      "7",
+      "ordinary_source_adapted",
+      "target_only_graph"
+    ],
+    [
+      "adaptation",
+      "7",
+      "ordinary_source_adapted",
+      "ordinary_source_graphgru"
+    ],
+    [
+      "pooled_vs_sequential",
+      "7",
+      "pooled_graph",
+      "ordinary_source_adapted"
+    ],
+    [
+      "grl_incremental",
+      "7",
+      "grl_l50_constant_adapted",
+      "ordinary_source_adapted"
+    ],
+    [
+      "grl_source_invariance",
+      "7",
+      "grl_l50_constant_source_graphgru",
+      "ordinary_source_graphgru"
+    ],
+    [
+      "graph_contribution",
+      "30",
+      "target_only_graph",
+      "target_only_vanilla"
+    ],
+    [
+      "ordinary_transfer",
+      "30",
+      "ordinary_source_adapted",
+      "target_only_graph"
+    ],
+    [
+      "adaptation",
+      "30",
+      "ordinary_source_adapted",
+      "ordinary_source_graphgru"
+    ],
+    [
+      "pooled_vs_sequential",
+      "30",
+      "pooled_graph",
+      "ordinary_source_adapted"
+    ],
+    [
+      "grl_incremental",
+      "30",
+      "grl_l50_constant_adapted",
+      "ordinary_source_adapted"
+    ],
+    [
+      "grl_source_invariance",
+      "30",
+      "grl_l50_constant_source_graphgru",
+      "ordinary_source_graphgru"
+    ],
+    [
+      "graph_contribution",
+      "full",
+      "target_only_graph",
+      "target_only_vanilla"
+    ],
+    [
+      "ordinary_transfer",
+      "full",
+      "ordinary_source_adapted",
+      "target_only_graph"
+    ],
+    [
+      "adaptation",
+      "full",
+      "ordinary_source_adapted",
+      "ordinary_source_graphgru"
+    ],
+    [
+      "pooled_vs_sequential",
+      "full",
+      "pooled_graph",
+      "ordinary_source_adapted"
+    ],
+    [
+      "grl_incremental",
+      "full",
+      "grl_l50_constant_adapted",
+      "ordinary_source_adapted"
+    ],
+    [
+      "grl_source_invariance",
+      "full",
+      "grl_l50_constant_source_graphgru",
+      "ordinary_source_graphgru"
+    ],
+    [
+      "ordinary_zero_transfer",
+      "0",
+      "ordinary_source_graphgru",
+      "seasonal_naive"
+    ],
+    [
+      "grl_zero_transfer",
+      "0",
+      "grl_l50_constant_source_graphgru",
+      "seasonal_naive"
+    ],
+    [
+      "grl_zero_incremental",
+      "0",
+      "grl_l50_constant_source_graphgru",
+      "ordinary_source_graphgru"
+    ]
+  ]
+}

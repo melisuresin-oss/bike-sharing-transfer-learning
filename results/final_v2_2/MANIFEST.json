@@ -1,0 +1,31 @@
+{
+  "schema_version": "final_v2_2.public_index.1",
+  "index_type": "PUBLIC_INDEX",
+  "is_frozen_scientific_artifact": false,
+  "description": "Path-neutral public index for the byte-preserved final V2.2 result summaries.",
+  "artifacts": [
+    {
+      "filename": "metrics.json",
+      "sha256": "146d7d802a9ffb2374f8c21e98c678808f0598c13b4a00f57432414ad7994131",
+      "role": "Frozen standalone and aggregate metric summary",
+      "artifact_type": "ORIGINAL_FROZEN_ARTIFACT"
+    },
+    {
+      "filename": "paired_comparisons.json",
+      "sha256": "c7f7d540da82978e2edf0c6579e8c53c0711decbf3bd252b45dd220785e003a0",
+      "role": "Frozen controlled paired-comparison summary",
+      "artifact_type": "ORIGINAL_FROZEN_ARTIFACT"
+    },
+    {
+      "filename": "bootstrap_summary.json",
+      "sha256": "c560dbf31758a29a1f6b9ccee5bbfa25142a4b27e714e9532c0e8bf4683f58b9",
+      "role": "Frozen paired temporal-bootstrap summary",
+      "artifact_type": "ORIGINAL_FROZEN_ARTIFACT"
+    }
+  ],
+  "notes": [
+    "This MANIFEST.json is a new public index, not an original frozen result artifact.",
+    "The indexed JSON files were copied byte-for-byte and must not be reserialized.",
+    "Operational source paths and machine-specific execution state are intentionally omitted."
+  ]
+}

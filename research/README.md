@@ -1,46 +1,55 @@
-# V2.1 protocol dataset builder
+# Final V2.2 research implementation
 
-This folder contains the pre-model data-construction gate governed by
-`RESEARCH_PROTOCOL_V2_1.md`. It builds no forecasting model and performs no
-model selection.
+This directory contains the scientific implementation for the final 12-city
+study. The code is preserved in its validated revision structure; historical
+execution layers have not been flattened or rewritten for presentation.
 
-## Build
+## Core implementation
 
-From the repository root:
+- `data/`: budget sampling and protocol-bound dataset loaders.
+- `graphs/`: fixed geographic station-graph construction and manifests.
+- `models/`: Vanilla-GRU and Graph-GRU architectures.
+- `training/`: batching, losses, deterministic training, and checkpoint logic.
+- `evaluation/`: count-space evaluation metrics.
+- `v2_2/`: causal-history, label-isolation, contract, and artifact primitives.
+- `final_v2_2/`: final data-gate and immutable job-plan construction used by
+  the published final-data manifest.
 
-```powershell
-python -m pip install -r research/requirements.txt
-python research/scripts/build_protocol_dataset.py
-```
+## Development selection stages
 
-The default output is `processed/protocol_v2_1/`. Existing output is preserved
-unless `--overwrite` is supplied explicitly.
+- `stage1_v2_2/`: target transform and loss selection.
+- `stage2_v2_2/`: Graph-GRU development selection.
+- `governance/`: Stage 2B, Stage 3, and Stage 4 frozen-policy checks.
+- `stage4_v2_2/`: GRL-based multi-source domain-invariant pretraining.
 
-## Validate
+The compact frozen selection and execution manifests needed by the final code
+are retained under `research/results/`. Large job outputs, checkpoints,
+predictions, raw snapshots, and deployment bundles are intentionally absent.
 
-Run an independent second build and compare deterministic hashes:
+## Final execution revision chain
 
-```powershell
-python research/scripts/build_protocol_dataset.py `
-  --output tmp/protocol_v2_1_repro --overwrite
-python research/scripts/compare_protocol_builds.py `
-  processed/protocol_v2_1 tmp/protocol_v2_1_repro
-python -m unittest discover -s research/tests -v
-```
+The final workflow is represented by the following dependency-preserving
+layers:
 
-The required build timestamp is intentionally different between runs. The
-comparison requires every deterministic artifact hash, the normalized protocol
-manifest, and the logical final-key hash to match.
+1. `final_v2_2_r7_r1/` — final Phase-A training and prediction implementation.
+2. `final_v2_2_r7_r1_pb1/` — Phase-B materialization and scoring base.
+3. `final_v2_2_r7_r1_pb1_r4/` — verified-snapshot/TOCTOU correction.
+4. `final_v2_2_r7_r1_pb1_r5_recovery/` — recovery from the interrupted
+   materialization caused by a missing dependency.
+5. `final_v2_2_r7_r1_pb1_r6_scoring_fix/` — deterministic zero-reference
+   scoring correction.
+6. `final_v2_2_r7_r1_pb1_r7_r1_final_validation_fix/` — successful final
+   archive validation correction.
 
-## Seal boundaries
+The superseded R7 validation attempt is not published. See
+[`docs/REPRODUCIBILITY.md`](../docs/REPRODUCIBILITY.md) for the scientific
+workflow and the distinction between source-level reproduction and the exact
+historical governed execution.
 
-- `development/` contains only the eight development cities before `HF`.
-- `final_adaptation/` contains final-target labels only before `HF`.
-- `final_features/` contains label-free final-evaluation inputs and prediction
-  keys. Dynamic values use strictly earlier causal lags.
-- `final_labels/SEALED_final_evaluation_labels.parquet` is evaluation-only and
-  must not be imported by training or model-selection code.
+## Protocols and results
 
-Model loaders must select predictors exclusively from
-`manifests/feature_manifest.json`; audit and coverage columns are not learned
-inputs.
+The final evaluation and GRL clarification documents are stored at repository
+root because the frozen implementation binds those exact paths and hashes.
+The public, compact frozen result summaries are under
+[`results/final_v2_2/`](../results/final_v2_2/), with interpretation in
+[`docs/RESULTS.md`](../docs/RESULTS.md).
