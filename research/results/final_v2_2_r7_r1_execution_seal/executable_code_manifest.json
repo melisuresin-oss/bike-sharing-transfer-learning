@@ -1,0 +1,158 @@
+{
+  "schema_version": "final_v2_2_r7_r1.code.1",
+  "status": "FROZEN_EXECUTABLE_CODE",
+  "files": [
+    {
+      "path": "research/__init__.py",
+      "bytes": 62,
+      "sha256": "a7bf95f0cec0255189b1f8c9a0e56254d8aa67bab274cd0ecf83ce1909b5b25b",
+      "reason": "R7-R1 executable source"
+    },
+    {
+      "path": "research/final_v2_2_r7_r1/__init__.py",
+      "bytes": 205,
+      "sha256": "8063a652aa5c5a1f665bddbd7105213a6742712499d753ee97289d7aece95753",
+      "reason": "R7-R1 executable source"
+    },
+    {
+      "path": "research/final_v2_2_r7_r1/core.py",
+      "bytes": 7889,
+      "sha256": "38d1a437aeab32f29293c05c0cafa135c19439fe2f23f8e7623198916cb2c305",
+      "reason": "R7-R1 executable source"
+    },
+    {
+      "path": "research/final_v2_2_r7_r1/locks.py",
+      "bytes": 2895,
+      "sha256": "3247bce1bb6745494d114581672b0e83380ca804047e22af99a219fe4c85d9fb",
+      "reason": "R7-R1 executable source"
+    },
+    {
+      "path": "research/final_v2_2_r7_r1/bindings.py",
+      "bytes": 4513,
+      "sha256": "f17212005f50ba5677a223884f39f2eb652097ab25a9a5796b59ad58b5d28e62",
+      "reason": "R7-R1 executable source"
+    },
+    {
+      "path": "research/final_v2_2_r7_r1/grl_final.py",
+      "bytes": 2994,
+      "sha256": "38d038b8093f7fd32097b687d917cc909cece300b3b1c118b9e91b444ad2a004",
+      "reason": "R7-R1 executable source"
+    },
+    {
+      "path": "research/final_v2_2_r7_r1/data.py",
+      "bytes": 8473,
+      "sha256": "ec2258bb16a9953d660b52b7ee5ce4c08cf763a09bfeaf729d0600f1d3939cfc",
+      "reason": "R7-R1 executable source"
+    },
+    {
+      "path": "research/final_v2_2_r7_r1/worker.py",
+      "bytes": 16228,
+      "sha256": "53dff0315307964888dfef0afd1c4fa45b49c56262fa59dda2588005f73cfe13",
+      "reason": "R7-R1 executable source"
+    },
+    {
+      "path": "research/final_v2_2_r7_r1/controller.py",
+      "bytes": 7857,
+      "sha256": "d670753bcb61b646077e5d526bef2819355767ca03a285f47e69fcfecf44476a",
+      "reason": "R7-R1 executable source"
+    },
+    {
+      "path": "research/final_v2_2_r7_r1/validation.py",
+      "bytes": 20327,
+      "sha256": "a27bfa413fd22b4efbc9eceeab7330a8fac7bce54ee27ae52b2d693c89b98d37",
+      "reason": "R7-R1 executable source"
+    },
+    {
+      "path": "research/final_v2_2_r7_r1/baselines.py",
+      "bytes": 4419,
+      "sha256": "b46a138e26776e004a0a8293ad936ad41ead315d1de5267092ea145a34087828",
+      "reason": "R7-R1 executable source"
+    },
+    {
+      "path": "research/final_v2_2_r7_r1/predictions.py",
+      "bytes": 11804,
+      "sha256": "16b69ddea190a397096ed6e94e2ad8c16e5dc999c685aa6834c052c8636497d5",
+      "reason": "R7-R1 executable source"
+    },
+    {
+      "path": "research/final_v2_2_r7_r1/commitment.py",
+      "bytes": 3936,
+      "sha256": "6c9c873c7f49cc0a61f506e60703c58cada348a673a366addcd0b6d55779db07",
+      "reason": "R7-R1 executable source"
+    },
+    {
+      "path": "research/final_v2_2_r7_r1/integrity.py",
+      "bytes": 737,
+      "sha256": "16873428af5b6822165748eb82a08520b1aca1f27ca8e97c1aba25cd95752e18",
+      "reason": "R7-R1 executable source"
+    },
+    {
+      "path": "research/final_v2_2_r7_r1/phase_b_gate.py",
+      "bytes": 4383,
+      "sha256": "c9ca8f849b9f79c4b989b7440877a34b293f970ed74f325fb8bb0e2bc533e144",
+      "reason": "R7-R1 executable source"
+    },
+    {
+      "path": "research/final_v2_2_r7_r1/metrics_bootstrap.py",
+      "bytes": 9443,
+      "sha256": "5fd21d695ac0ba230e79caf9374b4f63c71d0f53be4c654983f70ca2aee5f515",
+      "reason": "R7-R1 executable source"
+    },
+    {
+      "path": "research/final_v2_2_r7_r1/cli.py",
+      "bytes": 3256,
+      "sha256": "d5836f5f6b838dbf62a06e1e1c2c34dc1e957bb7dac7092f2f23faed3c7b4ba3",
+      "reason": "R7-R1 executable source"
+    },
+    {
+      "path": "research/models/__init__.py",
+      "bytes": 163,
+      "sha256": "b0f8de097af05e0ddf3f18b5d850894e7b5b47f4f1f101eb5368eb2ea74c19f3",
+      "reason": "R7-R1 executable source"
+    },
+    {
+      "path": "research/models/common.py",
+      "bytes": 2086,
+      "sha256": "989bb7afac452b682bd041fee70c0c29f2341e66c52ed79abac0c3d10a902739",
+      "reason": "R7-R1 executable source"
+    },
+    {
+      "path": "research/models/heads.py",
+      "bytes": 1700,
+      "sha256": "2cfb0572e35989d1100eb9133d2fcd882a472d21db02e5c29170e97176af9b94",
+      "reason": "R7-R1 executable source"
+    },
+    {
+      "path": "research/models/graph_gru.py",
+      "bytes": 5562,
+      "sha256": "91b0131e71f0b7e0e375e46d01d931b808e3c6822b58ed87d6310b7041b7835d",
+      "reason": "R7-R1 executable source"
+    },
+    {
+      "path": "research/models/vanilla_gru.py",
+      "bytes": 4088,
+      "sha256": "fd9a5b1df0c6dcfd648b0d79ce2f15d1aacd266ad6ee20d53790b0cb9164bcb2",
+      "reason": "R7-R1 executable source"
+    },
+    {
+      "path": "research/training/__init__.py",
+      "bytes": 80,
+      "sha256": "ce9993a2017d898aa8de88653164ff3f60e608e8d1b5d421b80d375d9ee8e36c",
+      "reason": "R7-R1 executable source"
+    },
+    {
+      "path": "research/training/trainer.py",
+      "bytes": 3672,
+      "sha256": "01057936c5556303c87f1f100311d91c598702bf01e0d5c7c2080d68b5408929",
+      "reason": "R7-R1 executable source"
+    },
+    {
+      "path": "research/training/losses.py",
+      "bytes": 2039,
+      "sha256": "2a14a673ed82af6f568ac2299edb6f444bf8966408c14a53e22c2f44d8e6d310",
+      "reason": "R7-R1 executable source"
+    }
+  ],
+  "stage4_development_implementation_modified": false,
+  "created_utc": "2026-09-09T08:13:32.347907+00:00"
+}

@@ -1,4 +1,0 @@
-# Verify the existing TS9 bike_env; this file does not authorize environment replacement.
-# Python 3.10; CUDA runtime supplied by the validated PyTorch wheel.
-torch==2.0.1+cu118
-numpy==1.26.4

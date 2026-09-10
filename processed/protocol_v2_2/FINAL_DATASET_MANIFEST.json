@@ -1,0 +1,1530 @@
+{
+  "schema_version": "final_v2_2.data_gate.1",
+  "protocol_version": "2.2",
+  "scope": "FINAL_TARGETS",
+  "phase_a_execution_data_constructed": true,
+  "phase_b_targets_materialized": false,
+  "prediction_commitment_required_for_phase_b": true,
+  "final_predictions_generated": false,
+  "final_metrics_computed": false,
+  "final_experiment_started": false,
+  "optimizer_updates": 0,
+  "model_forward_calls_on_final_labels": 0,
+  "targets": [
+    {
+      "city_id": 195,
+      "city": "Mannheim",
+      "station_count": 78,
+      "city_roster_sha256": "88b4f8ca08cb85a397522468c8a106f1f17e4fa542298a1d2f7fb774d1bb9751",
+      "fitting_panel": {
+        "path": "processed/protocol_v2_2/final_phase_a/city_195_fitting_predictors.npz",
+        "bytes": 3527137,
+        "sha256": "03c11f718e5f4b95d9c9357030d0c68b81ef17c46dd4ba94403e270d9430dd75",
+        "city_id": 195,
+        "role": "fitting",
+        "origin_count": 5537,
+        "station_count": 78,
+        "schema": {
+          "origin_us": "int64",
+          "station_ids": "int64",
+          "x_hist": "float32[H,24,N,2]",
+          "m_hist": "bool[H,24,N]",
+          "x_week": "float32[H,N,2]",
+          "x_static": "float32[N,2]",
+          "x_calendar": "float32[H,6]"
+        },
+        "current_target_field_present": false
+      },
+      "evaluation_panel": {
+        "path": "processed/protocol_v2_2/final_phase_a/city_195_evaluation_predictors.npz",
+        "bytes": 909522,
+        "sha256": "de37c6123c56542fc4c08e50e24a9d6fa96f676b8971d6d5769f3f629bce7531",
+        "city_id": 195,
+        "role": "evaluation",
+        "origin_count": 1565,
+        "station_count": 78,
+        "schema": {
+          "origin_us": "int64",
+          "station_ids": "int64",
+          "x_hist": "float32[H,24,N,2]",
+          "m_hist": "bool[H,24,N]",
+          "x_week": "float32[H,N,2]",
+          "x_static": "float32[N,2]",
+          "x_calendar": "float32[H,6]"
+        },
+        "current_target_field_present": false
+      },
+      "graph": {
+        "path": "processed/protocol_v2_2/final_phase_a/graphs/city_195_k04.npz",
+        "bytes": 2974,
+        "sha256": "2a8e097ce90792e71e0bb2abdf7a956eef707f9559bdb4af871408b6ffa58406"
+      },
+      "prediction_keys": {
+        "path": "processed/protocol_v2_2/final_phase_a/prediction_keys/city_195.npz",
+        "bytes": 18113,
+        "sha256": "ef113d65755d741aa84ca83f27a261d253196fb3c902dc8491fae171bb77d4fd"
+      },
+      "adaptations": [
+        {
+          "request": {
+            "phase": "final",
+            "kind": "adaptation",
+            "budget": "zero",
+            "start": 1681682400000000,
+            "cutoff": 1681682400000000,
+            "city_ids": [
+              195
+            ]
+          },
+          "data": {
+            "path": "processed/protocol_v2_2/final_phase_a/fit_snapshots/adaptation_city_195_zero_HF.npz",
+            "bytes": 1175,
+            "sha256": "2224e9d815c592b27d98b14cce20b2d0cb1eee79bee312f2f3fa43627c4a42b0"
+          },
+          "training_key_seal": {
+            "identity": {
+              "artifact_role": "fit_snapshot",
+              "cutoff_us": 1681682400000000,
+              "city_ids": [
+                195
+              ],
+              "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+              "graph_binding_sha256": null,
+              "model_family": "none",
+              "protocol_version": "2.2",
+              "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+              "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+              "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+              "feature_function_version": "v2_2.asof_history.1",
+              "schema_version": "1.0"
+            },
+            "status": "SEALED_TRAINING_KEYS",
+            "purpose": "SCIENTIFIC_ARTIFACT",
+            "row_count": 0,
+            "keys_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "snapshot_sha256": "a23fd7e4f2abc61c927fcae1076294717e7851bedd589c345810c8e41cb3b6ba"
+          },
+          "training_key_seal_sha256": "c715a9a5b841078658d9bd58cf17a095868c0a21064aa67fc64866b015a01d85",
+          "row_count": 0
+        },
+        {
+          "request": {
+            "phase": "final",
+            "kind": "adaptation",
+            "budget": "1",
+            "start": 1681596000000000,
+            "cutoff": 1681682400000000,
+            "city_ids": [
+              195
+            ]
+          },
+          "data": {
+            "path": "processed/protocol_v2_2/final_phase_a/fit_snapshots/adaptation_city_195_1_HF.npz",
+            "bytes": 3926,
+            "sha256": "a7ef0cdab0351250f7b545707f47aa19ab5a67400a13ec74110fd6acbca82f34"
+          },
+          "training_key_seal": {
+            "identity": {
+              "artifact_role": "fit_snapshot",
+              "cutoff_us": 1681682400000000,
+              "city_ids": [
+                195
+              ],
+              "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+              "graph_binding_sha256": null,
+              "model_family": "none",
+              "protocol_version": "2.2",
+              "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+              "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+              "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+              "feature_function_version": "v2_2.asof_history.1",
+              "schema_version": "1.0"
+            },
+            "status": "SEALED_TRAINING_KEYS",
+            "purpose": "SCIENTIFIC_ARTIFACT",
+            "row_count": 1482,
+            "keys_sha256": "ca682d8739cf364371efa5adecd540b32e116a483a332a7e5e4b510add30ef14",
+            "snapshot_sha256": "4bbc1d0bfad4a6a9e63267583bb41b5c68f1c0193391809c91be450da512af75"
+          },
+          "training_key_seal_sha256": "5684e72df3705e4633aba7722c8fbe87a789bc2b8addfa90c10149d6614e8f70",
+          "row_count": 1482
+        },
+        {
+          "request": {
+            "phase": "final",
+            "kind": "adaptation",
+            "budget": "7",
+            "start": 1681077600000000,
+            "cutoff": 1681682400000000,
+            "city_ids": [
+              195
+            ]
+          },
+          "data": {
+            "path": "processed/protocol_v2_2/final_phase_a/fit_snapshots/adaptation_city_195_7_HF.npz",
+            "bytes": 18423,
+            "sha256": "eaa171c43e90eb4922c14d8e1ab8c2de3d7050efb9855c654e2042bd53124ecf"
+          },
+          "training_key_seal": {
+            "identity": {
+              "artifact_role": "fit_snapshot",
+              "cutoff_us": 1681682400000000,
+              "city_ids": [
+                195
+              ],
+              "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+              "graph_binding_sha256": null,
+              "model_family": "none",
+              "protocol_version": "2.2",
+              "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+              "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+              "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+              "feature_function_version": "v2_2.asof_history.1",
+              "schema_version": "1.0"
+            },
+            "status": "SEALED_TRAINING_KEYS",
+            "purpose": "SCIENTIFIC_ARTIFACT",
+            "row_count": 11825,
+            "keys_sha256": "d89c211967e8a42174619c826b38980f95581c76e92b8471dc9e7aa63739a0e2",
+            "snapshot_sha256": "f6ae5c2bc8ac751b93cece9eeb91438f760a7874f6de281d985f2536b0fcb1ba"
+          },
+          "training_key_seal_sha256": "d24559dcccea50dadcd81420d77ccc7377c29432bf5252ebce89278b4d7b2cff",
+          "row_count": 11825
+        },
+        {
+          "request": {
+            "phase": "final",
+            "kind": "adaptation",
+            "budget": "30",
+            "start": 1679090400000000,
+            "cutoff": 1681682400000000,
+            "city_ids": [
+              195
+            ]
+          },
+          "data": {
+            "path": "processed/protocol_v2_2/final_phase_a/fit_snapshots/adaptation_city_195_30_HF.npz",
+            "bytes": 74761,
+            "sha256": "5ee0b2491e0436b91d66d98929aeffcbd2981139a782874a3eb09d4b406f89ba"
+          },
+          "training_key_seal": {
+            "identity": {
+              "artifact_role": "fit_snapshot",
+              "cutoff_us": 1681682400000000,
+              "city_ids": [
+                195
+              ],
+              "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+              "graph_binding_sha256": null,
+              "model_family": "none",
+              "protocol_version": "2.2",
+              "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+              "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+              "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+              "feature_function_version": "v2_2.asof_history.1",
+              "schema_version": "1.0"
+            },
+            "status": "SEALED_TRAINING_KEYS",
+            "purpose": "SCIENTIFIC_ARTIFACT",
+            "row_count": 52161,
+            "keys_sha256": "0b8f1ee663f10b7345c1456db162bdfaa158f39dc3dea20f4a64c04c8236e92e",
+            "snapshot_sha256": "806f6e5442c3c1c1d2f35d43d4236fc0f6b70818cc0b99cf8ea26387d8629070"
+          },
+          "training_key_seal_sha256": "d093f8805f9e62eae99dbd7683dd9517247fad6d38f6b62298c9b7056762fe51",
+          "row_count": 52161
+        },
+        {
+          "request": {
+            "phase": "final",
+            "kind": "adaptation",
+            "budget": "full",
+            "start": 1661749200000000,
+            "cutoff": 1681682400000000,
+            "city_ids": [
+              195
+            ]
+          },
+          "data": {
+            "path": "processed/protocol_v2_2/final_phase_a/fit_snapshots/adaptation_city_195_full_HF.npz",
+            "bytes": 545575,
+            "sha256": "780e621795fdfccef66ee2472af09b245fceab181767bf6416ff1ec9e135add2"
+          },
+          "training_key_seal": {
+            "identity": {
+              "artifact_role": "fit_snapshot",
+              "cutoff_us": 1681682400000000,
+              "city_ids": [
+                195
+              ],
+              "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+              "graph_binding_sha256": null,
+              "model_family": "none",
+              "protocol_version": "2.2",
+              "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+              "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+              "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+              "feature_function_version": "v2_2.asof_history.1",
+              "schema_version": "1.0"
+            },
+            "status": "SEALED_TRAINING_KEYS",
+            "purpose": "SCIENTIFIC_ARTIFACT",
+            "row_count": 384919,
+            "keys_sha256": "0231c1235f908002e5851f18dec70c8dbb87d19f7f444c0352c8a35388bd2cc0",
+            "snapshot_sha256": "0d51035e247f231d83b395da05276c57669fc7b4cdae2855a5229df1601cd125"
+          },
+          "training_key_seal_sha256": "d6cf61b1a287460c995f25f95a04095e520b8a9a601a37b769b3aae3d9f926fd",
+          "row_count": 384919
+        }
+      ]
+    },
+    {
+      "city_id": 199,
+      "city": "Innsbruck",
+      "station_count": 45,
+      "city_roster_sha256": "2537f01a9b820709b23b00b81d8335b565ec05e7f9a6e24afd92a930ea9470bb",
+      "fitting_panel": {
+        "path": "processed/protocol_v2_2/final_phase_a/city_199_fitting_predictors.npz",
+        "bytes": 1850821,
+        "sha256": "cb8ec64bd09c5ab2ecdcf0f07bde94f94255cc855cd5c9421e05d5e96a5ab12a",
+        "city_id": 199,
+        "role": "fitting",
+        "origin_count": 5537,
+        "station_count": 45,
+        "schema": {
+          "origin_us": "int64",
+          "station_ids": "int64",
+          "x_hist": "float32[H,24,N,2]",
+          "m_hist": "bool[H,24,N]",
+          "x_week": "float32[H,N,2]",
+          "x_static": "float32[N,2]",
+          "x_calendar": "float32[H,6]"
+        },
+        "current_target_field_present": false
+      },
+      "evaluation_panel": {
+        "path": "processed/protocol_v2_2/final_phase_a/city_199_evaluation_predictors.npz",
+        "bytes": 484273,
+        "sha256": "c8fe4c13ff07e73354ada7c2416b68b14c6efca0c05d313557b08c494256607f",
+        "city_id": 199,
+        "role": "evaluation",
+        "origin_count": 1565,
+        "station_count": 45,
+        "schema": {
+          "origin_us": "int64",
+          "station_ids": "int64",
+          "x_hist": "float32[H,24,N,2]",
+          "m_hist": "bool[H,24,N]",
+          "x_week": "float32[H,N,2]",
+          "x_static": "float32[N,2]",
+          "x_calendar": "float32[H,6]"
+        },
+        "current_target_field_present": false
+      },
+      "graph": {
+        "path": "processed/protocol_v2_2/final_phase_a/graphs/city_199_k04.npz",
+        "bytes": 1897,
+        "sha256": "f6d65d215cc6a9c46cfc6f534049957c94a1d3a25539fcb3c118a9769113bf73"
+      },
+      "prediction_keys": {
+        "path": "processed/protocol_v2_2/final_phase_a/prediction_keys/city_199.npz",
+        "bytes": 13887,
+        "sha256": "6deefc4838254d2f15d452c50357650bd24186163036c842a9fbedaffaaa34db"
+      },
+      "adaptations": [
+        {
+          "request": {
+            "phase": "final",
+            "kind": "adaptation",
+            "budget": "zero",
+            "start": 1681682400000000,
+            "cutoff": 1681682400000000,
+            "city_ids": [
+              199
+            ]
+          },
+          "data": {
+            "path": "processed/protocol_v2_2/final_phase_a/fit_snapshots/adaptation_city_199_zero_HF.npz",
+            "bytes": 1175,
+            "sha256": "2224e9d815c592b27d98b14cce20b2d0cb1eee79bee312f2f3fa43627c4a42b0"
+          },
+          "training_key_seal": {
+            "identity": {
+              "artifact_role": "fit_snapshot",
+              "cutoff_us": 1681682400000000,
+              "city_ids": [
+                199
+              ],
+              "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+              "graph_binding_sha256": null,
+              "model_family": "none",
+              "protocol_version": "2.2",
+              "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+              "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+              "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+              "feature_function_version": "v2_2.asof_history.1",
+              "schema_version": "1.0"
+            },
+            "status": "SEALED_TRAINING_KEYS",
+            "purpose": "SCIENTIFIC_ARTIFACT",
+            "row_count": 0,
+            "keys_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "snapshot_sha256": "3daef2e214554a2ed9c900a608fbdd01dbc2277f4c9b79c2202d1281d3132164"
+          },
+          "training_key_seal_sha256": "f10e2507c99f26e0d49ac2698a97df62740146c0de31a5e5cbc53f531d539c69",
+          "row_count": 0
+        },
+        {
+          "request": {
+            "phase": "final",
+            "kind": "adaptation",
+            "budget": "1",
+            "start": 1681596000000000,
+            "cutoff": 1681682400000000,
+            "city_ids": [
+              199
+            ]
+          },
+          "data": {
+            "path": "processed/protocol_v2_2/final_phase_a/fit_snapshots/adaptation_city_199_1_HF.npz",
+            "bytes": 3249,
+            "sha256": "fb66234188abe5999d8b374ed1ebd8f43159303f37b3fb5db4de5209c12a9c5f"
+          },
+          "training_key_seal": {
+            "identity": {
+              "artifact_role": "fit_snapshot",
+              "cutoff_us": 1681682400000000,
+              "city_ids": [
+                199
+              ],
+              "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+              "graph_binding_sha256": null,
+              "model_family": "none",
+              "protocol_version": "2.2",
+              "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+              "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+              "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+              "feature_function_version": "v2_2.asof_history.1",
+              "schema_version": "1.0"
+            },
+            "status": "SEALED_TRAINING_KEYS",
+            "purpose": "SCIENTIFIC_ARTIFACT",
+            "row_count": 912,
+            "keys_sha256": "76cef748a8079a6a1e7d997145e611867aebc0fd031c45bdcccc893228098347",
+            "snapshot_sha256": "c9d27f12749adc9de87b0458cd1f098334188f2bcf211ea63906df14dbc70759"
+          },
+          "training_key_seal_sha256": "628486f054ca22484a9540c4069c0d19d6678e7933bf3fff9865cc97ed328ee6",
+          "row_count": 912
+        },
+        {
+          "request": {
+            "phase": "final",
+            "kind": "adaptation",
+            "budget": "7",
+            "start": 1681077600000000,
+            "cutoff": 1681682400000000,
+            "city_ids": [
+              199
+            ]
+          },
+          "data": {
+            "path": "processed/protocol_v2_2/final_phase_a/fit_snapshots/adaptation_city_199_7_HF.npz",
+            "bytes": 14088,
+            "sha256": "50360c772e5fa62d67f29f7e901aa2142f175be9b8cc950d7c2d59f7ce053ad3"
+          },
+          "training_key_seal": {
+            "identity": {
+              "artifact_role": "fit_snapshot",
+              "cutoff_us": 1681682400000000,
+              "city_ids": [
+                199
+              ],
+              "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+              "graph_binding_sha256": null,
+              "model_family": "none",
+              "protocol_version": "2.2",
+              "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+              "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+              "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+              "feature_function_version": "v2_2.asof_history.1",
+              "schema_version": "1.0"
+            },
+            "status": "SEALED_TRAINING_KEYS",
+            "purpose": "SCIENTIFIC_ARTIFACT",
+            "row_count": 7079,
+            "keys_sha256": "f674661c1b168ebda5edf8f4da2b9e451ab8e3ec502e2eaadad37d34aa824088",
+            "snapshot_sha256": "6290b0786a911a251c261624592c8f3d8a5b7c81b30e38b9ae27efc4c91f5325"
+          },
+          "training_key_seal_sha256": "8b2b130f32022e563cc9f76a342e6d2ef7beb25c27e808277615ab9a4b4849b0",
+          "row_count": 7079
+        },
+        {
+          "request": {
+            "phase": "final",
+            "kind": "adaptation",
+            "budget": "30",
+            "start": 1679090400000000,
+            "cutoff": 1681682400000000,
+            "city_ids": [
+              199
+            ]
+          },
+          "data": {
+            "path": "processed/protocol_v2_2/final_phase_a/fit_snapshots/adaptation_city_199_30_HF.npz",
+            "bytes": 56034,
+            "sha256": "f33bcd116136dbfb89125d2abbfa9845b3c4a8d9fb97d34e5ee3af4a0923757b"
+          },
+          "training_key_seal": {
+            "identity": {
+              "artifact_role": "fit_snapshot",
+              "cutoff_us": 1681682400000000,
+              "city_ids": [
+                199
+              ],
+              "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+              "graph_binding_sha256": null,
+              "model_family": "none",
+              "protocol_version": "2.2",
+              "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+              "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+              "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+              "feature_function_version": "v2_2.asof_history.1",
+              "schema_version": "1.0"
+            },
+            "status": "SEALED_TRAINING_KEYS",
+            "purpose": "SCIENTIFIC_ARTIFACT",
+            "row_count": 30426,
+            "keys_sha256": "aa19bd871549e5e27ab9597dd907d0d2b2b57f1874ff96fbba4869f10f0c04eb",
+            "snapshot_sha256": "15e4391485a9e7bb986e2e6689858e9a86d4f5be08ab5b03369e9b6cde6a9290"
+          },
+          "training_key_seal_sha256": "c80f755a5f89706d5d46594357887158a33bedc28d1a578d689664fa90c9cfed",
+          "row_count": 30426
+        },
+        {
+          "request": {
+            "phase": "final",
+            "kind": "adaptation",
+            "budget": "full",
+            "start": 1661749200000000,
+            "cutoff": 1681682400000000,
+            "city_ids": [
+              199
+            ]
+          },
+          "data": {
+            "path": "processed/protocol_v2_2/final_phase_a/fit_snapshots/adaptation_city_199_full_HF.npz",
+            "bytes": 404121,
+            "sha256": "9f9585cf7edb3f71b37902ba0a4c43da4fc3759624164d5112b3b04cdd9f36c1"
+          },
+          "training_key_seal": {
+            "identity": {
+              "artifact_role": "fit_snapshot",
+              "cutoff_us": 1681682400000000,
+              "city_ids": [
+                199
+              ],
+              "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+              "graph_binding_sha256": null,
+              "model_family": "none",
+              "protocol_version": "2.2",
+              "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+              "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+              "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+              "feature_function_version": "v2_2.asof_history.1",
+              "schema_version": "1.0"
+            },
+            "status": "SEALED_TRAINING_KEYS",
+            "purpose": "SCIENTIFIC_ARTIFACT",
+            "row_count": 224321,
+            "keys_sha256": "1961aa247d6e9e3a96ad506f9f06527aa3417171dce2e73853508c0810392b1b",
+            "snapshot_sha256": "951aa6d2f3a313a7f34602872686d06a10e4a5001e0ab4b31978d9da474919df"
+          },
+          "training_key_seal_sha256": "91f8eecd64ed4586a82eb884f009d6530058246a4326577c503e880e64401d17",
+          "row_count": 224321
+        }
+      ]
+    },
+    {
+      "city_id": 237,
+      "city": "Glasgow",
+      "station_count": 93,
+      "city_roster_sha256": "c3e55c6c4a2e7bd349d52a5427798c8138f328ab02671c9c53262aec77948173",
+      "fitting_panel": {
+        "path": "processed/protocol_v2_2/final_phase_a/city_237_fitting_predictors.npz",
+        "bytes": 4532531,
+        "sha256": "f39dd571d0adeb4e4ce5a91d0148cc78d4b6732debcb949edd1dc9fb88ceb823",
+        "city_id": 237,
+        "role": "fitting",
+        "origin_count": 5537,
+        "station_count": 93,
+        "schema": {
+          "origin_us": "int64",
+          "station_ids": "int64",
+          "x_hist": "float32[H,24,N,2]",
+          "m_hist": "bool[H,24,N]",
+          "x_week": "float32[H,N,2]",
+          "x_static": "float32[N,2]",
+          "x_calendar": "float32[H,6]"
+        },
+        "current_target_field_present": false
+      },
+      "evaluation_panel": {
+        "path": "processed/protocol_v2_2/final_phase_a/city_237_evaluation_predictors.npz",
+        "bytes": 1187979,
+        "sha256": "dcc477411540a4421a6c68fd30a02b6570c8a2e64eac7e5cd4e98e555fda2c5d",
+        "city_id": 237,
+        "role": "evaluation",
+        "origin_count": 1565,
+        "station_count": 93,
+        "schema": {
+          "origin_us": "int64",
+          "station_ids": "int64",
+          "x_hist": "float32[H,24,N,2]",
+          "m_hist": "bool[H,24,N]",
+          "x_week": "float32[H,N,2]",
+          "x_static": "float32[N,2]",
+          "x_calendar": "float32[H,6]"
+        },
+        "current_target_field_present": false
+      },
+      "graph": {
+        "path": "processed/protocol_v2_2/final_phase_a/graphs/city_237_k04.npz",
+        "bytes": 3472,
+        "sha256": "626957642ffc69d6752e2cf8eddff7e6353585d35ff6fd7edfd1318b82ffbba7"
+      },
+      "prediction_keys": {
+        "path": "processed/protocol_v2_2/final_phase_a/prediction_keys/city_237.npz",
+        "bytes": 20412,
+        "sha256": "a37d2078978c3daa6b109f986f0d9b55942b8a19fd699c5ce53af19cb3a032a7"
+      },
+      "adaptations": [
+        {
+          "request": {
+            "phase": "final",
+            "kind": "adaptation",
+            "budget": "zero",
+            "start": 1681682400000000,
+            "cutoff": 1681682400000000,
+            "city_ids": [
+              237
+            ]
+          },
+          "data": {
+            "path": "processed/protocol_v2_2/final_phase_a/fit_snapshots/adaptation_city_237_zero_HF.npz",
+            "bytes": 1175,
+            "sha256": "2224e9d815c592b27d98b14cce20b2d0cb1eee79bee312f2f3fa43627c4a42b0"
+          },
+          "training_key_seal": {
+            "identity": {
+              "artifact_role": "fit_snapshot",
+              "cutoff_us": 1681682400000000,
+              "city_ids": [
+                237
+              ],
+              "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+              "graph_binding_sha256": null,
+              "model_family": "none",
+              "protocol_version": "2.2",
+              "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+              "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+              "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+              "feature_function_version": "v2_2.asof_history.1",
+              "schema_version": "1.0"
+            },
+            "status": "SEALED_TRAINING_KEYS",
+            "purpose": "SCIENTIFIC_ARTIFACT",
+            "row_count": 0,
+            "keys_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "snapshot_sha256": "e522060707302ec029569fa20ce040d04e6174eeae002b840099b5e3f7af50dd"
+          },
+          "training_key_seal_sha256": "ed793657e6645806cd5d352365c6ca4d841770e2dde15c8b8d512bdbcfe3edfd",
+          "row_count": 0
+        },
+        {
+          "request": {
+            "phase": "final",
+            "kind": "adaptation",
+            "budget": "1",
+            "start": 1681596000000000,
+            "cutoff": 1681682400000000,
+            "city_ids": [
+              237
+            ]
+          },
+          "data": {
+            "path": "processed/protocol_v2_2/final_phase_a/fit_snapshots/adaptation_city_237_1_HF.npz",
+            "bytes": 4179,
+            "sha256": "ea30ae187fec25483d5f86f0c744892865975fb95eff807c006ca61955ceed9d"
+          },
+          "training_key_seal": {
+            "identity": {
+              "artifact_role": "fit_snapshot",
+              "cutoff_us": 1681682400000000,
+              "city_ids": [
+                237
+              ],
+              "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+              "graph_binding_sha256": null,
+              "model_family": "none",
+              "protocol_version": "2.2",
+              "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+              "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+              "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+              "feature_function_version": "v2_2.asof_history.1",
+              "schema_version": "1.0"
+            },
+            "status": "SEALED_TRAINING_KEYS",
+            "purpose": "SCIENTIFIC_ARTIFACT",
+            "row_count": 1853,
+            "keys_sha256": "4f599e8ad72d90e6461c966a5f4e6c2bb427876f3f8cc97188509828435c7f6f",
+            "snapshot_sha256": "c7ef62ef7e26f426ef2ebd6e7e8ff9a7c659b8c07e2840b73ed8a26968104126"
+          },
+          "training_key_seal_sha256": "3a0d7d46c8507cd92a972661670e8bd6d3ed3972ec9ddaecd13c843204decddc",
+          "row_count": 1853
+        },
+        {
+          "request": {
+            "phase": "final",
+            "kind": "adaptation",
+            "budget": "7",
+            "start": 1681077600000000,
+            "cutoff": 1681682400000000,
+            "city_ids": [
+              237
+            ]
+          },
+          "data": {
+            "path": "processed/protocol_v2_2/final_phase_a/fit_snapshots/adaptation_city_237_7_HF.npz",
+            "bytes": 19249,
+            "sha256": "608e5d9137ae54f84cc02a2832638b5d1bda37a8365c2ae3f8e77170a2064c18"
+          },
+          "training_key_seal": {
+            "identity": {
+              "artifact_role": "fit_snapshot",
+              "cutoff_us": 1681682400000000,
+              "city_ids": [
+                237
+              ],
+              "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+              "graph_binding_sha256": null,
+              "model_family": "none",
+              "protocol_version": "2.2",
+              "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+              "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+              "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+              "feature_function_version": "v2_2.asof_history.1",
+              "schema_version": "1.0"
+            },
+            "status": "SEALED_TRAINING_KEYS",
+            "purpose": "SCIENTIFIC_ARTIFACT",
+            "row_count": 14250,
+            "keys_sha256": "d2f803dc08495a57aa39b8e6aa726adba1da6cd704da33486b655bfc4ac24448",
+            "snapshot_sha256": "4b236f2fdf43471dddb9d0b53344cd54aa98fa291084c63456a223d35abd2587"
+          },
+          "training_key_seal_sha256": "aa5d0560aade9b7bb1edf450fb86a80f755a53ac2010569193bf1762bb14f2ef",
+          "row_count": 14250
+        },
+        {
+          "request": {
+            "phase": "final",
+            "kind": "adaptation",
+            "budget": "30",
+            "start": 1679090400000000,
+            "cutoff": 1681682400000000,
+            "city_ids": [
+              237
+            ]
+          },
+          "data": {
+            "path": "processed/protocol_v2_2/final_phase_a/fit_snapshots/adaptation_city_237_30_HF.npz",
+            "bytes": 76256,
+            "sha256": "8100e76f55ab0d70ce5a52f0b6bf129a9ae7558b9bdb40ff94f65ef50ed7bae8"
+          },
+          "training_key_seal": {
+            "identity": {
+              "artifact_role": "fit_snapshot",
+              "cutoff_us": 1681682400000000,
+              "city_ids": [
+                237
+              ],
+              "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+              "graph_binding_sha256": null,
+              "model_family": "none",
+              "protocol_version": "2.2",
+              "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+              "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+              "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+              "feature_function_version": "v2_2.asof_history.1",
+              "schema_version": "1.0"
+            },
+            "status": "SEALED_TRAINING_KEYS",
+            "purpose": "SCIENTIFIC_ARTIFACT",
+            "row_count": 61323,
+            "keys_sha256": "e6e6e043ef06c919565fe79f7e255b6bd063429bff5d33236aa9325894f265ba",
+            "snapshot_sha256": "0a3c75eaeff2ce4ade3506c006a13712d3e41279b8fbd5fd42242c5091b216ee"
+          },
+          "training_key_seal_sha256": "4df9fbca68cbec1eb5cd52bc99c632b088b9c3806fe2e39bde304384393de62a",
+          "row_count": 61323
+        },
+        {
+          "request": {
+            "phase": "final",
+            "kind": "adaptation",
+            "budget": "full",
+            "start": 1661749200000000,
+            "cutoff": 1681682400000000,
+            "city_ids": [
+              237
+            ]
+          },
+          "data": {
+            "path": "processed/protocol_v2_2/final_phase_a/fit_snapshots/adaptation_city_237_full_HF.npz",
+            "bytes": 562316,
+            "sha256": "05b2219cf7758cd9b968d6a76cc4ab3bb271d1b3340215ffa5e803978e3dd20b"
+          },
+          "training_key_seal": {
+            "identity": {
+              "artifact_role": "fit_snapshot",
+              "cutoff_us": 1681682400000000,
+              "city_ids": [
+                237
+              ],
+              "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+              "graph_binding_sha256": null,
+              "model_family": "none",
+              "protocol_version": "2.2",
+              "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+              "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+              "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+              "feature_function_version": "v2_2.asof_history.1",
+              "schema_version": "1.0"
+            },
+            "status": "SEALED_TRAINING_KEYS",
+            "purpose": "SCIENTIFIC_ARTIFACT",
+            "row_count": 456825,
+            "keys_sha256": "eb9901a1f8a514134f62d97e5d10b9591012171f33618b4eed8a6070bbde7a16",
+            "snapshot_sha256": "126a174165d661183acecec7b9db7a94ded057aeff3da3ad47e41c63c832ccd8"
+          },
+          "training_key_seal_sha256": "8eefd01a993b4bb18d3e4270d3eb0c4673a4835382e7b3b2ef08f78ec39787ff",
+          "row_count": 456825
+        }
+      ]
+    },
+    {
+      "city_id": 617,
+      "city": "Split",
+      "station_count": 60,
+      "city_roster_sha256": "3ee61fe5e8e50c5368c4803d8e9189d37d0e5853b79677421b8871b50d8a56d8",
+      "fitting_panel": {
+        "path": "processed/protocol_v2_2/final_phase_a/city_617_fitting_predictors.npz",
+        "bytes": 2463396,
+        "sha256": "c198b46d8e8549f2910c114e760f9b93e20f81ad385a6f0d76e8b5487e4b53d8",
+        "city_id": 617,
+        "role": "fitting",
+        "origin_count": 5537,
+        "station_count": 60,
+        "schema": {
+          "origin_us": "int64",
+          "station_ids": "int64",
+          "x_hist": "float32[H,24,N,2]",
+          "m_hist": "bool[H,24,N]",
+          "x_week": "float32[H,N,2]",
+          "x_static": "float32[N,2]",
+          "x_calendar": "float32[H,6]"
+        },
+        "current_target_field_present": false
+      },
+      "evaluation_panel": {
+        "path": "processed/protocol_v2_2/final_phase_a/city_617_evaluation_predictors.npz",
+        "bytes": 714627,
+        "sha256": "2204382de0fa9c8b4b0f8e53fd51def8b4b3ff9ea9a4e824aa2b9078dfbeed78",
+        "city_id": 617,
+        "role": "evaluation",
+        "origin_count": 1565,
+        "station_count": 60,
+        "schema": {
+          "origin_us": "int64",
+          "station_ids": "int64",
+          "x_hist": "float32[H,24,N,2]",
+          "m_hist": "bool[H,24,N]",
+          "x_week": "float32[H,N,2]",
+          "x_static": "float32[N,2]",
+          "x_calendar": "float32[H,6]"
+        },
+        "current_target_field_present": false
+      },
+      "graph": {
+        "path": "processed/protocol_v2_2/final_phase_a/graphs/city_617_k04.npz",
+        "bytes": 2347,
+        "sha256": "c3f924fd92537d8329c4b20349aa2bdf4510105fe6fc7850f4a0799f9099892e"
+      },
+      "prediction_keys": {
+        "path": "processed/protocol_v2_2/final_phase_a/prediction_keys/city_617.npz",
+        "bytes": 15511,
+        "sha256": "cedd0ec88038f024a4564f9cb8fb7830409fa73f503afa1194d11fd2726bae82"
+      },
+      "adaptations": [
+        {
+          "request": {
+            "phase": "final",
+            "kind": "adaptation",
+            "budget": "zero",
+            "start": 1681682400000000,
+            "cutoff": 1681682400000000,
+            "city_ids": [
+              617
+            ]
+          },
+          "data": {
+            "path": "processed/protocol_v2_2/final_phase_a/fit_snapshots/adaptation_city_617_zero_HF.npz",
+            "bytes": 1175,
+            "sha256": "2224e9d815c592b27d98b14cce20b2d0cb1eee79bee312f2f3fa43627c4a42b0"
+          },
+          "training_key_seal": {
+            "identity": {
+              "artifact_role": "fit_snapshot",
+              "cutoff_us": 1681682400000000,
+              "city_ids": [
+                617
+              ],
+              "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+              "graph_binding_sha256": null,
+              "model_family": "none",
+              "protocol_version": "2.2",
+              "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+              "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+              "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+              "feature_function_version": "v2_2.asof_history.1",
+              "schema_version": "1.0"
+            },
+            "status": "SEALED_TRAINING_KEYS",
+            "purpose": "SCIENTIFIC_ARTIFACT",
+            "row_count": 0,
+            "keys_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "snapshot_sha256": "14616746a18580e2bf9bf1b76f0f2f0064db1a1aa27e5c902a0b13b362230021"
+          },
+          "training_key_seal_sha256": "a6781e7a5e8174577fa456dc1c9cbe181cccc29c1f88d2ed4942a7e5f0627dcf",
+          "row_count": 0
+        },
+        {
+          "request": {
+            "phase": "final",
+            "kind": "adaptation",
+            "budget": "1",
+            "start": 1681596000000000,
+            "cutoff": 1681682400000000,
+            "city_ids": [
+              617
+            ]
+          },
+          "data": {
+            "path": "processed/protocol_v2_2/final_phase_a/fit_snapshots/adaptation_city_617_1_HF.npz",
+            "bytes": 3280,
+            "sha256": "d10fd072aeee699c2cd8f82ca2349e14a1f80496a0c8c5a9b323c538b3b457b9"
+          },
+          "training_key_seal": {
+            "identity": {
+              "artifact_role": "fit_snapshot",
+              "cutoff_us": 1681682400000000,
+              "city_ids": [
+                617
+              ],
+              "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+              "graph_binding_sha256": null,
+              "model_family": "none",
+              "protocol_version": "2.2",
+              "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+              "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+              "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+              "feature_function_version": "v2_2.asof_history.1",
+              "schema_version": "1.0"
+            },
+            "status": "SEALED_TRAINING_KEYS",
+            "purpose": "SCIENTIFIC_ARTIFACT",
+            "row_count": 959,
+            "keys_sha256": "e4c51f8da31e616fc49304c4a6dd6d14d3ae5877f29a0287068843330fff3f0e",
+            "snapshot_sha256": "e3d6cb12d881ef49e6cfdee09fb684df751ad0a9eacfcc3c08f91030a3178872"
+          },
+          "training_key_seal_sha256": "565d80ebeb23b74683396d5c8ac58cd304f84dee68c98239aea0268447b4a05f",
+          "row_count": 959
+        },
+        {
+          "request": {
+            "phase": "final",
+            "kind": "adaptation",
+            "budget": "7",
+            "start": 1681077600000000,
+            "cutoff": 1681682400000000,
+            "city_ids": [
+              617
+            ]
+          },
+          "data": {
+            "path": "processed/protocol_v2_2/final_phase_a/fit_snapshots/adaptation_city_617_7_HF.npz",
+            "bytes": 15313,
+            "sha256": "796705cfacfe03bac5d7a81f0bbf49cd886e897f4fb75b085a2618af4df3ed52"
+          },
+          "training_key_seal": {
+            "identity": {
+              "artifact_role": "fit_snapshot",
+              "cutoff_us": 1681682400000000,
+              "city_ids": [
+                617
+              ],
+              "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+              "graph_binding_sha256": null,
+              "model_family": "none",
+              "protocol_version": "2.2",
+              "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+              "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+              "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+              "feature_function_version": "v2_2.asof_history.1",
+              "schema_version": "1.0"
+            },
+            "status": "SEALED_TRAINING_KEYS",
+            "purpose": "SCIENTIFIC_ARTIFACT",
+            "row_count": 8777,
+            "keys_sha256": "dee2cad8d32f2aa2ebbffed4d348d6674d750a0a52b3589421b3d4550d1e53fb",
+            "snapshot_sha256": "a6ecc5198a59bbe96d140e5bd760134269e915f01c692a294d9fdc8ae5016973"
+          },
+          "training_key_seal_sha256": "fcd39a60d8790a4c5b1323894308d5ce8f3b835e53bba3d3c68932f937e4a7a7",
+          "row_count": 8777
+        },
+        {
+          "request": {
+            "phase": "final",
+            "kind": "adaptation",
+            "budget": "30",
+            "start": 1679090400000000,
+            "cutoff": 1681682400000000,
+            "city_ids": [
+              617
+            ]
+          },
+          "data": {
+            "path": "processed/protocol_v2_2/final_phase_a/fit_snapshots/adaptation_city_617_30_HF.npz",
+            "bytes": 61113,
+            "sha256": "fa73527d23c3408d9dfa2c5af33eab6771763632ef74250a29f0609fc9789c9f"
+          },
+          "training_key_seal": {
+            "identity": {
+              "artifact_role": "fit_snapshot",
+              "cutoff_us": 1681682400000000,
+              "city_ids": [
+                617
+              ],
+              "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+              "graph_binding_sha256": null,
+              "model_family": "none",
+              "protocol_version": "2.2",
+              "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+              "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+              "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+              "feature_function_version": "v2_2.asof_history.1",
+              "schema_version": "1.0"
+            },
+            "status": "SEALED_TRAINING_KEYS",
+            "purpose": "SCIENTIFIC_ARTIFACT",
+            "row_count": 39340,
+            "keys_sha256": "4dc01dc6a84a327e6517b07d419f9b7c11862bc2421adee1511b6d082b70be69",
+            "snapshot_sha256": "492bddb808f3eed7a9872b8b3ea34307c1d7e22354d2c1fb5391cdd1bd6dcebc"
+          },
+          "training_key_seal_sha256": "be29bef81db01ac1a810f45f1811984d353ed0d1b5a9e3fb88c3da271afe1406",
+          "row_count": 39340
+        },
+        {
+          "request": {
+            "phase": "final",
+            "kind": "adaptation",
+            "budget": "full",
+            "start": 1661749200000000,
+            "cutoff": 1681682400000000,
+            "city_ids": [
+              617
+            ]
+          },
+          "data": {
+            "path": "processed/protocol_v2_2/final_phase_a/fit_snapshots/adaptation_city_617_full_HF.npz",
+            "bytes": 424305,
+            "sha256": "93fe75ac4649d22614aa9bcf471136722c9868ad9aef6dbe6431eefb86a58e35"
+          },
+          "training_key_seal": {
+            "identity": {
+              "artifact_role": "fit_snapshot",
+              "cutoff_us": 1681682400000000,
+              "city_ids": [
+                617
+              ],
+              "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+              "graph_binding_sha256": null,
+              "model_family": "none",
+              "protocol_version": "2.2",
+              "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+              "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+              "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+              "feature_function_version": "v2_2.asof_history.1",
+              "schema_version": "1.0"
+            },
+            "status": "SEALED_TRAINING_KEYS",
+            "purpose": "SCIENTIFIC_ARTIFACT",
+            "row_count": 265879,
+            "keys_sha256": "1351be5b5de6783562048a538dc48e4a4aeb2db829858f26bf58d21c06637a91",
+            "snapshot_sha256": "68f4ade50895faca0493c847c9f8ef77174d3575967ccb29d39b9521efae37c3"
+          },
+          "training_key_seal_sha256": "2c8beafe8b31372e288ed2d119335751b6a37f8fca7602d56d3055b79f308172",
+          "row_count": 265879
+        }
+      ]
+    }
+  ],
+  "source_refit_partitions": [
+    {
+      "request": {
+        "phase": "final",
+        "kind": "source",
+        "budget": "full",
+        "start": 1661749200000000,
+        "cutoff": 1681682400000000,
+        "city_ids": [
+          129
+        ]
+      },
+      "data": {
+        "path": "processed/protocol_v2_2/final_phase_a/fit_snapshots/source_city_129_full_HF.npz",
+        "bytes": 501169,
+        "sha256": "8d587d243d904f53c55d455e95db2ca8ccf069bc99a2554bfef6d20359ea5f0e"
+      },
+      "training_key_seal": {
+        "identity": {
+          "artifact_role": "fit_snapshot",
+          "cutoff_us": 1681682400000000,
+          "city_ids": [
+            129
+          ],
+          "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+          "graph_binding_sha256": null,
+          "model_family": "none",
+          "protocol_version": "2.2",
+          "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+          "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+          "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+          "feature_function_version": "v2_2.asof_history.1",
+          "schema_version": "1.0"
+        },
+        "status": "SEALED_TRAINING_KEYS",
+        "purpose": "SCIENTIFIC_ARTIFACT",
+        "row_count": 353298,
+        "keys_sha256": "93c85935843a13b592cb799e89dd0bb67beb4c1f53f3591f1c6d65d643dbc854",
+        "snapshot_sha256": "7705c61c3d68c16440443620089f3c081143a51619cc98fb50c294e21e4da65d"
+      },
+      "training_key_seal_sha256": "26af2b1664697c9ebb7707fa73937e6f716d7672f1f7dcf42eacbc83aa0a4097",
+      "row_count": 353298
+    },
+    {
+      "request": {
+        "phase": "final",
+        "kind": "source",
+        "budget": "full",
+        "start": 1661749200000000,
+        "cutoff": 1681682400000000,
+        "city_ids": [
+          194
+        ]
+      },
+      "data": {
+        "path": "processed/protocol_v2_2/final_phase_a/fit_snapshots/source_city_194_full_HF.npz",
+        "bytes": 423594,
+        "sha256": "40b5979625bd5aa69e5726e27ae5b4e8cccec758ef0b47f39c5d9955279bb5d3"
+      },
+      "training_key_seal": {
+        "identity": {
+          "artifact_role": "fit_snapshot",
+          "cutoff_us": 1681682400000000,
+          "city_ids": [
+            194
+          ],
+          "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+          "graph_binding_sha256": null,
+          "model_family": "none",
+          "protocol_version": "2.2",
+          "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+          "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+          "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+          "feature_function_version": "v2_2.asof_history.1",
+          "schema_version": "1.0"
+        },
+        "status": "SEALED_TRAINING_KEYS",
+        "purpose": "SCIENTIFIC_ARTIFACT",
+        "row_count": 238382,
+        "keys_sha256": "da80f495196c04056871022b8e52e43b4a9d53d6d4c5e50233500375b807692c",
+        "snapshot_sha256": "a5a1d47d4f52f0885927a48dc7e5d55f92d660d01a446bea5bec642b5d77adce"
+      },
+      "training_key_seal_sha256": "a97a3ef03a0ea18f1f1d65608510c04cf4f1154c7687b42f2608ab114981f083",
+      "row_count": 238382
+    },
+    {
+      "request": {
+        "phase": "final",
+        "kind": "source",
+        "budget": "full",
+        "start": 1661749200000000,
+        "cutoff": 1681682400000000,
+        "city_ids": [
+          438
+        ]
+      },
+      "data": {
+        "path": "processed/protocol_v2_2/final_phase_a/fit_snapshots/source_city_438_full_HF.npz",
+        "bytes": 373138,
+        "sha256": "30e58cb0db923120c65abe19029d185ca7a00bff1f5b63c6d4ec68b9771d3993"
+      },
+      "training_key_seal": {
+        "identity": {
+          "artifact_role": "fit_snapshot",
+          "cutoff_us": 1681682400000000,
+          "city_ids": [
+            438
+          ],
+          "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+          "graph_binding_sha256": null,
+          "model_family": "none",
+          "protocol_version": "2.2",
+          "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+          "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+          "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+          "feature_function_version": "v2_2.asof_history.1",
+          "schema_version": "1.0"
+        },
+        "status": "SEALED_TRAINING_KEYS",
+        "purpose": "SCIENTIFIC_ARTIFACT",
+        "row_count": 182930,
+        "keys_sha256": "512a26680a6e39e44fabfe1414d1a7e69491faf7ca667402d024c685d8755b96",
+        "snapshot_sha256": "044b5b4c856a30f023528148aba7bd823b00c18650b3ead4869833d4d424fac9"
+      },
+      "training_key_seal_sha256": "a5c94cbad30487966d06812541c90e82009200e79bd43f88bce0eaafc7cb6d63",
+      "row_count": 182930
+    },
+    {
+      "request": {
+        "phase": "final",
+        "kind": "source",
+        "budget": "full",
+        "start": 1661749200000000,
+        "cutoff": 1681682400000000,
+        "city_ids": [
+          467
+        ]
+      },
+      "data": {
+        "path": "processed/protocol_v2_2/final_phase_a/fit_snapshots/source_city_467_full_HF.npz",
+        "bytes": 345575,
+        "sha256": "c1764159bb715f522eba30c95f6df2f7039bfd4792f0700564bb3bc5e5390155"
+      },
+      "training_key_seal": {
+        "identity": {
+          "artifact_role": "fit_snapshot",
+          "cutoff_us": 1681682400000000,
+          "city_ids": [
+            467
+          ],
+          "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+          "graph_binding_sha256": null,
+          "model_family": "none",
+          "protocol_version": "2.2",
+          "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+          "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+          "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+          "feature_function_version": "v2_2.asof_history.1",
+          "schema_version": "1.0"
+        },
+        "status": "SEALED_TRAINING_KEYS",
+        "purpose": "SCIENTIFIC_ARTIFACT",
+        "row_count": 137049,
+        "keys_sha256": "7d10e0260c094779d26ded1dd575106006dcc511cf877342752c40a3eed8baea",
+        "snapshot_sha256": "b088cbc974c9fdebfc4ea30bd13ecad02ba797aaf2c5d90be63f7012f52d62de"
+      },
+      "training_key_seal_sha256": "9a7df58e647c077a626c3156f13702a634ef16f9b56be4b953e464361f11ae5b",
+      "row_count": 137049
+    },
+    {
+      "request": {
+        "phase": "final",
+        "kind": "source",
+        "budget": "full",
+        "start": 1661749200000000,
+        "cutoff": 1681682400000000,
+        "city_ids": [
+          476
+        ]
+      },
+      "data": {
+        "path": "processed/protocol_v2_2/final_phase_a/fit_snapshots/source_city_476_full_HF.npz",
+        "bytes": 495514,
+        "sha256": "b4f31ffabea5b9b361858ede5607f141ae14dc583035d47b304d187f0ef7ed40"
+      },
+      "training_key_seal": {
+        "identity": {
+          "artifact_role": "fit_snapshot",
+          "cutoff_us": 1681682400000000,
+          "city_ids": [
+            476
+          ],
+          "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+          "graph_binding_sha256": null,
+          "model_family": "none",
+          "protocol_version": "2.2",
+          "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+          "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+          "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+          "feature_function_version": "v2_2.asof_history.1",
+          "schema_version": "1.0"
+        },
+        "status": "SEALED_TRAINING_KEYS",
+        "purpose": "SCIENTIFIC_ARTIFACT",
+        "row_count": 353455,
+        "keys_sha256": "3a71adb5f906334fac083f07337282f0e11d1362f4de300c73efdf1a7f50a4e9",
+        "snapshot_sha256": "6e10b166f535b507acb3f5070140ff3076c1dca3aff78147987cda35c91c6c04"
+      },
+      "training_key_seal_sha256": "ab3df2164c82b6862836a0b5882b07f9522df326c334b716a1953bf6ca5d73ac",
+      "row_count": 353455
+    },
+    {
+      "request": {
+        "phase": "final",
+        "kind": "source",
+        "budget": "full",
+        "start": 1661749200000000,
+        "cutoff": 1681682400000000,
+        "city_ids": [
+          532
+        ]
+      },
+      "data": {
+        "path": "processed/protocol_v2_2/final_phase_a/fit_snapshots/source_city_532_full_HF.npz",
+        "bytes": 467414,
+        "sha256": "785dd8ad34bbddeafe36aa3de5a500aaeefcfe908c611d8c6fe014c499816c98"
+      },
+      "training_key_seal": {
+        "identity": {
+          "artifact_role": "fit_snapshot",
+          "cutoff_us": 1681682400000000,
+          "city_ids": [
+            532
+          ],
+          "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+          "graph_binding_sha256": null,
+          "model_family": "none",
+          "protocol_version": "2.2",
+          "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+          "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+          "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+          "feature_function_version": "v2_2.asof_history.1",
+          "schema_version": "1.0"
+        },
+        "status": "SEALED_TRAINING_KEYS",
+        "purpose": "SCIENTIFIC_ARTIFACT",
+        "row_count": 232951,
+        "keys_sha256": "289c2777e298869fc25804c8fe28f1553fd18bbca82aa168790b3b2cc90d1ea9",
+        "snapshot_sha256": "cfbe823c216ffb2ed239f2812df4cd86e88c9855f33910ce77b1187b6aa73063"
+      },
+      "training_key_seal_sha256": "5d912e44b108ba31de5d0fd42f8b2197d2b3bf843aedc0857dcfa098f75f408c",
+      "row_count": 232951
+    },
+    {
+      "request": {
+        "phase": "final",
+        "kind": "source",
+        "budget": "full",
+        "start": 1661749200000000,
+        "cutoff": 1681682400000000,
+        "city_ids": [
+          619
+        ]
+      },
+      "data": {
+        "path": "processed/protocol_v2_2/final_phase_a/fit_snapshots/source_city_619_full_HF.npz",
+        "bytes": 569397,
+        "sha256": "813c4ecf76d3a5e90b085a57d2b940405e041afcc525eebc92387123c99b43b0"
+      },
+      "training_key_seal": {
+        "identity": {
+          "artifact_role": "fit_snapshot",
+          "cutoff_us": 1681682400000000,
+          "city_ids": [
+            619
+          ],
+          "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+          "graph_binding_sha256": null,
+          "model_family": "none",
+          "protocol_version": "2.2",
+          "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+          "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+          "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+          "feature_function_version": "v2_2.asof_history.1",
+          "schema_version": "1.0"
+        },
+        "status": "SEALED_TRAINING_KEYS",
+        "purpose": "SCIENTIFIC_ARTIFACT",
+        "row_count": 436279,
+        "keys_sha256": "500e6e7d87454dbfe1e2360d692c05d313c24a5721e0c5f94d4ec7c38b0d7d2a",
+        "snapshot_sha256": "de9f310440c0a187f9971eddbf825ec99888b6054bd44271057dc27bee09eb45"
+      },
+      "training_key_seal_sha256": "fb4a0536f28dc8bf5cbf7d9386c62e74a269e96f9fbd72c1fdc3ac292e3f8f2f",
+      "row_count": 436279
+    },
+    {
+      "request": {
+        "phase": "final",
+        "kind": "source",
+        "budget": "full",
+        "start": 1661749200000000,
+        "cutoff": 1681682400000000,
+        "city_ids": [
+          658
+        ]
+      },
+      "data": {
+        "path": "processed/protocol_v2_2/final_phase_a/fit_snapshots/source_city_658_full_HF.npz",
+        "bytes": 639880,
+        "sha256": "9b6d9da40c59d66b8e945b8dc97b4e374f8d0cf1220191bba603153eb9d453c8"
+      },
+      "training_key_seal": {
+        "identity": {
+          "artifact_role": "fit_snapshot",
+          "cutoff_us": 1681682400000000,
+          "city_ids": [
+            658
+          ],
+          "roster_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+          "graph_binding_sha256": null,
+          "model_family": "none",
+          "protocol_version": "2.2",
+          "specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+          "specification_seal_sha256": "170d2c3c8b3371dd6c6c3d0606733d6d9a6b93e83449808dd7ccb98a904a86fb",
+          "cohort_static_sha256": "24f25a4d18dafe888dffc74acc279e59e51ef5c68c03eaa9e8148c632ae4a046",
+          "feature_function_version": "v2_2.asof_history.1",
+          "schema_version": "1.0"
+        },
+        "status": "SEALED_TRAINING_KEYS",
+        "purpose": "SCIENTIFIC_ARTIFACT",
+        "row_count": 564683,
+        "keys_sha256": "b0f2cd98b1854d16b64da8f6680b79e06b391a7f8750d5f4cf2920818a097510",
+        "snapshot_sha256": "d686cd19f90d2c5ad28c984fc081a93718b68d8887f0e21f34f15522a2517ccd"
+      },
+      "training_key_seal_sha256": "6cfaa19623e8a1e6a8a907a675a29e7d5f7839e913d0a22c00160278583a426e",
+      "row_count": 564683
+    }
+  ],
+  "raw_bindings": {
+    "dataset": "https://huggingface.co/datasets/PellelNitram/european-bike-sharing-dataset",
+    "revision": "d8e897ee0f3a58457cbcfa63bf7454142d1ad54e",
+    "files": [
+      {
+        "path": "feasibility_test/full_audit/data/trips/train-00000-of-00006.parquet",
+        "sha256": "4d6948903f8513617b5eb87a6a8e986171770704acb7f30d63b3260dd9a8fa4a",
+        "bytes": 107743633
+      },
+      {
+        "path": "feasibility_test/full_audit/data/trips/train-00001-of-00006.parquet",
+        "sha256": "d0cf2ce6f6258c1e8eb524772402f75e1af2a87758943e8e6167f0d56da4d245",
+        "bytes": 88801745
+      },
+      {
+        "path": "feasibility_test/full_audit/data/trips/train-00002-of-00006.parquet",
+        "sha256": "f7a37504a9ac1443d717983b19d302482d8c5346939c229defc96441b29816ae",
+        "bytes": 97845676
+      },
+      {
+        "path": "feasibility_test/full_audit/data/trips/train-00003-of-00006.parquet",
+        "sha256": "8e19a028feadcd86ebf4258923ca4498d865135777ce25a28411c3a1698ccecf",
+        "bytes": 101085279
+      },
+      {
+        "path": "feasibility_test/full_audit/data/trips/train-00004-of-00006.parquet",
+        "sha256": "9ca62b910983ef1a576f674f52ba8de09b8f580943620604b4a35f7fe483e54b",
+        "bytes": 91558163
+      },
+      {
+        "path": "feasibility_test/full_audit/data/trips/train-00005-of-00006.parquet",
+        "sha256": "9b3f59cc3fdc5b974bebf81b5db2bcf890e467eb1bd2c3976ed5666681fe79c0",
+        "bytes": 93578737
+      },
+      {
+        "path": "feasibility_test/full_audit/coverage/data/station_status/train-00000-of-00005.parquet",
+        "sha256": "f9f52d605c16bbecf53dd923c1b86f3673079aff8b318c8540f0381322cf7afd",
+        "bytes": 38169081
+      },
+      {
+        "path": "feasibility_test/full_audit/coverage/data/station_status/train-00001-of-00005.parquet",
+        "sha256": "732fdf6c5a24621dc8600359ac8bd1e9795335650bbdec7e6a48b3e082f8e767",
+        "bytes": 38200145
+      },
+      {
+        "path": "feasibility_test/full_audit/coverage/data/station_status/train-00002-of-00005.parquet",
+        "sha256": "9041797bb01206aa0269cc2bc7eaa689980acb9650dcce7c3b24f21b21a8eb48",
+        "bytes": 37395654
+      },
+      {
+        "path": "feasibility_test/full_audit/coverage/data/station_status/train-00003-of-00005.parquet",
+        "sha256": "159acf7a1b317a94c87fc84387e1955316e17e667c92fd24c21ae7ec4acb04f5",
+        "bytes": 36953901
+      },
+      {
+        "path": "feasibility_test/full_audit/coverage/data/station_status/train-00004-of-00005.parquet",
+        "sha256": "f1866171ae5dfb93625695349fbdfad1956ae33bd1f6f43ee8147611c939f300",
+        "bytes": 36271730
+      }
+    ]
+  },
+  "fixed_global_cohort_sha256": "78839051a388a1e1bd00a34964a634fcd6f876ce67732da14b5797deef55f52a",
+  "v2_2_specification_sha256": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+  "causal_observability_implementation": {
+    "path": "research/v2_2/history.py",
+    "sha256": "64994a2fbb2a28738557ab008e4ed7ff2e2596f47f709e61d47beb33e6178709"
+  },
+  "builder": {
+    "path": "research/final_v2_2/data_gate.py",
+    "sha256": "e3eea12b509ce57e8db420b0f0bebf58d035458f9081a097941a9e960fe06c0d"
+  },
+  "boundaries_us": {
+    "H0": 1661749200000000,
+    "HF": 1681682400000000,
+    "HT": 1683817200000000,
+    "HE": 1689451200000000
+  },
+  "evaluation_origin_count": 1565,
+  "embargo_hours": 593,
+  "lags": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    168
+  ],
+  "phase_a_evaluation_schema_excludes": [
+    "count",
+    "target",
+    "y",
+    "observed_target"
+  ],
+  "created_utc": "2026-09-08T19:06:10.080499+00:00"
+}

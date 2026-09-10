@@ -245,3 +245,26 @@ research/results/**/completed/
 research/results/**/*predictions*/
 research/results/**/*checkpoint*/
 research/results/stage4_source_invariance_v2_2_a40/
+
+# Public final-project release guardrails
+data/raw/
+data/interim/
+data/processed/
+downloaded-data/
+checkpoints/
+predictions/
+**/checkpoints/
+**/predictions/
+**/verified_raw_snapshots/
+**/staging/
+**/staging_*/
+bootstrap_replicates.npz
+materialized_targets.npz
+final_result_archive.zip
+r7_phase_a/
+r7_phase_b*/
+*phase_a_execution*/
+*phase_b_execution*/
+
+# Keep the path-neutral final manifest while generated protocol data stay ignored.
+!processed/protocol_v2_2/FINAL_DATASET_MANIFEST.json

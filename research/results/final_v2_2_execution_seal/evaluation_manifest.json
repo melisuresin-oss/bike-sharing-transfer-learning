@@ -1,0 +1,4883 @@
+{
+  "schema_version": "final_v2_2.evaluations.1",
+  "status": "SEALED_PLAN_NOT_EXECUTED",
+  "passes": [
+    {
+      "evaluation_id": "target_only_vanilla_target-195_seed-17_budget-1",
+      "method": "target_only_vanilla",
+      "target_city_id": 195,
+      "seed": 17,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-195_seed-17_budget-7",
+      "method": "target_only_vanilla",
+      "target_city_id": 195,
+      "seed": 17,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-195_seed-17_budget-30",
+      "method": "target_only_vanilla",
+      "target_city_id": 195,
+      "seed": 17,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-195_seed-17_budget-full",
+      "method": "target_only_vanilla",
+      "target_city_id": 195,
+      "seed": 17,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-199_seed-17_budget-1",
+      "method": "target_only_vanilla",
+      "target_city_id": 199,
+      "seed": 17,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-199_seed-17_budget-7",
+      "method": "target_only_vanilla",
+      "target_city_id": 199,
+      "seed": 17,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-199_seed-17_budget-30",
+      "method": "target_only_vanilla",
+      "target_city_id": 199,
+      "seed": 17,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-199_seed-17_budget-full",
+      "method": "target_only_vanilla",
+      "target_city_id": 199,
+      "seed": 17,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-237_seed-17_budget-1",
+      "method": "target_only_vanilla",
+      "target_city_id": 237,
+      "seed": 17,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-237_seed-17_budget-7",
+      "method": "target_only_vanilla",
+      "target_city_id": 237,
+      "seed": 17,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-237_seed-17_budget-30",
+      "method": "target_only_vanilla",
+      "target_city_id": 237,
+      "seed": 17,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-237_seed-17_budget-full",
+      "method": "target_only_vanilla",
+      "target_city_id": 237,
+      "seed": 17,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-617_seed-17_budget-1",
+      "method": "target_only_vanilla",
+      "target_city_id": 617,
+      "seed": 17,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-617_seed-17_budget-7",
+      "method": "target_only_vanilla",
+      "target_city_id": 617,
+      "seed": 17,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-617_seed-17_budget-30",
+      "method": "target_only_vanilla",
+      "target_city_id": 617,
+      "seed": 17,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-617_seed-17_budget-full",
+      "method": "target_only_vanilla",
+      "target_city_id": 617,
+      "seed": 17,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-195_seed-29_budget-1",
+      "method": "target_only_vanilla",
+      "target_city_id": 195,
+      "seed": 29,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-195_seed-29_budget-7",
+      "method": "target_only_vanilla",
+      "target_city_id": 195,
+      "seed": 29,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-195_seed-29_budget-30",
+      "method": "target_only_vanilla",
+      "target_city_id": 195,
+      "seed": 29,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-195_seed-29_budget-full",
+      "method": "target_only_vanilla",
+      "target_city_id": 195,
+      "seed": 29,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-199_seed-29_budget-1",
+      "method": "target_only_vanilla",
+      "target_city_id": 199,
+      "seed": 29,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-199_seed-29_budget-7",
+      "method": "target_only_vanilla",
+      "target_city_id": 199,
+      "seed": 29,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-199_seed-29_budget-30",
+      "method": "target_only_vanilla",
+      "target_city_id": 199,
+      "seed": 29,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-199_seed-29_budget-full",
+      "method": "target_only_vanilla",
+      "target_city_id": 199,
+      "seed": 29,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-237_seed-29_budget-1",
+      "method": "target_only_vanilla",
+      "target_city_id": 237,
+      "seed": 29,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-237_seed-29_budget-7",
+      "method": "target_only_vanilla",
+      "target_city_id": 237,
+      "seed": 29,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-237_seed-29_budget-30",
+      "method": "target_only_vanilla",
+      "target_city_id": 237,
+      "seed": 29,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-237_seed-29_budget-full",
+      "method": "target_only_vanilla",
+      "target_city_id": 237,
+      "seed": 29,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-617_seed-29_budget-1",
+      "method": "target_only_vanilla",
+      "target_city_id": 617,
+      "seed": 29,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-617_seed-29_budget-7",
+      "method": "target_only_vanilla",
+      "target_city_id": 617,
+      "seed": 29,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-617_seed-29_budget-30",
+      "method": "target_only_vanilla",
+      "target_city_id": 617,
+      "seed": 29,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-617_seed-29_budget-full",
+      "method": "target_only_vanilla",
+      "target_city_id": 617,
+      "seed": 29,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-195_seed-43_budget-1",
+      "method": "target_only_vanilla",
+      "target_city_id": 195,
+      "seed": 43,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-195_seed-43_budget-7",
+      "method": "target_only_vanilla",
+      "target_city_id": 195,
+      "seed": 43,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-195_seed-43_budget-30",
+      "method": "target_only_vanilla",
+      "target_city_id": 195,
+      "seed": 43,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-195_seed-43_budget-full",
+      "method": "target_only_vanilla",
+      "target_city_id": 195,
+      "seed": 43,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-199_seed-43_budget-1",
+      "method": "target_only_vanilla",
+      "target_city_id": 199,
+      "seed": 43,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-199_seed-43_budget-7",
+      "method": "target_only_vanilla",
+      "target_city_id": 199,
+      "seed": 43,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-199_seed-43_budget-30",
+      "method": "target_only_vanilla",
+      "target_city_id": 199,
+      "seed": 43,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-199_seed-43_budget-full",
+      "method": "target_only_vanilla",
+      "target_city_id": 199,
+      "seed": 43,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-237_seed-43_budget-1",
+      "method": "target_only_vanilla",
+      "target_city_id": 237,
+      "seed": 43,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-237_seed-43_budget-7",
+      "method": "target_only_vanilla",
+      "target_city_id": 237,
+      "seed": 43,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-237_seed-43_budget-30",
+      "method": "target_only_vanilla",
+      "target_city_id": 237,
+      "seed": 43,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-237_seed-43_budget-full",
+      "method": "target_only_vanilla",
+      "target_city_id": 237,
+      "seed": 43,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-617_seed-43_budget-1",
+      "method": "target_only_vanilla",
+      "target_city_id": 617,
+      "seed": 43,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-617_seed-43_budget-7",
+      "method": "target_only_vanilla",
+      "target_city_id": 617,
+      "seed": 43,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-617_seed-43_budget-30",
+      "method": "target_only_vanilla",
+      "target_city_id": 617,
+      "seed": 43,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-617_seed-43_budget-full",
+      "method": "target_only_vanilla",
+      "target_city_id": 617,
+      "seed": 43,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-195_seed-71_budget-1",
+      "method": "target_only_vanilla",
+      "target_city_id": 195,
+      "seed": 71,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-195_seed-71_budget-7",
+      "method": "target_only_vanilla",
+      "target_city_id": 195,
+      "seed": 71,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-195_seed-71_budget-30",
+      "method": "target_only_vanilla",
+      "target_city_id": 195,
+      "seed": 71,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-195_seed-71_budget-full",
+      "method": "target_only_vanilla",
+      "target_city_id": 195,
+      "seed": 71,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-199_seed-71_budget-1",
+      "method": "target_only_vanilla",
+      "target_city_id": 199,
+      "seed": 71,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-199_seed-71_budget-7",
+      "method": "target_only_vanilla",
+      "target_city_id": 199,
+      "seed": 71,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-199_seed-71_budget-30",
+      "method": "target_only_vanilla",
+      "target_city_id": 199,
+      "seed": 71,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-199_seed-71_budget-full",
+      "method": "target_only_vanilla",
+      "target_city_id": 199,
+      "seed": 71,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-237_seed-71_budget-1",
+      "method": "target_only_vanilla",
+      "target_city_id": 237,
+      "seed": 71,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-237_seed-71_budget-7",
+      "method": "target_only_vanilla",
+      "target_city_id": 237,
+      "seed": 71,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-237_seed-71_budget-30",
+      "method": "target_only_vanilla",
+      "target_city_id": 237,
+      "seed": 71,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-237_seed-71_budget-full",
+      "method": "target_only_vanilla",
+      "target_city_id": 237,
+      "seed": 71,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-617_seed-71_budget-1",
+      "method": "target_only_vanilla",
+      "target_city_id": 617,
+      "seed": 71,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-617_seed-71_budget-7",
+      "method": "target_only_vanilla",
+      "target_city_id": 617,
+      "seed": 71,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-617_seed-71_budget-30",
+      "method": "target_only_vanilla",
+      "target_city_id": 617,
+      "seed": 71,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-617_seed-71_budget-full",
+      "method": "target_only_vanilla",
+      "target_city_id": 617,
+      "seed": 71,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-195_seed-101_budget-1",
+      "method": "target_only_vanilla",
+      "target_city_id": 195,
+      "seed": 101,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-195_seed-101_budget-7",
+      "method": "target_only_vanilla",
+      "target_city_id": 195,
+      "seed": 101,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-195_seed-101_budget-30",
+      "method": "target_only_vanilla",
+      "target_city_id": 195,
+      "seed": 101,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-195_seed-101_budget-full",
+      "method": "target_only_vanilla",
+      "target_city_id": 195,
+      "seed": 101,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-199_seed-101_budget-1",
+      "method": "target_only_vanilla",
+      "target_city_id": 199,
+      "seed": 101,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-199_seed-101_budget-7",
+      "method": "target_only_vanilla",
+      "target_city_id": 199,
+      "seed": 101,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-199_seed-101_budget-30",
+      "method": "target_only_vanilla",
+      "target_city_id": 199,
+      "seed": 101,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-199_seed-101_budget-full",
+      "method": "target_only_vanilla",
+      "target_city_id": 199,
+      "seed": 101,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-237_seed-101_budget-1",
+      "method": "target_only_vanilla",
+      "target_city_id": 237,
+      "seed": 101,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-237_seed-101_budget-7",
+      "method": "target_only_vanilla",
+      "target_city_id": 237,
+      "seed": 101,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-237_seed-101_budget-30",
+      "method": "target_only_vanilla",
+      "target_city_id": 237,
+      "seed": 101,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-237_seed-101_budget-full",
+      "method": "target_only_vanilla",
+      "target_city_id": 237,
+      "seed": 101,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-617_seed-101_budget-1",
+      "method": "target_only_vanilla",
+      "target_city_id": 617,
+      "seed": 101,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-617_seed-101_budget-7",
+      "method": "target_only_vanilla",
+      "target_city_id": 617,
+      "seed": 101,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-617_seed-101_budget-30",
+      "method": "target_only_vanilla",
+      "target_city_id": 617,
+      "seed": 101,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_vanilla_target-617_seed-101_budget-full",
+      "method": "target_only_vanilla",
+      "target_city_id": 617,
+      "seed": 101,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-195_seed-17_budget-1",
+      "method": "target_only_graph",
+      "target_city_id": 195,
+      "seed": 17,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-195_seed-17_budget-7",
+      "method": "target_only_graph",
+      "target_city_id": 195,
+      "seed": 17,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-195_seed-17_budget-30",
+      "method": "target_only_graph",
+      "target_city_id": 195,
+      "seed": 17,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-195_seed-17_budget-full",
+      "method": "target_only_graph",
+      "target_city_id": 195,
+      "seed": 17,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-199_seed-17_budget-1",
+      "method": "target_only_graph",
+      "target_city_id": 199,
+      "seed": 17,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-199_seed-17_budget-7",
+      "method": "target_only_graph",
+      "target_city_id": 199,
+      "seed": 17,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-199_seed-17_budget-30",
+      "method": "target_only_graph",
+      "target_city_id": 199,
+      "seed": 17,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-199_seed-17_budget-full",
+      "method": "target_only_graph",
+      "target_city_id": 199,
+      "seed": 17,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-237_seed-17_budget-1",
+      "method": "target_only_graph",
+      "target_city_id": 237,
+      "seed": 17,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-237_seed-17_budget-7",
+      "method": "target_only_graph",
+      "target_city_id": 237,
+      "seed": 17,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-237_seed-17_budget-30",
+      "method": "target_only_graph",
+      "target_city_id": 237,
+      "seed": 17,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-237_seed-17_budget-full",
+      "method": "target_only_graph",
+      "target_city_id": 237,
+      "seed": 17,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-617_seed-17_budget-1",
+      "method": "target_only_graph",
+      "target_city_id": 617,
+      "seed": 17,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-617_seed-17_budget-7",
+      "method": "target_only_graph",
+      "target_city_id": 617,
+      "seed": 17,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-617_seed-17_budget-30",
+      "method": "target_only_graph",
+      "target_city_id": 617,
+      "seed": 17,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-617_seed-17_budget-full",
+      "method": "target_only_graph",
+      "target_city_id": 617,
+      "seed": 17,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-195_seed-29_budget-1",
+      "method": "target_only_graph",
+      "target_city_id": 195,
+      "seed": 29,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-195_seed-29_budget-7",
+      "method": "target_only_graph",
+      "target_city_id": 195,
+      "seed": 29,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-195_seed-29_budget-30",
+      "method": "target_only_graph",
+      "target_city_id": 195,
+      "seed": 29,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-195_seed-29_budget-full",
+      "method": "target_only_graph",
+      "target_city_id": 195,
+      "seed": 29,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-199_seed-29_budget-1",
+      "method": "target_only_graph",
+      "target_city_id": 199,
+      "seed": 29,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-199_seed-29_budget-7",
+      "method": "target_only_graph",
+      "target_city_id": 199,
+      "seed": 29,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-199_seed-29_budget-30",
+      "method": "target_only_graph",
+      "target_city_id": 199,
+      "seed": 29,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-199_seed-29_budget-full",
+      "method": "target_only_graph",
+      "target_city_id": 199,
+      "seed": 29,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-237_seed-29_budget-1",
+      "method": "target_only_graph",
+      "target_city_id": 237,
+      "seed": 29,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-237_seed-29_budget-7",
+      "method": "target_only_graph",
+      "target_city_id": 237,
+      "seed": 29,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-237_seed-29_budget-30",
+      "method": "target_only_graph",
+      "target_city_id": 237,
+      "seed": 29,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-237_seed-29_budget-full",
+      "method": "target_only_graph",
+      "target_city_id": 237,
+      "seed": 29,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-617_seed-29_budget-1",
+      "method": "target_only_graph",
+      "target_city_id": 617,
+      "seed": 29,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-617_seed-29_budget-7",
+      "method": "target_only_graph",
+      "target_city_id": 617,
+      "seed": 29,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-617_seed-29_budget-30",
+      "method": "target_only_graph",
+      "target_city_id": 617,
+      "seed": 29,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-617_seed-29_budget-full",
+      "method": "target_only_graph",
+      "target_city_id": 617,
+      "seed": 29,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-195_seed-43_budget-1",
+      "method": "target_only_graph",
+      "target_city_id": 195,
+      "seed": 43,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-195_seed-43_budget-7",
+      "method": "target_only_graph",
+      "target_city_id": 195,
+      "seed": 43,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-195_seed-43_budget-30",
+      "method": "target_only_graph",
+      "target_city_id": 195,
+      "seed": 43,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-195_seed-43_budget-full",
+      "method": "target_only_graph",
+      "target_city_id": 195,
+      "seed": 43,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-199_seed-43_budget-1",
+      "method": "target_only_graph",
+      "target_city_id": 199,
+      "seed": 43,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-199_seed-43_budget-7",
+      "method": "target_only_graph",
+      "target_city_id": 199,
+      "seed": 43,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-199_seed-43_budget-30",
+      "method": "target_only_graph",
+      "target_city_id": 199,
+      "seed": 43,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-199_seed-43_budget-full",
+      "method": "target_only_graph",
+      "target_city_id": 199,
+      "seed": 43,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-237_seed-43_budget-1",
+      "method": "target_only_graph",
+      "target_city_id": 237,
+      "seed": 43,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-237_seed-43_budget-7",
+      "method": "target_only_graph",
+      "target_city_id": 237,
+      "seed": 43,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-237_seed-43_budget-30",
+      "method": "target_only_graph",
+      "target_city_id": 237,
+      "seed": 43,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-237_seed-43_budget-full",
+      "method": "target_only_graph",
+      "target_city_id": 237,
+      "seed": 43,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-617_seed-43_budget-1",
+      "method": "target_only_graph",
+      "target_city_id": 617,
+      "seed": 43,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-617_seed-43_budget-7",
+      "method": "target_only_graph",
+      "target_city_id": 617,
+      "seed": 43,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-617_seed-43_budget-30",
+      "method": "target_only_graph",
+      "target_city_id": 617,
+      "seed": 43,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-617_seed-43_budget-full",
+      "method": "target_only_graph",
+      "target_city_id": 617,
+      "seed": 43,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-195_seed-71_budget-1",
+      "method": "target_only_graph",
+      "target_city_id": 195,
+      "seed": 71,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-195_seed-71_budget-7",
+      "method": "target_only_graph",
+      "target_city_id": 195,
+      "seed": 71,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-195_seed-71_budget-30",
+      "method": "target_only_graph",
+      "target_city_id": 195,
+      "seed": 71,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-195_seed-71_budget-full",
+      "method": "target_only_graph",
+      "target_city_id": 195,
+      "seed": 71,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-199_seed-71_budget-1",
+      "method": "target_only_graph",
+      "target_city_id": 199,
+      "seed": 71,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-199_seed-71_budget-7",
+      "method": "target_only_graph",
+      "target_city_id": 199,
+      "seed": 71,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-199_seed-71_budget-30",
+      "method": "target_only_graph",
+      "target_city_id": 199,
+      "seed": 71,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-199_seed-71_budget-full",
+      "method": "target_only_graph",
+      "target_city_id": 199,
+      "seed": 71,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-237_seed-71_budget-1",
+      "method": "target_only_graph",
+      "target_city_id": 237,
+      "seed": 71,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-237_seed-71_budget-7",
+      "method": "target_only_graph",
+      "target_city_id": 237,
+      "seed": 71,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-237_seed-71_budget-30",
+      "method": "target_only_graph",
+      "target_city_id": 237,
+      "seed": 71,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-237_seed-71_budget-full",
+      "method": "target_only_graph",
+      "target_city_id": 237,
+      "seed": 71,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-617_seed-71_budget-1",
+      "method": "target_only_graph",
+      "target_city_id": 617,
+      "seed": 71,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-617_seed-71_budget-7",
+      "method": "target_only_graph",
+      "target_city_id": 617,
+      "seed": 71,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-617_seed-71_budget-30",
+      "method": "target_only_graph",
+      "target_city_id": 617,
+      "seed": 71,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-617_seed-71_budget-full",
+      "method": "target_only_graph",
+      "target_city_id": 617,
+      "seed": 71,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-195_seed-101_budget-1",
+      "method": "target_only_graph",
+      "target_city_id": 195,
+      "seed": 101,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-195_seed-101_budget-7",
+      "method": "target_only_graph",
+      "target_city_id": 195,
+      "seed": 101,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-195_seed-101_budget-30",
+      "method": "target_only_graph",
+      "target_city_id": 195,
+      "seed": 101,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-195_seed-101_budget-full",
+      "method": "target_only_graph",
+      "target_city_id": 195,
+      "seed": 101,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-199_seed-101_budget-1",
+      "method": "target_only_graph",
+      "target_city_id": 199,
+      "seed": 101,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-199_seed-101_budget-7",
+      "method": "target_only_graph",
+      "target_city_id": 199,
+      "seed": 101,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-199_seed-101_budget-30",
+      "method": "target_only_graph",
+      "target_city_id": 199,
+      "seed": 101,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-199_seed-101_budget-full",
+      "method": "target_only_graph",
+      "target_city_id": 199,
+      "seed": 101,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-237_seed-101_budget-1",
+      "method": "target_only_graph",
+      "target_city_id": 237,
+      "seed": 101,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-237_seed-101_budget-7",
+      "method": "target_only_graph",
+      "target_city_id": 237,
+      "seed": 101,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-237_seed-101_budget-30",
+      "method": "target_only_graph",
+      "target_city_id": 237,
+      "seed": 101,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-237_seed-101_budget-full",
+      "method": "target_only_graph",
+      "target_city_id": 237,
+      "seed": 101,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-617_seed-101_budget-1",
+      "method": "target_only_graph",
+      "target_city_id": 617,
+      "seed": 101,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-617_seed-101_budget-7",
+      "method": "target_only_graph",
+      "target_city_id": 617,
+      "seed": 101,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-617_seed-101_budget-30",
+      "method": "target_only_graph",
+      "target_city_id": 617,
+      "seed": 101,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "target_only_graph_target-617_seed-101_budget-full",
+      "method": "target_only_graph",
+      "target_city_id": 617,
+      "seed": 101,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-195_seed-17_budget-1",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 195,
+      "seed": 17,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-195_seed-17_budget-7",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 195,
+      "seed": 17,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-195_seed-17_budget-30",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 195,
+      "seed": 17,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-195_seed-17_budget-full",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 195,
+      "seed": 17,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-199_seed-17_budget-1",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 199,
+      "seed": 17,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-199_seed-17_budget-7",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 199,
+      "seed": 17,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-199_seed-17_budget-30",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 199,
+      "seed": 17,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-199_seed-17_budget-full",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 199,
+      "seed": 17,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-237_seed-17_budget-1",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 237,
+      "seed": 17,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-237_seed-17_budget-7",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 237,
+      "seed": 17,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-237_seed-17_budget-30",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 237,
+      "seed": 17,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-237_seed-17_budget-full",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 237,
+      "seed": 17,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-617_seed-17_budget-1",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 617,
+      "seed": 17,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-617_seed-17_budget-7",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 617,
+      "seed": 17,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-617_seed-17_budget-30",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 617,
+      "seed": 17,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-617_seed-17_budget-full",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 617,
+      "seed": 17,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-195_seed-29_budget-1",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 195,
+      "seed": 29,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-195_seed-29_budget-7",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 195,
+      "seed": 29,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-195_seed-29_budget-30",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 195,
+      "seed": 29,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-195_seed-29_budget-full",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 195,
+      "seed": 29,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-199_seed-29_budget-1",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 199,
+      "seed": 29,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-199_seed-29_budget-7",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 199,
+      "seed": 29,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-199_seed-29_budget-30",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 199,
+      "seed": 29,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-199_seed-29_budget-full",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 199,
+      "seed": 29,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-237_seed-29_budget-1",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 237,
+      "seed": 29,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-237_seed-29_budget-7",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 237,
+      "seed": 29,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-237_seed-29_budget-30",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 237,
+      "seed": 29,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-237_seed-29_budget-full",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 237,
+      "seed": 29,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-617_seed-29_budget-1",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 617,
+      "seed": 29,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-617_seed-29_budget-7",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 617,
+      "seed": 29,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-617_seed-29_budget-30",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 617,
+      "seed": 29,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-617_seed-29_budget-full",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 617,
+      "seed": 29,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-195_seed-43_budget-1",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 195,
+      "seed": 43,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-195_seed-43_budget-7",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 195,
+      "seed": 43,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-195_seed-43_budget-30",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 195,
+      "seed": 43,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-195_seed-43_budget-full",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 195,
+      "seed": 43,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-199_seed-43_budget-1",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 199,
+      "seed": 43,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-199_seed-43_budget-7",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 199,
+      "seed": 43,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-199_seed-43_budget-30",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 199,
+      "seed": 43,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-199_seed-43_budget-full",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 199,
+      "seed": 43,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-237_seed-43_budget-1",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 237,
+      "seed": 43,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-237_seed-43_budget-7",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 237,
+      "seed": 43,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-237_seed-43_budget-30",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 237,
+      "seed": 43,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-237_seed-43_budget-full",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 237,
+      "seed": 43,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-617_seed-43_budget-1",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 617,
+      "seed": 43,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-617_seed-43_budget-7",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 617,
+      "seed": 43,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-617_seed-43_budget-30",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 617,
+      "seed": 43,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-617_seed-43_budget-full",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 617,
+      "seed": 43,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-195_seed-71_budget-1",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 195,
+      "seed": 71,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-195_seed-71_budget-7",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 195,
+      "seed": 71,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-195_seed-71_budget-30",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 195,
+      "seed": 71,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-195_seed-71_budget-full",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 195,
+      "seed": 71,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-199_seed-71_budget-1",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 199,
+      "seed": 71,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-199_seed-71_budget-7",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 199,
+      "seed": 71,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-199_seed-71_budget-30",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 199,
+      "seed": 71,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-199_seed-71_budget-full",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 199,
+      "seed": 71,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-237_seed-71_budget-1",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 237,
+      "seed": 71,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-237_seed-71_budget-7",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 237,
+      "seed": 71,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-237_seed-71_budget-30",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 237,
+      "seed": 71,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-237_seed-71_budget-full",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 237,
+      "seed": 71,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-617_seed-71_budget-1",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 617,
+      "seed": 71,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-617_seed-71_budget-7",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 617,
+      "seed": 71,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-617_seed-71_budget-30",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 617,
+      "seed": 71,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-617_seed-71_budget-full",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 617,
+      "seed": 71,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-195_seed-101_budget-1",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 195,
+      "seed": 101,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-195_seed-101_budget-7",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 195,
+      "seed": 101,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-195_seed-101_budget-30",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 195,
+      "seed": 101,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-195_seed-101_budget-full",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 195,
+      "seed": 101,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-199_seed-101_budget-1",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 199,
+      "seed": 101,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-199_seed-101_budget-7",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 199,
+      "seed": 101,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-199_seed-101_budget-30",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 199,
+      "seed": 101,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-199_seed-101_budget-full",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 199,
+      "seed": 101,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-237_seed-101_budget-1",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 237,
+      "seed": 101,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-237_seed-101_budget-7",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 237,
+      "seed": 101,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-237_seed-101_budget-30",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 237,
+      "seed": 101,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-237_seed-101_budget-full",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 237,
+      "seed": 101,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-617_seed-101_budget-1",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 617,
+      "seed": 101,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-617_seed-101_budget-7",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 617,
+      "seed": 101,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-617_seed-101_budget-30",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 617,
+      "seed": 101,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_adapted_target-617_seed-101_budget-full",
+      "method": "ordinary_source_adapted",
+      "target_city_id": 617,
+      "seed": 101,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-195_seed-17_budget-1",
+      "method": "pooled_graph",
+      "target_city_id": 195,
+      "seed": 17,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-195_seed-17_budget-7",
+      "method": "pooled_graph",
+      "target_city_id": 195,
+      "seed": 17,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-195_seed-17_budget-30",
+      "method": "pooled_graph",
+      "target_city_id": 195,
+      "seed": 17,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-195_seed-17_budget-full",
+      "method": "pooled_graph",
+      "target_city_id": 195,
+      "seed": 17,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-199_seed-17_budget-1",
+      "method": "pooled_graph",
+      "target_city_id": 199,
+      "seed": 17,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-199_seed-17_budget-7",
+      "method": "pooled_graph",
+      "target_city_id": 199,
+      "seed": 17,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-199_seed-17_budget-30",
+      "method": "pooled_graph",
+      "target_city_id": 199,
+      "seed": 17,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-199_seed-17_budget-full",
+      "method": "pooled_graph",
+      "target_city_id": 199,
+      "seed": 17,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-237_seed-17_budget-1",
+      "method": "pooled_graph",
+      "target_city_id": 237,
+      "seed": 17,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-237_seed-17_budget-7",
+      "method": "pooled_graph",
+      "target_city_id": 237,
+      "seed": 17,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-237_seed-17_budget-30",
+      "method": "pooled_graph",
+      "target_city_id": 237,
+      "seed": 17,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-237_seed-17_budget-full",
+      "method": "pooled_graph",
+      "target_city_id": 237,
+      "seed": 17,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-617_seed-17_budget-1",
+      "method": "pooled_graph",
+      "target_city_id": 617,
+      "seed": 17,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-617_seed-17_budget-7",
+      "method": "pooled_graph",
+      "target_city_id": 617,
+      "seed": 17,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-617_seed-17_budget-30",
+      "method": "pooled_graph",
+      "target_city_id": 617,
+      "seed": 17,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-617_seed-17_budget-full",
+      "method": "pooled_graph",
+      "target_city_id": 617,
+      "seed": 17,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-195_seed-29_budget-1",
+      "method": "pooled_graph",
+      "target_city_id": 195,
+      "seed": 29,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-195_seed-29_budget-7",
+      "method": "pooled_graph",
+      "target_city_id": 195,
+      "seed": 29,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-195_seed-29_budget-30",
+      "method": "pooled_graph",
+      "target_city_id": 195,
+      "seed": 29,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-195_seed-29_budget-full",
+      "method": "pooled_graph",
+      "target_city_id": 195,
+      "seed": 29,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-199_seed-29_budget-1",
+      "method": "pooled_graph",
+      "target_city_id": 199,
+      "seed": 29,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-199_seed-29_budget-7",
+      "method": "pooled_graph",
+      "target_city_id": 199,
+      "seed": 29,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-199_seed-29_budget-30",
+      "method": "pooled_graph",
+      "target_city_id": 199,
+      "seed": 29,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-199_seed-29_budget-full",
+      "method": "pooled_graph",
+      "target_city_id": 199,
+      "seed": 29,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-237_seed-29_budget-1",
+      "method": "pooled_graph",
+      "target_city_id": 237,
+      "seed": 29,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-237_seed-29_budget-7",
+      "method": "pooled_graph",
+      "target_city_id": 237,
+      "seed": 29,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-237_seed-29_budget-30",
+      "method": "pooled_graph",
+      "target_city_id": 237,
+      "seed": 29,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-237_seed-29_budget-full",
+      "method": "pooled_graph",
+      "target_city_id": 237,
+      "seed": 29,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-617_seed-29_budget-1",
+      "method": "pooled_graph",
+      "target_city_id": 617,
+      "seed": 29,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-617_seed-29_budget-7",
+      "method": "pooled_graph",
+      "target_city_id": 617,
+      "seed": 29,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-617_seed-29_budget-30",
+      "method": "pooled_graph",
+      "target_city_id": 617,
+      "seed": 29,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-617_seed-29_budget-full",
+      "method": "pooled_graph",
+      "target_city_id": 617,
+      "seed": 29,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-195_seed-43_budget-1",
+      "method": "pooled_graph",
+      "target_city_id": 195,
+      "seed": 43,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-195_seed-43_budget-7",
+      "method": "pooled_graph",
+      "target_city_id": 195,
+      "seed": 43,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-195_seed-43_budget-30",
+      "method": "pooled_graph",
+      "target_city_id": 195,
+      "seed": 43,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-195_seed-43_budget-full",
+      "method": "pooled_graph",
+      "target_city_id": 195,
+      "seed": 43,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-199_seed-43_budget-1",
+      "method": "pooled_graph",
+      "target_city_id": 199,
+      "seed": 43,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-199_seed-43_budget-7",
+      "method": "pooled_graph",
+      "target_city_id": 199,
+      "seed": 43,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-199_seed-43_budget-30",
+      "method": "pooled_graph",
+      "target_city_id": 199,
+      "seed": 43,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-199_seed-43_budget-full",
+      "method": "pooled_graph",
+      "target_city_id": 199,
+      "seed": 43,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-237_seed-43_budget-1",
+      "method": "pooled_graph",
+      "target_city_id": 237,
+      "seed": 43,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-237_seed-43_budget-7",
+      "method": "pooled_graph",
+      "target_city_id": 237,
+      "seed": 43,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-237_seed-43_budget-30",
+      "method": "pooled_graph",
+      "target_city_id": 237,
+      "seed": 43,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-237_seed-43_budget-full",
+      "method": "pooled_graph",
+      "target_city_id": 237,
+      "seed": 43,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-617_seed-43_budget-1",
+      "method": "pooled_graph",
+      "target_city_id": 617,
+      "seed": 43,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-617_seed-43_budget-7",
+      "method": "pooled_graph",
+      "target_city_id": 617,
+      "seed": 43,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-617_seed-43_budget-30",
+      "method": "pooled_graph",
+      "target_city_id": 617,
+      "seed": 43,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-617_seed-43_budget-full",
+      "method": "pooled_graph",
+      "target_city_id": 617,
+      "seed": 43,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-195_seed-71_budget-1",
+      "method": "pooled_graph",
+      "target_city_id": 195,
+      "seed": 71,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-195_seed-71_budget-7",
+      "method": "pooled_graph",
+      "target_city_id": 195,
+      "seed": 71,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-195_seed-71_budget-30",
+      "method": "pooled_graph",
+      "target_city_id": 195,
+      "seed": 71,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-195_seed-71_budget-full",
+      "method": "pooled_graph",
+      "target_city_id": 195,
+      "seed": 71,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-199_seed-71_budget-1",
+      "method": "pooled_graph",
+      "target_city_id": 199,
+      "seed": 71,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-199_seed-71_budget-7",
+      "method": "pooled_graph",
+      "target_city_id": 199,
+      "seed": 71,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-199_seed-71_budget-30",
+      "method": "pooled_graph",
+      "target_city_id": 199,
+      "seed": 71,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-199_seed-71_budget-full",
+      "method": "pooled_graph",
+      "target_city_id": 199,
+      "seed": 71,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-237_seed-71_budget-1",
+      "method": "pooled_graph",
+      "target_city_id": 237,
+      "seed": 71,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-237_seed-71_budget-7",
+      "method": "pooled_graph",
+      "target_city_id": 237,
+      "seed": 71,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-237_seed-71_budget-30",
+      "method": "pooled_graph",
+      "target_city_id": 237,
+      "seed": 71,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-237_seed-71_budget-full",
+      "method": "pooled_graph",
+      "target_city_id": 237,
+      "seed": 71,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-617_seed-71_budget-1",
+      "method": "pooled_graph",
+      "target_city_id": 617,
+      "seed": 71,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-617_seed-71_budget-7",
+      "method": "pooled_graph",
+      "target_city_id": 617,
+      "seed": 71,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-617_seed-71_budget-30",
+      "method": "pooled_graph",
+      "target_city_id": 617,
+      "seed": 71,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-617_seed-71_budget-full",
+      "method": "pooled_graph",
+      "target_city_id": 617,
+      "seed": 71,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-195_seed-101_budget-1",
+      "method": "pooled_graph",
+      "target_city_id": 195,
+      "seed": 101,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-195_seed-101_budget-7",
+      "method": "pooled_graph",
+      "target_city_id": 195,
+      "seed": 101,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-195_seed-101_budget-30",
+      "method": "pooled_graph",
+      "target_city_id": 195,
+      "seed": 101,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-195_seed-101_budget-full",
+      "method": "pooled_graph",
+      "target_city_id": 195,
+      "seed": 101,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-199_seed-101_budget-1",
+      "method": "pooled_graph",
+      "target_city_id": 199,
+      "seed": 101,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-199_seed-101_budget-7",
+      "method": "pooled_graph",
+      "target_city_id": 199,
+      "seed": 101,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-199_seed-101_budget-30",
+      "method": "pooled_graph",
+      "target_city_id": 199,
+      "seed": 101,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-199_seed-101_budget-full",
+      "method": "pooled_graph",
+      "target_city_id": 199,
+      "seed": 101,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-237_seed-101_budget-1",
+      "method": "pooled_graph",
+      "target_city_id": 237,
+      "seed": 101,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-237_seed-101_budget-7",
+      "method": "pooled_graph",
+      "target_city_id": 237,
+      "seed": 101,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-237_seed-101_budget-30",
+      "method": "pooled_graph",
+      "target_city_id": 237,
+      "seed": 101,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-237_seed-101_budget-full",
+      "method": "pooled_graph",
+      "target_city_id": 237,
+      "seed": 101,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-617_seed-101_budget-1",
+      "method": "pooled_graph",
+      "target_city_id": 617,
+      "seed": 101,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-617_seed-101_budget-7",
+      "method": "pooled_graph",
+      "target_city_id": 617,
+      "seed": 101,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-617_seed-101_budget-30",
+      "method": "pooled_graph",
+      "target_city_id": 617,
+      "seed": 101,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "pooled_graph_target-617_seed-101_budget-full",
+      "method": "pooled_graph",
+      "target_city_id": 617,
+      "seed": 101,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-195_seed-17_budget-1",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 195,
+      "seed": 17,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-195_seed-17_budget-7",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 195,
+      "seed": 17,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-195_seed-17_budget-30",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 195,
+      "seed": 17,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-195_seed-17_budget-full",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 195,
+      "seed": 17,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-199_seed-17_budget-1",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 199,
+      "seed": 17,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-199_seed-17_budget-7",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 199,
+      "seed": 17,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-199_seed-17_budget-30",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 199,
+      "seed": 17,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-199_seed-17_budget-full",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 199,
+      "seed": 17,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-237_seed-17_budget-1",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 237,
+      "seed": 17,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-237_seed-17_budget-7",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 237,
+      "seed": 17,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-237_seed-17_budget-30",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 237,
+      "seed": 17,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-237_seed-17_budget-full",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 237,
+      "seed": 17,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-617_seed-17_budget-1",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 617,
+      "seed": 17,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-617_seed-17_budget-7",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 617,
+      "seed": 17,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-617_seed-17_budget-30",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 617,
+      "seed": 17,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-617_seed-17_budget-full",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 617,
+      "seed": 17,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-195_seed-29_budget-1",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 195,
+      "seed": 29,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-195_seed-29_budget-7",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 195,
+      "seed": 29,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-195_seed-29_budget-30",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 195,
+      "seed": 29,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-195_seed-29_budget-full",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 195,
+      "seed": 29,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-199_seed-29_budget-1",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 199,
+      "seed": 29,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-199_seed-29_budget-7",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 199,
+      "seed": 29,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-199_seed-29_budget-30",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 199,
+      "seed": 29,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-199_seed-29_budget-full",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 199,
+      "seed": 29,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-237_seed-29_budget-1",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 237,
+      "seed": 29,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-237_seed-29_budget-7",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 237,
+      "seed": 29,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-237_seed-29_budget-30",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 237,
+      "seed": 29,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-237_seed-29_budget-full",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 237,
+      "seed": 29,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-617_seed-29_budget-1",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 617,
+      "seed": 29,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-617_seed-29_budget-7",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 617,
+      "seed": 29,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-617_seed-29_budget-30",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 617,
+      "seed": 29,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-617_seed-29_budget-full",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 617,
+      "seed": 29,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-195_seed-43_budget-1",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 195,
+      "seed": 43,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-195_seed-43_budget-7",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 195,
+      "seed": 43,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-195_seed-43_budget-30",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 195,
+      "seed": 43,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-195_seed-43_budget-full",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 195,
+      "seed": 43,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-199_seed-43_budget-1",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 199,
+      "seed": 43,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-199_seed-43_budget-7",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 199,
+      "seed": 43,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-199_seed-43_budget-30",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 199,
+      "seed": 43,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-199_seed-43_budget-full",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 199,
+      "seed": 43,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-237_seed-43_budget-1",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 237,
+      "seed": 43,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-237_seed-43_budget-7",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 237,
+      "seed": 43,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-237_seed-43_budget-30",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 237,
+      "seed": 43,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-237_seed-43_budget-full",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 237,
+      "seed": 43,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-617_seed-43_budget-1",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 617,
+      "seed": 43,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-617_seed-43_budget-7",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 617,
+      "seed": 43,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-617_seed-43_budget-30",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 617,
+      "seed": 43,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-617_seed-43_budget-full",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 617,
+      "seed": 43,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-195_seed-71_budget-1",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 195,
+      "seed": 71,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-195_seed-71_budget-7",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 195,
+      "seed": 71,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-195_seed-71_budget-30",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 195,
+      "seed": 71,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-195_seed-71_budget-full",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 195,
+      "seed": 71,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-199_seed-71_budget-1",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 199,
+      "seed": 71,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-199_seed-71_budget-7",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 199,
+      "seed": 71,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-199_seed-71_budget-30",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 199,
+      "seed": 71,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-199_seed-71_budget-full",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 199,
+      "seed": 71,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-237_seed-71_budget-1",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 237,
+      "seed": 71,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-237_seed-71_budget-7",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 237,
+      "seed": 71,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-237_seed-71_budget-30",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 237,
+      "seed": 71,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-237_seed-71_budget-full",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 237,
+      "seed": 71,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-617_seed-71_budget-1",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 617,
+      "seed": 71,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-617_seed-71_budget-7",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 617,
+      "seed": 71,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-617_seed-71_budget-30",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 617,
+      "seed": 71,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-617_seed-71_budget-full",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 617,
+      "seed": 71,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-195_seed-101_budget-1",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 195,
+      "seed": 101,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-195_seed-101_budget-7",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 195,
+      "seed": 101,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-195_seed-101_budget-30",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 195,
+      "seed": 101,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-195_seed-101_budget-full",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 195,
+      "seed": 101,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-199_seed-101_budget-1",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 199,
+      "seed": 101,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-199_seed-101_budget-7",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 199,
+      "seed": 101,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-199_seed-101_budget-30",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 199,
+      "seed": 101,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-199_seed-101_budget-full",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 199,
+      "seed": 101,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-237_seed-101_budget-1",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 237,
+      "seed": 101,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-237_seed-101_budget-7",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 237,
+      "seed": 101,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-237_seed-101_budget-30",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 237,
+      "seed": 101,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-237_seed-101_budget-full",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 237,
+      "seed": 101,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-617_seed-101_budget-1",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 617,
+      "seed": 101,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-617_seed-101_budget-7",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 617,
+      "seed": 101,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-617_seed-101_budget-30",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 617,
+      "seed": 101,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_adapted_target-617_seed-101_budget-full",
+      "method": "grl_l50_constant_adapted",
+      "target_city_id": 617,
+      "seed": 101,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_graphgru_target-195_seed-17",
+      "method": "ordinary_source_graphgru",
+      "target_city_id": 195,
+      "seed": 17,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_graphgru_target-199_seed-17",
+      "method": "ordinary_source_graphgru",
+      "target_city_id": 199,
+      "seed": 17,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_graphgru_target-237_seed-17",
+      "method": "ordinary_source_graphgru",
+      "target_city_id": 237,
+      "seed": 17,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_graphgru_target-617_seed-17",
+      "method": "ordinary_source_graphgru",
+      "target_city_id": 617,
+      "seed": 17,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_graphgru_target-195_seed-29",
+      "method": "ordinary_source_graphgru",
+      "target_city_id": 195,
+      "seed": 29,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_graphgru_target-199_seed-29",
+      "method": "ordinary_source_graphgru",
+      "target_city_id": 199,
+      "seed": 29,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_graphgru_target-237_seed-29",
+      "method": "ordinary_source_graphgru",
+      "target_city_id": 237,
+      "seed": 29,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_graphgru_target-617_seed-29",
+      "method": "ordinary_source_graphgru",
+      "target_city_id": 617,
+      "seed": 29,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_graphgru_target-195_seed-43",
+      "method": "ordinary_source_graphgru",
+      "target_city_id": 195,
+      "seed": 43,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_graphgru_target-199_seed-43",
+      "method": "ordinary_source_graphgru",
+      "target_city_id": 199,
+      "seed": 43,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_graphgru_target-237_seed-43",
+      "method": "ordinary_source_graphgru",
+      "target_city_id": 237,
+      "seed": 43,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_graphgru_target-617_seed-43",
+      "method": "ordinary_source_graphgru",
+      "target_city_id": 617,
+      "seed": 43,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_graphgru_target-195_seed-71",
+      "method": "ordinary_source_graphgru",
+      "target_city_id": 195,
+      "seed": 71,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_graphgru_target-199_seed-71",
+      "method": "ordinary_source_graphgru",
+      "target_city_id": 199,
+      "seed": 71,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_graphgru_target-237_seed-71",
+      "method": "ordinary_source_graphgru",
+      "target_city_id": 237,
+      "seed": 71,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_graphgru_target-617_seed-71",
+      "method": "ordinary_source_graphgru",
+      "target_city_id": 617,
+      "seed": 71,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_graphgru_target-195_seed-101",
+      "method": "ordinary_source_graphgru",
+      "target_city_id": 195,
+      "seed": 101,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_graphgru_target-199_seed-101",
+      "method": "ordinary_source_graphgru",
+      "target_city_id": 199,
+      "seed": 101,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_graphgru_target-237_seed-101",
+      "method": "ordinary_source_graphgru",
+      "target_city_id": 237,
+      "seed": 101,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ordinary_source_graphgru_target-617_seed-101",
+      "method": "ordinary_source_graphgru",
+      "target_city_id": 617,
+      "seed": 101,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_source_graphgru_target-195_seed-17",
+      "method": "grl_l50_constant_source_graphgru",
+      "target_city_id": 195,
+      "seed": 17,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_source_graphgru_target-199_seed-17",
+      "method": "grl_l50_constant_source_graphgru",
+      "target_city_id": 199,
+      "seed": 17,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_source_graphgru_target-237_seed-17",
+      "method": "grl_l50_constant_source_graphgru",
+      "target_city_id": 237,
+      "seed": 17,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_source_graphgru_target-617_seed-17",
+      "method": "grl_l50_constant_source_graphgru",
+      "target_city_id": 617,
+      "seed": 17,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_source_graphgru_target-195_seed-29",
+      "method": "grl_l50_constant_source_graphgru",
+      "target_city_id": 195,
+      "seed": 29,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_source_graphgru_target-199_seed-29",
+      "method": "grl_l50_constant_source_graphgru",
+      "target_city_id": 199,
+      "seed": 29,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_source_graphgru_target-237_seed-29",
+      "method": "grl_l50_constant_source_graphgru",
+      "target_city_id": 237,
+      "seed": 29,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_source_graphgru_target-617_seed-29",
+      "method": "grl_l50_constant_source_graphgru",
+      "target_city_id": 617,
+      "seed": 29,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_source_graphgru_target-195_seed-43",
+      "method": "grl_l50_constant_source_graphgru",
+      "target_city_id": 195,
+      "seed": 43,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_source_graphgru_target-199_seed-43",
+      "method": "grl_l50_constant_source_graphgru",
+      "target_city_id": 199,
+      "seed": 43,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_source_graphgru_target-237_seed-43",
+      "method": "grl_l50_constant_source_graphgru",
+      "target_city_id": 237,
+      "seed": 43,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_source_graphgru_target-617_seed-43",
+      "method": "grl_l50_constant_source_graphgru",
+      "target_city_id": 617,
+      "seed": 43,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_source_graphgru_target-195_seed-71",
+      "method": "grl_l50_constant_source_graphgru",
+      "target_city_id": 195,
+      "seed": 71,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_source_graphgru_target-199_seed-71",
+      "method": "grl_l50_constant_source_graphgru",
+      "target_city_id": 199,
+      "seed": 71,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_source_graphgru_target-237_seed-71",
+      "method": "grl_l50_constant_source_graphgru",
+      "target_city_id": 237,
+      "seed": 71,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_source_graphgru_target-617_seed-71",
+      "method": "grl_l50_constant_source_graphgru",
+      "target_city_id": 617,
+      "seed": 71,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_source_graphgru_target-195_seed-101",
+      "method": "grl_l50_constant_source_graphgru",
+      "target_city_id": 195,
+      "seed": 101,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_source_graphgru_target-199_seed-101",
+      "method": "grl_l50_constant_source_graphgru",
+      "target_city_id": 199,
+      "seed": 101,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_source_graphgru_target-237_seed-101",
+      "method": "grl_l50_constant_source_graphgru",
+      "target_city_id": 237,
+      "seed": 101,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "grl_l50_constant_source_graphgru_target-617_seed-101",
+      "method": "grl_l50_constant_source_graphgru",
+      "target_city_id": 617,
+      "seed": 101,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "persistence_target-195",
+      "method": "persistence",
+      "target_city_id": 195,
+      "seed": null,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "persistence_target-199",
+      "method": "persistence",
+      "target_city_id": 199,
+      "seed": null,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "persistence_target-237",
+      "method": "persistence",
+      "target_city_id": 237,
+      "seed": null,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "persistence_target-617",
+      "method": "persistence",
+      "target_city_id": 617,
+      "seed": null,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "seasonal_naive_target-195",
+      "method": "seasonal_naive",
+      "target_city_id": 195,
+      "seed": null,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "seasonal_naive_target-199",
+      "method": "seasonal_naive",
+      "target_city_id": 199,
+      "seed": null,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "seasonal_naive_target-237",
+      "method": "seasonal_naive",
+      "target_city_id": 237,
+      "seed": null,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "seasonal_naive_target-617",
+      "method": "seasonal_naive",
+      "target_city_id": 617,
+      "seed": null,
+      "budget": "0",
+      "reuse_labels": [
+        "0",
+        "1",
+        "7",
+        "30",
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ha_source_target-195",
+      "method": "HA_SOURCE",
+      "target_city_id": 195,
+      "seed": null,
+      "budget": "0",
+      "reuse_labels": [
+        "0"
+      ]
+    },
+    {
+      "evaluation_id": "ha_target_target-195_budget-1",
+      "method": "HA_TARGET",
+      "target_city_id": 195,
+      "seed": null,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "ha_target_target-195_budget-7",
+      "method": "HA_TARGET",
+      "target_city_id": 195,
+      "seed": null,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "ha_target_target-195_budget-30",
+      "method": "HA_TARGET",
+      "target_city_id": 195,
+      "seed": null,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "ha_target_target-195_budget-full",
+      "method": "HA_TARGET",
+      "target_city_id": 195,
+      "seed": null,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ha_source_target-199",
+      "method": "HA_SOURCE",
+      "target_city_id": 199,
+      "seed": null,
+      "budget": "0",
+      "reuse_labels": [
+        "0"
+      ]
+    },
+    {
+      "evaluation_id": "ha_target_target-199_budget-1",
+      "method": "HA_TARGET",
+      "target_city_id": 199,
+      "seed": null,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "ha_target_target-199_budget-7",
+      "method": "HA_TARGET",
+      "target_city_id": 199,
+      "seed": null,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "ha_target_target-199_budget-30",
+      "method": "HA_TARGET",
+      "target_city_id": 199,
+      "seed": null,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "ha_target_target-199_budget-full",
+      "method": "HA_TARGET",
+      "target_city_id": 199,
+      "seed": null,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ha_source_target-237",
+      "method": "HA_SOURCE",
+      "target_city_id": 237,
+      "seed": null,
+      "budget": "0",
+      "reuse_labels": [
+        "0"
+      ]
+    },
+    {
+      "evaluation_id": "ha_target_target-237_budget-1",
+      "method": "HA_TARGET",
+      "target_city_id": 237,
+      "seed": null,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "ha_target_target-237_budget-7",
+      "method": "HA_TARGET",
+      "target_city_id": 237,
+      "seed": null,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "ha_target_target-237_budget-30",
+      "method": "HA_TARGET",
+      "target_city_id": 237,
+      "seed": null,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "ha_target_target-237_budget-full",
+      "method": "HA_TARGET",
+      "target_city_id": 237,
+      "seed": null,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    },
+    {
+      "evaluation_id": "ha_source_target-617",
+      "method": "HA_SOURCE",
+      "target_city_id": 617,
+      "seed": null,
+      "budget": "0",
+      "reuse_labels": [
+        "0"
+      ]
+    },
+    {
+      "evaluation_id": "ha_target_target-617_budget-1",
+      "method": "HA_TARGET",
+      "target_city_id": 617,
+      "seed": null,
+      "budget": "1",
+      "reuse_labels": [
+        "1"
+      ]
+    },
+    {
+      "evaluation_id": "ha_target_target-617_budget-7",
+      "method": "HA_TARGET",
+      "target_city_id": 617,
+      "seed": null,
+      "budget": "7",
+      "reuse_labels": [
+        "7"
+      ]
+    },
+    {
+      "evaluation_id": "ha_target_target-617_budget-30",
+      "method": "HA_TARGET",
+      "target_city_id": 617,
+      "seed": null,
+      "budget": "30",
+      "reuse_labels": [
+        "30"
+      ]
+    },
+    {
+      "evaluation_id": "ha_target_target-617_budget-full",
+      "method": "HA_TARGET",
+      "target_city_id": 617,
+      "seed": null,
+      "budget": "full",
+      "reuse_labels": [
+        "full"
+      ]
+    }
+  ],
+  "counts": {
+    "unique_passes": 468,
+    "budget_label_reuses": 192,
+    "reporting_cells": 660
+  }
+}

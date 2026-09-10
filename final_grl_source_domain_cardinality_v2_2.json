@@ -1,0 +1,232 @@
+{
+  "schema_version": "1.0.0",
+  "protocol_version": "V2.2",
+  "artifact_role": "append_only_prospective_final_grl_source_domain_cardinality_clarification",
+  "status": "FROZEN_PROSPECTIVE_CLARIFICATION",
+  "sealed_date": "2026-09-09",
+  "scope": "final V2.2 GRL source refitting only",
+  "resolution_basis": "authoritative protocol lineage only; no final outcome information",
+  "lineage_finding": {
+    "development_city_count": 8,
+    "stage4_design": "leave one registered pseudo-target out of the eight-city development pool",
+    "stage4_active_source_domain_count_per_fold": 7,
+    "pseudo_target_membership": "excluded from source pretraining, source batches, domain labels, and reload probes",
+    "domain_label_semantics": "active source-city identity",
+    "stage4_discriminator": [
+      "Linear(32,64)",
+      "ReLU",
+      "Dropout(0.10)",
+      "Linear(64,7)"
+    ],
+    "registered_selection_dimensions": {
+      "lambda_max": [
+        0.01,
+        0.1,
+        0.5
+      ],
+      "schedule": [
+        "constant",
+        "linear"
+      ]
+    },
+    "output_cardinality_was_selected_or_compared": false,
+    "interpretation": "7 was structurally induced by the active development-fold source pool, not an independently selected hyperparameter"
+  },
+  "candidate_resolution_assessment": [
+    {
+      "candidate": "eight outputs for the final all-source refit",
+      "decision": "ACCEPTED",
+      "reason": "mechanically applies unchanged source-city classification semantics to all eight registered active final source cities"
+    },
+    {
+      "candidate": "retain seven outputs by excluding one source city",
+      "decision": "REJECTED",
+      "reason": "contradicts the all-eight-source refit rule and introduces an unregistered city-exclusion choice"
+    },
+    {
+      "candidate": "retain seven outputs by merging two source cities",
+      "decision": "REJECTED",
+      "reason": "breaks source-city-identity label semantics and introduces an unregistered merge rule"
+    },
+    {
+      "candidate": "reuse a Stage-4 seven-source checkpoint",
+      "decision": "REJECTED",
+      "reason": "violates the required all-eight-source final refit and one-refit-per-final-seed design"
+    },
+    {
+      "candidate": "another authoritative interpretation",
+      "decision": "NONE_SUPPORTED",
+      "reason": "no governing document registers a literal-seven final classifier, domain merge, source exclusion, or Stage-4 checkpoint substitution"
+    }
+  ],
+  "final_grl_rule": {
+    "discriminator_output_dim": "number_of_active_source_domains",
+    "stage4_development_output_dim": 7,
+    "final_all_source_output_dim": 8,
+    "final_source_pool_cardinality": 8,
+    "final_source_domain_classes": [
+      {
+        "domain_class": 0,
+        "city_id": 129,
+        "city": "Dortmund"
+      },
+      {
+        "domain_class": 1,
+        "city_id": 194,
+        "city": "Heidelberg"
+      },
+      {
+        "domain_class": 2,
+        "city_id": 438,
+        "city": "Marburg"
+      },
+      {
+        "domain_class": 3,
+        "city_id": 467,
+        "city": "Gießen"
+      },
+      {
+        "domain_class": 4,
+        "city_id": 476,
+        "city": "Cardiff"
+      },
+      {
+        "domain_class": 5,
+        "city_id": 532,
+        "city": "Bilbao"
+      },
+      {
+        "domain_class": 6,
+        "city_id": 619,
+        "city": "Freiburg"
+      },
+      {
+        "domain_class": 7,
+        "city_id": 658,
+        "city": "Göteborg"
+      }
+    ],
+    "final_discriminator": [
+      "Linear(32,64)",
+      "ReLU",
+      "Dropout(0.10)",
+      "Linear(64,8)"
+    ],
+    "domain_loss": "ordinary unweighted cross-entropy over active source-city identities",
+    "domain_loss_forward_weight": 1.0,
+    "backbone": "GGRU_K04_H032_D00",
+    "lambda_max": 0.5,
+    "schedule": "constant",
+    "additional_tuning": false,
+    "city_excluded": false,
+    "city_domains_merged": false,
+    "stage4_checkpoint_reused_in_place_of_final_refit": false,
+    "optimizer_update_sampling_initialization_clipping_and_checkpoint_rules_changed": false
+  },
+  "scientific_change_assessment": {
+    "new_hyperparameter_decision": false,
+    "preserves_selected_stage4_method": true,
+    "assessment": "changing the categorical head from seven to eight outputs is mechanically induced by the registered active domain set"
+  },
+  "final_dag": {
+    "unique_neural_fits": 410,
+    "unique_evaluation_or_statistic_passes": 468,
+    "budget_labelled_reporting_cells": 660,
+    "grl_source_refits": 5,
+    "grl_source_refit_seeds": [
+      17,
+      29,
+      43,
+      71,
+      101
+    ],
+    "all_grl_source_refits_use_same_eight_source_pool": true,
+    "counts_changed_by_clarification": false
+  },
+  "firewall": {
+    "phase_a_execution_data_constructed": true,
+    "phase_b_targets_materialized": false,
+    "final_predictions_generated": false,
+    "final_metrics_computed": false,
+    "final_experiment_started": false,
+    "optimizer_updates": 0,
+    "model_forward_calls_on_final_labels": 0
+  },
+  "authorization": {
+    "clarification_authorizes_execution_by_itself": false,
+    "r6_implemented_by_this_task": false,
+    "next_step": "separate R6 implementation/package validation under the sealed rule and existing final-label firewall"
+  },
+  "immutability": {
+    "prior_frozen_artifacts_modified": false,
+    "stage1_stage2_stage2b_stage3_stage4_decisions_changed": false,
+    "stage4_contract_rewritten": false
+  },
+  "authoritative_bindings": [
+    {
+      "path": "RESEARCH_PROTOCOL_V2_1.md",
+      "sha256": "6bbf5bc39292ef9e1bf8321b90006269217b43fd0df59da25687712fc418c35c"
+    },
+    {
+      "path": "RESEARCH_PROTOCOL_V2_2_AMENDMENT.md",
+      "sha256": "02a44e3aa8bf1d656d2f9de833b45072d564052e2ab3c1426bda2a6456c558d0"
+    },
+    {
+      "path": "COMPUTATION_DAG_V2_1.md",
+      "sha256": "48f38bc97505d622316008b8ac155fb09e2b9a9efce6f36dad7e15b35d9f53cf"
+    },
+    {
+      "path": "MODEL_SPECIFICATION_V2_1.md",
+      "sha256": "430fd12c6322a102687c2a546be394bb7ef344656c1a34edf05a86beadca88bf"
+    },
+    {
+      "path": "FINAL_EVALUATION_PROTOCOL_V2_2_AMENDMENT.md",
+      "sha256": "c4a8fb1cc314cd93336269b8b1ee035771ce766c823e82476daac97e3e565f6c"
+    },
+    {
+      "path": "final_evaluation_protocol_v2_2.json",
+      "sha256": "16617ca602e2d70cc621005a838dfb84d308b5f33488bac8b92d38fccea1d054"
+    },
+    {
+      "path": "research/results/stage4_adversarial_method_v2_1/STAGE4_ADVERSARIAL_METHOD_SEAL.md",
+      "sha256": "fa3e82673dd0e5196729966953fe2a099f58190a3f33821eacf2f827b4000ee1"
+    },
+    {
+      "path": "research/results/stage4_adversarial_method_v2_1/stage4_adversarial_method_manifest.json",
+      "sha256": "a830e155f0f4052a4b8f3a7d9492bc27877513b11cee885dc93ab6fa1cee7d92"
+    },
+    {
+      "path": "research/results/stage4_source_invariance_v2_2/scientific_contract.json",
+      "sha256": "94e586624d18ac9047c6b0a71922139ad00795da54e20ca05d8ef04008470e15"
+    },
+    {
+      "path": "research/results/stage4_source_invariance_v2_2/job_map.json",
+      "sha256": "ce84b658100d49a313fa102ea6b07d0319d197f1e23d610af53b420a8492458c"
+    },
+    {
+      "path": "research/results/stage4_selection_clarification_v2_2/selection_clarification.json",
+      "sha256": "852d8c32dd9004a8dfaa17633e285877828672d79414cf5fb67b8550c8ea7d4d"
+    },
+    {
+      "path": "research/results/stage4_v2_2_returned_20260908/stage4_source_invariance_v2_2_a40/stage4_decision_manifest.json",
+      "sha256": "b8ab61745465fcb3c2db3ce811effaba091111a57eefe89f70d5fa5df3e1aae0"
+    },
+    {
+      "path": "research/stage4_v2_2/method.py",
+      "sha256": "2579d5af8f79e3abd49a16a654f2ca1116fb0fc178628aed52f1354cd1c26782"
+    },
+    {
+      "path": "research/stage4_v2_2/core.py",
+      "sha256": "4eda3dcad1d9cf97cf1f03374e9ccb3eef45716a8e0999b8ea1d080a7c247f03"
+    },
+    {
+      "path": "research/stage4_v2_2/selection.py",
+      "sha256": "654eb08e9a1a9165a1dd504bc00c204ac6a5203a180bbb8d2f120c704dbee535"
+    },
+    {
+      "path": "FINAL_GRL_SOURCE_DOMAIN_CARDINALITY_CLARIFICATION_V2_2.md",
+      "sha256": "9e96cf5262861ec83d722ec6db18f97c66526a6e493a4970062635a2e4e25843"
+    }
+  ],
+  "verdict": "FINAL_GRL_CARDINALITY_V2_2_RESOLVED_AND_SEALED_READY_FOR_R6"
+}

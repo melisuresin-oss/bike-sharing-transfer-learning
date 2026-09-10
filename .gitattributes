@@ -16,3 +16,14 @@ research/stage2_v2_2/a40.py whitespace=-trailing-space,-blank-at-eof
 research/stage2_v2_2/controller.py whitespace=-trailing-space,-blank-at-eof
 research/tests/test_final_label_seal.py whitespace=-trailing-space,-blank-at-eof
 research/tests/test_window_causality.py whitespace=-trailing-space,-blank-at-eof
+
+# Internal SHA-256 bindings require stable cross-platform text bytes.
+*.py text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.csv text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.txt text eol=lf
+*.ps1 text eol=lf
+*.toml text eol=lf

@@ -1,0 +1,680 @@
+{
+  "schema_version": "final_evaluation_protocol_v2_2.1",
+  "protocol_version": "2.2",
+  "status": "PROSPECTIVE_PROTOCOL_RESOLUTION_SEALED_FOR_IMPLEMENTATION",
+  "sealed_date": "2026-09-08",
+  "artifact_role": "append_only_final_evaluation_protocol_amendment",
+  "authorizations": {
+    "protocol_implementation": true,
+    "final_execution": false,
+    "final_prediction_generation": false,
+    "final_target_label_access": false,
+    "training": false,
+    "evaluation": false
+  },
+  "authority": {
+    "markdown_path": "FINAL_EVALUATION_PROTOCOL_V2_2_AMENDMENT.md",
+    "markdown_sha256": "c4a8fb1cc314cd93336269b8b1ee035771ce766c823e82476daac97e3e565f6c",
+    "bindings": {
+      "RESEARCH_PROTOCOL_V2_2_AMENDMENT.md": "02a44e3aa8bf1d656d2f9de833b45072d564052e2ab3c1426bda2a6456c558d0",
+      "RESEARCH_PROTOCOL_V2_1.md": "6bbf5bc39292ef9e1bf8321b90006269217b43fd0df59da25687712fc418c35c",
+      "COMPUTATION_DAG_V2_1.md": "48f38bc97505d622316008b8ac155fb09e2b9a9efce6f36dad7e15b35d9f53cf",
+      "EVALUATION_PROTOCOL_V2.md": "ebde12ca004508645e876e66d1899eb23f36410751ef0d102029c602874549ee",
+      "TRAINING_BUDGET_PROTOCOL.md": "479d87f18095611b1d488a7f1b932c160e688d11a8776c1b0c6d85b21af81940",
+      "MODEL_SPECIFICATION_V2_1.md": "430fd12c6322a102687c2a546be394bb7ef344656c1a34edf05a86beadca88bf",
+      "MODEL_SPECIFICATION_V2.md": "cd81675bbb83386b006c28f4fc279c1e9367dc1645e68a581963d72cd840db88",
+      "HISTORICAL_AVERAGE_BASELINE_AMENDMENT.md": "f490478bacbc6b10493ac3b58111ce953f7d37c03113e0ab965ad18860dcc774",
+      "research/results/causal_history_spec_v2_2/v2_2_specification.json": "c85c8fdbcab26e7239bfb4528b570b720e7d31ea5933934d9258b63ad90f9277",
+      "research/results/stage1_scale_loss_v2_2_a40/stage1_decision_manifest.json": "8db24acabd373fa57aa6f35708566da400646fa2ea8474fd0e656a4955828aed",
+      "research/results/stage2_graphgru_selection_v2_2_a40/stage2_decision_manifest.json": "9cca604ec3496a28f4440d89a9d6d1184311fc507c35f27b428a3ca768a6eeca",
+      "research/results/stage2b_vanilla_fairness_v2_2_a40/stage2b_decision_manifest.json": "9d85d6df6a509013f1b5411002246aee81c254fbde078f639293976674b4f36d",
+      "research/results/stage3_finetuning_policy_v2_2/stage3_finetuning_policy_manifest.json": "f5cb2653dd097eb1288f419884778ae01e9034e9e1d88006b33beac4cff069b5",
+      "research/results/stage4_selection_clarification_v2_2/selection_clarification.json": "852d8c32dd9004a8dfaa17633e285877828672d79414cf5fb67b8550c8ea7d4d",
+      "research/results/stage4_v2_2_returned_20260908/stage4_source_invariance_v2_2_a40/stage4_decision_manifest.json": "b8ab61745465fcb3c2db3ce811effaba091111a57eefe89f70d5fa5df3e1aae0"
+    }
+  },
+  "stage4_audit": {
+    "status": "FROZEN_VALIDATED",
+    "selected_candidate": "grl_l50_constant",
+    "backbone": "GGRU_K04_H032_D00",
+    "lambda": 0.5,
+    "schedule": "constant",
+    "primary_metric": "post_7d_adaptation_count_space_mae",
+    "overall_four_fold_mean": 1.2941647654804875,
+    "fold_population_sd_denominator": 4,
+    "fold_population_sd": 1.27787072713976,
+    "folds_in_order": [
+      {
+        "city_id": 532,
+        "city": "Bilbao",
+        "mae": 3.503722389559748
+      },
+      {
+        "city_id": 476,
+        "city": "Cardiff",
+        "mae": 0.4880558047479122
+      },
+      {
+        "city_id": 619,
+        "city": "Freiburg",
+        "mae": 0.679111522117663
+      },
+      {
+        "city_id": 658,
+        "city": "Göteborg",
+        "mae": 0.5057693454966269
+      }
+    ],
+    "runner_up": {
+      "candidate": "grl_l10_constant",
+      "lambda": 0.1,
+      "schedule": "constant",
+      "mae": 1.3274240522132068
+    },
+    "margin_unrounded": 0.0332592867327193,
+    "primary_values_4dp": [
+      "1.2942",
+      "1.3274"
+    ],
+    "rounding": "Decimal ROUND_HALF_UP to 4 decimal places",
+    "tie_break_invoked": false,
+    "validation_counts": {
+      "source_fits": 72,
+      "adaptation_fits": 72,
+      "completed_fits": 144,
+      "post_adaptation_evaluations": 72,
+      "zero_shot_selection_evaluations": 0
+    },
+    "excluded_from_selection": [
+      "RMSE",
+      "WAPE",
+      "station_macro_MAE",
+      "pooled_station_hours",
+      "discriminator_accuracy",
+      "domain_loss",
+      "final_target_performance"
+    ],
+    "final_target_labels_accessed": false
+  },
+  "seed_resolution": {
+    "contradiction": {
+      "older_document": "EVALUATION_PROTOCOL_V2.md",
+      "older_seed_scope_was_ambiguous": [
+        17,
+        29,
+        43
+      ],
+      "later_documents": [
+        "RESEARCH_PROTOCOL_V2_1.md",
+        "COMPUTATION_DAG_V2_1.md"
+      ],
+      "v2_2_rule": "unchanged V2.1 design is carried forward unless explicitly superseded"
+    },
+    "development_seeds": [
+      17,
+      29,
+      43
+    ],
+    "final_learned_model_seeds": [
+      17,
+      29,
+      43,
+      71,
+      101
+    ],
+    "final_seed_count": 5,
+    "resolution": "later explicit V2.1 five-seed final amendment governs final learned-model fitting and evaluation",
+    "prospective_and_final_outcome_independent": true
+  },
+  "cities": {
+    "development_sources": [
+      {
+        "city_id": 129,
+        "city": "Dortmund"
+      },
+      {
+        "city_id": 194,
+        "city": "Heidelberg"
+      },
+      {
+        "city_id": 438,
+        "city": "Marburg"
+      },
+      {
+        "city_id": 467,
+        "city": "Gießen"
+      },
+      {
+        "city_id": 476,
+        "city": "Cardiff"
+      },
+      {
+        "city_id": 532,
+        "city": "Bilbao"
+      },
+      {
+        "city_id": 619,
+        "city": "Freiburg"
+      },
+      {
+        "city_id": 658,
+        "city": "Göteborg"
+      }
+    ],
+    "final_targets_in_reporting_order": [
+      {
+        "city_id": 195,
+        "city": "Mannheim"
+      },
+      {
+        "city_id": 199,
+        "city": "Innsbruck"
+      },
+      {
+        "city_id": 237,
+        "city": "Glasgow"
+      },
+      {
+        "city_id": 617,
+        "city": "Split"
+      }
+    ]
+  },
+  "temporal_design": {
+    "timezone": "UTC",
+    "intervals_are_half_open": true,
+    "H0": "2022-08-29T05:00:00Z",
+    "HF": "2023-04-16T22:00:00Z",
+    "HT": "2023-05-11T15:00:00Z",
+    "HE": "2023-07-15T20:00:00Z",
+    "source_refit_window": [
+      "2022-08-29T05:00:00Z",
+      "2023-04-16T22:00:00Z"
+    ],
+    "embargo_window": [
+      "2023-04-16T22:00:00Z",
+      "2023-05-11T15:00:00Z"
+    ],
+    "evaluation_window": [
+      "2023-05-11T15:00:00Z",
+      "2023-07-15T20:00:00Z"
+    ],
+    "adaptation_windows": {
+      "0d": {
+        "start": "2023-04-16T22:00:00Z",
+        "end": "2023-04-16T22:00:00Z",
+        "updates": 0,
+        "is_fit": false
+      },
+      "1d": {
+        "start": "2023-04-15T22:00:00Z",
+        "end": "2023-04-16T22:00:00Z",
+        "updates": 100,
+        "is_fit": true
+      },
+      "7d": {
+        "start": "2023-04-09T22:00:00Z",
+        "end": "2023-04-16T22:00:00Z",
+        "updates": 300,
+        "is_fit": true
+      },
+      "30d": {
+        "start": "2023-03-17T22:00:00Z",
+        "end": "2023-04-16T22:00:00Z",
+        "updates": 600,
+        "is_fit": true
+      },
+      "full": {
+        "start": "2022-08-29T05:00:00Z",
+        "end": "2023-04-16T22:00:00Z",
+        "updates": 1200,
+        "is_fit": true
+      }
+    },
+    "no_window_extension_for_missing_labels": true,
+    "empty_required_positive_budget": "STOP_NON_ESTIMABLE_NO_FALLBACK",
+    "no_parameter_or_fitted_statistic_updates_in_HF_HE": true
+  },
+  "stage3_policy": {
+    "full_network_fine_tuning": true,
+    "optimizer": "AdamW",
+    "reset_optimizer_state_before_adaptation": true,
+    "learning_rate": 0.0002,
+    "weight_decay": 0.0001,
+    "batch_size": 16,
+    "global_gradient_clip": 1,
+    "early_stopping": false,
+    "update_budgets": [
+      0,
+      100,
+      300,
+      600,
+      1200
+    ],
+    "zero_budget_is_checkpoint_reuse_not_fit": true
+  },
+  "metrics": {
+    "primary": "count_space_MAE",
+    "secondary": [
+      "RMSE",
+      "WAPE",
+      "station_macro_MAE"
+    ],
+    "inverse_transform_before_metric": true,
+    "WAPE_zero_denominator": "undefined",
+    "station_macro_minimum_distinct_valid_hours_in_original_matched_cohort": 24,
+    "reporting_order": [
+      "per_final_city",
+      "equal_city_macro",
+      "station_macro",
+      "pooled_station_hours_secondary_only"
+    ]
+  },
+  "retained_prediction_unit": [
+    "city_id",
+    "station_id",
+    "UTC_hour",
+    "method_id",
+    "budget_id",
+    "training_seed",
+    "committed_prediction",
+    "retrospective_target",
+    "validity_masks"
+  ],
+  "seed_aggregation": {
+    "learned_models": "compute metric per training seed, then arithmetic mean of five seed-specific metrics",
+    "average_predictions_before_metric": false,
+    "seed_dispersion": "population standard deviation of five seed-specific point metrics, denominator 5",
+    "deterministic_methods": "computed once with training_seed null",
+    "training_seed_randomness_inside_bootstrap": false
+  },
+  "bootstrap": {
+    "purpose": "paired temporal uncertainty conditional on fixed cities, methods, checkpoints, training seeds, masks, and evaluation period",
+    "city_population_inference": false,
+    "replicates": 2000,
+    "block_hours": 168,
+    "block_count_per_city": 10,
+    "draws_per_replicate": 10,
+    "sampling": "uniform block IDs with replacement",
+    "terminal_short_block": {
+      "block_id": 9,
+      "start": "2023-07-13T15:00:00Z",
+      "end": "2023-07-15T20:00:00Z",
+      "hours": 53,
+      "treatment": "retain intact as one full sampling unit; never drop, pad, split, lengthen, trim, or reweight"
+    },
+    "blocks": [
+      {
+        "id": 0,
+        "start": "2023-05-11T15:00:00Z",
+        "end": "2023-05-18T15:00:00Z",
+        "hours": 168
+      },
+      {
+        "id": 1,
+        "start": "2023-05-18T15:00:00Z",
+        "end": "2023-05-25T15:00:00Z",
+        "hours": 168
+      },
+      {
+        "id": 2,
+        "start": "2023-05-25T15:00:00Z",
+        "end": "2023-06-01T15:00:00Z",
+        "hours": 168
+      },
+      {
+        "id": 3,
+        "start": "2023-06-01T15:00:00Z",
+        "end": "2023-06-08T15:00:00Z",
+        "hours": 168
+      },
+      {
+        "id": 4,
+        "start": "2023-06-08T15:00:00Z",
+        "end": "2023-06-15T15:00:00Z",
+        "hours": 168
+      },
+      {
+        "id": 5,
+        "start": "2023-06-15T15:00:00Z",
+        "end": "2023-06-22T15:00:00Z",
+        "hours": 168
+      },
+      {
+        "id": 6,
+        "start": "2023-06-22T15:00:00Z",
+        "end": "2023-06-29T15:00:00Z",
+        "hours": 168
+      },
+      {
+        "id": 7,
+        "start": "2023-06-29T15:00:00Z",
+        "end": "2023-07-06T15:00:00Z",
+        "hours": 168
+      },
+      {
+        "id": 8,
+        "start": "2023-07-06T15:00:00Z",
+        "end": "2023-07-13T15:00:00Z",
+        "hours": 168
+      },
+      {
+        "id": 9,
+        "start": "2023-07-13T15:00:00Z",
+        "end": "2023-07-15T20:00:00Z",
+        "hours": 53
+      }
+    ],
+    "rng": {
+      "namespace": "FINAL_EVALUATION_V2_2|TEMPORAL_BLOCK_BOOTSTRAP|20260908",
+      "derivation": "uint64 big-endian from first 8 bytes of SHA256(ASCII(namespace + '|' + city_id))",
+      "generator": "Python standard-library random.Random(city_seed)",
+      "draw": "randrange(10)",
+      "consumption": "20000 draws per city, row-major into 2000 rows of 10 block IDs",
+      "city_seeds": {
+        "195": "12648532355080271797",
+        "199": "2634071097790620903",
+        "237": "14234234470032652229",
+        "617": "6032700276159629083"
+      }
+    },
+    "pairing": {
+      "same_city_replicate_blocks_across_methods": true,
+      "same_city_replicate_blocks_across_budgets": true,
+      "same_city_replicate_blocks_across_training_seeds": true,
+      "same_city_replicate_blocks_across_metrics": true,
+      "equal_city_macro": "arithmetic mean of four city replicate statistics, weight 1/4 each",
+      "city_streams": "independent RNG streams coupled into macro by common replicate index"
+    },
+    "confidence_interval": {
+      "lower_quantile": 0.025,
+      "upper_quantile": 0.975,
+      "quantile_method": "linear",
+      "equivalent": "numpy.quantile(values, [0.025, 0.975], method='linear')",
+      "undefined_replicate_policy": "if any replicate is undefined, report the cell interval undefined with reason; do not drop or redraw"
+    }
+  },
+  "paired_comparisons": {
+    "matched_keys": "intersection of retrospectively valid target keys and valid committed predictions from both methods",
+    "same_fixed_cohort_for_point_and_bootstrap": true,
+    "gain_orientation": "G(A,B)=error_metric(B)-error_metric(A); positive favors A",
+    "two_learned_methods": "compute gain within each matched training seed, then mean over five seeds",
+    "deterministic_reference": "reuse its single resampled metric against each learned seed, then mean gains",
+    "equal_city_macro": "unweighted arithmetic mean of four city gains",
+    "missing_or_unknown": "exclude; never fill with zero",
+    "empty_point_cohort": "contrast unavailable",
+    "undefined_bootstrap_metric": "interval unavailable with explicit reason"
+  },
+  "deterministic_baselines": {
+    "HA_SOURCE": {
+      "budgets": [
+        "0d"
+      ],
+      "target_labels_used": false
+    },
+    "HA_TARGET": {
+      "budgets": [
+        "1d",
+        "7d",
+        "30d",
+        "full"
+      ]
+    },
+    "persistence": {
+      "budgets_by_prediction_reuse": [
+        "0d",
+        "1d",
+        "7d",
+        "30d",
+        "full"
+      ],
+      "rule": "observed elapsed-UTC y[t-1h]",
+      "false_as_of_lag_mask": "prediction unavailable, not zero"
+    },
+    "seasonal_naive": {
+      "budgets_by_prediction_reuse": [
+        "0d",
+        "1d",
+        "7d",
+        "30d",
+        "full"
+      ],
+      "rule": "observed elapsed-UTC y[t-168h]",
+      "false_as_of_lag_mask": "prediction unavailable, not zero"
+    },
+    "parameter_zero_transfer_reference": {
+      "candidates": [
+        "HA_SOURCE",
+        "persistence",
+        "seasonal_naive"
+      ],
+      "selection": "lowest equal-city macro count-space MAE after prediction commitment",
+      "exact_tie": "lexicographic method_id",
+      "use": "evaluation reference only; cannot alter models, predictions, masks, or upstream decisions"
+    }
+  },
+  "methods": [
+    {
+      "id": "HA_SOURCE",
+      "kind": "deterministic",
+      "budgets": [
+        "0d"
+      ],
+      "neural_fit": false
+    },
+    {
+      "id": "HA_TARGET",
+      "kind": "deterministic",
+      "budgets": [
+        "1d",
+        "7d",
+        "30d",
+        "full"
+      ],
+      "neural_fit": false
+    },
+    {
+      "id": "persistence",
+      "kind": "deterministic",
+      "budgets": [
+        "0d",
+        "1d",
+        "7d",
+        "30d",
+        "full"
+      ],
+      "neural_fit": false
+    },
+    {
+      "id": "seasonal_naive_168h",
+      "kind": "deterministic",
+      "budgets": [
+        "0d",
+        "1d",
+        "7d",
+        "30d",
+        "full"
+      ],
+      "neural_fit": false
+    },
+    {
+      "id": "VGRU_H032_D00_target_only",
+      "kind": "learned",
+      "budgets": [
+        "1d",
+        "7d",
+        "30d",
+        "full"
+      ],
+      "fits": 80
+    },
+    {
+      "id": "GGRU_K04_H032_D00_target_only",
+      "kind": "learned",
+      "budgets": [
+        "1d",
+        "7d",
+        "30d",
+        "full"
+      ],
+      "fits": 80
+    },
+    {
+      "id": "GGRU_K04_H032_D00_ordinary_source_frozen",
+      "kind": "learned",
+      "budgets": [
+        "0d",
+        "1d",
+        "7d",
+        "30d",
+        "full"
+      ],
+      "source_fits": 5
+    },
+    {
+      "id": "GGRU_K04_H032_D00_ordinary_source_finetuned",
+      "kind": "learned",
+      "budgets": [
+        "1d",
+        "7d",
+        "30d",
+        "full"
+      ],
+      "adaptation_fits": 80
+    },
+    {
+      "id": "GGRU_K04_H032_D00_pooled",
+      "kind": "learned",
+      "budgets": [
+        "1d",
+        "7d",
+        "30d",
+        "full"
+      ],
+      "fits": 80
+    },
+    {
+      "id": "grl_l50_constant_source_frozen",
+      "kind": "learned",
+      "claim": "source-domain-invariant GRL mechanism, not canonical DANN novelty",
+      "budgets": [
+        "0d",
+        "1d",
+        "7d",
+        "30d",
+        "full"
+      ],
+      "source_fits": 5
+    },
+    {
+      "id": "grl_l50_constant_source_finetuned",
+      "kind": "learned",
+      "budgets": [
+        "1d",
+        "7d",
+        "30d",
+        "full"
+      ],
+      "adaptation_fits": 80
+    }
+  ],
+  "final_dag": {
+    "factors": {
+      "final_seeds": 5,
+      "final_targets": 4,
+      "all_budgets": 5,
+      "nonzero_budgets": 4
+    },
+    "fit_categories": [
+      {
+        "category": "target_only_vanilla",
+        "arithmetic": "5*4*4",
+        "fits": 80
+      },
+      {
+        "category": "target_only_graph",
+        "arithmetic": "5*4*4",
+        "fits": 80
+      },
+      {
+        "category": "ordinary_source_pretraining",
+        "arithmetic": "5",
+        "fits": 5
+      },
+      {
+        "category": "ordinary_source_adaptation",
+        "arithmetic": "5*4*4",
+        "fits": 80
+      },
+      {
+        "category": "pooled_graph",
+        "arithmetic": "5*4*4",
+        "fits": 80
+      },
+      {
+        "category": "grl_source_pretraining",
+        "arithmetic": "5",
+        "fits": 5
+      },
+      {
+        "category": "grl_source_adaptation",
+        "arithmetic": "5*4*4",
+        "fits": 80
+      }
+    ],
+    "source_fits": 10,
+    "adaptation_fits": 160,
+    "target_only_fits": 160,
+    "pooled_fits": 80,
+    "ordinary_transfer_fits_including_source": 85,
+    "grl_transfer_fits_including_source": 85,
+    "unique_neural_fits": 410,
+    "evaluation": {
+      "target_specific_learned_checkpoint_passes": 400,
+      "ordinary_frozen_source_prediction_passes": 20,
+      "grl_frozen_source_prediction_passes": 20,
+      "persistence_prediction_passes": 4,
+      "seasonal_prediction_passes": 4,
+      "HA_TARGET_statistic_prediction_passes": 16,
+      "HA_SOURCE_statistic_prediction_passes": 4,
+      "unique_evaluation_or_statistic_passes": 468,
+      "additional_budget_cell_reuses": 192,
+      "budget_labelled_reporting_cells": 660
+    }
+  },
+  "constraints": {
+    "no_new_methods": true,
+    "no_hyperparameter_tuning": true,
+    "no_early_stopping": true,
+    "no_window_extension": true,
+    "no_unknown_to_zero": true,
+    "prediction_commitment_before_label_join": true,
+    "final_label_reader_inaccessible_to_fit_prediction_and_selection": true,
+    "stage1_to_stage4_immutable": true
+  },
+  "limitation": {
+    "policy": "IDEALIZED_COUNT_FEED_BENCHMARK",
+    "count_available_at_hour_end_assumption": true,
+    "measured_ingestion": false,
+    "raw_prefix_replay_validated": false,
+    "claim_conditioning": "frozen cohort/static inputs and assumed count feed"
+  },
+  "firewall_at_seal": {
+    "final_target_labels_accessed": false,
+    "final_experiment_started": false,
+    "optimizer_updates": 0,
+    "model_forward_calls_on_final_labels": 0
+  },
+  "resolved_blockers": [
+    "final_seed_count_3_vs_5",
+    "seed_x_temporal_bootstrap_aggregation"
+  ],
+  "remaining_pre_execution_gates": [
+    "final_execution_plan_implementation_and_read_only_verification",
+    "prediction_commitment_mechanism",
+    "data_cache_code_checkpoint_and_package_hash_bindings",
+    "strict_final_label_firewall",
+    "separate_final_execution_authorization"
+  ],
+  "verdict": "FINAL_PROTOCOL_V2_2_RESOLVED_AND_SEALED_READY_FOR_IMPLEMENTATION"
+}

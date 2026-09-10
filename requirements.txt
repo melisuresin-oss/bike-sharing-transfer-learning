@@ -1,6 +1,7 @@
+-r research/requirements.txt
+
+# Data inspection and test tooling used by the published research workflow.
 pandas
-numpy
 pyarrow
-torch
-pyyaml
+PyYAML
 pytest

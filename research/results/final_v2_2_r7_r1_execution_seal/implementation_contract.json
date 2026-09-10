@@ -1,0 +1,163 @@
+{
+  "schema_version": "final_v2_2_r7_r1.implementation.1",
+  "status": "IMPLEMENTED_NOT_SCIENTIFICALLY_EXECUTED",
+  "package_member_manifest_sha256": "5200402e91669f1a1d47628b38415749ae33e40a75d32a7730745e374affe1b1",
+  "executable_code_manifest": {
+    "path": "research/results/final_v2_2_r7_r1_execution_seal/executable_code_manifest.json",
+    "bytes": 5496,
+    "sha256": "93448a81935ff6bb598086d7181eb7ef0d773958f54bc69d0fc79c2280263b3f",
+    "reason": "R7-R1 append-only seal artifact"
+  },
+  "scientific": {
+    "jobs": 410,
+    "evaluations": 468,
+    "reporting_cells": 660,
+    "seeds": [
+      17,
+      29,
+      43,
+      71,
+      101
+    ],
+    "targets": [
+      195,
+      199,
+      237,
+      617
+    ],
+    "sources": [
+      129,
+      194,
+      438,
+      467,
+      476,
+      532,
+      619,
+      658
+    ],
+    "budgets": [
+      "0",
+      "1",
+      "7",
+      "30",
+      "full"
+    ],
+    "updates": {
+      "0": 0,
+      "1": 100,
+      "7": 300,
+      "30": 600,
+      "full": 1200
+    },
+    "backbone": "GGRU_K04_H032_D00",
+    "vanilla": "VGRU_H032_D00",
+    "grl": {
+      "lambda": 0.5,
+      "schedule": "constant",
+      "domain_map": {
+        "129": 0,
+        "194": 1,
+        "438": 2,
+        "467": 3,
+        "476": 4,
+        "532": 5,
+        "619": 6,
+        "658": 7
+      },
+      "classifier": [
+        "Linear(32,64)",
+        "ReLU",
+        "Dropout(0.10)",
+        "Linear(64,8)"
+      ]
+    }
+  },
+  "completion_schema": "final_v2_2_r7_r1.completion.2",
+  "checkpoint_schema": "final_v2_2_r7_r1.checkpoint.2",
+  "scientific_execution_binding_schema": "final_v2_2_r7_r1.scientific_execution_binding.1",
+  "controller_lock_schema": "final_v2_2_r7_r1.controller_lock.1",
+  "job_claim_schema": "final_v2_2_r7_r1.job_claim.1",
+  "validator_version": "final_v2_2_r7_r1.validator.2",
+  "prediction_schema": "final_v2_2_r7_r1.predictions.1",
+  "prediction_commitment_schema": "final_v2_2_r7_r1.prediction_commitment.1",
+  "runtime": {
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8",
+    "torch_deterministic_algorithms": true,
+    "cuda_matmul_tf32": false,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "cudnn_tf32": false,
+    "max_workers": 4,
+    "fresh_python_process_per_fit": true,
+    "partial_checkpoint_resume": false,
+    "early_stopping": false
+  },
+  "frozen_sha256": {
+    "FINAL_EVALUATION_PROTOCOL_V2_2_AMENDMENT.md": "c4a8fb1cc314cd93336269b8b1ee035771ce766c823e82476daac97e3e565f6c",
+    "final_evaluation_protocol_v2_2.json": "16617ca602e2d70cc621005a838dfb84d308b5f33488bac8b92d38fccea1d054",
+    "FINAL_GRL_SOURCE_DOMAIN_CARDINALITY_CLARIFICATION_V2_2.md": "9e96cf5262861ec83d722ec6db18f97c66526a6e493a4970062635a2e4e25843",
+    "final_grl_source_domain_cardinality_v2_2.json": "9324c11efac316607c39dd67d436e2efe57dd3fcf3bf2b7d2002d78494438037",
+    "processed/protocol_v2_2/FINAL_DATASET_MANIFEST.json": "afffa1e539626839fd86f1f9a3f5e8aa7a7833b67dde43f839d9cf1ce527896a",
+    "research/results/final_v2_2_execution_seal/final_job_manifest.json": "b415398fb627a89a46253bfed0089cf1e4d24b1ef5bc4847d77fa674f9aae908",
+    "research/results/final_v2_2_execution_seal/evaluation_manifest.json": "523b571672bcc27395d940dce8c4362ab2d21143c9590f756b6427ae694bb22e",
+    "research/results/stage1_scale_loss_v2_2_a40/stage1_decision_manifest.json": "8db24acabd373fa57aa6f35708566da400646fa2ea8474fd0e656a4955828aed",
+    "research/results/stage2_graphgru_selection_v2_2_a40/stage2_decision_manifest.json": "9cca604ec3496a28f4440d89a9d6d1184311fc507c35f27b428a3ca768a6eeca",
+    "research/results/stage2b_vanilla_fairness_v2_2_a40/stage2b_decision_manifest.json": "9d85d6df6a509013f1b5411002246aee81c254fbde078f639293976674b4f36d",
+    "research/results/stage3_finetuning_policy_v2_2/stage3_finetuning_policy_manifest.json": "f5cb2653dd097eb1288f419884778ae01e9034e9e1d88006b33beac4cff069b5",
+    "research/results/stage4_source_invariance_v2_2/scientific_contract.json": "94e586624d18ac9047c6b0a71922139ad00795da54e20ca05d8ef04008470e15",
+    "research/results/stage4_v2_2_returned_20260908/stage4_source_invariance_v2_2_a40/stage4_decision_manifest.json": "b8ab61745465fcb3c2db3ce811effaba091111a57eefe89f70d5fa5df3e1aae0"
+  },
+  "job_manifest": {
+    "path": "research/results/final_v2_2_execution_seal/final_job_manifest.json",
+    "bytes": 175951,
+    "sha256": "b415398fb627a89a46253bfed0089cf1e4d24b1ef5bc4847d77fa674f9aae908",
+    "reason": "410-job authority"
+  },
+  "evaluation_manifest": {
+    "path": "research/results/final_v2_2_execution_seal/evaluation_manifest.json",
+    "bytes": 115289,
+    "sha256": "523b571672bcc27395d940dce8c4362ab2d21143c9590f756b6427ae694bb22e",
+    "reason": "468/660 authority"
+  },
+  "final_data_manifest": {
+    "path": "processed/protocol_v2_2/FINAL_DATASET_MANIFEST.json",
+    "bytes": 63738,
+    "sha256": "afffa1e539626839fd86f1f9a3f5e8aa7a7833b67dde43f839d9cf1ce527896a",
+    "reason": "Phase-A authority"
+  },
+  "firewall": {
+    "phase_a_execution_data_constructed": true,
+    "phase_b_targets_materialized": false,
+    "final_predictions_generated": false,
+    "final_metrics_computed": false,
+    "final_experiment_started": false,
+    "optimizer_updates": 0,
+    "model_forward_calls_on_final_labels": 0
+  },
+  "parent_r6": {
+    "archive_path": "deployment/final_v2_2_r6/final_v2_2_r6_a40_0109b09022de.zip",
+    "archive_sha256": "bccd8fccd710222ba9038cdc272bed0c8860551c9c7109ea6af702415d4481e0",
+    "package_manifest_sha256": "0109b09022de402b437841d43bf7489c0a0f329f25408b092ce205979b6ec59b",
+    "high_audit_66_character_value": "0109b09022de402b437841d43bf7489c0a0f329f25408b5e05bbedef9aa380dbe9",
+    "reconciliation": "PASS_REPORTING_TRANSCRIPTION_ERROR_ONLY"
+  },
+  "supersedes_r7_candidate": {
+    "archive_path": "deployment/final_v2_2_r7/final_v2_2_r7_a40_c02dbef7f942.zip",
+    "archive_sha256": "dacc80d3478e6c6d4c2c3b5beac882efaf9c8518726afc42728e5a80e361863b",
+    "package_manifest_sha256": "c02dbef7f94244943ef103b5645edced4720d2ea54690b627515adeacdcdfd9b",
+    "status": "SUPERSEDED_CLEAN_VERIFIER_STDLIB_DLL_CLASSIFICATION",
+    "scientific_execution_started": false,
+    "optimizer_updates": 0,
+    "evaluations": 0,
+    "final_target_labels_accessed": false
+  },
+  "integrity_fixes": {
+    "global_controller_os_lock": true,
+    "per_job_os_claim": true,
+    "atomic_no_clobber_publication": "os.link CREATE_NEW semantics",
+    "completion_prepublication_validation": true,
+    "independent_semantic_validation": true
+  },
+  "phase_b": "dormant capability gate; no Phase-B command exposed",
+  "created_utc": "2026-09-09T08:13:32.592294+00:00"
+}

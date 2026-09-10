@@ -1,0 +1,20 @@
+"""Recovery constants layered over the frozen PB1 R4 implementation."""
+from pathlib import Path
+
+from research.final_v2_2_r7_r1_pb1_r4.core import *  # noqa: F401,F403
+
+RECOVERY_REVISION = "final_v2_2_r7_r1_pb1_r5_recovery"
+RECOVERY_EVENT_SCHEMA = RECOVERY_REVISION + ".event.1"
+RECOVERY_PROVENANCE_SCHEMA = RECOVERY_REVISION + ".provenance.1"
+MATERIALIZATION_SCHEMA = RECOVERY_REVISION + ".materialization.1"
+
+EXPECTED_AUTHORIZATION_SHA256 = "77c2f746ab07f92f5955e6473bf3cab17a20f9a1688f92ecd8a39c0454755920"
+EXPECTED_EXECUTION_ID = "742bda6c0b7858428335041fac466376dad7b22dbaa05d4bcb680220432cd6b7"
+EXPECTED_STAGING_MANIFEST_SHA256 = "0e9fdf0eb4ca4edb877ec35d0b18aec50f08e736e24a8ebf90e3a8530f2f03ed"
+EXPECTED_FIRST_ACCESS_SHA256 = "62f06cf0f51d72ac6525171fcaaeea5befcef9280b16bbba74ad1d03d6b836ee"
+EXPECTED_TARGET_AUTHORITY_SHA256 = "abe22278fe22e976f3b46e7aca01ec8cee588182969ff99dd6d17b7bfbbde010"
+EXPECTED_R4_PACKAGE_SHA256 = "08e68d3c2bae86dce607672a43684ca37c72a002abb00af07428b49b37c06a48"
+EXPECTED_R4_ZIP_SHA256 = "8526f04888b990270ed17e9a59ea10f89549511a86c32bcb73b0a5fe96781aef"
+
+R4_PACKAGE_RELATIVE = Path("deployment/final_v2_2_r7_r1_pb1_r4/package_manifest_r4.json")
+RECOVERY_REASON = "missing DuckDB dependency during first R4 materialization"
