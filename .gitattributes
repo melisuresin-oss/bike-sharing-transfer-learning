@@ -37,3 +37,10 @@ research/final_v2_2_r7_r1_pb1_r4/** whitespace=-blank-at-eof
 research/final_v2_2_r7_r1_pb1_r5_recovery/** whitespace=-blank-at-eof
 research/final_v2_2_r7_r1_pb1_r6_scoring_fix/** whitespace=-blank-at-eof
 research/final_v2_2_r7_r1_pb1_r7_r1_final_validation_fix/** whitespace=-blank-at-eof
+
+# These frozen decision manifests are SHA-bound to their historical CRLF bytes.
+research/results/stage1_scale_loss_v2_2_a40/stage1_decision_manifest.json text eol=crlf
+research/results/stage2_graphgru_selection_v2_2_a40/stage2_decision_manifest.json text eol=crlf
+research/results/stage2b_vanilla_fairness_v2_2_a40/stage2b_decision_manifest.json text eol=crlf
+research/results/stage3_finetuning_policy_v2_2/stage3_finetuning_policy_manifest.json text eol=crlf
+research/results/stage4_selection_clarification_v2_2/selection_clarification.json text eol=crlf
